@@ -1,0 +1,43 @@
+統一描画の夏のプールパーティー・ホーム群像
+
+Asset: res://assets/art/home_pool_party.png
+Native size: 1672 x 941 (opaque RGB PNG)
+Target: 1280 x 720 home screen. Native aspect ratio is within0.1% of16:9;
+draw full texture across the logical1280x720 canvas without preprocessing.
+Built-in imagegen generated and then corrected the composition. Both complete
+prompts and the native outputs are recorded in home_pool_party.generation.json.
+The final native image was copied without editing pixels. Existing assets remain
+unchanged; home_beach.png is still available as the empty-stage alternative.
+
+This is one coherent newly painted scene, not five pasted sprites. Rio, the shark,
+the tabby, the worker and the chicken share sunny cel shading, cool pool light,
+ground perspective and painted contact shadows. No white sticker borders or UI.
+The pool water, stone coping, stainless ladder, lounge chair and parasol establish
+the pool resort. The distant sea and Japanese beach house retain seaside context.
+The low DJ station, two speakers and tiny soda bottles remain background accents.
+
+左メニュー範囲: logical x0..486. Characters begin just after x490.
+Rio is the lead atlogical x approximately820; the two boot contactpoints are
+approximately(750,617) and(898,596), with a mean footheight near607. Her upper
+ponytail and sword fit inside thecanvas withvisibleheadroom.
+Shark hasthreevisiblesneakers. Catretainsgray-white tabby stripes and happy mouth.
+Worker retainsroundJapanese-illustrationface, blue shirt andbriefcase.
+Chicken retainsyellowbeak/feet, blackmiddle-part hair, graybibpants andbasketball.
+Worker is thefartherlayer; some legs are naturally obscured by theforeground cat.
+
+Local motion handoff:
+home_pool_party.generation.json contains estimated head/hand/hip anchors plus
+Rio shoulder/elbow/hair anchors, each in sourcepixels, normalizedUV and1280x720
+coordinates. These are visual annotations, not a generated skeleton. Preview
+every local shader mask and keep its deformation radius clear of nearby faces.
+Animate the free forearm, sword-holding wrist, ponytail, cat paws, worker raised
+fist, chicken wing and water independently with small local motion. The texture
+itself must not be moved or scaled as a substitute for joint motion. Baked contact
+shadows stay on the floor; use local upper-body articulation rather than moving
+the ground/entirebody. Water effects should be restricted to the pool region.
+
+Validation:
+Visual review confirmed exactly5preservedidentities, exactly3sharkshoes, noUI,
+nolettering, no stickercontours, coherent poollight/contactshadows, clearfaces,
+and a left readingregion. This asset task does not include runtime animation or
+code integration;implementation agents must confirm their actual shader output.

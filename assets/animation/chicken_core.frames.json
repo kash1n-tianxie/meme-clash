@@ -1,0 +1,800 @@
+{
+  "version": 1,
+  "canvas": [
+    1024,
+    1536
+  ],
+  "columns": 4,
+  "rows": 8,
+  "reference_body_height_px": 174,
+  "row_calibration": [
+    {
+      "row": 0,
+      "body_height_unit": 174,
+      "foot_line": 185,
+      "center_x": 118.0,
+      "body_scale": 1.0
+    },
+    {
+      "row": 1,
+      "body_height_unit": 174,
+      "foot_line": 377,
+      "center_x": 127.0,
+      "body_scale": 1.0
+    },
+    {
+      "row": 2,
+      "body_height_unit": 174,
+      "foot_line": 572,
+      "center_x": 130.75,
+      "body_scale": 1.0
+    },
+    {
+      "row": 3,
+      "body_height_unit": 174,
+      "foot_line": 762,
+      "center_x": 133.0,
+      "body_scale": 1.0
+    },
+    {
+      "row": 4,
+      "body_height_unit": 174,
+      "foot_line": 954,
+      "center_x": 131.25,
+      "body_scale": 1.0
+    },
+    {
+      "row": 5,
+      "body_height_unit": 174,
+      "foot_line": 1146,
+      "center_x": 132.0,
+      "body_scale": 1.0
+    },
+    {
+      "row": 6,
+      "body_height_unit": 174,
+      "foot_line": 1337,
+      "center_x": 123.5,
+      "body_scale": 1.0
+    },
+    {
+      "row": 7,
+      "body_height_unit": 174,
+      "foot_line": 1525,
+      "center_x": 127.25,
+      "body_scale": 1.0
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "row": 0,
+      "col": 0,
+      "actual_rect": [
+        51,
+        7,
+        165,
+        182
+      ],
+      "anchor_px": [
+        118.0,
+        185
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 1,
+      "row": 0,
+      "col": 1,
+      "actual_rect": [
+        284,
+        8,
+        170,
+        181
+      ],
+      "anchor_px": [
+        374.0,
+        185
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 2,
+      "row": 0,
+      "col": 2,
+      "actual_rect": [
+        543,
+        8,
+        169,
+        181
+      ],
+      "anchor_px": [
+        630.0,
+        185
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          543,
+          8,
+          132,
+          181
+        ],
+        [
+          675,
+          23,
+          37,
+          166
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "row": 0,
+      "col": 3,
+      "actual_rect": [
+        803,
+        8,
+        171,
+        181
+      ],
+      "anchor_px": [
+        886.0,
+        185
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 4,
+      "row": 1,
+      "col": 0,
+      "actual_rect": [
+        42,
+        193,
+        179,
+        188
+      ],
+      "anchor_px": [
+        127.0,
+        377
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 5,
+      "row": 1,
+      "col": 1,
+      "actual_rect": [
+        294,
+        194,
+        184,
+        187
+      ],
+      "anchor_px": [
+        383.0,
+        377
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          373,
+          194,
+          105,
+          187
+        ],
+        [
+          294,
+          205,
+          79,
+          176
+        ]
+      ]
+    },
+    {
+      "frame": 6,
+      "row": 1,
+      "col": 2,
+      "actual_rect": [
+        543,
+        193,
+        185,
+        186
+      ],
+      "anchor_px": [
+        639.0,
+        377
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 7,
+      "row": 1,
+      "col": 3,
+      "actual_rect": [
+        800,
+        194,
+        179,
+        184
+      ],
+      "anchor_px": [
+        895.0,
+        377
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 8,
+      "row": 2,
+      "col": 0,
+      "actual_rect": [
+        35,
+        409,
+        185,
+        167
+      ],
+      "anchor_px": [
+        130.75,
+        572
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 9,
+      "row": 2,
+      "col": 1,
+      "actual_rect": [
+        292,
+        384,
+        201,
+        187
+      ],
+      "anchor_px": [
+        386.75,
+        572
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 10,
+      "row": 2,
+      "col": 2,
+      "actual_rect": [
+        552,
+        381,
+        187,
+        175
+      ],
+      "anchor_px": [
+        642.75,
+        572
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 11,
+      "row": 2,
+      "col": 3,
+      "actual_rect": [
+        797,
+        410,
+        189,
+        166
+      ],
+      "anchor_px": [
+        898.75,
+        572
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          797,
+          410,
+          149,
+          166
+        ],
+        [
+          946,
+          427,
+          40,
+          149
+        ]
+      ]
+    },
+    {
+      "frame": 12,
+      "row": 3,
+      "col": 0,
+      "actual_rect": [
+        24,
+        578,
+        184,
+        186
+      ],
+      "anchor_px": [
+        133.0,
+        762
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 13,
+      "row": 3,
+      "col": 1,
+      "actual_rect": [
+        271,
+        579,
+        243,
+        184
+      ],
+      "anchor_px": [
+        389.0,
+        762
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          367,
+          579,
+          147,
+          184
+        ],
+        [
+          271,
+          590,
+          96,
+          173
+        ]
+      ]
+    },
+    {
+      "frame": 14,
+      "row": 3,
+      "col": 2,
+      "actual_rect": [
+        531,
+        577,
+        267,
+        186
+      ],
+      "anchor_px": [
+        645.0,
+        762
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Nearby independent props/effects are grouped with the action that owns them. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          531,
+          577,
+          212,
+          186
+        ],
+        [
+          743,
+          616,
+          32,
+          99
+        ],
+        [
+          743,
+          715,
+          31,
+          1
+        ],
+        [
+          775,
+          615,
+          23,
+          101
+        ],
+        [
+          743,
+          716,
+          32,
+          47
+        ]
+      ]
+    },
+    {
+      "frame": 15,
+      "row": 3,
+      "col": 3,
+      "actual_rect": [
+        805,
+        579,
+        185,
+        186
+      ],
+      "anchor_px": [
+        901.0,
+        762
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 16,
+      "row": 4,
+      "col": 0,
+      "actual_rect": [
+        27,
+        785,
+        202,
+        167
+      ],
+      "anchor_px": [
+        131.25,
+        954
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          27,
+          785,
+          182,
+          167
+        ],
+        [
+          209,
+          814,
+          20,
+          138
+        ]
+      ]
+    },
+    {
+      "frame": 17,
+      "row": 4,
+      "col": 1,
+      "actual_rect": [
+        273,
+        770,
+        241,
+        186
+      ],
+      "anchor_px": [
+        387.25,
+        954
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Nearby independent props/effects are grouped with the action that owns them. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          273,
+          770,
+          241,
+          126
+        ],
+        [
+          273,
+          896,
+          202,
+          60
+        ],
+        [
+          476,
+          896,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "frame": 18,
+      "row": 4,
+      "col": 2,
+      "actual_rect": [
+        560,
+        773,
+        196,
+        182
+      ],
+      "anchor_px": [
+        643.25,
+        954
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 19,
+      "row": 4,
+      "col": 3,
+      "actual_rect": [
+        812,
+        772,
+        181,
+        185
+      ],
+      "anchor_px": [
+        899.25,
+        954
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 20,
+      "row": 5,
+      "col": 0,
+      "actual_rect": [
+        34,
+        960,
+        194,
+        189
+      ],
+      "anchor_px": [
+        132.0,
+        1146
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Nearby independent props/effects are grouped with the action that owns them."
+    },
+    {
+      "frame": 21,
+      "row": 5,
+      "col": 1,
+      "actual_rect": [
+        304,
+        967,
+        185,
+        183
+      ],
+      "anchor_px": [
+        388.0,
+        1146
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 22,
+      "row": 5,
+      "col": 2,
+      "actual_rect": [
+        543,
+        968,
+        195,
+        179
+      ],
+      "anchor_px": [
+        644.0,
+        1146
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 23,
+      "row": 5,
+      "col": 3,
+      "actual_rect": [
+        818,
+        965,
+        167,
+        184
+      ],
+      "anchor_px": [
+        900.0,
+        1146
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          854,
+          965,
+          131,
+          184
+        ],
+        [
+          818,
+          1010,
+          36,
+          139
+        ]
+      ]
+    },
+    {
+      "frame": 24,
+      "row": 6,
+      "col": 0,
+      "actual_rect": [
+        41,
+        1152,
+        176,
+        185
+      ],
+      "anchor_px": [
+        123.5,
+        1337
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          112,
+          1152,
+          105,
+          185
+        ],
+        [
+          41,
+          1163,
+          71,
+          174
+        ]
+      ]
+    },
+    {
+      "frame": 25,
+      "row": 6,
+      "col": 1,
+      "actual_rect": [
+        282,
+        1167,
+        187,
+        174
+      ],
+      "anchor_px": [
+        379.5,
+        1337
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 26,
+      "row": 6,
+      "col": 2,
+      "actual_rect": [
+        539,
+        1162,
+        196,
+        178
+      ],
+      "anchor_px": [
+        635.5,
+        1337
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          539,
+          1162,
+          173,
+          178
+        ],
+        [
+          712,
+          1191,
+          23,
+          149
+        ]
+      ]
+    },
+    {
+      "frame": 27,
+      "row": 6,
+      "col": 3,
+      "actual_rect": [
+        795,
+        1153,
+        191,
+        186
+      ],
+      "anchor_px": [
+        891.5,
+        1337
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 28,
+      "row": 7,
+      "col": 0,
+      "actual_rect": [
+        40,
+        1340,
+        197,
+        189
+      ],
+      "anchor_px": [
+        127.25,
+        1525
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Nearby independent props/effects are grouped with the action that owns them. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          40,
+          1340,
+          67,
+          189
+        ],
+        [
+          108,
+          1340,
+          129,
+          189
+        ],
+        [
+          107,
+          1353,
+          1,
+          176
+        ]
+      ]
+    },
+    {
+      "frame": 29,
+      "row": 7,
+      "col": 1,
+      "actual_rect": [
+        288,
+        1369,
+        198,
+        150
+      ],
+      "anchor_px": [
+        383.25,
+        1525
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          307,
+          1369,
+          179,
+          150
+        ],
+        [
+          288,
+          1452,
+          19,
+          67
+        ]
+      ]
+    },
+    {
+      "frame": 30,
+      "row": 7,
+      "col": 2,
+      "actual_rect": [
+        511,
+        1397,
+        247,
+        119
+      ],
+      "anchor_px": [
+        639.25,
+        1525
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 31,
+      "row": 7,
+      "col": 3,
+      "actual_rect": [
+        781,
+        1412,
+        216,
+        105
+      ],
+      "anchor_px": [
+        895.25,
+        1525
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          781,
+          1412,
+          18,
+          105
+        ],
+        [
+          800,
+          1412,
+          197,
+          105
+        ],
+        [
+          799,
+          1453,
+          1,
+          64
+        ]
+      ]
+    }
+  ]
+}

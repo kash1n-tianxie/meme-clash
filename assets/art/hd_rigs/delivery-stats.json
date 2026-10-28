@@ -1,0 +1,47 @@
+{
+  "textures": 8,
+  "registered_parts": 64,
+  "characters": {
+    "rio": {
+      "registered_parts": 17,
+      "idle_active_parts": 16,
+      "source_body_height": 100
+    },
+    "cat": {
+      "registered_parts": 12,
+      "idle_active_parts": 10,
+      "source_body_height": 100
+    },
+    "worker": {
+      "registered_parts": 12,
+      "idle_active_parts": 12,
+      "source_body_height": 100
+    },
+    "chicken": {
+      "registered_parts": 11,
+      "idle_active_parts": 10,
+      "source_body_height": 100
+    },
+    "shark": {
+      "registered_parts": 12,
+      "idle_active_parts": 12,
+      "source_body_height": 100
+    }
+  },
+  "clips": [
+    "idle",
+    "dance",
+    "invite",
+    "confirm",
+    "easter"
+  ],
+  "dance_seconds": 0.75,
+  "animation": "New AI-painted independent high-resolution parts + continuous articulated curves. Eight beat landmarks, not eight independent AI full-body frames.",
+  "native_qa": {
+    "pictures": 20,
+    "phases_per_picture": 4,
+    "visible_poses": 80,
+    "renderer": "Godot 4.7.1 OpenGL Compatibility"
+  },
+  "logic_test_report": "work/hd-rig-test/rig-test.json"
+}

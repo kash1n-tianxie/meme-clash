@@ -1,0 +1,46 @@
+{
+  "version": 34,
+  "method": "New IDs reference independent original cels already registered in each v034 manifest. Existing reaction data is retained.",
+  "fighters": {
+    "notify": {
+      "air": {
+        "captured": "nreact25",
+        "lift": "ncorrect07",
+        "side": "nreact14",
+        "falling": "nreact16",
+        "crush": "ncorrect08",
+        "precontact": "ncorrect08",
+        "rebound": "nfix05"
+      }
+    },
+    "wojak": {
+      "air": {
+        "captured": "wreact05",
+        "lift": "wreact13",
+        "side": "wreact14",
+        "flip": "wreact15",
+        "falling": "wreact17",
+        "crush": "wreact17",
+        "precontact": "wreact17",
+        "rebound": "wreact24"
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "wreact12",
+          "wreact13"
+        ],
+        "flip": [
+          "wreact14",
+          "wreact15"
+        ],
+        "falling": [
+          "wreact16",
+          "wreact17"
+        ],
+        "rebound": [
+          "wreact24"
+        ]
+      }
+    }
+  }
+}

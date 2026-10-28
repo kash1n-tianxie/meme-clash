@@ -1,0 +1,39 @@
+夏の海辺パーティー・ホーム背景
+
+Asset: res://assets/art/home_beach.png
+Native size: 1672 x 941 pixels (opaque RGB PNG)
+Target game canvas: 1280 x 720
+Generated using the built-in imagegen tool. The native PNG was copied intact;
+no image processing, resizing, cropping, or external image API was used.
+
+構図:
+左約38%は淡い空・海・砂の低ディテール領域。タイトルとメニューを
+コードで重ねるため、文字・ボタン・ロゴ・人物は画像に含まれません。
+中央から右は広い開放された砂浜。最右端の海之家、黄／青のパラソル、
+低いDJ台と2個のスピーカーがパーティーの気配を作ります。
+ヤシの葉は右上だけ、浮き輪は右下だけで、主要な立ち位置を避けています。
+
+Integration:
+Draw this static texture once across Rect2(0, 0, 1280, 720), behind all existing
+character animation, menu geometry, readable text, and interactive effects.
+The native aspect differs from 16:9 by less than 0.1%; mapping the full texture
+to the target canvas introduces no meaningful framing change. No native resize
+is needed. Keep existing dance sprite identities and source-frame calibration.
+
+Menu quiet region: target x=0..486 (native x=0..635).
+Open character floor: target x approximately 490..1190, y approximately 480..650.
+Recommended common foot line: target y=600 (native y approximately 784).
+Avoid placing foreground props through the characters or menu reading region.
+The background itself has no character-specific ground shadow; draw the existing
+runtime foot shadows on the sand, with a restrained warm-gray opacity.
+
+遠景は明るい海平線と少数の雲、中景は右端の海之家と道具、前景は砂地と
+隅の葉／浮き輪で構成されています。クリーム白、海青、海洋シアンを中心に、
+深い紺は道具の細部、黄色はパラソル、珊瑚色は浮き輪に少量使用しています。
+
+Validation:
+Viewed the generated image: empty stage, no text/UI/characters, quiet left reading
+area, sparse right prop cluster, and an uninterrupted sand floor at target y=600.
+This task only supplies the background and prompt record. Actual UI/menu/dance
+integration and runtime screenshots are handled separately by the implementation
+agents. No existing character, animation, battle stage, or gameplay file changed.

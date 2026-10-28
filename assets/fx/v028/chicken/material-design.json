@@ -1,0 +1,42 @@
+{
+  "version": "0.28",
+  "renderer": "res://game/fx_chicken_v028.gd",
+  "art_method": "native 2D painted polygon materials, rounded rubber arcs, original v026 cached ImageTexture basketball skin and fixed seams, woven net; no full-screen picture",
+  "source_timing": "All actor material release / recovery is supplied by bvn_skill_fx.release_profile and actual archived source HitVO; child spheres are only real spawned source objects.",
+  "motifs": {
+    "U": "orange/black seamed curved rotation fan behind actual pass",
+    "SU": "low compressed dribble arc and pale court dust",
+    "WU": "underhand tall round arc and curved rubber flecks",
+    "AIR_U": "diagonal downward round pass material",
+    "I": "three independently spawned real basketballs; born at absolute source 518 / 529 / 550, only 550 has power-ball paint",
+    "WI": "upward alley-oop round counterrotation",
+    "SI": "weaving orange hoop/ivory net around true cbs field and confirmed final contact, dust only on actual ground contact",
+    "AIR_I": "held-ball round fall and confirmed dunk net"
+  },
+  "ground_feedback": "Court dust rendered at real floor, no fabricated airborne floor collision.",
+  "contact_policy": "Guard and armor have short round deflection; miss has no confirmed finisher. Opaque contact nucleus lasts at most actual first 45 ms and open rear rings preserve the victim.",
+  "body_copies": 0,
+  "physics_or_source_clock_mutations": false,
+  "global_rng_calls": 0,
+  "mac_export": false,
+  "validation": {
+    "source_checks": 3228,
+    "actual_source_actor_samples": 642,
+    "canvas_draw_calls": 888,
+    "native_checks": 47,
+    "native_body_draw_callbacks": 4898,
+    "native_duplicate_bodies": 0,
+    "native_failures": [],
+    "native_guard": "P2 holds Down against incoming U; actual guard and chip damage, no final net",
+    "native_miss": "P1 raw K jump then distant AIR I; actual accepted source label, target HP1000 and zero contacts. Straight U is deliberately not declared a miss based on distance because it travels across the stage.",
+    "visual_only_not_fps": true
+  },
+  "dunk_body_readability": {
+    "full_size_rear_rim": true,
+    "net_weave_layer": "behind_actor",
+    "dunk_rubber_compression_layer": "behind_actor_after_true_nucleus",
+    "front_rim_only": "two side arcs, central sixty percent open",
+    "front_rim_alpha_factor": 0.34,
+    "source_collision_changes": false
+  }
+}

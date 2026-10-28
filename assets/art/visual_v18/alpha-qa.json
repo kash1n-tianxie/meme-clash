@@ -1,0 +1,854 @@
+{
+  "version": 1,
+  "analysis_only": true,
+  "png_pixels_modified": false,
+  "matte": [
+    255,
+    248,
+    232
+  ],
+  "compositing_formula": "round(source_rgb * source_alpha/255 + cream_rgb * (1 - source_alpha/255))",
+  "native_composite_review": "Root will verify actual Godot warm-pool scene; numeric compositing sample evidence is not full scene visual approval.",
+  "characters": {
+    "shark": {
+      "mode": "RGBA",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox_by_threshold": {
+        "0": {
+          "rect_xywh": [
+            0,
+            17,
+            1518,
+            985
+          ],
+          "pixel_count": 664253
+        },
+        "1": {
+          "rect_xywh": [
+            48,
+            43,
+            1443,
+            951
+          ],
+          "pixel_count": 647019
+        },
+        "8": {
+          "rect_xywh": [
+            49,
+            45,
+            1440,
+            947
+          ],
+          "pixel_count": 635271
+        },
+        "38": {
+          "rect_xywh": [
+            49,
+            46,
+            1440,
+            946
+          ],
+          "pixel_count": 632698
+        },
+        "128": {
+          "rect_xywh": [
+            50,
+            46,
+            1439,
+            945
+          ],
+          "pixel_count": 629307
+        },
+        "192": {
+          "rect_xywh": [
+            50,
+            46,
+            1438,
+            945
+          ],
+          "pixel_count": 627007
+        }
+      },
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_alpha_on_canvas_edges": false,
+      "background_cloud_samples": [
+        {
+          "xy": [
+            100,
+            100
+          ],
+          "source_rgba": [
+            36,
+            46,
+            61,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            250,
+            800
+          ],
+          "source_rgba": [
+            27,
+            33,
+            46,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            750,
+            940
+          ],
+          "source_rgba": [
+            26,
+            42,
+            70,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            1300,
+            100
+          ],
+          "source_rgba": [
+            31,
+            38,
+            46,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            400,
+            400
+          ],
+          "source_rgba": [
+            83,
+            138,
+            197,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        }
+      ],
+      "cloud_sample_alpha_zero": true,
+      "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+    },
+    "cat": {
+      "mode": "RGBA",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox_by_threshold": {
+        "0": {
+          "rect_xywh": [
+            0,
+            21,
+            1008,
+            1515
+          ],
+          "pixel_count": 689237
+        },
+        "1": {
+          "rect_xywh": [
+            35,
+            93,
+            969,
+            1382
+          ],
+          "pixel_count": 671778
+        },
+        "8": {
+          "rect_xywh": [
+            35,
+            94,
+            966,
+            1379
+          ],
+          "pixel_count": 657806
+        },
+        "38": {
+          "rect_xywh": [
+            38,
+            95,
+            963,
+            1378
+          ],
+          "pixel_count": 650611
+        },
+        "128": {
+          "rect_xywh": [
+            41,
+            96,
+            958,
+            1376
+          ],
+          "pixel_count": 642357
+        },
+        "192": {
+          "rect_xywh": [
+            43,
+            97,
+            956,
+            1375
+          ],
+          "pixel_count": 637346
+        }
+      },
+      "four_corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "strong_alpha_on_canvas_edges": false,
+      "background_cloud_samples": [
+        {
+          "xy": [
+            300,
+            50
+          ],
+          "source_rgba": [
+            60,
+            54,
+            47,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            100,
+            500
+          ],
+          "source_rgba": [
+            34,
+            29,
+            23,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            50,
+            1200
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            800,
+            1500
+          ],
+          "source_rgba": [
+            82,
+            68,
+            62,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            1000,
+            50
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        }
+      ],
+      "cloud_sample_alpha_zero": true,
+      "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+    },
+    "worker": {
+      "mode": "RGBA",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox_by_threshold": {
+        "0": {
+          "rect_xywh": [
+            0,
+            9,
+            1006,
+            1485
+          ],
+          "pixel_count": 565370
+        },
+        "1": {
+          "rect_xywh": [
+            186,
+            127,
+            644,
+            1357
+          ],
+          "pixel_count": 555521
+        },
+        "8": {
+          "rect_xywh": [
+            189,
+            128,
+            639,
+            1351
+          ],
+          "pixel_count": 548422
+        },
+        "38": {
+          "rect_xywh": [
+            189,
+            129,
+            639,
+            1350
+          ],
+          "pixel_count": 546352
+        },
+        "128": {
+          "rect_xywh": [
+            190,
+            129,
+            637,
+            1349
+          ],
+          "pixel_count": 543462
+        },
+        "192": {
+          "rect_xywh": [
+            191,
+            130,
+            636,
+            1348
+          ],
+          "pixel_count": 541618
+        }
+      },
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_alpha_on_canvas_edges": false,
+      "background_cloud_samples": [
+        {
+          "xy": [
+            100,
+            450
+          ],
+          "source_rgba": [
+            47,
+            32,
+            22,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            900,
+            750
+          ],
+          "source_rgba": [
+            31,
+            69,
+            84,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            400,
+            1320
+          ],
+          "source_rgba": [
+            94,
+            59,
+            45,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            100,
+            1100
+          ],
+          "source_rgba": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            900,
+            1100
+          ],
+          "source_rgba": [
+            10,
+            35,
+            52,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        }
+      ],
+      "cloud_sample_alpha_zero": true,
+      "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+    },
+    "chicken": {
+      "mode": "RGBA",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "bbox_by_threshold": {
+        "0": {
+          "rect_xywh": [
+            0,
+            35,
+            1010,
+            1461
+          ],
+          "pixel_count": 579507
+        },
+        "1": {
+          "rect_xywh": [
+            59,
+            340,
+            919,
+            987
+          ],
+          "pixel_count": 565188
+        },
+        "8": {
+          "rect_xywh": [
+            61,
+            342,
+            916,
+            983
+          ],
+          "pixel_count": 553012
+        },
+        "38": {
+          "rect_xywh": [
+            62,
+            343,
+            915,
+            981
+          ],
+          "pixel_count": 549678
+        },
+        "128": {
+          "rect_xywh": [
+            62,
+            343,
+            914,
+            981
+          ],
+          "pixel_count": 545924
+        },
+        "192": {
+          "rect_xywh": [
+            62,
+            344,
+            914,
+            980
+          ],
+          "pixel_count": 543272
+        }
+      },
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_alpha_on_canvas_edges": false,
+      "background_cloud_samples": [
+        {
+          "xy": [
+            50,
+            950
+          ],
+          "source_rgba": [
+            27,
+            21,
+            7,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            700,
+            1400
+          ],
+          "source_rgba": [
+            29,
+            12,
+            3,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            650,
+            200
+          ],
+          "source_rgba": [
+            3,
+            2,
+            2,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            50,
+            500
+          ],
+          "source_rgba": [
+            181,
+            118,
+            71,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            900,
+            500
+          ],
+          "source_rgba": [
+            27,
+            37,
+            42,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        }
+      ],
+      "cloud_sample_alpha_zero": true,
+      "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+    },
+    "rio": {
+      "mode": "RGBA",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bbox_by_threshold": {
+        "0": {
+          "rect_xywh": [
+            0,
+            15,
+            1220,
+            1223
+          ],
+          "pixel_count": 720231
+        },
+        "1": {
+          "rect_xywh": [
+            143,
+            16,
+            1050,
+            1220
+          ],
+          "pixel_count": 699700
+        },
+        "8": {
+          "rect_xywh": [
+            145,
+            18,
+            1045,
+            1216
+          ],
+          "pixel_count": 669814
+        },
+        "38": {
+          "rect_xywh": [
+            146,
+            19,
+            1044,
+            1215
+          ],
+          "pixel_count": 660487
+        },
+        "128": {
+          "rect_xywh": [
+            146,
+            20,
+            1044,
+            1213
+          ],
+          "pixel_count": 650827
+        },
+        "192": {
+          "rect_xywh": [
+            147,
+            20,
+            1042,
+            1213
+          ],
+          "pixel_count": 643925
+        }
+      },
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_alpha_on_canvas_edges": false,
+      "background_cloud_samples": [
+        {
+          "xy": [
+            100,
+            100
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            1100,
+            200
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            30,
+            1200
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            1000,
+            400
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        },
+        {
+          "xy": [
+            1220,
+            1000
+          ],
+          "source_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "warm_cream_composite_rgb": [
+            255,
+            248,
+            232
+          ],
+          "matches_background_exactly": true
+        }
+      ],
+      "cloud_sample_alpha_zero": true,
+      "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+    }
+  }
+}

@@ -1,0 +1,99 @@
+Copyright (C) 2021-2026 5DPLAY Game Studio
+Godot pure-state adaptation (C) 2026
+SPDX-License-Identifier: GPL-3.0-or-later
+The accompanying LICENSE applies.
+
+Official source: https://github.com/5DPLAY-Game-Studio/BleachVsNaruto
+Core revision: 891f5776dbdf3cbf40919e27aa8d6e77a5f66c97
+FighterMcHurtCtrl.as:662-711,116-125,172-179
+FighterMain.as:159-197,238-243,325-353,541-569,621-635
+FighterMcCtrler.as:166-217
+
+Pure module: game/bvn_hurt_break.gd
+Independent source examples: tests/bvn_hurt_break.gd (47/47 checks)
+Report: work/bvn-hurt-break-test.json
+No character image, effect image, actor or battle integration was modified.
+
+Scope: renderHurtBreak is reached from ordinary action.isHurting/renderHurt.
+FighterMcCtrler.render returns earlier for isHurtFlying and calls renderHurtFlying,
+whose source logic exposes hurtDownJump, not renderHurtBreak. Do not broaden
+this source hurt-break into every launch/down state without labelling an adapter.
+
+Gate: special input, alive, energy>=50 WITHOUT the allowOverflow fallback,
+Qi>=100, latest hurt HitVO.isBisha false, no isBreakDef in the whole accumulated
+hurt history, and currentHurtDamage<=210. currentHurtDamage sums per-hit integer
+getDamage() values, before target armour/defense reductions.
+An existing energyOverLoad flag does NOT veto hasEnergy(50) when energy>=50.
+
+Spend: useQi(100), then useEnergy(100). useEnergy sets cooldown24 animation
+frames(.8s*30), clamps negative energy to0 and sets overload only when negative.
+At E50..99 this deliberately exhausts/overloads; at E100 exactly0 does not
+newly set overload. Existing overload is preserved. No arbitrary resource gate,
+round cap, combo damage scaling, projectile removal or invulnerability duration
+was added.
+
+Resource selection: the original five meme fighters explicitly use comicType0,
+selecting the original energyExplode branch. comicType1 uses original replaceSkill
+(Naruto substitution), which is outside this module's supported art branch and
+is returned as requires_replace_skill without spending. It is not silently
+pretended to be the same ability.
+
+energyExplode creates a NEW HitVO (owner=null,id=null), then assigns:
+  currentArea=getCurrentRect(Rect(-100,-200,200,210)) AT CAST TIME
+  power50, hitx15*direct, hitType5, hurtType1
+  all other defaults retained: hity0, hurtTime300, targetApplyGtrue, checkDirecttrue
+The captured area remains fixed while the actor later moves; do not tie it to
+per-frame actor position. Stage unit1.6 maps it to320x336 worldpx. This blast
+uses stage geometry, unlike the authored normal-body-height geometry adapter.
+
+Important owner-null semantics: original hitx is already signed, and the HitVO
+has no owner. Source doHurtAnimate multiplies by owner.direct ONLY if owner
+exists. current_hit therefore supplies has_owner=false to the existing pure
+HitRules reader, avoiding a second facing multiplication. Source signed -15
+left-facing yields velocity(-15,0), not(+15,0). hity0 is not given the grounded
+negative-hity extra impulse; it remains a horizontal flying/down reaction.
+
+Owner-null does NOT suppress attacker Qi. GameMainLogicCtrl.as:383-396 snapshots
+both directions, then calls B.beHit(...) and A.hit(...) for the first contact,
+and A.beHit(...) and B.hit(...) for the opposite one. It does not branch on the
+HitVO owner. FighterMain.as:258-280 gives a FighterMain attacker normal-hit Qi
+for this id-null, power50 blast:50*.17=8.5 per successful fighter contact. The
+existing hit-gap/contact reader determines repeat contacts. This is separate
+from the owner's influence on knockback/direct; do not multiply signed hitx twice.
+
+Exact counters and render ordering:
+  begin hit10,steel60, allowBeHitfalse, supersteeltrue.
+  first animation frame -> hit9,steel59, no blast hit.
+  second -> hit8: call actual idle(), then overwrite allowBeHitfalse.
+  source idle from hurt sets justHurtResume=true.
+  third controller prelude restores allowBeHittrue, clears justHurtResume,
+    then hit7: blast becomes active.
+  strict getCurrentHits condition: VO exists and hitFrame<8.
+  hit7..1 = seven active animation frames. At0, VO clears and allowBeHittrue.
+  each steel tick reasserts steel+supersteel AFTER idle's steel reset.
+  steel reaches0 exactly at60th frame and clears. It is not permanent.
+The source does NOT make all10 hit frames invulnerable; supersteel is distinct
+from allowBeHit=false. Apply final helper steel/allow fields AFTER processing the
+idle event, or actor idle will incorrectly overwrite them.
+
+Idle movement is branch-sensitive: FighterMcCtrler.as:200-212 sets both velocity
+axes0 and restores jump/air-attack budgets on the grounded idle branch. In air it
+calls FighterMcAirHandler.fall():233-260. That leaves vertical velocity and damping
+intact; on the first fall entry it sets X velocity0. If already falling/doing an
+action, fall returns early. Do not apply grounded zero-velocity behavior in air
+or describe preserving both axes unconditionally as the exact source behavior.
+
+APIs:
+  eligibility(source)->{allowed,reason,raw_hurt_damage,...}
+  can(source)->bool
+  begin(source,world_position,facing,stage_unit=1.6)->{allowed,state,events,...}
+  render_frame(state)->next   # one exact30Hz animation frame
+  tick(state,delta_seconds)->next  # accumulator adapter for60Hz/variable callers
+  current_hit(state)->source HitVO with currentArea plus existing snake-case aliases
+  raw_hurt_damage(hurt_hits)->int
+Caller state may supply explicit last_bisha/hurt_break_hit/current_hurt_damage or
+raw hurt_hits/last_hit. It supplies alive, hurting(or source action_state21/hurt),
+special_pressed, energy, qi and optional comic_type0/energy_overload flags.
+Caller performs actual idle transition, clears actor hurt history on idle_event,
+keeps movement/graphics separate, and regenerates resources in the existing
+resource module. This helper intentionally does not tick resource recovery twice.

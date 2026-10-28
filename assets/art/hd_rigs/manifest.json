@@ -1,0 +1,709 @@
+{
+  "version": 1,
+  "coordinate_space": "native_body_units_foot_relative",
+  "animation_type": "separate_ai_drawn_hd_components_skeletal_keyposes",
+  "clock": {
+    "bpm": 160,
+    "dance_seconds": 0.75,
+    "idle_seconds": 2.25,
+    "invite_seconds": 0.32,
+    "confirm_seconds": 0.24,
+    "easter_seconds": 1.5
+  },
+  "extra_manifest": "res://assets/art/hd_rigs/four_memes.json",
+  "characters": {
+    "rio": {
+      "id": "rio",
+      "identity": "original Rio, adult age22, petite adult5–6 head proportions, blue twin ponytails, opaque blue bikini top, ankle-length navy/cyan wrap swim skirt, heavy sword",
+      "native_body_height": 100,
+      "original_identity": "res://assets/art/rio.png",
+      "textures": {
+        "body": "res://assets/art/hd_rigs/rio-body-v1.png",
+        "hair": "res://assets/art/hd_rigs/rio-hair-v1.png",
+        "limbs": "res://assets/art/hd_rigs/rio-limbs-v1.png",
+        "sword": "res://assets/art/hd_rigs/rio-sword-v1.png"
+      },
+      "rig": {
+        "hip_y": -46,
+        "torso_height": 31.5,
+        "shoulder_span": 9.8,
+        "shoulder_drop": 7.5,
+        "upper": 19,
+        "lower": 19,
+        "leg_upper": 23,
+        "leg_lower": 23,
+        "ankle_height": 8,
+        "foot_gap": 11,
+        "weapon_length": 133,
+        "weapon_outline_native": [
+          [
+            -14.1,
+            14.3
+          ],
+          [
+            -4.0,
+            -12.9
+          ],
+          [
+            -3.4,
+            -13.5
+          ],
+          [
+            -2.5,
+            -14.3
+          ],
+          [
+            -2.3,
+            -14.4
+          ],
+          [
+            -1.8,
+            -14.5
+          ],
+          [
+            -1.2,
+            -14.6
+          ],
+          [
+            1.2,
+            -14.6
+          ],
+          [
+            2.2,
+            -14.4
+          ],
+          [
+            2.4,
+            -14.3
+          ],
+          [
+            3.3,
+            -13.5
+          ],
+          [
+            3.8,
+            -13.0
+          ],
+          [
+            3.9,
+            -12.8
+          ],
+          [
+            13.9,
+            14.2
+          ],
+          [
+            14.0,
+            15.1
+          ],
+          [
+            14.0,
+            22.8
+          ],
+          [
+            12.6,
+            115.6
+          ],
+          [
+            12.5,
+            115.8
+          ],
+          [
+            12.3,
+            116.1
+          ],
+          [
+            1.0,
+            132.3
+          ],
+          [
+            0.7,
+            132.7
+          ],
+          [
+            0.3,
+            133.2
+          ],
+          [
+            0.0,
+            133.5
+          ],
+          [
+            -0.4,
+            133.5
+          ],
+          [
+            -0.6,
+            133.3
+          ],
+          [
+            -1.2,
+            132.5
+          ],
+          [
+            -7.9,
+            122.8
+          ],
+          [
+            -11.2,
+            118.0
+          ],
+          [
+            -12.6,
+            115.9
+          ],
+          [
+            -12.7,
+            115.7
+          ],
+          [
+            -12.8,
+            115.4
+          ],
+          [
+            -14.1,
+            23.8
+          ]
+        ],
+        "weapon_tip_native": [
+          0,
+          133
+        ],
+        "dance_step": {
+          "style": "heavy_sword_heel_tap",
+          "lift": 2.6,
+          "stride": 0.9,
+          "duty": 0.68
+        }
+      },
+      "parts": [
+        {
+          "name": "hair_left",
+          "texture": "hair",
+          "source_rect": [
+            34,
+            78,
+            474,
+            1312
+          ],
+          "size": [
+            25.3,
+            70
+          ],
+          "pivot": [
+            0.7447257383966245,
+            0.08917682926829268
+          ],
+          "anchor": "hair_left",
+          "rotation": "hair_left_angle",
+          "parent": "head",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 0
+        },
+        {
+          "name": "hair_right",
+          "texture": "hair",
+          "source_rect": [
+            588,
+            77,
+            408,
+            1362
+          ],
+          "size": [
+            23,
+            73
+          ],
+          "pivot": [
+            0.23529411764705882,
+            0.08663729809104258
+          ],
+          "anchor": "hair_right",
+          "rotation": "hair_right_angle",
+          "parent": "head",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 1
+        },
+        {
+          "name": "leg_back",
+          "texture": "limbs",
+          "source_rect": [
+            485,
+            522,
+            159,
+            439
+          ],
+          "size": [
+            7,
+            18
+          ],
+          "pivot": [
+            0.5,
+            0.1
+          ],
+          "anchor": "knee_back",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 3,
+          "bone": [
+            "knee_back",
+            "ankle_back"
+          ],
+          "source_joint_start": [
+            62,
+            46
+          ],
+          "source_joint_end": [
+            52,
+            393
+          ]
+        },
+        {
+          "name": "foot_back",
+          "texture": "limbs",
+          "source_rect": [
+            1178,
+            620,
+            340,
+            343
+          ],
+          "size": [
+            16.3,
+            16.4
+          ],
+          "pivot": [
+            0.49117647058823527,
+            0.967930029154519
+          ],
+          "anchor": "foot_back",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 4
+        },
+        {
+          "name": "upper_back",
+          "texture": "limbs",
+          "source_rect": [
+            433,
+            27,
+            284,
+            436
+          ],
+          "size": [
+            10,
+            19
+          ],
+          "pivot": [
+            0.5,
+            0
+          ],
+          "anchor": "shoulder_back",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 6,
+          "bone": [
+            "shoulder_back",
+            "elbow_back"
+          ],
+          "source_joint_start": [
+            203,
+            51
+          ],
+          "source_joint_end": [
+            45,
+            393
+          ]
+        },
+        {
+          "name": "lower_back",
+          "texture": "limbs",
+          "source_rect": [
+            1186,
+            36,
+            302,
+            454
+          ],
+          "size": [
+            10,
+            19
+          ],
+          "pivot": [
+            0.5,
+            0
+          ],
+          "anchor": "elbow_back",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 7,
+          "bone": [
+            "elbow_back",
+            "wrist_back"
+          ],
+          "source_joint_start": [
+            259,
+            39
+          ],
+          "source_joint_end": [
+            85,
+            415
+          ]
+        },
+        {
+          "name": "skirt_back",
+          "texture": "body",
+          "source_rect": [
+            553,
+            539,
+            499,
+            443
+          ],
+          "size": [
+            39,
+            18
+          ],
+          "pivot": [
+            0.4529058116232465,
+            0.03611738148984198
+          ],
+          "anchor": "skirt_back",
+          "rotation": "skirt_back_angle",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 12
+        },
+        {
+          "name": "leg_front",
+          "texture": "limbs",
+          "source_rect": [
+            120,
+            522,
+            161,
+            437
+          ],
+          "size": [
+            7,
+            18
+          ],
+          "pivot": [
+            0.5,
+            0.1
+          ],
+          "anchor": "knee_front",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 13,
+          "bone": [
+            "knee_front",
+            "ankle_front"
+          ],
+          "source_joint_start": [
+            77,
+            46
+          ],
+          "source_joint_end": [
+            104,
+            392
+          ]
+        },
+        {
+          "name": "foot_front",
+          "texture": "limbs",
+          "source_rect": [
+            772,
+            622,
+            349,
+            341
+          ],
+          "size": [
+            16.3,
+            16
+          ],
+          "pivot": [
+            0.498567335243553,
+            0.967741935483871
+          ],
+          "anchor": "foot_front",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 14
+        },
+        {
+          "name": "torso",
+          "texture": "body",
+          "source_rect": [
+            602,
+            44,
+            357,
+            442
+          ],
+          "size": [
+            27,
+            34
+          ],
+          "pivot": [
+            0.5154061624649859,
+            0.9276018099547512
+          ],
+          "anchor": "hips",
+          "rotation": "torso_angle",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 20
+        },
+        {
+          "name": "skirt_upper",
+          "texture": "body",
+          "source_rect": [
+            1037,
+            56,
+            470,
+            430
+          ],
+          "size": [
+            40,
+            48
+          ],
+          "pivot": [
+            0.3893617021276596,
+            0.06744186046511629
+          ],
+          "anchor": "hips",
+          "rotation": "torso_angle",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 27,
+          "cloth_chain": true,
+          "fixed_hem_y": -7
+        },
+        {
+          "name": "skirt_front",
+          "texture": "body",
+          "source_rect": [
+            25,
+            530,
+            486,
+            456
+          ],
+          "size": [
+            38,
+            18
+          ],
+          "pivot": [
+            0.7078189300411523,
+            0.039473684210526314
+          ],
+          "anchor": "skirt_front",
+          "rotation": "skirt_front_angle",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 25
+        },
+        {
+          "name": "head",
+          "texture": "body",
+          "source_rect": [
+            74,
+            50,
+            410,
+            402
+          ],
+          "size": [
+            22,
+            21.6
+          ],
+          "pivot": [
+            0.5902439024390244,
+            0.9203980099502488
+          ],
+          "anchor": "head",
+          "rotation": "head_angle",
+          "parent": "torso",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 40,
+          "face_variant": 0
+        },
+        {
+          "name": "head_happy",
+          "texture": "body",
+          "source_rect": [
+            1066,
+            560,
+            410,
+            403
+          ],
+          "size": [
+            22,
+            21.6
+          ],
+          "pivot": [
+            0.573170731707317,
+            0.9230769230769231
+          ],
+          "anchor": "head",
+          "rotation": "head_angle",
+          "parent": "torso",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 40,
+          "face_variant": 1
+        },
+        {
+          "name": "weapon",
+          "texture": "sword",
+          "source_rect": [
+            369,
+            25,
+            290,
+            1490
+          ],
+          "size": [
+            29,
+            149
+          ],
+          "pivot": [
+            0.5,
+            0.10067114093959731
+          ],
+          "anchor": "weapon",
+          "rotation": "weapon_angle",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 45,
+          "source_tip": [
+            145,
+            1480
+          ],
+          "source_grip": [
+            145,
+            150
+          ]
+        },
+        {
+          "name": "upper_front",
+          "texture": "limbs",
+          "source_rect": [
+            51,
+            27,
+            284,
+            436
+          ],
+          "size": [
+            10,
+            19
+          ],
+          "pivot": [
+            0.5,
+            0
+          ],
+          "anchor": "shoulder_front",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 46,
+          "bone": [
+            "shoulder_front",
+            "elbow_front"
+          ],
+          "source_joint_start": [
+            82,
+            50
+          ],
+          "source_joint_end": [
+            239,
+            393
+          ]
+        },
+        {
+          "name": "lower_front",
+          "texture": "limbs",
+          "source_rect": [
+            813,
+            37,
+            307,
+            453
+          ],
+          "size": [
+            10,
+            19
+          ],
+          "pivot": [
+            0.5,
+            0
+          ],
+          "anchor": "elbow_front",
+          "rotation": "zero",
+          "parent": "hips",
+          "bind_pivot": [
+            0,
+            0
+          ],
+          "z": 47,
+          "bone": [
+            "elbow_front",
+            "wrist_front"
+          ],
+          "source_joint_start": [
+            46,
+            48
+          ],
+          "source_joint_end": [
+            220,
+            417
+          ]
+        }
+      ]
+    }
+  }
+}

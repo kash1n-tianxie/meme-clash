@@ -1,0 +1,75 @@
+{
+  "method": "Original material-specific procedural Foley and resonant synthesis; no sampled songs or third-party effects.",
+  "sounds": {
+    "blade": {
+      "seconds": 0.23,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "paw": {
+      "seconds": 0.16,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "shoe": {
+      "seconds": 0.22,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "ball": {
+      "seconds": 0.25,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "case": {
+      "seconds": 0.22,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "launch": {
+      "seconds": 0.27,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "land": {
+      "seconds": 0.36,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "counter": {
+      "seconds": 0.28,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "guard": {
+      "seconds": 0.16,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    },
+    "swing": {
+      "seconds": 0.16,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -2.16,
+      "clipped_samples": 0
+    }
+  }
+}

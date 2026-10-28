@@ -1,0 +1,452 @@
+{
+  "implementation": "Godot CanvasItem filled shapes, native-editable. No raster generation was needed.",
+  "source_contract": "Pure immutable sample only. No physics / hitboxes / damage / costs / input / source clock / projectile spawning changed. No actor drawings.",
+  "motifs": {
+    "U": "Measured bag attachment → layered folded paperwork sweep with physical paper silhouettes; compact foreground forms survive close target overlap. No tapered energy plate remains.",
+    "SU": "Low briefcase sweep, solid red rubber stamp and scattered ink droplets.",
+    "WU": "Real zh3mc paper helix around translated actual bounds, first visible child frame 3; remote registration is never used as screen origin.",
+    "AIR_U": "Diagonal bag sweep and overlapping fanned folded forms in the lower contact region; no translucent energy triangle.",
+    "I": "Real bsmc document stack. Large wood-handled rubber stamp only in real local bs 49..53; actor release remains frame40 (absolute804).",
+    "WI": "Solid clock with hands/ticks, successive document delivery fans; heavy approval stamp only at real final active source 189..192. Confirmed HIT chain is never invented.",
+    "SI": "Large clock + 24 local swirling documents and 6 outer forms. 27 actual contacts remain intact. Real source 179..183 applies the clockout stamp; accepted contact drives larger stamp/ink/paper terminal feedback.",
+    "AIR_I": "Filled paper fall following bag attachment, heavy stamp cue and accepted contact papers."
+  },
+  "composition": "Most material sits behind fighters. Two close bag sweeps use lower contact wake in front. Front hit papers are sparse; real finisher imprint is placed below the impact center.",
+  "guard": "Upright physical report card deflection, blue chips; never confirmed clockout stamp.",
+  "performance": "No timers/RNG/texture shaders/scene nodes; fixed counts, at most54 paper leaves for real tall child. Real FPS profiling belongs to root final integration, not this screenshot test.",
+  "bindings": [
+    {
+      "binding": "worker:skill1",
+      "slot": "U",
+      "donor": "aizen",
+      "absolute_start": 506,
+      "authored_labels": {
+        "招1": {
+          "frame": 506,
+          "authored_span": 52,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "zh1atm",
+          "start": 5,
+          "end_exclusive": 7,
+          "hit_id": "zh1",
+          "source_rect": [
+            12.792456817626961,
+            -57.85239028930667,
+            107.44750689544009,
+            44.00986686302352
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "zh1atm",
+          "start": 7,
+          "end_exclusive": 9,
+          "hit_id": "zh1",
+          "source_rect": [
+            16.449945068359387,
+            -55.239898681640646,
+            203.6218828902817,
+            46.72628613060817
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "zh1atm",
+          "start": 9,
+          "end_exclusive": 11,
+          "hit_id": "zh1",
+          "source_rect": [
+            21.72242813110353,
+            -67.35235977172854,
+            294.4006049839201,
+            64.68036740168458
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "zh1atm",
+          "start": 11,
+          "end_exclusive": 13,
+          "hit_id": "zh1",
+          "source_rect": [
+            22.672425079345718,
+            -64.02737045288089,
+            291.74101796174654,
+            50.47126959892944
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    },
+    {
+      "binding": "worker:skill2",
+      "slot": "WU",
+      "donor": "aizen",
+      "absolute_start": 674,
+      "authored_labels": {
+        "招3": {
+          "frame": 674,
+          "authored_span": 34,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [],
+      "spawn_frames": [
+        6
+      ]
+    },
+    {
+      "binding": "worker:skill3",
+      "slot": "SU",
+      "donor": "aizen",
+      "absolute_start": 322,
+      "authored_labels": {
+        "招2": {
+          "frame": 322,
+          "authored_span": 40,
+          "layer": "标签"
+        },
+        "招2_CHK": {
+          "frame": 362,
+          "authored_span": 55,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "zh2atm",
+          "start": 40,
+          "end_exclusive": 46,
+          "hit_id": "zh2",
+          "source_rect": [
+            5.334980773925785,
+            -86.20979919433597,
+            52.60571354030405,
+            102.47305681847517
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    },
+    {
+      "binding": "worker:super",
+      "slot": "I",
+      "donor": "aizen",
+      "absolute_start": 764,
+      "authored_labels": {
+        "必杀": {
+          "frame": 764,
+          "authored_span": 113,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [],
+      "spawn_frames": [
+        40
+      ]
+    },
+    {
+      "binding": "worker:super_up",
+      "slot": "WI",
+      "donor": "aizen",
+      "absolute_start": 877,
+      "authored_labels": {
+        "上必杀": {
+          "frame": 877,
+          "authored_span": 69,
+          "layer": "标签"
+        },
+        "上必杀_HIT": {
+          "frame": 946,
+          "authored_span": 180,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "sbs1atm",
+          "start": 44,
+          "end_exclusive": 47,
+          "hit_id": "sbs1",
+          "source_rect": [
+            -36.08488616943361,
+            -64.91976542857022,
+            87.20711277845538,
+            54.994721178081946
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs1atm",
+          "start": 73,
+          "end_exclusive": 76,
+          "hit_id": "sbs1",
+          "source_rect": [
+            -46.96235122680667,
+            -54.199305863538974,
+            101.66849771174608,
+            43.419264359632734
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs1atm",
+          "start": 85,
+          "end_exclusive": 88,
+          "hit_id": "sbs1",
+          "source_rect": [
+            -9.009973144531257,
+            -52.926743957237456,
+            88.25775481201714,
+            54.30666339083122
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs2atm",
+          "start": 98,
+          "end_exclusive": 101,
+          "hit_id": "sbs2",
+          "source_rect": [
+            -58.97981262207034,
+            -56.11199518432842,
+            121.32764491662391,
+            61.434401953127264
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs3atm",
+          "start": 115,
+          "end_exclusive": 118,
+          "hit_id": "sbs3",
+          "source_rect": [
+            -23.544926452636734,
+            -62.6060004308586,
+            77.78479441377557,
+            85.88334952143481
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs1atm",
+          "start": 127,
+          "end_exclusive": 130,
+          "hit_id": "sbs1",
+          "source_rect": [
+            -31.714900207519552,
+            -76.30061899032447,
+            79.19680377098302,
+            64.04808221664284
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs4atm",
+          "start": 145,
+          "end_exclusive": 148,
+          "hit_id": "sbs4",
+          "source_rect": [
+            -35.84738693237306,
+            -63.345515419752445,
+            133.9038013784101,
+            68.76292188337551
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbs4atm",
+          "start": 164,
+          "end_exclusive": 167,
+          "hit_id": "sbs4",
+          "source_rect": [
+            -21.834931945800793,
+            -102.45996839753376,
+            121.98919567842975,
+            113.8148557876705
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbsatm",
+          "start": 189,
+          "end_exclusive": 190,
+          "hit_id": "sbs",
+          "source_rect": [
+            47.46734542846683,
+            -288.51037079268247,
+            25.88843154581265,
+            481.36217514448924
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbsatm",
+          "start": 190,
+          "end_exclusive": 191,
+          "hit_id": "sbs",
+          "source_rect": [
+            51.02983398437503,
+            -288.51037079268247,
+            19.43066363252005,
+            481.36217514448924
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "sbsatm",
+          "start": 191,
+          "end_exclusive": 192,
+          "hit_id": "sbs",
+          "source_rect": [
+            51.97983093261722,
+            -288.51037079268247,
+            17.205099798005577,
+            481.36217514448924
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    },
+    {
+      "binding": "worker:super_down",
+      "slot": "SI",
+      "donor": "aizen",
+      "absolute_start": 1197,
+      "authored_labels": {
+        "超必杀": {
+          "frame": 1197,
+          "authored_span": 236,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "cbs2atm",
+          "start": 50,
+          "end_exclusive": 179,
+          "hit_id": "cbs2",
+          "source_rect": [
+            -581.1456352233889,
+            -445.89308741698267,
+            1153.0896698150684,
+            852.4942051232817
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "cbsatm",
+          "start": 179,
+          "end_exclusive": 183,
+          "hit_id": "cbs",
+          "source_rect": [
+            -581.1456352233889,
+            -445.89308741698267,
+            1153.0896698150684,
+            852.4942051232817
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    },
+    {
+      "binding": "worker:air_skill",
+      "slot": "AIR_U",
+      "donor": "aizen",
+      "absolute_start": 103,
+      "authored_labels": {
+        "跳招": {
+          "frame": 103,
+          "authored_span": 62,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "tzatm",
+          "start": 15,
+          "end_exclusive": 17,
+          "hit_id": "tz",
+          "source_rect": [
+            -72.46976928710941,
+            -57.472391510009786,
+            145.04044269671456,
+            62.28801630693511
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "tzatm",
+          "start": 17,
+          "end_exclusive": 19,
+          "hit_id": "tz",
+          "source_rect": [
+            -72.46976928710941,
+            -103.78474273681645,
+            145.04102977673782,
+            107.94992635538809
+          ],
+          "space": "document_root_source_px"
+        },
+        {
+          "instance": "tzatm",
+          "start": 19,
+          "end_exclusive": 25,
+          "hit_id": "tz",
+          "source_rect": [
+            -84.58223037719732,
+            -156.36707382202155,
+            178.9734484292335,
+            162.60179279989114
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    },
+    {
+      "binding": "worker:air_super",
+      "slot": "AIR_I",
+      "donor": "aizen",
+      "absolute_start": 1126,
+      "authored_labels": {
+        "空中必杀": {
+          "frame": 1126,
+          "authored_span": 71,
+          "layer": "标签"
+        }
+      },
+      "source_regions": [
+        {
+          "instance": "kbsatm",
+          "start": 22,
+          "end_exclusive": 25,
+          "hit_id": "kbs",
+          "source_rect": [
+            -53.37483062744143,
+            -121.69153290004496,
+            187.90622830454987,
+            190.2362365743614
+          ],
+          "space": "document_root_source_px"
+        }
+      ],
+      "spawn_frames": []
+    }
+  ],
+  "late_clockout_legibility": {
+    "imprint": "Open four-corner ink bracket + real 退勤 lettering for confirmed SI; 承認 for other confirmed endings, 済 on office documents.",
+    "font": "Existing assets/fonts/NotoSansJP.ttf",
+    "center": "No filled red rectangle over the victim. Wooden handle/rubber-base stamp prop remains unchanged.",
+    "mechanics": "No source or contact clock, damage, body, region, projectile, input changes.",
+    "proof": "验证记录/并行精修-v0.28/小人特效/late-clockout-lettering-native.json"
+  }
+}

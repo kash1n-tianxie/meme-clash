@@ -1,0 +1,138 @@
+[
+  {
+    "path": "assets/art/hd_rigs/cat-parts-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 723566,
+    "corner_alpha": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "sha256": "fc3d41e14750b83ed0dddb6fe48c06872feab5e5e7e5ca17a46ea1ae27c86525",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/chicken-parts-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 876082,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "5a9b2561f11ad9e98e16bd2caed8eea8a5ea4ae4d39db2782331152975309cd3",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/rio-body-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 820236,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "8e5f60c203beea5185fa4003ee7a32771eabaae5abdab7ba5b2f838b865ad940",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/rio-hair-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 871090,
+    "corner_alpha": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "sha256": "fa376e7b872fa453f3aad5d7a5a0616c37aebbfccbffbe0b0003581cbf0f9590",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/rio-limbs-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 1047255,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "8dd81f51901ce0ffe55ee179c9b094b5aedb116439294332d9f4e20f92ffbec2",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/rio-sword-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 1257352,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "682a3e58503f823e90cc181f1ddfcf13d46e5dee93113aabe203a1a911044eeb",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/shark-parts-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 1016083,
+    "corner_alpha": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "sha256": "a24193bb23c6e2fa97ac4f316b7233583d14c39c09df93b4ab78222fbd43f4c9",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  },
+  {
+    "path": "assets/art/hd_rigs/worker-parts-v1.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alpha_zero_pixels": 928534,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sha256": "a0b4035d359817c6f51159498537d1037574b131958843c40089dd0385da1f53",
+    "note": "Original tool-returned pixels; cached isolated cropped regions are runtime-only."
+  }
+]

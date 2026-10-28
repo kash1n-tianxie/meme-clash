@@ -1,0 +1,102 @@
+{
+  "validation_date": "2026-10-07",
+  "png_edits": 0,
+  "total_frames": 192,
+  "godot_reader_checks": {
+    "passed": 1652,
+    "total": 1652,
+    "conditions_relaxed": false
+  },
+  "image_analysis": {
+    "alpha_threshold": 38,
+    "strong_seed_threshold": 192,
+    "missing_assigned_alpha_pixels": 0,
+    "foreign_alpha_pixels_in_draw_parts": 0
+  },
+  "visual_qa": {
+    "renderer": "Godot OpenGL",
+    "characters": [
+      "shark",
+      "cat",
+      "worker",
+      "chicken",
+      "rio"
+    ],
+    "reviewed": [
+      "five-*-idle",
+      "five-chicken-special",
+      "five-worker-special",
+      "upgrade-heavy-hit",
+      "upgrade-shark-super",
+      "upgrade-cat-super"
+    ],
+    "body_scale_or_foot_adjustment_needed": false,
+    "source_part_seams_visible": false
+  },
+  "files": [
+    {
+      "id": "shark_core",
+      "source_sha256": "df957e9a3ed6433766394ee017d7afbfbe3ed15655a194c53f2111b7f7dcc000",
+      "metadata_sha256": "62dcad729bc21e9c7fb73c56ab9c6b9094d589abc7c032c15b3b4e0bd9bf5f5e",
+      "frames": 32,
+      "multi_part_frames": 3,
+      "max_parts": 12
+    },
+    {
+      "id": "shark_special",
+      "source_sha256": "d067a2c8dfb393951975a5962b32e62f65db407af891bbd2bbc02405cb16f337",
+      "metadata_sha256": "b348ec538584cb76c22a8b0b46e5f85401ff3723849c9ca2be5237a52b52b629",
+      "frames": 16,
+      "multi_part_frames": 1,
+      "max_parts": 9
+    },
+    {
+      "id": "cat_core",
+      "source_sha256": "55ad0c4ee724cacb804c5536e51cc93426af78bfc617aed4d4d8893e4ea683fd",
+      "metadata_sha256": "d9c597bb7220ba4218261871825b97721e340b5ff8c42d0732f6a9f6631838d8",
+      "frames": 32,
+      "multi_part_frames": 8,
+      "max_parts": 4
+    },
+    {
+      "id": "cat_special",
+      "source_sha256": "89d72d4871e52358a940b8fe8bb9a2c054a825970efff8a20d19b6cce2cee885",
+      "metadata_sha256": "f5a596bffe4ec8ed2d7df398ae0206bbe4a2c9e36b9256b0974a4d3e6cb43dfe",
+      "frames": 16,
+      "multi_part_frames": 5,
+      "max_parts": 7
+    },
+    {
+      "id": "worker_core",
+      "source_sha256": "632be0e13dc9726a343f449d933f42e46a01fcdbd29864327c9cdb7aeabc8e1c",
+      "metadata_sha256": "22fc40c893aa588c95ab71a8f01ac95f486b14d21bd57dd55574eaab358a41ad",
+      "frames": 32,
+      "multi_part_frames": 1,
+      "max_parts": 4
+    },
+    {
+      "id": "worker_special",
+      "source_sha256": "45c9d94ecb5dda380f0683fbf992437673ca7f8c956120cd64fd858cc5b68b3a",
+      "metadata_sha256": "8cda1c2cf38fee1c83d87039c35612b008621f00fad06e2efcf9a23ecc2127aa",
+      "frames": 16,
+      "multi_part_frames": 3,
+      "max_parts": 4
+    },
+    {
+      "id": "chicken_core",
+      "source_sha256": "cae391daca4ff071db1f8d1de129bcb508c1214a3f7fb6c6c888db6c99daf049",
+      "metadata_sha256": "b1c44d6d41badfdca08f1f3d57b9b40fa64f418ca2629c5d7bb26aeb3ce0dc08",
+      "frames": 32,
+      "multi_part_frames": 13,
+      "max_parts": 5
+    },
+    {
+      "id": "chicken_special",
+      "source_sha256": "28648faafacb921154331937e9364d5ee227942c7cd2062307e20003f3065efd",
+      "metadata_sha256": "b4b0cc4ec31784cabfbbc1a36a3853ec4e4d7193a646dd312281f95581638144",
+      "frames": 16,
+      "multi_part_frames": 2,
+      "max_parts": 6
+    }
+  ]
+}

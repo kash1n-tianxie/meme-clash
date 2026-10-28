@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "art_version": "0.8.0",
+  "representation": "hand_drawn_2d_original_memes",
+  "portraits": {
+    "rio": {
+      "source_rect": [
+        196,
+        52,
+        250,
+        234
+      ],
+      "full_body_rect": [
+        6,
+        8,
+        1516,
+        1003
+      ],
+      "canvas": [
+        1536,
+        1024
+      ],
+      "source": "assets/art/rio.png"
+    },
+    "cat": {
+      "source_rect": [
+        415,
+        50,
+        470,
+        450
+      ],
+      "full_body_rect": [
+        22,
+        10,
+        988,
+        1503
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source": "assets/art/cat.png"
+    },
+    "shark": {
+      "source_rect": [
+        798,
+        87,
+        721,
+        586
+      ],
+      "full_body_rect": [
+        19,
+        10,
+        1501,
+        999
+      ],
+      "canvas": [
+        1536,
+        1024
+      ],
+      "source": "assets/art/shark.png"
+    },
+    "worker": {
+      "source_rect": [
+        42,
+        34,
+        764,
+        724
+      ],
+      "full_body_rect": [
+        35,
+        25,
+        913,
+        1491
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source": "assets/art/worker.png"
+    },
+    "chicken": {
+      "source_rect": [
+        190,
+        238,
+        539,
+        491
+      ],
+      "full_body_rect": [
+        22,
+        193,
+        993,
+        1157
+      ],
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source": "assets/art/chicken.png"
+    }
+  }
+}

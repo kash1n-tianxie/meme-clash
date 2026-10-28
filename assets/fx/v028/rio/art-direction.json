@@ -1,0 +1,25 @@
+{
+  "version": "0.28",
+  "material": "painted steel: silver bevel, graphite underside, warm amber heavy edge, angular metal shavings",
+  "authorship": "Code-native editable CanvasItem polygons, no generated bitmap, no copied actor/sword artwork",
+  "anchor_contract": [
+    "weapon_grip",
+    "weapon_tip"
+  ],
+  "source_contract": "Every release uses real archived region/frame; every impact uses accepted contact; helper does not advance clocks, deal damage, consume qi or gameplay RNG",
+  "slots": {
+    "U": "Wide shaded steel crescent",
+    "SU": "Actual counter low steel plus grounded earth lift",
+    "WU": "Rising steel edge",
+    "AIR_U": "Diagonal airborne metal cut",
+    "I": "Stepped heavy sword wheel, amber bevel",
+    "WI": "Ascending long steel combo and a shorter return face",
+    "SI": "Curved spin on real rotation stage, huge descending face, confirmed 7-face metal fracture",
+    "AIR_I": "Heavy airborne pressing cut"
+  },
+  "layers": {
+    "back": "Broad wake and contact cut faces behind existing actor; no actor copies",
+    "front": "One compact bevel glint, small local chips; only true final ground contact earns flat earth fracture"
+  },
+  "limitations": "Eight source skills validated in scripted native encounters, not human PvP balance or runtime FPS profiling. Some source skills can legitimately miss late hits."
+}

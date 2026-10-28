@@ -1,0 +1,3177 @@
+{
+  "version": 2,
+  "animation_type": "continuous_master_triangle_mesh_joint_skinning",
+  "source_pixel_policy": "Original PNG unchanged, one textured surface, unique UV coverage.",
+  "clock": {
+    "bpm": 160,
+    "dance_seconds": 0.75,
+    "idle_seconds": 2.25
+  },
+  "characters": {
+    "rio": {
+      "id": "rio",
+      "renderer": "master_mesh",
+      "identity": "成年22歳の蒼刃リオ。青い双馬尾、不透明ビキニ、足首丈の泳裙、地面に支えた大剣。",
+      "source_path": "res://assets/art/visual_v18/rio.png",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "source_bounds": [
+        143,
+        16,
+        1050,
+        1221
+      ],
+      "source_foot": [
+        615,
+        1234
+      ],
+      "source_body_height": 1157,
+      "head_top": 17,
+      "feet": [
+        [
+          343,
+          1219
+        ],
+        [
+          881,
+          1206
+        ]
+      ],
+      "weapon_tip": [
+        1185,
+        1230
+      ],
+      "weapon_ground": [
+        1185,
+        1230
+      ],
+      "native_body_height": 100,
+      "mesh_step": 34,
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            615,
+            1234
+          ],
+          "end": [
+            615,
+            1234
+          ],
+          "radius": 0.01,
+          "motion": "fixed",
+          "parent": ""
+        },
+        {
+          "name": "torso",
+          "pivot": [
+            571,
+            492
+          ],
+          "end": [
+            550,
+            259
+          ],
+          "radius": 200,
+          "motion": "torso",
+          "parent": "",
+          "polygon": [
+            [
+              451,
+              208
+            ],
+            [
+              641,
+              242
+            ],
+            [
+              713,
+              446
+            ],
+            [
+              684,
+              548
+            ],
+            [
+              511,
+              600
+            ],
+            [
+              439,
+              492
+            ]
+          ],
+          "priority": 6,
+          "feather": 65
+        },
+        {
+          "name": "weapon",
+          "pivot": [
+            1185,
+            1230
+          ],
+          "end": [
+            746,
+            603
+          ],
+          "radius": 115,
+          "motion": "weapon",
+          "parent": "",
+          "polygon": [
+            [
+              702,
+              551
+            ],
+            [
+              791,
+              560
+            ],
+            [
+              903,
+              579
+            ],
+            [
+              1227,
+              1190
+            ],
+            [
+              1240,
+              1254
+            ],
+            [
+              984,
+              1231
+            ],
+            [
+              781,
+              888
+            ],
+            [
+              692,
+              765
+            ]
+          ],
+          "priority": 80,
+          "feather": 0
+        },
+        {
+          "name": "head",
+          "pivot": [
+            550,
+            235
+          ],
+          "end": [
+            550,
+            126
+          ],
+          "radius": 120,
+          "motion": "head",
+          "parent": "torso",
+          "polygon": [
+            [
+              437,
+              83
+            ],
+            [
+              575,
+              53
+            ],
+            [
+              644,
+              135
+            ],
+            [
+              628,
+              233
+            ],
+            [
+              550,
+              274
+            ],
+            [
+              457,
+              220
+            ]
+          ],
+          "priority": 26,
+          "lag": 0.35
+        },
+        {
+          "name": "hair_left",
+          "pivot": [
+            437,
+            104
+          ],
+          "end": [
+            293,
+            375
+          ],
+          "radius": 180,
+          "motion": "hair",
+          "parent": "head",
+          "polygon": [
+            [
+              437,
+              50
+            ],
+            [
+              477,
+              107
+            ],
+            [
+              447,
+              244
+            ],
+            [
+              486,
+              448
+            ],
+            [
+              393,
+              574
+            ],
+            [
+              244,
+              569
+            ],
+            [
+              143,
+              492
+            ],
+            [
+              128,
+              399
+            ],
+            [
+              159,
+              276
+            ],
+            [
+              248,
+              192
+            ],
+            [
+              303,
+              90
+            ]
+          ],
+          "side": -1,
+          "lag": 0.7,
+          "priority": 3,
+          "feather": 100
+        },
+        {
+          "name": "hair_right",
+          "pivot": [
+            591,
+            87
+          ],
+          "end": [
+            822,
+            329
+          ],
+          "radius": 180,
+          "motion": "hair",
+          "parent": "head",
+          "polygon": [
+            [
+              584,
+              17
+            ],
+            [
+              710,
+              81
+            ],
+            [
+              824,
+              164
+            ],
+            [
+              892,
+              270
+            ],
+            [
+              955,
+              406
+            ],
+            [
+              937,
+              468
+            ],
+            [
+              838,
+              492
+            ],
+            [
+              735,
+              455
+            ],
+            [
+              674,
+              337
+            ],
+            [
+              641,
+              231
+            ],
+            [
+              608,
+              166
+            ]
+          ],
+          "side": 1,
+          "lag": 1.1,
+          "priority": 3,
+          "feather": 100
+        },
+        {
+          "name": "arm_left_upper",
+          "pivot": [
+            484,
+            264
+          ],
+          "end": [
+            579,
+            417
+          ],
+          "radius": 75,
+          "motion": "arm",
+          "parent": "torso",
+          "polygon": [
+            [
+              451,
+              243
+            ],
+            [
+              496,
+              229
+            ],
+            [
+              550,
+              310
+            ],
+            [
+              616,
+              412
+            ],
+            [
+              582,
+              451
+            ],
+            [
+              518,
+              376
+            ],
+            [
+              475,
+              313
+            ]
+          ],
+          "side": -1,
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "arm_left_lower",
+          "pivot": [
+            579,
+            417
+          ],
+          "end": [
+            691,
+            540
+          ],
+          "radius": 65,
+          "motion": "forearm",
+          "parent": "arm_left_upper",
+          "polygon": [
+            [
+              558,
+              406
+            ],
+            [
+              605,
+              410
+            ],
+            [
+              698,
+              493
+            ],
+            [
+              733,
+              558
+            ],
+            [
+              695,
+              595
+            ],
+            [
+              647,
+              548
+            ],
+            [
+              602,
+              491
+            ]
+          ],
+          "side": -1,
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "arm_right_upper",
+          "pivot": [
+            643,
+            282
+          ],
+          "end": [
+            691,
+            431
+          ],
+          "radius": 65,
+          "motion": "arm",
+          "parent": "torso",
+          "polygon": [
+            [
+              625,
+              254
+            ],
+            [
+              661,
+              273
+            ],
+            [
+              689,
+              344
+            ],
+            [
+              716,
+              440
+            ],
+            [
+              674,
+              471
+            ],
+            [
+              646,
+              391
+            ]
+          ],
+          "side": 1,
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "arm_right_lower",
+          "pivot": [
+            691,
+            431
+          ],
+          "end": [
+            746,
+            585
+          ],
+          "radius": 54,
+          "motion": "forearm",
+          "parent": "arm_right_upper",
+          "polygon": [
+            [
+              669,
+              421
+            ],
+            [
+              715,
+              422
+            ],
+            [
+              747,
+              515
+            ],
+            [
+              781,
+              574
+            ],
+            [
+              767,
+              624
+            ],
+            [
+              716,
+              617
+            ],
+            [
+              700,
+              536
+            ]
+          ],
+          "side": 1,
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "skirt_left",
+          "pivot": [
+            543,
+            504
+          ],
+          "end": [
+            422,
+            938
+          ],
+          "radius": 300,
+          "motion": "skirt",
+          "parent": "torso",
+          "polygon": [
+            [
+              493,
+              451
+            ],
+            [
+              578,
+              520
+            ],
+            [
+              585,
+              1125
+            ],
+            [
+              445,
+              1150
+            ],
+            [
+              295,
+              1071
+            ],
+            [
+              245,
+              972
+            ],
+            [
+              335,
+              802
+            ],
+            [
+              314,
+              662
+            ],
+            [
+              420,
+              557
+            ]
+          ],
+          "side": -1,
+          "lag": 0.8,
+          "priority": 3,
+          "feather": 100
+        },
+        {
+          "name": "skirt_right",
+          "pivot": [
+            578,
+            510
+          ],
+          "end": [
+            712,
+            945
+          ],
+          "radius": 260,
+          "motion": "skirt",
+          "parent": "torso",
+          "polygon": [
+            [
+              567,
+              483
+            ],
+            [
+              646,
+              546
+            ],
+            [
+              749,
+              739
+            ],
+            [
+              844,
+              985
+            ],
+            [
+              919,
+              1090
+            ],
+            [
+              736,
+              1146
+            ],
+            [
+              586,
+              1124
+            ]
+          ],
+          "side": 1,
+          "lag": 1.2,
+          "priority": 3,
+          "feather": 100
+        },
+        {
+          "name": "leg_left_upper",
+          "pivot": [
+            487,
+            799
+          ],
+          "end": [
+            419,
+            1012
+          ],
+          "radius": 75,
+          "motion": "leg",
+          "parent": "torso",
+          "polygon": [
+            [
+              423,
+              924
+            ],
+            [
+              487,
+              955
+            ],
+            [
+              411,
+              1100
+            ],
+            [
+              372,
+              1115
+            ],
+            [
+              349,
+              1081
+            ]
+          ],
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "leg_left_lower",
+          "pivot": [
+            419,
+            1012
+          ],
+          "end": [
+            354,
+            1162
+          ],
+          "radius": 65,
+          "motion": "leg",
+          "parent": "leg_left_upper",
+          "polygon": [
+            [
+              395,
+              1041
+            ],
+            [
+              445,
+              1059
+            ],
+            [
+              393,
+              1147
+            ],
+            [
+              376,
+              1187
+            ],
+            [
+              328,
+              1190
+            ],
+            [
+              318,
+              1152
+            ]
+          ],
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "foot_left",
+          "pivot": [
+            345,
+            1226
+          ],
+          "end": [
+            353,
+            1147
+          ],
+          "radius": 78,
+          "motion": "fixed",
+          "parent": "",
+          "polygon": [
+            [
+              294,
+              1097
+            ],
+            [
+              363,
+              1087
+            ],
+            [
+              416,
+              1176
+            ],
+            [
+              411,
+              1228
+            ],
+            [
+              289,
+              1228
+            ],
+            [
+              268,
+              1166
+            ]
+          ],
+          "priority": 90,
+          "feather": 0
+        },
+        {
+          "name": "leg_right_upper",
+          "pivot": [
+            680,
+            796
+          ],
+          "end": [
+            816,
+            1047
+          ],
+          "radius": 80,
+          "motion": "leg",
+          "parent": "torso",
+          "polygon": [
+            [
+              775,
+              973
+            ],
+            [
+              835,
+              948
+            ],
+            [
+              873,
+              1064
+            ],
+            [
+              838,
+              1101
+            ],
+            [
+              798,
+              1048
+            ]
+          ],
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "leg_right_lower",
+          "pivot": [
+            816,
+            1047
+          ],
+          "end": [
+            865,
+            1151
+          ],
+          "radius": 63,
+          "motion": "leg",
+          "parent": "leg_right_upper",
+          "polygon": [
+            [
+              811,
+              1035
+            ],
+            [
+              859,
+              1031
+            ],
+            [
+              897,
+              1137
+            ],
+            [
+              870,
+              1174
+            ],
+            [
+              826,
+              1141
+            ]
+          ],
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "foot_right",
+          "pivot": [
+            881,
+            1206
+          ],
+          "end": [
+            863,
+            1138
+          ],
+          "radius": 86,
+          "motion": "fixed",
+          "parent": "",
+          "polygon": [
+            [
+              813,
+              1090
+            ],
+            [
+              885,
+              1085
+            ],
+            [
+              949,
+              1156
+            ],
+            [
+              958,
+              1206
+            ],
+            [
+              825,
+              1210
+            ],
+            [
+              804,
+              1162
+            ]
+          ],
+          "priority": 90,
+          "feather": 0
+        }
+      ],
+      "ik_chains": [
+        {
+          "upper": "arm_left_upper",
+          "lower": "arm_left_lower",
+          "root": [
+            484,
+            264
+          ],
+          "middle": [
+            579,
+            417
+          ],
+          "end": [
+            691,
+            540
+          ],
+          "root_parent": "torso",
+          "target_parent": "weapon",
+          "bend": 1
+        },
+        {
+          "upper": "arm_right_upper",
+          "lower": "arm_right_lower",
+          "root": [
+            643,
+            282
+          ],
+          "middle": [
+            691,
+            431
+          ],
+          "end": [
+            746,
+            585
+          ],
+          "root_parent": "torso",
+          "target_parent": "weapon",
+          "bend": 1
+        }
+      ],
+      "fallback_bone": "root",
+      "source_sha256": "29c1faf0784646a98c2fb8269b02a9c8c2f28fe84f613493f4f58d8a9dcb4b8a",
+      "source_metadata": "res://assets/art/visual_v18/metadata.json"
+    },
+    "shark": {
+      "id": "shark",
+      "renderer": "master_mesh",
+      "identity": "Original blue-gray shark body, full natural tail, exactly three distinct legs and three blue-white athletic shoes. Warm/cyan hand-painted 2D; no humanoid monster conversion.",
+      "source_path": "res://assets/art/visual_v18/shark.png",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "source_bounds": [
+        46,
+        43,
+        1446,
+        952
+      ],
+      "source_foot": [
+        1308,
+        992
+      ],
+      "source_body_height": 946,
+      "native_body_height": 100,
+      "mesh_step": 34,
+      "source_sha256": "8fdb9382f0a1e0e05e9dee4d6d107184330e5515f97bcffdf8078403f9be31f8",
+      "source_metadata": "res://assets/art/visual_v18/metadata.json",
+      "fallback_bone": "root",
+      "feet": [
+        [
+          438,
+          869
+        ],
+        [
+          866,
+          895
+        ],
+        [
+          1308,
+          987
+        ]
+      ],
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            1308,
+            992
+          ],
+          "end": [
+            1308,
+            992
+          ],
+          "radius": 0.01,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "torso",
+          "pivot": [
+            813,
+            624
+          ],
+          "end": [
+            1032,
+            461
+          ],
+          "radius": 179.74,
+          "motion": "torso",
+          "parent": "",
+          "priority": 6,
+          "feather": 70.95,
+          "polygon": [
+            [
+              431,
+              391
+            ],
+            [
+              679,
+              277
+            ],
+            [
+              1004,
+              210
+            ],
+            [
+              1159,
+              590
+            ],
+            [
+              1013,
+              647
+            ],
+            [
+              750,
+              647
+            ],
+            [
+              514,
+              537
+            ]
+          ],
+          "strength": 0.6
+        },
+        {
+          "name": "head",
+          "pivot": [
+            1032,
+            461
+          ],
+          "end": [
+            1246,
+            410
+          ],
+          "radius": 217.58,
+          "motion": "head",
+          "parent": "torso",
+          "priority": 4,
+          "feather": 140,
+          "polygon": [
+            [
+              958,
+              208
+            ],
+            [
+              1331,
+              227
+            ],
+            [
+              1490,
+              311
+            ],
+            [
+              1467,
+              417
+            ],
+            [
+              1357,
+              564
+            ],
+            [
+              1158,
+              638
+            ],
+            [
+              1001,
+              575
+            ]
+          ],
+          "lag": 0.35,
+          "strength": 0.5
+        },
+        {
+          "name": "tail",
+          "pivot": [
+            439,
+            474
+          ],
+          "end": [
+            261,
+            440
+          ],
+          "radius": 189.20000000000002,
+          "motion": "tail",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 180,
+          "polygon": [
+            [
+              47,
+              146
+            ],
+            [
+              248,
+              263
+            ],
+            [
+              431,
+              398
+            ],
+            [
+              449,
+              503
+            ],
+            [
+              257,
+              482
+            ],
+            [
+              111,
+              662
+            ],
+            [
+              91,
+              582
+            ],
+            [
+              164,
+              436
+            ]
+          ],
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.3
+        },
+        {
+          "name": "dorsal_fin",
+          "pivot": [
+            785,
+            199
+          ],
+          "end": [
+            731,
+            57
+          ],
+          "radius": 189.20000000000002,
+          "motion": "fin",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 100,
+          "polygon": [
+            [
+              705,
+              47
+            ],
+            [
+              767,
+              55
+            ],
+            [
+              895,
+              173
+            ],
+            [
+              868,
+              234
+            ],
+            [
+              664,
+              319
+            ]
+          ],
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.45
+        },
+        {
+          "name": "front_fin",
+          "pivot": [
+            838,
+            490
+          ],
+          "end": [
+            553,
+            681
+          ],
+          "radius": 189.20000000000002,
+          "motion": "fin",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 100,
+          "polygon": [
+            [
+              797,
+              425
+            ],
+            [
+              846,
+              455
+            ],
+            [
+              860,
+              536
+            ],
+            [
+              738,
+              630
+            ],
+            [
+              547,
+              697
+            ],
+            [
+              550,
+              648
+            ],
+            [
+              658,
+              537
+            ]
+          ],
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.45
+        },
+        {
+          "name": "foot_back",
+          "pivot": [
+            438,
+            869
+          ],
+          "end": [
+            424,
+            705
+          ],
+          "radius": 141.9,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              313,
+              654
+            ],
+            [
+              444,
+              640
+            ],
+            [
+              471,
+              707
+            ],
+            [
+              514,
+              780
+            ],
+            [
+              529,
+              859
+            ],
+            [
+              473,
+              884
+            ],
+            [
+              365,
+              834
+            ],
+            [
+              322,
+              721
+            ]
+          ]
+        },
+        {
+          "name": "leg_back_upper",
+          "pivot": [
+            559,
+            583
+          ],
+          "end": [
+            480,
+            637
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "leg_back_lower",
+          "pivot": [
+            480,
+            637
+          ],
+          "end": [
+            424,
+            705
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "leg_back_upper",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "foot_middle",
+          "pivot": [
+            866,
+            895
+          ],
+          "end": [
+            823,
+            752
+          ],
+          "radius": 141.9,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              741,
+              711
+            ],
+            [
+              852,
+              701
+            ],
+            [
+              888,
+              759
+            ],
+            [
+              955,
+              809
+            ],
+            [
+              993,
+              871
+            ],
+            [
+              973,
+              900
+            ],
+            [
+              756,
+              896
+            ],
+            [
+              709,
+              866
+            ]
+          ]
+        },
+        {
+          "name": "leg_middle_upper",
+          "pivot": [
+            767,
+            621
+          ],
+          "end": [
+            819,
+            687
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "leg_middle_lower",
+          "pivot": [
+            819,
+            687
+          ],
+          "end": [
+            823,
+            752
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "leg_middle_upper",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "foot_front",
+          "pivot": [
+            1308,
+            987
+          ],
+          "end": [
+            1267,
+            785
+          ],
+          "radius": 141.9,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              1144,
+              743
+            ],
+            [
+              1266,
+              727
+            ],
+            [
+              1320,
+              809
+            ],
+            [
+              1396,
+              841
+            ],
+            [
+              1448,
+              919
+            ],
+            [
+              1447,
+              970
+            ],
+            [
+              1354,
+              990
+            ],
+            [
+              1178,
+              949
+            ],
+            [
+              1113,
+              909
+            ]
+          ]
+        },
+        {
+          "name": "leg_front_upper",
+          "pivot": [
+            1160,
+            596
+          ],
+          "end": [
+            1215,
+            693
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "leg_front_lower",
+          "pivot": [
+            1215,
+            693
+          ],
+          "end": [
+            1267,
+            785
+          ],
+          "radius": 75.68,
+          "motion": "leg",
+          "parent": "leg_front_upper",
+          "priority": 3,
+          "feather": 65
+        }
+      ],
+      "ik_chains": [
+        {
+          "upper": "leg_back_upper",
+          "lower": "leg_back_lower",
+          "root": [
+            559,
+            583
+          ],
+          "middle": [
+            480,
+            637
+          ],
+          "end": [
+            424,
+            705
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": 1
+        },
+        {
+          "upper": "leg_middle_upper",
+          "lower": "leg_middle_lower",
+          "root": [
+            767,
+            621
+          ],
+          "middle": [
+            819,
+            687
+          ],
+          "end": [
+            823,
+            752
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        },
+        {
+          "upper": "leg_front_upper",
+          "lower": "leg_front_lower",
+          "root": [
+            1160,
+            596
+          ],
+          "middle": [
+            1215,
+            693
+          ],
+          "end": [
+            1267,
+            785
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        }
+      ]
+    },
+    "cat": {
+      "id": "cat",
+      "renderer": "master_mesh",
+      "identity": "One natural gray-white happy tabby meme cat, white chest and paws, two raised front paws with pads, feline limbs and a curved tail. No human body/chibi morph.",
+      "source_path": "res://assets/art/visual_v18/cat.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source_bounds": [
+        35,
+        92,
+        969,
+        1384
+      ],
+      "source_foot": [
+        608,
+        1473
+      ],
+      "source_body_height": 1297,
+      "native_body_height": 100,
+      "mesh_step": 34,
+      "source_sha256": "f35a72368e74baee218c60f258a71e51e76b1c57f06df2654802e3dacdf63c3c",
+      "source_metadata": "res://assets/art/visual_v18/metadata.json",
+      "fallback_bone": "root",
+      "feet": [
+        [
+          350,
+          1464
+        ],
+        [
+          868,
+          1455
+        ]
+      ],
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            608,
+            1473
+          ],
+          "end": [
+            608,
+            1473
+          ],
+          "radius": 0.01,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "torso",
+          "pivot": [
+            638,
+            1082
+          ],
+          "end": [
+            590,
+            554
+          ],
+          "radius": 246.43,
+          "motion": "torso",
+          "parent": "",
+          "priority": 6,
+          "feather": 97.27499999999999,
+          "polygon": [
+            [
+              444,
+              544
+            ],
+            [
+              600,
+              562
+            ],
+            [
+              794,
+              600
+            ],
+            [
+              825,
+              782
+            ],
+            [
+              803,
+              987
+            ],
+            [
+              762,
+              1128
+            ],
+            [
+              530,
+              1149
+            ],
+            [
+              368,
+              1003
+            ],
+            [
+              365,
+              730
+            ]
+          ],
+          "strength": 0.65
+        },
+        {
+          "name": "head",
+          "pivot": [
+            590,
+            554
+          ],
+          "end": [
+            651,
+            404
+          ],
+          "radius": 298.31,
+          "motion": "head",
+          "parent": "torso",
+          "priority": 4,
+          "feather": 140,
+          "polygon": [
+            [
+              460,
+              305
+            ],
+            [
+              521,
+              197
+            ],
+            [
+              602,
+              173
+            ],
+            [
+              640,
+              283
+            ],
+            [
+              758,
+              307
+            ],
+            [
+              883,
+              321
+            ],
+            [
+              854,
+              433
+            ],
+            [
+              805,
+              570
+            ],
+            [
+              652,
+              605
+            ],
+            [
+              467,
+              554
+            ],
+            [
+              425,
+              432
+            ]
+          ],
+          "lag": 0.35,
+          "strength": 0.5
+        },
+        {
+          "name": "arm_left_upper",
+          "pivot": [
+            430,
+            593
+          ],
+          "end": [
+            381,
+            424
+          ],
+          "radius": 131.20000000000002,
+          "motion": "paw",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.25,
+          "strength": 0.55
+        },
+        {
+          "name": "arm_left_lower",
+          "pivot": [
+            381,
+            424
+          ],
+          "end": [
+            411,
+            181
+          ],
+          "radius": 123.0,
+          "motion": "forearm",
+          "parent": "arm_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.55
+        },
+        {
+          "name": "foot_left",
+          "pivot": [
+            350,
+            1464
+          ],
+          "end": [
+            352,
+            1408
+          ],
+          "radius": 57,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              273.05,
+              1392
+            ],
+            [
+              426.95,
+              1392
+            ],
+            [
+              426.95,
+              1488
+            ],
+            [
+              273.05,
+              1488
+            ]
+          ]
+        },
+        {
+          "name": "leg_left_upper",
+          "pivot": [
+            539,
+            1120
+          ],
+          "end": [
+            410,
+            1276
+          ],
+          "radius": 98.39999999999999,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "leg_left_lower",
+          "pivot": [
+            410,
+            1276
+          ],
+          "end": [
+            352,
+            1408
+          ],
+          "radius": 82.0,
+          "motion": "leg",
+          "parent": "leg_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "arm_right_upper",
+          "pivot": [
+            784,
+            664
+          ],
+          "end": [
+            880,
+            614
+          ],
+          "radius": 123.2,
+          "motion": "paw",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.8,
+          "strength": 0.55
+        },
+        {
+          "name": "arm_right_lower",
+          "pivot": [
+            880,
+            614
+          ],
+          "end": [
+            924,
+            465
+          ],
+          "radius": 115.5,
+          "motion": "forearm",
+          "parent": "arm_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.7,
+          "strength": 0.55
+        },
+        {
+          "name": "foot_right",
+          "pivot": [
+            868,
+            1455
+          ],
+          "end": [
+            869,
+            1405
+          ],
+          "radius": 57,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              791.05,
+              1383
+            ],
+            [
+              944.95,
+              1383
+            ],
+            [
+              944.95,
+              1479
+            ],
+            [
+              791.05,
+              1479
+            ]
+          ]
+        },
+        {
+          "name": "leg_right_upper",
+          "pivot": [
+            752,
+            1117
+          ],
+          "end": [
+            852,
+            1280
+          ],
+          "radius": 92.39999999999999,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "leg_right_lower",
+          "pivot": [
+            852,
+            1280
+          ],
+          "end": [
+            869,
+            1405
+          ],
+          "radius": 77.0,
+          "motion": "leg",
+          "parent": "leg_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "tail",
+          "pivot": [
+            455,
+            1061
+          ],
+          "end": [
+            113,
+            664
+          ],
+          "radius": 181.58,
+          "motion": "tail",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 180,
+          "polygon": [
+            [
+              417,
+              995
+            ],
+            [
+              279,
+              1021
+            ],
+            [
+              228,
+              873
+            ],
+            [
+              241,
+              721
+            ],
+            [
+              174,
+              643
+            ],
+            [
+              74,
+              625
+            ],
+            [
+              36,
+              711
+            ],
+            [
+              132,
+              806
+            ],
+            [
+              116,
+              930
+            ],
+            [
+              219,
+              1043
+            ],
+            [
+              350,
+              1120
+            ],
+            [
+              455,
+              1092
+            ]
+          ],
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.35
+        }
+      ],
+      "ik_chains": [
+        {
+          "upper": "leg_left_upper",
+          "lower": "leg_left_lower",
+          "root": [
+            539,
+            1120
+          ],
+          "middle": [
+            410,
+            1276
+          ],
+          "end": [
+            352,
+            1408
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": 1
+        },
+        {
+          "upper": "leg_right_upper",
+          "lower": "leg_right_lower",
+          "root": [
+            752,
+            1117
+          ],
+          "middle": [
+            852,
+            1280
+          ],
+          "end": [
+            869,
+            1405
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        }
+      ]
+    },
+    "worker": {
+      "id": "worker",
+      "renderer": "master_mesh",
+      "identity": "Original round bowl-cut Japanese internet illustration officeworker: simple closed eyes, blush, short body, polite bow, blue shirt and one brown briefcase. No handsome realistic/anime-man redesign.",
+      "source_path": "res://assets/art/visual_v18/worker.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source_bounds": [
+        186,
+        126,
+        645,
+        1356
+      ],
+      "source_foot": [
+        592,
+        1479
+      ],
+      "source_body_height": 1347,
+      "native_body_height": 100,
+      "mesh_step": 34,
+      "source_sha256": "28400bc367b3db33982eba9e4733367707a30dd2b898730226495d40712ce69f",
+      "source_metadata": "res://assets/art/visual_v18/metadata.json",
+      "fallback_bone": "root",
+      "feet": [
+        [
+          512,
+          1473
+        ],
+        [
+          682,
+          1476
+        ]
+      ],
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            592,
+            1479
+          ],
+          "end": [
+            592,
+            1479
+          ],
+          "radius": 0.01,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "torso",
+          "pivot": [
+            639,
+            1034
+          ],
+          "end": [
+            541,
+            656
+          ],
+          "radius": 255.93,
+          "motion": "torso",
+          "parent": "",
+          "priority": 6,
+          "feather": 101.02499999999999,
+          "polygon": [
+            [
+              415,
+              658
+            ],
+            [
+              556,
+              635
+            ],
+            [
+              694,
+              583
+            ],
+            [
+              786,
+              657
+            ],
+            [
+              827,
+              849
+            ],
+            [
+              791,
+              924
+            ],
+            [
+              643,
+              956
+            ],
+            [
+              491,
+              943
+            ],
+            [
+              440,
+              852
+            ]
+          ],
+          "strength": 0.3
+        },
+        {
+          "name": "head",
+          "pivot": [
+            541,
+            656
+          ],
+          "end": [
+            487,
+            423
+          ],
+          "radius": 309.81,
+          "motion": "head",
+          "parent": "torso",
+          "priority": 4,
+          "feather": 140,
+          "polygon": [
+            [
+              206,
+              281
+            ],
+            [
+              326,
+              161
+            ],
+            [
+              521,
+              131
+            ],
+            [
+              692,
+              159
+            ],
+            [
+              746,
+              268
+            ],
+            [
+              769,
+              420
+            ],
+            [
+              688,
+              546
+            ],
+            [
+              578,
+              649
+            ],
+            [
+              414,
+              671
+            ],
+            [
+              294,
+              639
+            ],
+            [
+              200,
+              496
+            ],
+            [
+              189,
+              357
+            ]
+          ],
+          "lag": 0.35,
+          "strength": 0.5
+        },
+        {
+          "name": "arm_left_upper",
+          "pivot": [
+            468,
+            693
+          ],
+          "end": [
+            469,
+            858
+          ],
+          "radius": 99.2,
+          "motion": "arm",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.25,
+          "strength": 0.55
+        },
+        {
+          "name": "arm_left_lower",
+          "pivot": [
+            469,
+            858
+          ],
+          "end": [
+            531,
+            1012
+          ],
+          "radius": 93.0,
+          "motion": "forearm",
+          "parent": "arm_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.55
+        },
+        {
+          "name": "foot_left",
+          "pivot": [
+            512,
+            1473
+          ],
+          "end": [
+            492,
+            1428
+          ],
+          "radius": 73,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              413.45,
+              1401
+            ],
+            [
+              610.55,
+              1401
+            ],
+            [
+              610.55,
+              1497
+            ],
+            [
+              413.45,
+              1497
+            ]
+          ]
+        },
+        {
+          "name": "leg_left_upper",
+          "pivot": [
+            549,
+            1214
+          ],
+          "end": [
+            536,
+            1356
+          ],
+          "radius": 74.39999999999999,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "leg_left_lower",
+          "pivot": [
+            536,
+            1356
+          ],
+          "end": [
+            492,
+            1428
+          ],
+          "radius": 62.0,
+          "motion": "leg",
+          "parent": "leg_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "arm_right_upper",
+          "pivot": [
+            696,
+            616
+          ],
+          "end": [
+            699,
+            838
+          ],
+          "radius": 100.80000000000001,
+          "motion": "arm",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.8,
+          "strength": 0.55
+        },
+        {
+          "name": "arm_right_lower",
+          "pivot": [
+            699,
+            838
+          ],
+          "end": [
+            607,
+            1013
+          ],
+          "radius": 94.5,
+          "motion": "forearm",
+          "parent": "arm_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.7,
+          "strength": 0.55
+        },
+        {
+          "name": "foot_right",
+          "pivot": [
+            682,
+            1476
+          ],
+          "end": [
+            687,
+            1435
+          ],
+          "radius": 58,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              603.7,
+              1404
+            ],
+            [
+              760.3,
+              1404
+            ],
+            [
+              760.3,
+              1500
+            ],
+            [
+              603.7,
+              1500
+            ]
+          ]
+        },
+        {
+          "name": "leg_right_upper",
+          "pivot": [
+            723,
+            1179
+          ],
+          "end": [
+            701,
+            1354
+          ],
+          "radius": 75.6,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "leg_right_lower",
+          "pivot": [
+            701,
+            1354
+          ],
+          "end": [
+            687,
+            1435
+          ],
+          "radius": 63.0,
+          "motion": "leg",
+          "parent": "leg_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "prop",
+          "pivot": [
+            567,
+            1032
+          ],
+          "end": [
+            552,
+            1188
+          ],
+          "radius": 215.52,
+          "motion": "prop",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 45,
+          "polygon": [
+            [
+              376,
+              1061
+            ],
+            [
+              471,
+              1037
+            ],
+            [
+              474,
+              1012
+            ],
+            [
+              637,
+              1019
+            ],
+            [
+              653,
+              1067
+            ],
+            [
+              731,
+              1088
+            ],
+            [
+              719,
+              1256
+            ],
+            [
+              668,
+              1304
+            ],
+            [
+              372,
+              1277
+            ]
+          ],
+          "rigid": true,
+          "strength": 0.55,
+          "lag": 0.75
+        }
+      ],
+      "ik_chains": [
+        {
+          "upper": "leg_left_upper",
+          "lower": "leg_left_lower",
+          "root": [
+            549,
+            1214
+          ],
+          "middle": [
+            536,
+            1356
+          ],
+          "end": [
+            492,
+            1428
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        },
+        {
+          "upper": "leg_right_upper",
+          "lower": "leg_right_lower",
+          "root": [
+            723,
+            1179
+          ],
+          "middle": [
+            701,
+            1354
+          ],
+          "end": [
+            687,
+            1435
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        },
+        {
+          "upper": "arm_left_upper",
+          "lower": "arm_left_lower",
+          "root": [
+            468,
+            693
+          ],
+          "middle": [
+            469,
+            858
+          ],
+          "end": [
+            533,
+            985
+          ],
+          "root_parent": "torso",
+          "target_parent": "prop",
+          "bend": 1
+        },
+        {
+          "upper": "arm_right_upper",
+          "lower": "arm_right_lower",
+          "root": [
+            696,
+            616
+          ],
+          "middle": [
+            699,
+            838
+          ],
+          "end": [
+            607,
+            990
+          ],
+          "root_parent": "torso",
+          "target_parent": "prop",
+          "bend": -1
+        }
+      ]
+    },
+    "chicken": {
+      "id": "chicken",
+      "renderer": "master_mesh",
+      "identity": "Original yellow plush/feathery middle-part meme chick, gray bib overalls, dark straps, orange beak and bird feet, one basketball. Painterly plush strokes, no muscular human bird.",
+      "source_path": "res://assets/art/visual_v18/chicken.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source_bounds": [
+        59,
+        340,
+        921,
+        987
+      ],
+      "source_foot": [
+        572,
+        1324
+      ],
+      "source_body_height": 966,
+      "native_body_height": 100,
+      "mesh_step": 34,
+      "source_sha256": "a8f04bfdb5f2629a84db4f5b1209a91ea6ff7b1899df16b2c9381d09efdb0f08",
+      "source_metadata": "res://assets/art/visual_v18/metadata.json",
+      "fallback_bone": "root",
+      "feet": [
+        [
+          325,
+          1321
+        ],
+        [
+          819,
+          1311
+        ]
+      ],
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            572,
+            1324
+          ],
+          "end": [
+            572,
+            1324
+          ],
+          "radius": 0.01,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 3,
+          "feather": 65
+        },
+        {
+          "name": "torso",
+          "pivot": [
+            567,
+            1161
+          ],
+          "end": [
+            591,
+            797
+          ],
+          "radius": 183.54,
+          "motion": "torso",
+          "parent": "",
+          "priority": 6,
+          "feather": 72.45,
+          "polygon": [
+            [
+              299,
+              727
+            ],
+            [
+              440,
+              761
+            ],
+            [
+              696,
+              775
+            ],
+            [
+              785,
+              793
+            ],
+            [
+              826,
+              975
+            ],
+            [
+              811,
+              1138
+            ],
+            [
+              706,
+              1212
+            ],
+            [
+              325,
+              1191
+            ],
+            [
+              248,
+              1015
+            ]
+          ],
+          "strength": 0.7
+        },
+        {
+          "name": "head",
+          "pivot": [
+            591,
+            797
+          ],
+          "end": [
+            599,
+            607
+          ],
+          "radius": 222.18,
+          "motion": "head",
+          "parent": "torso",
+          "priority": 4,
+          "feather": 140,
+          "polygon": [
+            [
+              379,
+              468
+            ],
+            [
+              421,
+              411
+            ],
+            [
+              572,
+              358
+            ],
+            [
+              641,
+              351
+            ],
+            [
+              748,
+              420
+            ],
+            [
+              833,
+              550
+            ],
+            [
+              817,
+              741
+            ],
+            [
+              698,
+              825
+            ],
+            [
+              493,
+              813
+            ],
+            [
+              343,
+              704
+            ],
+            [
+              330,
+              583
+            ]
+          ],
+          "lag": 0.35,
+          "strength": 0.5
+        },
+        {
+          "name": "arm_left_upper",
+          "pivot": [
+            325,
+            789
+          ],
+          "end": [
+            225,
+            775
+          ],
+          "radius": 126.4,
+          "motion": "arm",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.25,
+          "strength": 0.35
+        },
+        {
+          "name": "arm_left_lower",
+          "pivot": [
+            225,
+            775
+          ],
+          "end": [
+            168,
+            711
+          ],
+          "radius": 118.5,
+          "motion": "forearm",
+          "parent": "arm_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1,
+          "lag": 0.7,
+          "strength": 0.35
+        },
+        {
+          "name": "foot_left",
+          "pivot": [
+            325,
+            1321
+          ],
+          "end": [
+            329,
+            1270
+          ],
+          "radius": 70,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              230.5,
+              1267
+            ],
+            [
+              419.5,
+              1267
+            ],
+            [
+              419.5,
+              1339
+            ],
+            [
+              230.5,
+              1339
+            ]
+          ]
+        },
+        {
+          "name": "leg_left_upper",
+          "pivot": [
+            345,
+            1139
+          ],
+          "end": [
+            342,
+            1235
+          ],
+          "radius": 94.8,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "leg_left_lower",
+          "pivot": [
+            342,
+            1235
+          ],
+          "end": [
+            329,
+            1270
+          ],
+          "radius": 79.0,
+          "motion": "leg",
+          "parent": "leg_left_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": -1
+        },
+        {
+          "name": "arm_right_upper",
+          "pivot": [
+            757,
+            814
+          ],
+          "end": [
+            865,
+            816
+          ],
+          "radius": 112.0,
+          "motion": "arm",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.8,
+          "strength": 0.35
+        },
+        {
+          "name": "arm_right_lower",
+          "pivot": [
+            865,
+            816
+          ],
+          "end": [
+            955,
+            688
+          ],
+          "radius": 105.0,
+          "motion": "forearm",
+          "parent": "arm_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1,
+          "lag": 0.7,
+          "strength": 0.35
+        },
+        {
+          "name": "foot_right",
+          "pivot": [
+            819,
+            1311
+          ],
+          "end": [
+            798,
+            1278
+          ],
+          "radius": 76,
+          "motion": "fixed",
+          "parent": "",
+          "priority": 90,
+          "feather": 0,
+          "polygon": [
+            [
+              716.4,
+              1257
+            ],
+            [
+              921.6,
+              1257
+            ],
+            [
+              921.6,
+              1329
+            ],
+            [
+              716.4,
+              1329
+            ]
+          ]
+        },
+        {
+          "name": "leg_right_upper",
+          "pivot": [
+            704,
+            1167
+          ],
+          "end": [
+            763,
+            1243
+          ],
+          "radius": 84.0,
+          "motion": "leg",
+          "parent": "torso",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "leg_right_lower",
+          "pivot": [
+            763,
+            1243
+          ],
+          "end": [
+            798,
+            1278
+          ],
+          "radius": 70.0,
+          "motion": "leg",
+          "parent": "leg_right_upper",
+          "priority": 3,
+          "feather": 65,
+          "side": 1
+        },
+        {
+          "name": "prop",
+          "pivot": [
+            169,
+            706
+          ],
+          "end": [
+            207,
+            565
+          ],
+          "radius": 154.56,
+          "motion": "prop",
+          "parent": "arm_left_lower",
+          "priority": 3,
+          "feather": 70,
+          "polygon": [
+            [
+              424.0,
+              565.0
+            ],
+            [
+              419.83040584750097,
+              606.7493289114515
+            ],
+            [
+              407.4818585549492,
+              646.8942545261292
+            ],
+            [
+              387.42890586965234,
+              683.8920298661949
+            ],
+            [
+              360.4421715174808,
+              716.3208511739211
+            ],
+            [
+              327.5587405652537,
+              742.9344970327447
+            ],
+            [
+              290.0423048232245,
+              762.7102199574153
+            ],
+            [
+              249.33459987749984,
+              774.8880500062913
+            ],
+            [
+              207.0,
+              779.0
+            ],
+            [
+              164.6654001225002,
+              774.8880500062913
+            ],
+            [
+              123.95769517677553,
+              762.7102199574153
+            ],
+            [
+              86.44125943474637,
+              742.9344970327447
+            ],
+            [
+              53.5578284825192,
+              716.3208511739211
+            ],
+            [
+              26.57109413034766,
+              683.8920298661949
+            ],
+            [
+              6.518141445050787,
+              646.8942545261292
+            ],
+            [
+              -5.830405847500998,
+              606.7493289114515
+            ],
+            [
+              -10.0,
+              565.0
+            ],
+            [
+              -5.830405847500998,
+              523.2506710885485
+            ],
+            [
+              6.518141445050759,
+              483.1057454738708
+            ],
+            [
+              26.571094130347632,
+              446.10797013380517
+            ],
+            [
+              53.55782848251914,
+              413.67914882607886
+            ],
+            [
+              86.44125943474633,
+              387.0655029672553
+            ],
+            [
+              123.9576951767754,
+              367.28978004258465
+            ],
+            [
+              164.66540012250007,
+              355.1119499937087
+            ],
+            [
+              206.99999999999997,
+              351.0
+            ],
+            [
+              249.33459987749984,
+              355.11194999370866
+            ],
+            [
+              290.0423048232245,
+              367.28978004258465
+            ],
+            [
+              327.55874056525363,
+              387.06550296725527
+            ],
+            [
+              360.4421715174808,
+              413.6791488260788
+            ],
+            [
+              387.42890586965234,
+              446.1079701338051
+            ],
+            [
+              407.4818585549492,
+              483.1057454738707
+            ],
+            [
+              419.83040584750097,
+              523.2506710885484
+            ]
+          ],
+          "rigid": true,
+          "lag": 0.7,
+          "strength": 0.25
+        },
+        {
+          "name": "hair",
+          "pivot": [
+            627,
+            429
+          ],
+          "end": [
+            627,
+            359
+          ],
+          "radius": 193.20000000000002,
+          "motion": "hair",
+          "parent": "head",
+          "priority": 3,
+          "feather": 70,
+          "polygon": [
+            [
+              351,
+              522
+            ],
+            [
+              403,
+              420
+            ],
+            [
+              513,
+              368
+            ],
+            [
+              610,
+              354
+            ],
+            [
+              637,
+              343
+            ],
+            [
+              697,
+              374
+            ],
+            [
+              804,
+              419
+            ],
+            [
+              856,
+              539
+            ],
+            [
+              830,
+              698
+            ],
+            [
+              748,
+              601
+            ],
+            [
+              691,
+              518
+            ],
+            [
+              623,
+              446
+            ],
+            [
+              526,
+              468
+            ],
+            [
+              434,
+              559
+            ]
+          ],
+          "side": 1,
+          "lag": 0.8,
+          "strength": 0.5
+        }
+      ],
+      "ik_chains": [
+        {
+          "upper": "leg_left_upper",
+          "lower": "leg_left_lower",
+          "root": [
+            345,
+            1139
+          ],
+          "middle": [
+            342,
+            1235
+          ],
+          "end": [
+            329,
+            1270
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": -1
+        },
+        {
+          "upper": "leg_right_upper",
+          "lower": "leg_right_lower",
+          "root": [
+            704,
+            1167
+          ],
+          "middle": [
+            763,
+            1243
+          ],
+          "end": [
+            798,
+            1278
+          ],
+          "root_parent": "torso",
+          "target_parent": "",
+          "bend": 1
+        }
+      ]
+    }
+  }
+}

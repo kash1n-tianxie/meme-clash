@@ -1,0 +1,6827 @@
+{
+  "version": 1,
+  "source_kind": "skeletal_keyframes",
+  "records": {
+    "rio": {
+      "skill1": {
+        "label": "横一閃",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              3
+            ],
+            "torso": -23,
+            "head": -8,
+            "front_upper": 45,
+            "front_lower": -135,
+            "back_upper": -45,
+            "back_lower": -110,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -160,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4.32,
+              3.24
+            ],
+            "torso": -23,
+            "head": -8,
+            "front_upper": 45,
+            "front_lower": -135,
+            "back_upper": -45,
+            "back_lower": -110,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -160,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              1
+            ],
+            "torso": 19,
+            "head": 0.0,
+            "front_upper": -78,
+            "front_lower": -108,
+            "back_upper": -60,
+            "back_lower": -95,
+            "front_foot": [
+              17,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -3,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              2
+            ],
+            "torso": 16,
+            "head": 0.0,
+            "front_upper": -82,
+            "front_lower": -112,
+            "back_upper": -55,
+            "back_lower": -105,
+            "front_foot": [
+              17,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -4,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.5,
+              0.6
+            ],
+            "torso": 4.8,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill2": {
+        "label": "蒼返し",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              9
+            ],
+            "torso": 24,
+            "head": 0.0,
+            "front_upper": -18,
+            "front_lower": -5,
+            "back_upper": 10,
+            "back_lower": -75,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 73,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              9.72
+            ],
+            "torso": 24,
+            "head": 0.0,
+            "front_upper": -18,
+            "front_lower": -5,
+            "back_upper": 10,
+            "back_lower": -75,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 73,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2,
+              -5
+            ],
+            "torso": -27,
+            "head": -18,
+            "front_upper": -158,
+            "front_lower": -167,
+            "back_upper": -130,
+            "back_lower": -155,
+            "front_foot": [
+              13,
+              -3
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -117,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": 1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1,
+              -3
+            ],
+            "torso": -20,
+            "head": -14,
+            "front_upper": -149,
+            "front_lower": -160,
+            "back_upper": -118,
+            "back_lower": -150,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -110,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.3,
+              -0.8999999999999999
+            ],
+            "torso": -6.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill3": {
+        "label": "重刃落し",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              6
+            ],
+            "torso": -14,
+            "head": 0.0,
+            "front_upper": -172,
+            "front_lower": -152,
+            "back_upper": -145,
+            "back_lower": -155,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -123,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              6.48
+            ],
+            "torso": -14,
+            "head": 0.0,
+            "front_upper": -172,
+            "front_lower": -152,
+            "back_upper": -145,
+            "back_lower": -155,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -123,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              14
+            ],
+            "torso": 38,
+            "head": 12,
+            "front_upper": -52,
+            "front_lower": -40,
+            "back_upper": -49,
+            "back_lower": -38,
+            "front_foot": [
+              21,
+              0
+            ],
+            "back_foot": [
+              -10,
+              0
+            ],
+            "weapon": 8,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": 2,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              13
+            ],
+            "torso": 32,
+            "head": 0.0,
+            "front_upper": -45,
+            "front_lower": -28,
+            "back_upper": -40,
+            "back_lower": -25,
+            "front_foot": [
+              21,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 10,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": 0,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.2,
+              3.9
+            ],
+            "torso": 9.6,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super": {
+        "label": "蒼月断界",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -6,
+              8
+            ],
+            "torso": -32,
+            "head": -16,
+            "front_upper": 72,
+            "front_lower": -115,
+            "back_upper": -75,
+            "back_lower": -125,
+            "front_foot": [
+              16,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -165,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -6.48,
+              8.64
+            ],
+            "torso": -32,
+            "head": -16,
+            "front_upper": 72,
+            "front_lower": -115,
+            "back_upper": -75,
+            "back_lower": -125,
+            "front_foot": [
+              16,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -165,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              8,
+              3
+            ],
+            "torso": 34,
+            "head": 0.0,
+            "front_upper": -91,
+            "front_lower": -117,
+            "back_upper": -81,
+            "back_lower": -106,
+            "front_foot": [
+              24,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -8,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              7,
+              2
+            ],
+            "torso": 27,
+            "head": 0.0,
+            "front_upper": -97,
+            "front_lower": -110,
+            "back_upper": -82,
+            "back_lower": -112,
+            "front_foot": [
+              24,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -2,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2.1,
+              0.6
+            ],
+            "torso": 8.1,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_down": {
+        "label": "海底断層",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              13
+            ],
+            "torso": -18,
+            "head": -5,
+            "front_upper": 52,
+            "front_lower": 15,
+            "back_upper": 15,
+            "back_lower": -25,
+            "front_foot": [
+              20,
+              0
+            ],
+            "back_foot": [
+              -15,
+              0
+            ],
+            "weapon": 175,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4.32,
+              14.040000000000001
+            ],
+            "torso": -18,
+            "head": -5,
+            "front_upper": 52,
+            "front_lower": 15,
+            "back_upper": 15,
+            "back_lower": -25,
+            "front_foot": [
+              20,
+              0
+            ],
+            "back_foot": [
+              -15,
+              0
+            ],
+            "weapon": 175,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              7,
+              20
+            ],
+            "torso": 39,
+            "head": 0.0,
+            "front_upper": -52,
+            "front_lower": -24,
+            "back_upper": -42,
+            "back_lower": -20,
+            "front_foot": [
+              27,
+              0
+            ],
+            "back_foot": [
+              -16,
+              0
+            ],
+            "weapon": 2,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": 0,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              7,
+              19
+            ],
+            "torso": 32,
+            "head": 0.0,
+            "front_upper": -63,
+            "front_lower": -27,
+            "back_upper": -45,
+            "back_lower": -18,
+            "front_foot": [
+              27,
+              0
+            ],
+            "back_foot": [
+              -16,
+              0
+            ],
+            "weapon": 0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": 0,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2.1,
+              5.7
+            ],
+            "torso": 9.6,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_up": {
+        "label": "蒼天開門",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              9
+            ],
+            "torso": 8,
+            "head": -10,
+            "front_upper": -75,
+            "front_lower": -153,
+            "back_upper": -62,
+            "back_lower": -150,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -67,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              9.72
+            ],
+            "torso": 8,
+            "head": -10,
+            "front_upper": -75,
+            "front_lower": -153,
+            "back_upper": -62,
+            "back_lower": -150,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -67,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -2
+            ],
+            "torso": -16,
+            "head": -19,
+            "front_upper": -174,
+            "front_lower": -172,
+            "back_upper": -162,
+            "back_lower": -165,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -88,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              0
+            ],
+            "torso": -13,
+            "head": -17,
+            "front_upper": -171,
+            "front_lower": -165,
+            "back_upper": -158,
+            "back_lower": -160,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -91,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": -3.9,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      }
+    },
+    "cat": {
+      "skill1": {
+        "label": "ハッピー波",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              6
+            ],
+            "torso": 16,
+            "head": 8,
+            "front_upper": -15,
+            "front_lower": -125,
+            "back_upper": 30,
+            "back_lower": -90,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              6.48
+            ],
+            "torso": 16,
+            "head": 8,
+            "front_upper": -15,
+            "front_lower": -125,
+            "back_upper": 30,
+            "back_lower": -90,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              3,
+              -5
+            ],
+            "torso": -11,
+            "head": -9,
+            "front_upper": -139,
+            "front_lower": -105,
+            "back_upper": -123,
+            "back_lower": -130,
+            "front_foot": [
+              10,
+              -6
+            ],
+            "back_foot": [
+              -8,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2,
+              -2
+            ],
+            "torso": -5,
+            "head": 0.0,
+            "front_upper": -105,
+            "front_lower": -91,
+            "back_upper": -119,
+            "back_lower": -120,
+            "front_foot": [
+              10,
+              -3
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.6,
+              -0.6
+            ],
+            "torso": -1.5,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill2": {
+        "label": "Huh返し",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              3
+            ],
+            "torso": -17,
+            "head": -8,
+            "front_upper": -44,
+            "front_lower": -154,
+            "back_upper": -26,
+            "back_lower": -132,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              3.24
+            ],
+            "torso": -17,
+            "head": -8,
+            "front_upper": -44,
+            "front_lower": -154,
+            "back_upper": -26,
+            "back_lower": -132,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              1
+            ],
+            "torso": 9,
+            "head": 15,
+            "front_upper": -97,
+            "front_lower": -88,
+            "back_upper": -77,
+            "back_lower": -100,
+            "front_foot": [
+              11,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              3,
+              2
+            ],
+            "torso": 5,
+            "head": 13,
+            "front_upper": -81,
+            "front_lower": -98,
+            "back_upper": -68,
+            "back_lower": -120,
+            "front_foot": [
+              11,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.8999999999999999,
+              0.6
+            ],
+            "torso": 1.5,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill3": {
+        "label": "涙の放流",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              4
+            ],
+            "torso": 11,
+            "head": 17,
+            "front_upper": -131,
+            "front_lower": -155,
+            "back_upper": -119,
+            "back_lower": -145,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              4.32
+            ],
+            "torso": 11,
+            "head": 17,
+            "front_upper": -131,
+            "front_lower": -155,
+            "back_upper": -119,
+            "back_lower": -145,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1,
+              7
+            ],
+            "torso": 21,
+            "head": 22,
+            "front_upper": -35,
+            "front_lower": -48,
+            "back_upper": 25,
+            "back_lower": 15,
+            "front_foot": [
+              10,
+              0
+            ],
+            "back_foot": [
+              -9,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1,
+              7
+            ],
+            "torso": 18,
+            "head": 20,
+            "front_upper": -30,
+            "front_lower": -45,
+            "back_upper": 19,
+            "back_lower": 20,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.3,
+              2.1
+            ],
+            "torso": 5.3999999999999995,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super": {
+        "label": "全員踊れ",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              5
+            ],
+            "torso": -15,
+            "head": 0.0,
+            "front_upper": -35,
+            "front_lower": -142,
+            "back_upper": -30,
+            "back_lower": -135,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              5.4
+            ],
+            "torso": -15,
+            "head": 0.0,
+            "front_upper": -35,
+            "front_lower": -142,
+            "back_upper": -30,
+            "back_lower": -135,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              -3
+            ],
+            "torso": 15,
+            "head": -12,
+            "front_upper": -135,
+            "front_lower": -92,
+            "back_upper": 134,
+            "back_lower": 90,
+            "front_foot": [
+              13,
+              -4
+            ],
+            "back_foot": [
+              -11,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              1
+            ],
+            "torso": -16,
+            "head": 12,
+            "front_upper": -125,
+            "front_lower": -150,
+            "back_upper": 115,
+            "back_lower": 140,
+            "front_foot": [
+              11,
+              0
+            ],
+            "back_foot": [
+              -12,
+              -4
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -1.2,
+              0.3
+            ],
+            "torso": -4.8,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_down": {
+        "label": "泣き海タイフーン",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              9
+            ],
+            "torso": 22,
+            "head": 20,
+            "front_upper": -130,
+            "front_lower": -162,
+            "back_upper": -125,
+            "back_lower": -145,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              9.72
+            ],
+            "torso": 22,
+            "head": 20,
+            "front_upper": -130,
+            "front_lower": -162,
+            "back_upper": -125,
+            "back_lower": -145,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              13
+            ],
+            "torso": 39,
+            "head": 25,
+            "front_upper": -35,
+            "front_lower": -15,
+            "back_upper": -31,
+            "back_lower": -12,
+            "front_foot": [
+              18,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              12
+            ],
+            "torso": 34,
+            "head": 22,
+            "front_upper": -44,
+            "front_lower": -18,
+            "back_upper": -32,
+            "back_lower": -16,
+            "front_foot": [
+              18,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 2,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.2,
+              3.5999999999999996
+            ],
+            "torso": 10.2,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_up": {
+        "label": "天までハッピー",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              8
+            ],
+            "torso": 17,
+            "head": 8,
+            "front_upper": -50,
+            "front_lower": -155,
+            "back_upper": -40,
+            "back_lower": -148,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              8.64
+            ],
+            "torso": 17,
+            "head": 8,
+            "front_upper": -50,
+            "front_lower": -155,
+            "back_upper": -40,
+            "back_lower": -148,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -7
+            ],
+            "torso": -21,
+            "head": -14,
+            "front_upper": -175,
+            "front_lower": -175,
+            "back_upper": -162,
+            "back_lower": -168,
+            "front_foot": [
+              11,
+              -8
+            ],
+            "back_foot": [
+              -10,
+              -7
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -5
+            ],
+            "torso": -16,
+            "head": -10,
+            "front_upper": -160,
+            "front_lower": -167,
+            "back_upper": -147,
+            "back_lower": -158,
+            "front_foot": [
+              11,
+              -5
+            ],
+            "back_foot": [
+              -10,
+              -4
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 3,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              -1.5
+            ],
+            "torso": -4.8,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      }
+    },
+    "shark": {
+      "skill1": {
+        "label": "三速ジェット",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              2
+            ],
+            "torso": -12,
+            "head": -6,
+            "front_upper": 25,
+            "front_lower": -48.0,
+            "back_upper": -35,
+            "back_lower": 6.0,
+            "front_foot": [
+              7,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 12,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4.32,
+              2.16
+            ],
+            "torso": -12,
+            "head": -6,
+            "front_upper": 25,
+            "front_lower": -48.0,
+            "back_upper": -35,
+            "back_lower": 6.0,
+            "front_foot": [
+              7,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 12,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              2
+            ],
+            "torso": 18,
+            "head": 5,
+            "front_upper": 63,
+            "front_lower": -48.0,
+            "back_upper": -62,
+            "back_lower": 6.0,
+            "front_foot": [
+              26,
+              -6
+            ],
+            "back_foot": [
+              -8,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -28,
+            "body_variant": 0,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              2
+            ],
+            "torso": 14,
+            "head": 3,
+            "front_upper": 58,
+            "front_lower": -48.0,
+            "back_upper": -58,
+            "back_lower": 6.0,
+            "front_foot": [
+              26,
+              -3
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -20,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.2,
+              0.6
+            ],
+            "torso": 4.2,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill2": {
+        "label": "渦巻き反転",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              6
+            ],
+            "torso": 31,
+            "head": 15,
+            "front_upper": -22,
+            "front_lower": -48.0,
+            "back_upper": 25,
+            "back_lower": 6.0,
+            "front_foot": [
+              8,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -30,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              6.48
+            ],
+            "torso": 31,
+            "head": 15,
+            "front_upper": -22,
+            "front_lower": -48.0,
+            "back_upper": 25,
+            "back_lower": 6.0,
+            "front_foot": [
+              8,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -30,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1,
+              -4
+            ],
+            "torso": -36,
+            "head": -23,
+            "front_upper": -145,
+            "front_lower": -48.0,
+            "back_upper": 134,
+            "back_lower": 6.0,
+            "front_foot": [
+              12,
+              -2
+            ],
+            "back_foot": [
+              -8,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 48,
+            "body_variant": 1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2,
+              -3
+            ],
+            "torso": -27,
+            "head": -18,
+            "front_upper": -127,
+            "front_lower": -48.0,
+            "back_upper": 111,
+            "back_lower": 6.0,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 35,
+            "body_variant": 1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.6,
+              -0.8999999999999999
+            ],
+            "torso": -8.1,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill3": {
+        "label": "ドスン水圧",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -5
+            ],
+            "torso": -9,
+            "head": -8,
+            "front_upper": -130,
+            "front_lower": -48.0,
+            "back_upper": 126,
+            "back_lower": 6.0,
+            "front_foot": [
+              9,
+              -8
+            ],
+            "back_foot": [
+              -9,
+              -7
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 19,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              -8
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              -5.4
+            ],
+            "torso": -9,
+            "head": -8,
+            "front_upper": -130,
+            "front_lower": -48.0,
+            "back_upper": 126,
+            "back_lower": 6.0,
+            "front_foot": [
+              9,
+              -8
+            ],
+            "back_foot": [
+              -9,
+              -7
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 19,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              -8
+            ]
+          },
+          {
+            "hip": [
+              3,
+              10
+            ],
+            "torso": 25,
+            "head": 17,
+            "front_upper": 70,
+            "front_lower": -48.0,
+            "back_upper": -75,
+            "back_lower": 6.0,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -11,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -22,
+            "body_variant": 2,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2,
+              9
+            ],
+            "torso": 18,
+            "head": 13,
+            "front_upper": 57,
+            "front_lower": -48.0,
+            "back_upper": -62,
+            "back_lower": 6.0,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -19,
+            "body_variant": 0,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.6,
+              2.6999999999999997
+            ],
+            "torso": 5.3999999999999995,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super": {
+        "label": "トラララ大海嘯",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5,
+              5
+            ],
+            "torso": -24,
+            "head": -14,
+            "front_upper": -90,
+            "front_lower": -48.0,
+            "back_upper": 92,
+            "back_lower": 6.0,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 40,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5.4,
+              5.4
+            ],
+            "torso": -24,
+            "head": -14,
+            "front_upper": -90,
+            "front_lower": -48.0,
+            "back_upper": 92,
+            "back_lower": 6.0,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 40,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              -2
+            ],
+            "torso": 34,
+            "head": 18,
+            "front_upper": 122,
+            "front_lower": -48.0,
+            "back_upper": -119,
+            "back_lower": 6.0,
+            "front_foot": [
+              20,
+              -4
+            ],
+            "back_foot": [
+              -11,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -51,
+            "body_variant": 1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              0
+            ],
+            "torso": 27,
+            "head": 14,
+            "front_upper": 105,
+            "front_lower": -48.0,
+            "back_upper": -101,
+            "back_lower": 6.0,
+            "front_foot": [
+              20,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -37,
+            "body_variant": 1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.5,
+              0.0
+            ],
+            "torso": 8.1,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_down": {
+        "label": "海底メガ圧縮",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              5
+            ],
+            "torso": -17,
+            "head": -15,
+            "front_upper": -123,
+            "front_lower": -48.0,
+            "back_upper": 118,
+            "back_lower": 6.0,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 17,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              5.4
+            ],
+            "torso": -17,
+            "head": -15,
+            "front_upper": -123,
+            "front_lower": -48.0,
+            "back_upper": 118,
+            "back_lower": 6.0,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 17,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              13
+            ],
+            "torso": 39,
+            "head": 22,
+            "front_upper": 74,
+            "front_lower": -48.0,
+            "back_upper": -71,
+            "back_lower": 6.0,
+            "front_foot": [
+              23,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -40,
+            "body_variant": 0,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              12
+            ],
+            "torso": 31,
+            "head": 18,
+            "front_upper": 67,
+            "front_lower": -48.0,
+            "back_upper": -64,
+            "back_lower": 6.0,
+            "front_foot": [
+              23,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -34,
+            "body_variant": 0,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.5,
+              3.5999999999999996
+            ],
+            "torso": 9.299999999999999,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_up": {
+        "label": "天海スプラッシュ",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              7
+            ],
+            "torso": 22,
+            "head": 6,
+            "front_upper": 30,
+            "front_lower": -48.0,
+            "back_upper": -31,
+            "back_lower": 6.0,
+            "front_foot": [
+              10,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -16,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              7.5600000000000005
+            ],
+            "torso": 22,
+            "head": 6,
+            "front_upper": 30,
+            "front_lower": -48.0,
+            "back_upper": -31,
+            "back_lower": 6.0,
+            "front_foot": [
+              10,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": -16,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -7
+            ],
+            "torso": -42,
+            "head": -25,
+            "front_upper": -172,
+            "front_lower": -48.0,
+            "back_upper": 168,
+            "back_lower": 6.0,
+            "front_foot": [
+              11,
+              -3
+            ],
+            "back_foot": [
+              -11,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 55,
+            "body_variant": 1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -5
+            ],
+            "torso": -34,
+            "head": -22,
+            "front_upper": -145,
+            "front_lower": -48.0,
+            "back_upper": 139,
+            "back_lower": 6.0,
+            "front_foot": [
+              11,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 44,
+            "body_variant": 1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              -1.5
+            ],
+            "torso": -10.2,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      }
+    },
+    "chicken": {
+      "skill1": {
+        "label": "速球パス",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2,
+              3
+            ],
+            "torso": -14,
+            "head": -5,
+            "front_upper": 12,
+            "front_lower": -120,
+            "back_upper": -55,
+            "back_lower": -115,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -12,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -2.16,
+              3.24
+            ],
+            "torso": -14,
+            "head": -5,
+            "front_upper": 12,
+            "front_lower": -120,
+            "back_upper": -55,
+            "back_lower": -115,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -12,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              3,
+              1
+            ],
+            "torso": 17,
+            "head": 8,
+            "front_upper": -87,
+            "front_lower": -93,
+            "back_upper": -78,
+            "back_lower": -91,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              2,
+              2
+            ],
+            "torso": 12,
+            "head": 0.0,
+            "front_upper": -92,
+            "front_lower": -85,
+            "back_upper": -65,
+            "back_lower": -95,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.6,
+              0.6
+            ],
+            "torso": 3.5999999999999996,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill2": {
+        "label": "クロスバウンド",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5,
+              5
+            ],
+            "torso": -26,
+            "head": 0.0,
+            "front_upper": 20,
+            "front_lower": 10,
+            "back_upper": -100,
+            "back_lower": -70,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5.4,
+              5.4
+            ],
+            "torso": -26,
+            "head": 0.0,
+            "front_upper": 20,
+            "front_lower": 10,
+            "back_upper": -100,
+            "back_lower": -70,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              -2
+            ],
+            "torso": 24,
+            "head": -9,
+            "front_upper": -145,
+            "front_lower": -162,
+            "back_upper": 70,
+            "back_lower": 47,
+            "front_foot": [
+              12,
+              -5
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              1
+            ],
+            "torso": -20,
+            "head": 0.0,
+            "front_upper": -111,
+            "front_lower": -125,
+            "back_upper": 65,
+            "back_lower": 40,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -12,
+              -4
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -1.2,
+              0.3
+            ],
+            "torso": -6.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill3": {
+        "label": "肩入れダンク",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              6
+            ],
+            "torso": -18,
+            "head": 0.0,
+            "front_upper": 48,
+            "front_lower": -15,
+            "back_upper": 67,
+            "back_lower": 20,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              6.48
+            ],
+            "torso": -18,
+            "head": 0.0,
+            "front_upper": 48,
+            "front_lower": -15,
+            "back_upper": 67,
+            "back_lower": 20,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              7,
+              5
+            ],
+            "torso": 40,
+            "head": 11,
+            "front_upper": 50,
+            "front_lower": -52,
+            "back_upper": 71,
+            "back_lower": 22,
+            "front_foot": [
+              19,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              6
+            ],
+            "torso": 32,
+            "head": 0.0,
+            "front_upper": 39,
+            "front_lower": -45,
+            "back_upper": 57,
+            "back_lower": 19,
+            "front_foot": [
+              19,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.7999999999999998,
+              1.7999999999999998
+            ],
+            "torso": 9.6,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super": {
+        "label": "銀河フルコート",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              7
+            ],
+            "torso": -22,
+            "head": -8,
+            "front_upper": -72,
+            "front_lower": -145,
+            "back_upper": -65,
+            "back_lower": -132,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              7.5600000000000005
+            ],
+            "torso": -22,
+            "head": -8,
+            "front_upper": -72,
+            "front_lower": -145,
+            "back_upper": -65,
+            "back_lower": -132,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              -4
+            ],
+            "torso": 18,
+            "head": -12,
+            "front_upper": -138,
+            "front_lower": -114,
+            "back_upper": -133,
+            "back_lower": -118,
+            "front_foot": [
+              16,
+              -5
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              -2
+            ],
+            "torso": 12,
+            "head": 0.0,
+            "front_upper": -123,
+            "front_lower": -109,
+            "back_upper": -115,
+            "back_lower": -118,
+            "front_foot": [
+              16,
+              -2
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.2,
+              -0.6
+            ],
+            "torso": 3.5999999999999996,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_down": {
+        "label": "床割りドリブル",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              9
+            ],
+            "torso": 13,
+            "head": 0.0,
+            "front_upper": -20,
+            "front_lower": 25,
+            "back_upper": 35,
+            "back_lower": -40,
+            "front_foot": [
+              16,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              9.72
+            ],
+            "torso": 13,
+            "head": 0.0,
+            "front_upper": -20,
+            "front_lower": 25,
+            "back_upper": 35,
+            "back_lower": -40,
+            "front_foot": [
+              16,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              11
+            ],
+            "torso": 43,
+            "head": 16,
+            "front_upper": -35,
+            "front_lower": 5,
+            "back_upper": 55,
+            "back_lower": 21,
+            "front_foot": [
+              21,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              10
+            ],
+            "torso": 35,
+            "head": 0.0,
+            "front_upper": -31,
+            "front_lower": 17,
+            "back_upper": 48,
+            "back_lower": 15,
+            "front_foot": [
+              21,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.5,
+              3.0
+            ],
+            "torso": 10.5,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_up": {
+        "label": "天井ぶち抜き",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              8
+            ],
+            "torso": 18,
+            "head": 0.0,
+            "front_upper": -52,
+            "front_lower": -151,
+            "back_upper": -49,
+            "back_lower": -146,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              8.64
+            ],
+            "torso": 18,
+            "head": 0.0,
+            "front_upper": -52,
+            "front_lower": -151,
+            "back_upper": -49,
+            "back_lower": -146,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -7
+            ],
+            "torso": -22,
+            "head": -20,
+            "front_upper": -174,
+            "front_lower": -172,
+            "back_upper": -157,
+            "back_lower": -169,
+            "front_foot": [
+              12,
+              -7
+            ],
+            "back_foot": [
+              -12,
+              -6
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -5
+            ],
+            "torso": -16,
+            "head": -14,
+            "front_upper": -161,
+            "front_lower": -168,
+            "back_upper": -149,
+            "back_lower": -158,
+            "front_foot": [
+              12,
+              -3
+            ],
+            "back_foot": [
+              -12,
+              -3
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              -1.5
+            ],
+            "torso": -4.8,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      }
+    },
+    "worker": {
+      "skill1": {
+        "label": "お帰りください",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              3
+            ],
+            "torso": -16,
+            "head": 0.0,
+            "front_upper": 22,
+            "front_lower": -125,
+            "back_upper": -70,
+            "back_lower": -125,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -70,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              3.24
+            ],
+            "torso": -16,
+            "head": 0.0,
+            "front_upper": 22,
+            "front_lower": -125,
+            "back_upper": -70,
+            "back_lower": -125,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -70,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              2
+            ],
+            "torso": 13,
+            "head": 0.0,
+            "front_upper": -85,
+            "front_lower": -88,
+            "back_upper": -78,
+            "back_lower": -89,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -115,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              3,
+              3
+            ],
+            "torso": 9,
+            "head": 0.0,
+            "front_upper": -89,
+            "front_lower": -92,
+            "back_upper": -77,
+            "back_lower": -97,
+            "front_foot": [
+              14,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -112,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.8999999999999999,
+              0.8999999999999999
+            ],
+            "torso": 2.6999999999999997,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill2": {
+        "label": "定時巻き戻し",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              6
+            ],
+            "torso": -28,
+            "head": -12,
+            "front_upper": -35,
+            "front_lower": -137,
+            "back_upper": 74,
+            "back_lower": 30,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -55,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4.32,
+              6.48
+            ],
+            "torso": -28,
+            "head": -12,
+            "front_upper": -35,
+            "front_lower": -137,
+            "back_upper": 74,
+            "back_lower": 30,
+            "front_foot": [
+              13,
+              0
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -55,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -6,
+              -2
+            ],
+            "torso": -37,
+            "head": -20,
+            "front_upper": -141,
+            "front_lower": -167,
+            "back_upper": 87,
+            "back_lower": 67,
+            "front_foot": [
+              17,
+              -4
+            ],
+            "back_foot": [
+              -13,
+              0
+            ],
+            "weapon": -170,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              2
+            ],
+            "torso": -29,
+            "head": 0.0,
+            "front_upper": -124,
+            "front_lower": -142,
+            "back_upper": 69,
+            "back_lower": 54,
+            "front_foot": [
+              17,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -149,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -1.2,
+              0.6
+            ],
+            "torso": -8.7,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "skill3": {
+        "label": "書類雪崩",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4,
+              4
+            ],
+            "torso": -22,
+            "head": -9,
+            "front_upper": -141,
+            "front_lower": -94,
+            "back_upper": -110,
+            "back_lower": -95,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -115,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -4.32,
+              4.32
+            ],
+            "torso": -22,
+            "head": -9,
+            "front_upper": -141,
+            "front_lower": -94,
+            "back_upper": -110,
+            "back_lower": -95,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -115,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              7
+            ],
+            "torso": 32,
+            "head": 0.0,
+            "front_upper": -70,
+            "front_lower": -48,
+            "back_upper": -62,
+            "back_lower": -38,
+            "front_foot": [
+              17,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 65,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              4,
+              8
+            ],
+            "torso": 27,
+            "head": 0.0,
+            "front_upper": -59,
+            "front_lower": -42,
+            "back_upper": -51,
+            "back_lower": -36,
+            "front_foot": [
+              17,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 73,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.2,
+              2.4
+            ],
+            "torso": 8.1,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super": {
+        "label": "残業ゼロ宣言",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5,
+              7
+            ],
+            "torso": -28,
+            "head": 0.0,
+            "front_upper": 53,
+            "front_lower": -102,
+            "back_upper": -69,
+            "back_lower": -136,
+            "front_foot": [
+              15,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -149,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -5.4,
+              7.5600000000000005
+            ],
+            "torso": -28,
+            "head": 0.0,
+            "front_upper": 53,
+            "front_lower": -102,
+            "back_upper": -69,
+            "back_lower": -136,
+            "front_foot": [
+              15,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -149,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 0,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              7,
+              3
+            ],
+            "torso": 27,
+            "head": 0.0,
+            "front_upper": -111,
+            "front_lower": -105,
+            "back_upper": -105,
+            "back_lower": -112,
+            "front_foot": [
+              23,
+              0
+            ],
+            "back_foot": [
+              -14,
+              0
+            ],
+            "weapon": -110,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              2
+            ],
+            "torso": 22,
+            "head": 0.0,
+            "front_upper": -104,
+            "front_lower": -112,
+            "back_upper": -97,
+            "back_lower": -106,
+            "front_foot": [
+              23,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -104,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.7999999999999998,
+              0.6
+            ],
+            "torso": 6.6,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_down": {
+        "label": "未処理全返却",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3,
+              13
+            ],
+            "torso": 19,
+            "head": 0.0,
+            "front_upper": -120,
+            "front_lower": -153,
+            "back_upper": -110,
+            "back_lower": -140,
+            "front_foot": [
+              19,
+              0
+            ],
+            "back_foot": [
+              -16,
+              0
+            ],
+            "weapon": -120,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              -3.24,
+              14.040000000000001
+            ],
+            "torso": 19,
+            "head": 0.0,
+            "front_upper": -120,
+            "front_lower": -153,
+            "back_upper": -110,
+            "back_lower": -140,
+            "front_foot": [
+              19,
+              0
+            ],
+            "back_foot": [
+              -16,
+              0
+            ],
+            "weapon": -120,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              6,
+              17
+            ],
+            "torso": 43,
+            "head": 14,
+            "front_upper": -38,
+            "front_lower": 0,
+            "back_upper": -31,
+            "back_lower": -3,
+            "front_foot": [
+              25,
+              0
+            ],
+            "back_foot": [
+              -16,
+              0
+            ],
+            "weapon": 75,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              5,
+              16
+            ],
+            "torso": 34,
+            "head": 0.0,
+            "front_upper": -33,
+            "front_lower": 12,
+            "back_upper": -28,
+            "back_lower": 10,
+            "front_foot": [
+              25,
+              0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": 83,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              1.5,
+              4.8
+            ],
+            "torso": 10.2,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      },
+      "super_up": {
+        "label": "退社ゲート",
+        "keyframe_count": 16,
+        "anchors": [
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              8
+            ],
+            "torso": 10,
+            "head": -12,
+            "front_upper": -59,
+            "front_lower": -147,
+            "back_upper": -50,
+            "back_lower": -137,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -67,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              8.64
+            ],
+            "torso": 10,
+            "head": -12,
+            "front_upper": -59,
+            "front_lower": -147,
+            "back_upper": -50,
+            "back_lower": -137,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -67,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              -2
+            ],
+            "torso": -18,
+            "head": -22,
+            "front_upper": -169,
+            "front_lower": -170,
+            "back_upper": -155,
+            "back_lower": -163,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -171,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": 1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0,
+              0
+            ],
+            "torso": -14,
+            "head": -18,
+            "front_upper": -159,
+            "front_lower": -163,
+            "back_upper": -145,
+            "back_lower": -153,
+            "front_foot": [
+              12,
+              0
+            ],
+            "back_foot": [
+              -12,
+              0
+            ],
+            "weapon": -166,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": -4.2,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          },
+          {
+            "hip": [
+              0.0,
+              0.0
+            ],
+            "torso": 0.0,
+            "head": 0.0,
+            "front_upper": -24.0,
+            "front_lower": -48.0,
+            "back_upper": 22.0,
+            "back_lower": 6.0,
+            "front_foot": [
+              6.0,
+              0.0
+            ],
+            "back_foot": [
+              -6.0,
+              0.0
+            ],
+            "weapon": -28.0,
+            "hair": 0.0,
+            "tail": 0.0,
+            "body_variant": -1,
+            "head_variant": -1,
+            "foot_front_angle": 0.0,
+            "foot_back_angle": 0.0,
+            "middle_foot": [
+              0,
+              0
+            ]
+          }
+        ],
+        "contact_phase": [
+          0.45,
+          0.62
+        ]
+      }
+    }
+  },
+  "notes": "30 independently specified character/move curves. AI effect PNGs are shape assets, not separately painted16-frame animation."
+}

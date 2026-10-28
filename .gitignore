@@ -1,0 +1,19 @@
+# Godot import cache and editor state
+.godot/
+.import/
+export_credentials.cfg
+
+# Local builds and operating-system files
+build/
+exports/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key

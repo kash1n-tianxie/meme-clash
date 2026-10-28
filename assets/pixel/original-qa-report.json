@@ -1,0 +1,135 @@
+{
+  "version": 7,
+  "read_only_alpha_metadata_checks": 24474,
+  "failures": [],
+  "actors": {
+    "rio": {
+      "body_native_height": 60,
+      "world_height": 240,
+      "clip_count": 29,
+      "keyframes": 336,
+      "groups": {
+        "parts": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.5960566202799479,
+          "components": 16
+        },
+        "variants": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.49939600626627606,
+          "components": 8
+        }
+      }
+    },
+    "cat": {
+      "body_native_height": 57,
+      "world_height": 228,
+      "clip_count": 29,
+      "keyframes": 336,
+      "groups": {
+        "parts": {
+          "source_canvas": [
+            1024,
+            1536
+          ],
+          "transparent_fraction": 0.48970985412597656,
+          "components": 16
+        },
+        "variants": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.4812386830647786,
+          "components": 8
+        }
+      }
+    },
+    "shark": {
+      "body_native_height": 46,
+      "world_height": 184,
+      "clip_count": 29,
+      "keyframes": 336,
+      "groups": {
+        "parts": {
+          "source_canvas": [
+            1374,
+            1145
+          ],
+          "transparent_fraction": 0.5696331750602264,
+          "components": 16
+        },
+        "variants": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.618371327718099,
+          "components": 8
+        }
+      }
+    },
+    "worker": {
+      "body_native_height": 61,
+      "world_height": 244,
+      "clip_count": 29,
+      "keyframes": 336,
+      "groups": {
+        "parts": {
+          "source_canvas": [
+            1238,
+            1271
+          ],
+          "transparent_fraction": 0.6264723564948923,
+          "components": 16
+        },
+        "variants": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.5698973337809244,
+          "components": 8
+        }
+      }
+    },
+    "chicken": {
+      "body_native_height": 61,
+      "world_height": 244,
+      "clip_count": 29,
+      "keyframes": 336,
+      "groups": {
+        "parts": {
+          "source_canvas": [
+            1233,
+            1275
+          ],
+          "transparent_fraction": 0.5428672296169076,
+          "components": 16
+        },
+        "variants": {
+          "source_canvas": [
+            1536,
+            1024
+          ],
+          "transparent_fraction": 0.46718597412109375,
+          "components": 8
+        }
+      }
+    }
+  },
+  "total_clips": 145,
+  "total_skeletal_keys": 1680,
+  "final_source_images": 10,
+  "components": 120,
+  "visual_screenshots": "work/pixel_test:39 fresh five-actor OpenGL pose renders; independent combat final QA runs separately.",
+  "renderer": "Nearest320x180; original photo/flat/plush/anime material; source parts isolated into cached ImageTexture without modifying PNG originals.",
+  "native_render_status": "completed without script warnings or resource-in-use warnings",
+  "source_region_note": "Selected torso regions stop at internal waist joints; original source PNG pixels are not modified."
+}

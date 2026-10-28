@@ -1,0 +1,131 @@
+{
+  "version": "v028-ocean-animation",
+  "generator": "built-in image_gen",
+  "sha256": "1f43368f6d1f516ce7b51bd6ca39722ddcb5f8ec5ba900dfc708948257a9be91",
+  "image_size": [
+    1448,
+    1086
+  ],
+  "grid": [
+    4,
+    3
+  ],
+  "cell_size": [
+    362,
+    362
+  ],
+  "groups": {
+    "wave": [
+      {
+        "index": 0,
+        "source_rect": [
+          0,
+          0,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 1,
+        "source_rect": [
+          362,
+          0,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 2,
+        "source_rect": [
+          724,
+          0,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 3,
+        "source_rect": [
+          1086,
+          0,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 4,
+        "source_rect": [
+          0,
+          362,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 5,
+        "source_rect": [
+          362,
+          362,
+          362,
+          362
+        ]
+      }
+    ],
+    "waterfall": [
+      {
+        "index": 0,
+        "source_rect": [
+          724,
+          362,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 1,
+        "source_rect": [
+          1086,
+          362,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 2,
+        "source_rect": [
+          0,
+          724,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 3,
+        "source_rect": [
+          362,
+          724,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 4,
+        "source_rect": [
+          724,
+          724,
+          362,
+          362
+        ]
+      },
+      {
+        "index": 5,
+        "source_rect": [
+          1086,
+          724,
+          362,
+          362
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+This Godot project contains GDScript code derived from 5DPLAY Game Studio's BleachVsNaruto.
+Upstream: https://github.com/5DPLAY-Game-Studio/BleachVsNaruto
+Commit: 891f5776dbdf3cbf40919e27aa8d6e77a5f66c97
+Copyright (C) 2021-2026 5DPLAY Game Studio; individual source attribution is retained.
+Original GameCamera author: kyo (2011). Original SelectedFighterUI author: weijian.
+Godot adaptations and integration modified 2026-10-08.
+The combined derivative game code is provided under GNU GPL version 3 or later.
+Full license: LICENSE-BVN.txt. Source and modification record: SOURCE_REFERENCES.txt.
+Godot engine and Noto Sans JP retain their separate MIT/OFL licenses.
+No original upstream SWF, characters, map art, logos, music or voice recordings are included.

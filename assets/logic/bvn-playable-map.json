@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "source_repo": "5DPLAY-Game-Studio/OpenBleachVsNaruto",
+  "source_commit": "4d7bc9913ec6b609ba521ff86b6066bff134a736",
+  "license": "GPL-3.0-or-later",
+  "map_id": "DanGai",
+  "source_space": "Flash source pixels, before project 1.6 world scale",
+  "source_viewport": [
+    800,
+    600
+  ],
+  "source_fps": 30,
+  "author_document_size": [
+    1,
+    1
+  ],
+  "markers": {
+    "line_player_bottom": {
+      "source_position": [
+        0.0,
+        366.0
+      ],
+      "source_transform": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 1.0,
+        "tx": 0.0,
+        "ty": 366.0
+      },
+      "symbol": "元件/mc_04",
+      "source_line": 29
+    },
+    "line_bottom": {
+      "source_position": [
+        0.0,
+        395.0
+      ],
+      "source_transform": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 1.0,
+        "tx": 0.0,
+        "ty": 395.0
+      },
+      "symbol": "元件/mc_04",
+      "source_line": 40
+    },
+    "line_left": {
+      "source_position": [
+        0.0,
+        0.0
+      ],
+      "source_transform": {
+        "a": 9.1552734375e-05,
+        "b": 1.0,
+        "c": -1.0,
+        "d": 9.1552734375e-05,
+        "tx": 0.0,
+        "ty": 0.0
+      },
+      "symbol": "元件/mc_04",
+      "source_line": 51
+    },
+    "line_right": {
+      "source_position": [
+        1000.0,
+        0.0
+      ],
+      "source_transform": {
+        "a": 9.1552734375e-05,
+        "b": 1.0,
+        "c": -1.0,
+        "d": 9.1552734375e-05,
+        "tx": 1000.0,
+        "ty": 0.0
+      },
+      "symbol": "元件/mc_04",
+      "source_line": 62
+    },
+    "p1": {
+      "source_position": [
+        377.1,
+        366.0
+      ],
+      "source_transform": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 1.0,
+        "tx": 377.1,
+        "ty": 366.0
+      },
+      "symbol": "元件/mc_05",
+      "source_line": 88
+    },
+    "p2": {
+      "source_position": [
+        615.1,
+        366.0
+      ],
+      "source_transform": {
+        "a": 1.0,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 1.0,
+        "tx": 615.1,
+        "ty": 366.0
+      },
+      "symbol": "元件/mc_05",
+      "source_line": 99
+    }
+  },
+  "raw_markers": {
+    "left": 0.0,
+    "right": 1000.0,
+    "bottom": 395.0,
+    "player_bottom": 366.0,
+    "p1": [
+      377.1,
+      366.0
+    ],
+    "p2": [
+      615.1,
+      366.0
+    ]
+  },
+  "map_main_normalization": {
+    "offset_y": 205.0,
+    "formula": "offsetY = GameConfig.GAME_SIZE.y - raw bottom",
+    "source_file": "source_reference/open-bvn-playable-map/MapMain.as",
+    "source_lines": [
+      111,
+      177
+    ]
+  },
+  "normalized_markers": {
+    "left": 0.0,
+    "right": 1000.0,
+    "bottom": 600.0,
+    "player_bottom": 571.0,
+    "p1": [
+      377.1,
+      571.0
+    ],
+    "p2": [
+      615.1,
+      571.0
+    ]
+  },
+  "floors": [],
+  "floor_policy": "No floor instance exists. MapMain.initFloor returns with empty floors; default standing floor is normalized playerBottom.",
+  "map_bitmap_size": [
+    1000.0,
+    525.0
+  ],
+  "map_root_transform": {
+    "a": 1.00004577636719,
+    "b": 0.0,
+    "c": 0.0,
+    "d": 1.0,
+    "tx": 0.0,
+    "ty": -80.2
+  },
+  "map_layer_width": 1000.0457763671899,
+  "project_world_scale": 1.6,
+  "project_expected": {
+    "left": 0.0,
+    "right": 1600.0,
+    "bottom": 960.0,
+    "player_bottom": 913.6,
+    "p1": [
+      603.36,
+      913.6
+    ],
+    "p2": [
+      984.1600000000001,
+      913.6
+    ]
+  },
+  "evidence": [
+    "DanGai-document.xml:29,40,51,62,88,99 direct markers",
+    "DanGai-line.xml: line edge 20000 twips = 1000 source pixels",
+    "DanGai-document.xml:12 picture_02 20000×10500 twips = 1000×525 pixels",
+    "MapMain.as:112–143 direct marker x/y reads;154–174 vertical normalization",
+    "MapMain.as:218–224 absent floor -> empty floor array",
+    "GameConfig.as:16 viewport 800×600"
+  ]
+}

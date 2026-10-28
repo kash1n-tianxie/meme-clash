@@ -1,0 +1,4265 @@
+{
+  "schema": "v032_real_air_reaction_overlay",
+  "registered_cels": 57,
+  "generated_candidates": 60,
+  "rejected_candidates": 3,
+  "source_rules_changed": false,
+  "fighters": {
+    "rio": {
+      "sheets": {
+        "v32air_rio": {
+          "path": "res://assets/fighters/v032/air-reactions/rio-air-atlas.png",
+          "size": [
+            1604,
+            1050
+          ],
+          "generated": true,
+          "air_reaction_continuity_v032": true
+        }
+      },
+      "frames": {
+        "v32air_rio_00": {
+          "ready": true,
+          "pose_id": "v32air_rio_00",
+          "sheet": "v32air_rio",
+          "rect": [
+            4,
+            4,
+            390,
+            326
+          ],
+          "pivot": [
+            225.234,
+            322.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -38.117,
+              -267.357
+            ],
+            "anatomy_head_radius": [
+              49.3,
+              32.48
+            ],
+            "anatomy_chest": [
+              -14.198,
+              -215.193
+            ],
+            "anatomy_chest_radius": [
+              59.16,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -151.222
+            ],
+            "anatomy_hips_radius": [
+              70.18,
+              55.1
+            ],
+            "capture_chest": [
+              -14.198,
+              -215.193
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            13,
+            25,
+            403,
+            351
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "702853a5345830f42158a1b803700a8be962c72a99d655a7fc1166eed5848cfc",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_01": {
+          "ready": true,
+          "pose_id": "v32air_rio_01",
+          "sheet": "v32air_rio",
+          "rect": [
+            405,
+            4,
+            374,
+            342
+          ],
+          "pivot": [
+            212.759,
+            338.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -48.693,
+              -281.669
+            ],
+            "anatomy_head_radius": [
+              37.7,
+              39.44
+            ],
+            "anatomy_chest": [
+              -20.325,
+              -215.237
+            ],
+            "anatomy_chest_radius": [
+              62.06,
+              57.42
+            ],
+            "anatomy_hips": [
+              0.0,
+              -146.865
+            ],
+            "anatomy_hips_radius": [
+              67.86,
+              58.0
+            ],
+            "capture_chest": [
+              -20.325,
+              -215.237
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            390,
+            12,
+            764,
+            354
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "fb024a12ecc254b3d9a61c9aa484dc9b745037ac7b0a2eb85f5b9b3d5943d905",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_02": {
+          "ready": true,
+          "pose_id": "v32air_rio_02",
+          "sheet": "v32air_rio",
+          "rect": [
+            806,
+            4,
+            393,
+            299
+          ],
+          "pivot": [
+            241.128,
+            295.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -79.776,
+              -243.23
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              31.9
+            ],
+            "anatomy_chest": [
+              -38.375,
+              -193.442
+            ],
+            "anatomy_chest_radius": [
+              67.28,
+              50.46
+            ],
+            "anatomy_hips": [
+              0.0,
+              -150.454
+            ],
+            "anatomy_hips_radius": [
+              70.76,
+              50.46
+            ],
+            "capture_chest": [
+              -38.375,
+              -193.442
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            729,
+            11,
+            1122,
+            310
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "f38ff881d3cecb06a9f25062b93c0615830e5adeb46c99a0e00a28abe84c66f1",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_06": {
+          "ready": true,
+          "pose_id": "v32air_rio_06",
+          "sheet": "v32air_rio",
+          "rect": [
+            1207,
+            4,
+            352,
+            322
+          ],
+          "pivot": [
+            209.547,
+            318.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -17.439,
+              -240.867
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              35.96
+            ],
+            "anatomy_chest": [
+              -12.216,
+              -194.132
+            ],
+            "anatomy_chest_radius": [
+              49.3,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -118.819
+            ],
+            "anatomy_hips_radius": [
+              63.22,
+              54.52
+            ],
+            "capture_chest": [
+              -12.216,
+              -194.132
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            738,
+            382,
+            1090,
+            704
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "768125ffd9784416bc71165580d6fcb0e2a239ed103f0049b1587c1c91f5c3f9",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_07": {
+          "ready": true,
+          "pose_id": "v32air_rio_07",
+          "sheet": "v32air_rio",
+          "rect": [
+            4,
+            354,
+            342,
+            313
+          ],
+          "pivot": [
+            194.67,
+            309.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              0.44,
+              -228.148
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              40.6
+            ],
+            "anatomy_chest": [
+              5.756,
+              -183.272
+            ],
+            "anatomy_chest_radius": [
+              51.04,
+              52.78
+            ],
+            "anatomy_hips": [
+              0.0,
+              -119.085
+            ],
+            "anatomy_hips_radius": [
+              62.06,
+              52.78
+            ],
+            "capture_chest": [
+              5.756,
+              -183.272
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            1088,
+            400,
+            1430,
+            713
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "61ba6d2e77630ff3e0a90bbb4fadb52557188c76eab41b7a2eada3925d2b9b02",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_08": {
+          "ready": true,
+          "pose_id": "v32air_rio_08",
+          "sheet": "v32air_rio",
+          "rect": [
+            405,
+            354,
+            327,
+            324
+          ],
+          "pivot": [
+            197.979,
+            320.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -10.844,
+              -238.273
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              43.5
+            ],
+            "anatomy_chest": [
+              -19.763,
+              -192.412
+            ],
+            "anatomy_chest_radius": [
+              51.04,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -125.603
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              54.52
+            ],
+            "capture_chest": [
+              -19.763,
+              -192.412
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            56,
+            726,
+            383,
+            1050
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "78052d4c822f3b393d152afd21c27b417ecc943daa5f62076c57b2d59c4bb8d6",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_09": {
+          "ready": true,
+          "pose_id": "v32air_rio_09",
+          "sheet": "v32air_rio",
+          "rect": [
+            806,
+            354,
+            346,
+            321
+          ],
+          "pivot": [
+            194.736,
+            317.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -14.924,
+              -194.416
+            ],
+            "anatomy_head_radius": [
+              35.96,
+              40.02
+            ],
+            "anatomy_chest": [
+              -5.012,
+              -145.712
+            ],
+            "anatomy_chest_radius": [
+              58.58,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -119.202
+            ],
+            "anatomy_hips_radius": [
+              62.06,
+              53.94
+            ],
+            "capture_chest": [
+              -5.012,
+              -145.712
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            401,
+            735,
+            747,
+            1056
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "ce12dabc01fcc9aa370a6845f80916c4644f3e564fce6566d6cda124e4322e04",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_10": {
+          "ready": true,
+          "pose_id": "v32air_rio_10",
+          "sheet": "v32air_rio",
+          "rect": [
+            1207,
+            354,
+            371,
+            331
+          ],
+          "pivot": [
+            214.749,
+            327.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -36.073,
+              -229.155
+            ],
+            "anatomy_head_radius": [
+              38.28,
+              41.76
+            ],
+            "anatomy_chest": [
+              -23.966,
+              -176.23
+            ],
+            "anatomy_chest_radius": [
+              60.9,
+              55.68
+            ],
+            "anatomy_hips": [
+              0.0,
+              -122.698
+            ],
+            "anatomy_hips_radius": [
+              67.28,
+              56.26
+            ],
+            "capture_chest": [
+              -23.966,
+              -176.23
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            729,
+            732,
+            1100,
+            1063
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "649bca905ca9b12162c53352d5601694844ea603a9e76973e8ecc5e206b99544",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_rio_11": {
+          "ready": true,
+          "pose_id": "v32air_rio_11",
+          "sheet": "v32air_rio",
+          "rect": [
+            4,
+            704,
+            370,
+            324
+          ],
+          "pivot": [
+            221.405,
+            320.0
+          ],
+          "body_reference_height": 400.6116,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -71.922,
+              -264.061
+            ],
+            "anatomy_head_radius": [
+              43.5,
+              37.12
+            ],
+            "anatomy_chest": [
+              -30.365,
+              -206.907
+            ],
+            "anatomy_chest_radius": [
+              64.96,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -145.228
+            ],
+            "anatomy_hips_radius": [
+              66.7,
+              54.52
+            ],
+            "capture_chest": [
+              -30.365,
+              -206.907
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            1070,
+            737,
+            1440,
+            1061
+          ],
+          "source_sheet": "rio-air-sheet.png",
+          "original_rgba_sha256": "882a7fc5563a615b259dc7b501bd397b4cbc2431c893bdc5953b84713901a58c",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        }
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "v32air_rio_00",
+          "v32air_rio_01",
+          "v32air_rio_02",
+          "v29rx_rio_13"
+        ],
+        "falling": [
+          "v32air_rio_06",
+          "v32air_rio_07",
+          "v32air_rio_08",
+          "v29rx_rio_16"
+        ],
+        "rebound": [
+          "v32air_rio_09",
+          "v32air_rio_10",
+          "v32air_rio_11",
+          "v29rx_rio_17"
+        ]
+      },
+      "registered_cels": 9,
+      "source_sha256": "94f9809956209f51ebe7a97353fef316a718c752b3cd97f1913c5a0b3d1936e3",
+      "source_grid_columns": 4
+    },
+    "chicken": {
+      "sheets": {
+        "v32air_chicken": {
+          "path": "res://assets/fighters/v032/air-reactions/chicken-air-atlas.png",
+          "size": [
+            1200,
+            993
+          ],
+          "generated": true,
+          "air_reaction_continuity_v032": true
+        }
+      },
+      "frames": {
+        "v32air_chicken_00": {
+          "ready": true,
+          "pose_id": "v32air_chicken_00",
+          "sheet": "v32air_chicken",
+          "rect": [
+            4,
+            4,
+            292,
+            323
+          ],
+          "pivot": [
+            165.088,
+            319.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -30.321,
+              -233.865
+            ],
+            "anatomy_head_radius": [
+              42.34,
+              43.5
+            ],
+            "anatomy_chest": [
+              0.934,
+              -151.18
+            ],
+            "anatomy_chest_radius": [
+              52.2,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -100.748
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              54.52
+            ],
+            "capture_chest": [
+              0.934,
+              -151.18
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            6,
+            149,
+            298,
+            472
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "a2d9e434843cc73d7c4370e016f0d37e7060b556c6a6787bf5fa33ef314138d7",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_01": {
+          "ready": true,
+          "pose_id": "v32air_chicken_01",
+          "sheet": "v32air_chicken",
+          "rect": [
+            304,
+            4,
+            253,
+            314
+          ],
+          "pivot": [
+            141.453,
+            310.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -18.887,
+              -233.48
+            ],
+            "anatomy_head_radius": [
+              31.32,
+              41.18
+            ],
+            "anatomy_chest": [
+              -0.149,
+              -156.085
+            ],
+            "anatomy_chest_radius": [
+              45.24,
+              53.36
+            ],
+            "anatomy_hips": [
+              0.0,
+              -98.368
+            ],
+            "anatomy_hips_radius": [
+              45.24,
+              51.04
+            ],
+            "capture_chest": [
+              -0.149,
+              -156.085
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            266,
+            150,
+            519,
+            464
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "9b3391009540003dac1eafc5c3f657b2d716197ec76b679058ebc8a6545cf177",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_02": {
+          "ready": true,
+          "pose_id": "v32air_chicken_02",
+          "sheet": "v32air_chicken",
+          "rect": [
+            604,
+            4,
+            254,
+            266
+          ],
+          "pivot": [
+            139.382,
+            262.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -20.348,
+              -203.797
+            ],
+            "anatomy_head_radius": [
+              31.9,
+              26.68
+            ],
+            "anatomy_chest": [
+              -2.432,
+              -134.192
+            ],
+            "anatomy_chest_radius": [
+              45.24,
+              44.66
+            ],
+            "anatomy_hips": [
+              0.0,
+              -77.0
+            ],
+            "anatomy_hips_radius": [
+              45.82,
+              44.08
+            ],
+            "capture_chest": [
+              -2.432,
+              -134.192
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            513,
+            163,
+            767,
+            429
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "75971325ad28276ff926b33cbafece2307de36243157208efaa528bc9daf9ef3",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_03": {
+          "ready": true,
+          "pose_id": "v32air_chicken_03",
+          "sheet": "v32air_chicken",
+          "rect": [
+            904,
+            4,
+            257,
+            261
+          ],
+          "pivot": [
+            125.996,
+            257.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              3.777,
+              -183.762
+            ],
+            "anatomy_head_radius": [
+              35.38,
+              33.64
+            ],
+            "anatomy_chest": [
+              2.504,
+              -131.573
+            ],
+            "anatomy_chest_radius": [
+              45.82,
+              43.5
+            ],
+            "anatomy_hips": [
+              0.0,
+              -85.691
+            ],
+            "anatomy_hips_radius": [
+              46.4,
+              43.5
+            ],
+            "capture_chest": [
+              2.504,
+              -131.573
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            764,
+            171,
+            1021,
+            432
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "caf15ba2ad6b91389a93bdeb46f1af00c08a4c8b38a735e09a2fd187331eb4d5",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_04": {
+          "ready": true,
+          "pose_id": "v32air_chicken_04",
+          "sheet": "v32air_chicken",
+          "rect": [
+            4,
+            335,
+            275,
+            251
+          ],
+          "pivot": [
+            134.768,
+            247.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -0.3,
+              -176.865
+            ],
+            "anatomy_head_radius": [
+              37.12,
+              33.64
+            ],
+            "anatomy_chest": [
+              5.393,
+              -128.89
+            ],
+            "anatomy_chest_radius": [
+              49.3,
+              41.76
+            ],
+            "anatomy_hips": [
+              0.0,
+              -82.274
+            ],
+            "anatomy_hips_radius": [
+              49.3,
+              42.34
+            ],
+            "capture_chest": [
+              5.393,
+              -128.89
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            5,
+            607,
+            280,
+            858
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "b29b1f8d05415aea73ac3caa94d206ded2710617e09266ef96353b4542047584",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_05": {
+          "ready": true,
+          "pose_id": "v32air_chicken_05",
+          "sheet": "v32air_chicken",
+          "rect": [
+            304,
+            335,
+            249,
+            244
+          ],
+          "pivot": [
+            124.5,
+            240.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              3.436,
+              -181.045
+            ],
+            "anatomy_head_radius": [
+              34.8,
+              30.16
+            ],
+            "anatomy_chest": [
+              0.0,
+              -122.797
+            ],
+            "anatomy_chest_radius": [
+              44.66,
+              40.6
+            ],
+            "anatomy_hips": [
+              0.0,
+              -82.271
+            ],
+            "anatomy_hips_radius": [
+              44.66,
+              40.6
+            ],
+            "capture_chest": [
+              0.0,
+              -122.797
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            280,
+            623,
+            529,
+            867
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "efd0fde27de85c2b25a4ddc6f74ecafb6f971716f86da6f6e829ec665aef1048",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_06": {
+          "ready": true,
+          "pose_id": "v32air_chicken_06",
+          "sheet": "v32air_chicken",
+          "rect": [
+            604,
+            335,
+            213,
+            232
+          ],
+          "pivot": [
+            104.462,
+            228.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              15.688,
+              -128.399
+            ],
+            "anatomy_head_radius": [
+              29.0,
+              10.44
+            ],
+            "anatomy_chest": [
+              2.038,
+              -100.681
+            ],
+            "anatomy_chest_radius": [
+              37.7,
+              38.86
+            ],
+            "anatomy_hips": [
+              0.0,
+              -69.059
+            ],
+            "anatomy_hips_radius": [
+              37.7,
+              38.28
+            ],
+            "capture_chest": [
+              2.038,
+              -100.681
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            536,
+            636,
+            749,
+            868
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "1a21a38fe55e28a8e6f0dc72dc166bc1565dda63e41b3fe1fd6d5799e5a3a0dd",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_07": {
+          "ready": true,
+          "pose_id": "v32air_chicken_07",
+          "sheet": "v32air_chicken",
+          "rect": [
+            904,
+            335,
+            236,
+            226
+          ],
+          "pivot": [
+            115.701,
+            222.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              15.32,
+              -134.455
+            ],
+            "anatomy_head_radius": [
+              33.64,
+              16.24
+            ],
+            "anatomy_chest": [
+              2.299,
+              -95.811
+            ],
+            "anatomy_chest_radius": [
+              41.76,
+              37.7
+            ],
+            "anatomy_hips": [
+              0.0,
+              -62.768
+            ],
+            "anatomy_hips_radius": [
+              42.34,
+              37.7
+            ],
+            "capture_chest": [
+              2.299,
+              -95.811
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            782,
+            641,
+            1018,
+            867
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "4ec77d1885f9d5c411d0ac302225d29f63b2c065d8075811854ec70bb36d2e6d",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_08": {
+          "ready": true,
+          "pose_id": "v32air_chicken_08",
+          "sheet": "v32air_chicken",
+          "rect": [
+            4,
+            666,
+            226,
+            270
+          ],
+          "pivot": [
+            108.58,
+            266.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              34.455,
+              -148.418
+            ],
+            "anatomy_head_radius": [
+              31.32,
+              16.82
+            ],
+            "anatomy_chest": [
+              4.42,
+              -104.616
+            ],
+            "anatomy_chest_radius": [
+              40.6,
+              45.82
+            ],
+            "anatomy_hips": [
+              0.0,
+              -70.222
+            ],
+            "anatomy_hips_radius": [
+              40.02,
+              45.24
+            ],
+            "capture_chest": [
+              4.42,
+              -104.616
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            17,
+            1028,
+            243,
+            1298
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "5bdda6435dcbf77ef16d0023e53a5068b0a2d5742b16fd66b447572376bda6bf",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_09": {
+          "ready": true,
+          "pose_id": "v32air_chicken_09",
+          "sheet": "v32air_chicken",
+          "rect": [
+            304,
+            666,
+            269,
+            313
+          ],
+          "pivot": [
+            134.5,
+            309.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              10.204,
+              -200.827
+            ],
+            "anatomy_head_radius": [
+              38.86,
+              34.22
+            ],
+            "anatomy_chest": [
+              0.0,
+              -137.183
+            ],
+            "anatomy_chest_radius": [
+              48.14,
+              52.78
+            ],
+            "anatomy_hips": [
+              0.0,
+              -94.193
+            ],
+            "anatomy_hips_radius": [
+              48.14,
+              52.78
+            ],
+            "capture_chest": [
+              0.0,
+              -137.183
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            261,
+            1023,
+            530,
+            1336
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "0f8579b4cc5c6a0f47ad1310633467cf49bdd86938c37f126b71bfe6258a60ab",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_10": {
+          "ready": true,
+          "pose_id": "v32air_chicken_10",
+          "sheet": "v32air_chicken",
+          "rect": [
+            604,
+            666,
+            275,
+            257
+          ],
+          "pivot": [
+            140.225,
+            253.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -11.551,
+              -187.591
+            ],
+            "anatomy_head_radius": [
+              37.7,
+              31.9
+            ],
+            "anatomy_chest": [
+              2.662,
+              -124.5
+            ],
+            "anatomy_chest_radius": [
+              49.3,
+              43.5
+            ],
+            "anatomy_hips": [
+              0.0,
+              -81.834
+            ],
+            "anatomy_hips_radius": [
+              49.3,
+              42.92
+            ],
+            "capture_chest": [
+              2.662,
+              -124.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            509,
+            1075,
+            784,
+            1332
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "85d775d4660534bee939a887313007c68c530adecf021c7539341cd5e706de34",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_chicken_11": {
+          "ready": true,
+          "pose_id": "v32air_chicken_11",
+          "sheet": "v32air_chicken",
+          "rect": [
+            904,
+            666,
+            230,
+            245
+          ],
+          "pivot": [
+            112.771,
+            241.0
+          ],
+          "body_reference_height": 340.1193,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              23.922,
+              -142.522
+            ],
+            "anatomy_head_radius": [
+              32.48,
+              20.88
+            ],
+            "anatomy_chest": [
+              2.229,
+              -106.531
+            ],
+            "anatomy_chest_radius": [
+              40.6,
+              41.18
+            ],
+            "anatomy_hips": [
+              0.0,
+              -73.051
+            ],
+            "anatomy_hips_radius": [
+              41.18,
+              40.6
+            ],
+            "capture_chest": [
+              2.229,
+              -106.531
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            789,
+            1096,
+            1019,
+            1341
+          ],
+          "source_sheet": "chicken-air-sheet.png",
+          "original_rgba_sha256": "7d10e8a3fc3011602d03858443343cc2a483cbb8cbdf43af6feef31f7b553b96",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        }
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "v32air_chicken_00",
+          "v32air_chicken_01",
+          "v32air_chicken_02",
+          "v29rx_chicken_13"
+        ],
+        "flip": [
+          "v32air_chicken_03",
+          "v32air_chicken_04",
+          "v32air_chicken_05",
+          "v29rx_chicken_14"
+        ],
+        "falling": [
+          "v32air_chicken_06",
+          "v32air_chicken_07",
+          "v32air_chicken_08",
+          "v29rx_chicken_16"
+        ],
+        "rebound": [
+          "v32air_chicken_09",
+          "v32air_chicken_10",
+          "v32air_chicken_11",
+          "v29rx_chicken_17"
+        ]
+      },
+      "registered_cels": 12,
+      "source_sha256": "81dce53a6e53fa58661b10b1b7262cc55c9b7cdef686c82c7ab9d76d9223ba5a",
+      "source_grid_columns": 4
+    },
+    "cat": {
+      "sheets": {
+        "v32air_cat": {
+          "path": "res://assets/fighters/v032/air-reactions/cat-air-atlas.png",
+          "size": [
+            1348,
+            1002
+          ],
+          "generated": true,
+          "air_reaction_continuity_v032": true
+        }
+      },
+      "frames": {
+        "v32air_cat_00": {
+          "ready": true,
+          "pose_id": "v32air_cat_00",
+          "sheet": "v32air_cat",
+          "rect": [
+            4,
+            4,
+            296,
+            324
+          ],
+          "pivot": [
+            153.774,
+            320.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              2.942,
+              -253.424
+            ],
+            "anatomy_head_radius": [
+              42.92,
+              43.5
+            ],
+            "anatomy_chest": [
+              17.436,
+              -164.347
+            ],
+            "anatomy_chest_radius": [
+              53.36,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -97.672
+            ],
+            "anatomy_hips_radius": [
+              53.36,
+              55.1
+            ],
+            "capture_chest": [
+              17.436,
+              -164.347
+            ],
+            "mouth": [
+              2.942,
+              -253.424
+            ],
+            "paw_tip": [
+              81.226,
+              -129.38
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            75,
+            32,
+            371,
+            356
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "ecc19c3186602d824666a7e5dff8d32bee1885d8157a4c4c62c5019b62c25770",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_01": {
+          "ready": true,
+          "pose_id": "v32air_cat_01",
+          "sheet": "v32air_cat",
+          "rect": [
+            341,
+            4,
+            256,
+            326
+          ],
+          "pivot": [
+            140.58,
+            322.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -17.58,
+              -251.818
+            ],
+            "anatomy_head_radius": [
+              37.12,
+              44.08
+            ],
+            "anatomy_chest": [
+              -0.08,
+              -171.754
+            ],
+            "anatomy_chest_radius": [
+              45.82,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -110.274
+            ],
+            "anatomy_hips_radius": [
+              45.82,
+              51.62
+            ],
+            "capture_chest": [
+              -0.08,
+              -171.754
+            ],
+            "mouth": [
+              -17.58,
+              -251.818
+            ],
+            "paw_tip": [
+              62.42,
+              -130.2
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            452,
+            32,
+            708,
+            358
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "cf9d122c37bd459314b01b4041fef13c526bb827d09a412193e3a2adb87afb96",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_02": {
+          "ready": true,
+          "pose_id": "v32air_cat_02",
+          "sheet": "v32air_cat",
+          "rect": [
+            678,
+            4,
+            258,
+            321
+          ],
+          "pivot": [
+            139.706,
+            317.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -23.31,
+              -244.719
+            ],
+            "anatomy_head_radius": [
+              37.7,
+              43.5
+            ],
+            "anatomy_chest": [
+              1.856,
+              -172.253
+            ],
+            "anatomy_chest_radius": [
+              45.82,
+              53.94
+            ],
+            "anatomy_hips": [
+              0.0,
+              -108.63
+            ],
+            "anatomy_hips_radius": [
+              46.4,
+              52.78
+            ],
+            "capture_chest": [
+              1.856,
+              -172.253
+            ],
+            "mouth": [
+              -23.31,
+              -244.719
+            ],
+            "paw_tip": [
+              64.894,
+              -128.15
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            811,
+            36,
+            1069,
+            357
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "baeb511567fb29bde6b7ea15164118105a95c57b128634266479e11dc99047ce",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_03": {
+          "ready": true,
+          "pose_id": "v32air_cat_03",
+          "sheet": "v32air_cat",
+          "rect": [
+            1015,
+            4,
+            309,
+            239
+          ],
+          "pivot": [
+            187.818,
+            235.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -63.825,
+              -173.669
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              31.9
+            ],
+            "anatomy_chest": [
+              -33.318,
+              -120.188
+            ],
+            "anatomy_chest_radius": [
+              55.1,
+              40.02
+            ],
+            "anatomy_hips": [
+              0.0,
+              -94.524
+            ],
+            "anatomy_hips_radius": [
+              55.68,
+              40.02
+            ],
+            "capture_chest": [
+              -33.318,
+              -120.188
+            ],
+            "mouth": [
+              -63.825,
+              -173.669
+            ],
+            "paw_tip": [
+              57.582,
+              -94.53
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            75,
+            415,
+            384,
+            654
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "2d82eab027c0a6c038d82e09676180ee7a85c77a3f3f77d00fe85bd6e3af4d9d",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_04": {
+          "ready": true,
+          "pose_id": "v32air_cat_04",
+          "sheet": "v32air_cat",
+          "rect": [
+            4,
+            338,
+            290,
+            267
+          ],
+          "pivot": [
+            122.805,
+            263.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              87.519,
+              -100.782
+            ],
+            "anatomy_head_radius": [
+              42.34,
+              35.96
+            ],
+            "anatomy_chest": [
+              33.55,
+              -126.873
+            ],
+            "anatomy_chest_radius": [
+              52.2,
+              45.24
+            ],
+            "anatomy_hips": [
+              0.0,
+              -175.505
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              44.66
+            ],
+            "capture_chest": [
+              33.55,
+              -126.873
+            ],
+            "mouth": [
+              87.519,
+              -100.782
+            ],
+            "paw_tip": [
+              107.395,
+              -106.01
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            474,
+            393,
+            764,
+            660
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "0eccccccdf0bd88f500ec992799621d269d164f57bec27867d7763bd31a2dd34",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_05": {
+          "ready": true,
+          "pose_id": "v32air_cat_05",
+          "sheet": "v32air_cat",
+          "rect": [
+            341,
+            338,
+            236,
+            278
+          ],
+          "pivot": [
+            101.239,
+            274.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              71.982,
+              -86.051
+            ],
+            "anatomy_head_radius": [
+              34.22,
+              37.12
+            ],
+            "anatomy_chest": [
+              35.155,
+              -124.108
+            ],
+            "anatomy_chest_radius": [
+              42.34,
+              46.4
+            ],
+            "anatomy_hips": [
+              0.0,
+              -174.49
+            ],
+            "anatomy_hips_radius": [
+              41.76,
+              46.98
+            ],
+            "capture_chest": [
+              35.155,
+              -124.108
+            ],
+            "mouth": [
+              71.982,
+              -86.051
+            ],
+            "paw_tip": [
+              85.761,
+              -110.52
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            857,
+            397,
+            1093,
+            675
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "69711233aa5a6296e8d17a0b6172c377919076dec01544d0b0b646c6466a56b4",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_06": {
+          "ready": true,
+          "pose_id": "v32air_cat_06",
+          "sheet": "v32air_cat",
+          "rect": [
+            678,
+            338,
+            272,
+            240
+          ],
+          "pivot": [
+            114.739,
+            236.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              63.877,
+              -123.048
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              32.48
+            ],
+            "anatomy_chest": [
+              23.953,
+              -92.581
+            ],
+            "anatomy_chest_radius": [
+              48.72,
+              40.02
+            ],
+            "anatomy_hips": [
+              0.0,
+              -59.808
+            ],
+            "anatomy_hips_radius": [
+              48.72,
+              40.02
+            ],
+            "capture_chest": [
+              23.953,
+              -92.581
+            ],
+            "mouth": [
+              63.877,
+              -123.048
+            ],
+            "paw_tip": [
+              101.061,
+              -94.94
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            83,
+            711,
+            355,
+            951
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "59b19e720e74ccd77c4ea55e045a8d673610a134b998f8946cd1b93291179425",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_07": {
+          "ready": true,
+          "pose_id": "v32air_cat_07",
+          "sheet": "v32air_cat",
+          "rect": [
+            1015,
+            338,
+            278,
+            284
+          ],
+          "pivot": [
+            115.517,
+            280.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              69.709,
+              -138.0
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              38.28
+            ],
+            "anatomy_chest": [
+              26.24,
+              -121.293
+            ],
+            "anatomy_chest_radius": [
+              49.88,
+              48.14
+            ],
+            "anatomy_hips": [
+              0.0,
+              -119.227
+            ],
+            "anatomy_hips_radius": [
+              49.88,
+              48.14
+            ],
+            "capture_chest": [
+              26.24,
+              -121.293
+            ],
+            "mouth": [
+              69.709,
+              -138.0
+            ],
+            "paw_tip": [
+              105.083,
+              -112.98
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            460,
+            693,
+            738,
+            977
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "e68b27893b6a69f67e788d9d9e8c9e620c1689a2976ccface139a2f18c2039ec",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_08": {
+          "ready": true,
+          "pose_id": "v32air_cat_08",
+          "sheet": "v32air_cat",
+          "rect": [
+            4,
+            672,
+            316,
+            292
+          ],
+          "pivot": [
+            117.755,
+            288.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              107.559,
+              -126.39
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              35.38
+            ],
+            "anatomy_chest": [
+              40.245,
+              -110.55
+            ],
+            "anatomy_chest_radius": [
+              56.84,
+              49.3
+            ],
+            "anatomy_hips": [
+              0.0,
+              -119.097
+            ],
+            "anatomy_hips_radius": [
+              56.84,
+              49.3
+            ],
+            "capture_chest": [
+              40.245,
+              -110.55
+            ],
+            "mouth": [
+              107.559,
+              -126.39
+            ],
+            "paw_tip": [
+              133.245,
+              -116.26
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            834,
+            679,
+            1150,
+            971
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "021cd4d5b90bb186a9ff819196e701b35b3304e9024343b1bb6dbaec758b15e0",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_09": {
+          "ready": true,
+          "pose_id": "v32air_cat_09",
+          "sheet": "v32air_cat",
+          "rect": [
+            341,
+            672,
+            281,
+            246
+          ],
+          "pivot": [
+            154.248,
+            242.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -11.037,
+              -171.849
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              32.48
+            ],
+            "anatomy_chest": [
+              -5.52,
+              -126.227
+            ],
+            "anatomy_chest_radius": [
+              50.46,
+              41.18
+            ],
+            "anatomy_hips": [
+              0.0,
+              -83.0
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              40.6
+            ],
+            "capture_chest": [
+              -5.52,
+              -126.227
+            ],
+            "mouth": [
+              -11.037,
+              -171.849
+            ],
+            "paw_tip": [
+              68.752,
+              -97.4
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            91,
+            1011,
+            372,
+            1257
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "72b4857ae9727df930605d9ad9fb1362853e35e0d4dd3134ddf8c05e6679e1d7",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_10": {
+          "ready": true,
+          "pose_id": "v32air_cat_10",
+          "sheet": "v32air_cat",
+          "rect": [
+            678,
+            672,
+            301,
+            239
+          ],
+          "pivot": [
+            165.247,
+            235.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -20.665,
+              -171.421
+            ],
+            "anatomy_head_radius": [
+              43.5,
+              31.9
+            ],
+            "anatomy_chest": [
+              -8.814,
+              -122.493
+            ],
+            "anatomy_chest_radius": [
+              53.94,
+              40.02
+            ],
+            "anatomy_hips": [
+              0.0,
+              -82.861
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              40.02
+            ],
+            "capture_chest": [
+              -8.814,
+              -122.493
+            ],
+            "mouth": [
+              -20.665,
+              -171.421
+            ],
+            "paw_tip": [
+              73.753,
+              -94.53
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            443,
+            1018,
+            744,
+            1257
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "062bfc3b8c1319157a25a5c113b4e454121cb10da1372b9d6a1941ce0b4f2034",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_cat_11": {
+          "ready": true,
+          "pose_id": "v32air_cat_11",
+          "sheet": "v32air_cat",
+          "rect": [
+            1015,
+            672,
+            329,
+            270
+          ],
+          "pivot": [
+            133.732,
+            266.0
+          ],
+          "body_reference_height": 312.0946,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              8.133,
+              -194.31
+            ],
+            "anatomy_head_radius": [
+              48.14,
+              36.54
+            ],
+            "anatomy_chest": [
+              37.248,
+              -136.267
+            ],
+            "anatomy_chest_radius": [
+              59.16,
+              45.24
+            ],
+            "anatomy_hips": [
+              0.0,
+              -79.912
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              45.24
+            ],
+            "capture_chest": [
+              37.248,
+              -136.267
+            ],
+            "mouth": [
+              8.133,
+              -194.31
+            ],
+            "paw_tip": [
+              127.668,
+              -107.24
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            800,
+            1011,
+            1129,
+            1281
+          ],
+          "source_sheet": "cat-air-sheet.png",
+          "original_rgba_sha256": "643e966198d18f3098ad0febcf00b13b52f4587f97f54e3ecf555de8640d908e",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        }
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "v32air_cat_00",
+          "v32air_cat_01",
+          "v32air_cat_02",
+          "v29rx_cat_13"
+        ],
+        "flip": [
+          "v32air_cat_03",
+          "v32air_cat_04",
+          "v32air_cat_05",
+          "v29rx_cat_14"
+        ],
+        "falling": [
+          "v32air_cat_06",
+          "v32air_cat_07",
+          "v32air_cat_08",
+          "v29rx_cat_16"
+        ],
+        "rebound": [
+          "v32air_cat_09",
+          "v32air_cat_10",
+          "v32air_cat_11",
+          "v29rx_cat_17"
+        ]
+      },
+      "registered_cels": 12,
+      "source_sha256": "285807aa9ab63b7232d9a87b5d6b2aba7181373348a547abfa9765902c004a5f",
+      "source_grid_columns": 3
+    },
+    "worker": {
+      "sheets": {
+        "v32air_worker": {
+          "path": "res://assets/fighters/v032/air-reactions/worker-air-atlas.png",
+          "size": [
+            1520,
+            1059
+          ],
+          "generated": true,
+          "air_reaction_continuity_v032": true
+        }
+      },
+      "frames": {
+        "v32air_worker_00": {
+          "ready": true,
+          "pose_id": "v32air_worker_00",
+          "sheet": "v32air_worker",
+          "rect": [
+            4,
+            4,
+            312,
+            345
+          ],
+          "pivot": [
+            191.588,
+            341.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -8.41,
+              -251.126
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              41.76
+            ],
+            "anatomy_chest": [
+              -20.224,
+              -172.014
+            ],
+            "anatomy_chest_radius": [
+              56.26,
+              58.0
+            ],
+            "anatomy_hips": [
+              0.0,
+              -111.829
+            ],
+            "anatomy_hips_radius": [
+              54.52,
+              58.0
+            ],
+            "capture_chest": [
+              -20.224,
+              -172.014
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            44,
+            12,
+            356,
+            357
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "ed0995f80b64e3402a6d7afdb31616f0abaab7a37769a0363a0354584e995204",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_01": {
+          "ready": true,
+          "pose_id": "v32air_worker_01",
+          "sheet": "v32air_worker",
+          "rect": [
+            384,
+            4,
+            301,
+            334
+          ],
+          "pivot": [
+            186.973,
+            330.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -25.806,
+              -246.187
+            ],
+            "anatomy_head_radius": [
+              44.08,
+              43.5
+            ],
+            "anatomy_chest": [
+              -13.285,
+              -168.991
+            ],
+            "anatomy_chest_radius": [
+              54.52,
+              56.26
+            ],
+            "anatomy_hips": [
+              0.0,
+              -114.485
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              56.26
+            ],
+            "capture_chest": [
+              -13.285,
+              -168.991
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            448,
+            12,
+            749,
+            346
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "26370df89c0c8a91ba41ce43f52ef4ccfae1ee30519a49dcdfd0b1ddd558ecfc",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_02": {
+          "ready": true,
+          "pose_id": "v32air_worker_02",
+          "sheet": "v32air_worker",
+          "rect": [
+            764,
+            4,
+            372,
+            320
+          ],
+          "pivot": [
+            220.998,
+            316.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -56.202,
+              -230.297
+            ],
+            "anatomy_head_radius": [
+              38.86,
+              40.02
+            ],
+            "anatomy_chest": [
+              -24.011,
+              -146.564
+            ],
+            "anatomy_chest_radius": [
+              67.28,
+              53.94
+            ],
+            "anatomy_hips": [
+              0.0,
+              -125.828
+            ],
+            "anatomy_hips_radius": [
+              67.28,
+              49.88
+            ],
+            "capture_chest": [
+              -24.011,
+              -146.564
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            816,
+            48,
+            1188,
+            368
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "8bf3826a35767bd50ab748294b47f175499936cd46744232b2bbbada5abbf11a",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_03": {
+          "ready": true,
+          "pose_id": "v32air_worker_03",
+          "sheet": "v32air_worker",
+          "rect": [
+            1144,
+            4,
+            341,
+            313
+          ],
+          "pivot": [
+            209.221,
+            309.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -69.585,
+              -222.574
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              38.86
+            ],
+            "anatomy_chest": [
+              -31.135,
+              -138.534
+            ],
+            "anatomy_chest_radius": [
+              61.48,
+              49.88
+            ],
+            "anatomy_hips": [
+              0.0,
+              -132.756
+            ],
+            "anatomy_hips_radius": [
+              60.32,
+              42.34
+            ],
+            "capture_chest": [
+              -31.135,
+              -138.534
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            44,
+            393,
+            385,
+            706
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "128d3e4ad5f692a8382aaaa4058031dc9303ab4d71bb13de8145a935ab241631",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_04": {
+          "ready": true,
+          "pose_id": "v32air_worker_04",
+          "sheet": "v32air_worker",
+          "rect": [
+            4,
+            357,
+            295,
+            314
+          ],
+          "pivot": [
+            190.587,
+            310.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -28.737,
+              -206.362
+            ],
+            "anatomy_head_radius": [
+              38.28,
+              31.9
+            ],
+            "anatomy_chest": [
+              -22.888,
+              -146.824
+            ],
+            "anatomy_chest_radius": [
+              52.78,
+              53.36
+            ],
+            "anatomy_hips": [
+              0.0,
+              -117.423
+            ],
+            "anatomy_hips_radius": [
+              53.36,
+              51.04
+            ],
+            "capture_chest": [
+              -22.888,
+              -146.824
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            470,
+            379,
+            765,
+            693
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "c1edff7c1bfc64d533db150e38dc2ee3cf7038a75f1dcebc6c5513928cfd4a86",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_05": {
+          "ready": true,
+          "pose_id": "v32air_worker_05",
+          "sheet": "v32air_worker",
+          "rect": [
+            384,
+            357,
+            292,
+            273
+          ],
+          "pivot": [
+            183.148,
+            269.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -57.279,
+              -94.595
+            ],
+            "anatomy_head_radius": [
+              12.18,
+              22.62
+            ],
+            "anatomy_chest": [
+              -40.01,
+              -111.19
+            ],
+            "anatomy_chest_radius": [
+              52.2,
+              45.82
+            ],
+            "anatomy_hips": [
+              0.0,
+              -161.821
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              45.82
+            ],
+            "capture_chest": [
+              -40.01,
+              -111.19
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            875,
+            386,
+            1167,
+            659
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "27d304db89e907916587a447a1441df5b80d9f122b4cb72d178695f7c67dbecd",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_06": {
+          "ready": true,
+          "pose_id": "v32air_worker_06",
+          "sheet": "v32air_worker",
+          "rect": [
+            764,
+            357,
+            331,
+            306
+          ],
+          "pivot": [
+            193.676,
+            302.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              4.847,
+              -184.169
+            ],
+            "anatomy_head_radius": [
+              31.9,
+              9.28
+            ],
+            "anatomy_chest": [
+              0.725,
+              -137.146
+            ],
+            "anatomy_chest_radius": [
+              59.74,
+              51.04
+            ],
+            "anatomy_hips": [
+              0.0,
+              -93.452
+            ],
+            "anatomy_hips_radius": [
+              59.74,
+              51.04
+            ],
+            "capture_chest": [
+              0.725,
+              -137.146
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            43,
+            684,
+            374,
+            990
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "a7822ff5f04433e336b1b738b8a7c1d7b2683ed8b68c1fd4aa6256cd49f141f2",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_07": {
+          "ready": true,
+          "pose_id": "v32air_worker_07",
+          "sheet": "v32air_worker",
+          "rect": [
+            1144,
+            357,
+            337,
+            290
+          ],
+          "pivot": [
+            191.668,
+            286.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              12.54,
+              -168.434
+            ],
+            "anatomy_head_radius": [
+              38.28,
+              13.92
+            ],
+            "anatomy_chest": [
+              6.633,
+              -126.843
+            ],
+            "anatomy_chest_radius": [
+              60.9,
+              48.72
+            ],
+            "anatomy_hips": [
+              0.0,
+              -95.587
+            ],
+            "anatomy_hips_radius": [
+              60.9,
+              49.3
+            ],
+            "capture_chest": [
+              6.633,
+              -126.843
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            437,
+            694,
+            774,
+            984
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "a50da7c8e983cae35d63a0b5b2164f7608067dd6c0afe874c10cd60a0e3ff88c",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_08": {
+          "ready": true,
+          "pose_id": "v32air_worker_08",
+          "sheet": "v32air_worker",
+          "rect": [
+            4,
+            710,
+            331,
+            303
+          ],
+          "pivot": [
+            185.0,
+            299.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              2.531,
+              -180.056
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              19.72
+            ],
+            "anatomy_chest": [
+              3.195,
+              -132.712
+            ],
+            "anatomy_chest_radius": [
+              59.74,
+              51.04
+            ],
+            "anatomy_hips": [
+              0.0,
+              -102.967
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              51.04
+            ],
+            "capture_chest": [
+              3.195,
+              -132.712
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            839,
+            692,
+            1170,
+            995
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "c9c9885aa357ad4e3424035f24a5b19157ae94d213545ebc7acd6115aa4b7892",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_09": {
+          "ready": true,
+          "pose_id": "v32air_worker_09",
+          "sheet": "v32air_worker",
+          "rect": [
+            384,
+            710,
+            278,
+            275
+          ],
+          "pivot": [
+            168.91,
+            271.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -4.535,
+              -151.508
+            ],
+            "anatomy_head_radius": [
+              37.7,
+              16.24
+            ],
+            "anatomy_chest": [
+              -13.617,
+              -111.961
+            ],
+            "anatomy_chest_radius": [
+              49.88,
+              46.4
+            ],
+            "anatomy_hips": [
+              0.0,
+              -79.677
+            ],
+            "anatomy_hips_radius": [
+              49.88,
+              46.4
+            ],
+            "capture_chest": [
+              -13.617,
+              -111.961
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            29,
+            997,
+            307,
+            1272
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "689e2d88be51814209430047c9787e06f942db332980216d492e57b0bf883a47",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_10": {
+          "ready": true,
+          "pose_id": "v32air_worker_10",
+          "sheet": "v32air_worker",
+          "rect": [
+            764,
+            710,
+            349,
+            308
+          ],
+          "pivot": [
+            208.556,
+            304.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -43.314,
+              -216.793
+            ],
+            "anatomy_head_radius": [
+              27.84,
+              38.86
+            ],
+            "anatomy_chest": [
+              -20.323,
+              -143.928
+            ],
+            "anatomy_chest_radius": [
+              63.22,
+              52.2
+            ],
+            "anatomy_hips": [
+              0.0,
+              -108.342
+            ],
+            "anatomy_hips_radius": [
+              63.22,
+              52.2
+            ],
+            "capture_chest": [
+              -20.323,
+              -143.928
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            438,
+            985,
+            787,
+            1293
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "6a7a3e37d819fa5a50692a47cc750976aa9c3a97e3f40495145bdd7edef4ddc9",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_worker_11": {
+          "ready": true,
+          "pose_id": "v32air_worker_11",
+          "sheet": "v32air_worker",
+          "rect": [
+            1144,
+            710,
+            342,
+            297
+          ],
+          "pivot": [
+            191.126,
+            293.0
+          ],
+          "body_reference_height": 315.0544,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -14.748,
+              -203.166
+            ],
+            "anatomy_head_radius": [
+              48.72,
+              40.02
+            ],
+            "anatomy_chest": [
+              -10.923,
+              -138.722
+            ],
+            "anatomy_chest_radius": [
+              60.32,
+              49.88
+            ],
+            "anatomy_hips": [
+              0.0,
+              -95.193
+            ],
+            "anatomy_hips_radius": [
+              61.48,
+              49.88
+            ],
+            "capture_chest": [
+              -10.923,
+              -138.722
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            845,
+            992,
+            1187,
+            1289
+          ],
+          "source_sheet": "worker-air-sheet.png",
+          "original_rgba_sha256": "1d6757d606d6c3211fad5020b00d37eaddab4add49afebb99344b7317884c4b1",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        }
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "v32air_worker_00",
+          "v32air_worker_01",
+          "v32air_worker_02",
+          "v29rx_worker_13"
+        ],
+        "flip": [
+          "v32air_worker_03",
+          "v32air_worker_04",
+          "v32air_worker_05",
+          "v29rx_worker_14"
+        ],
+        "falling": [
+          "v32air_worker_06",
+          "v32air_worker_07",
+          "v32air_worker_08",
+          "v29rx_worker_16"
+        ],
+        "rebound": [
+          "v32air_worker_09",
+          "v32air_worker_10",
+          "v32air_worker_11",
+          "v29rx_worker_17"
+        ]
+      },
+      "registered_cels": 12,
+      "source_sha256": "692f015db040516357fa59bc8646c1ad28f0157c428e492cdebaf5b056d64bdf",
+      "source_grid_columns": 3
+    },
+    "shark": {
+      "sheets": {
+        "v32air_shark": {
+          "path": "res://assets/fighters/v032/air-reactions/shark-air-atlas.png",
+          "size": [
+            1244,
+            1035
+          ],
+          "generated": true,
+          "air_reaction_continuity_v032": true
+        }
+      },
+      "frames": {
+        "v32air_shark_00": {
+          "ready": true,
+          "pose_id": "v32air_shark_00",
+          "sheet": "v32air_shark",
+          "rect": [
+            4,
+            4,
+            296,
+            334
+          ],
+          "pivot": [
+            145.179,
+            330.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              87.486,
+              -283.022
+            ],
+            "anatomy_head_radius": [
+              42.92,
+              44.08
+            ],
+            "anatomy_chest": [
+              11.517,
+              -166.302
+            ],
+            "anatomy_chest_radius": [
+              53.36,
+              56.26
+            ],
+            "anatomy_hips": [
+              0.0,
+              -104.022
+            ],
+            "anatomy_hips_radius": [
+              53.36,
+              56.84
+            ],
+            "capture_chest": [
+              11.517,
+              -166.302
+            ],
+            "rear_foot": [
+              -45.179,
+              0.0
+            ],
+            "third_foot": [
+              8.821,
+              -26.0
+            ],
+            "front_foot": [
+              75.821,
+              -57.0
+            ],
+            "jaw": [
+              87.486,
+              -283.022
+            ],
+            "tail": [
+              -142.179,
+              -163.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            6,
+            116,
+            302,
+            450
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "ffa256d94d84930a0f3351d5fcb5fb5d1adbbae335dbdd731fb22dccc86190f8",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_01": {
+          "ready": true,
+          "pose_id": "v32air_shark_01",
+          "sheet": "v32air_shark",
+          "rect": [
+            315,
+            4,
+            264,
+            337
+          ],
+          "pivot": [
+            124.258,
+            333.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              59.936,
+              -286.776
+            ],
+            "anatomy_head_radius": [
+              16.82,
+              42.92
+            ],
+            "anatomy_chest": [
+              10.317,
+              -187.708
+            ],
+            "anatomy_chest_radius": [
+              46.98,
+              56.84
+            ],
+            "anatomy_hips": [
+              0.0,
+              -114.89
+            ],
+            "anatomy_hips_radius": [
+              47.56,
+              56.84
+            ],
+            "capture_chest": [
+              10.317,
+              -187.708
+            ],
+            "rear_foot": [
+              -65.258,
+              -25.0
+            ],
+            "third_foot": [
+              -27.258,
+              0.0
+            ],
+            "front_foot": [
+              36.742,
+              -58.0
+            ],
+            "jaw": [
+              59.936,
+              -286.776
+            ],
+            "tail": [
+              -121.258,
+              -164.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            354,
+            104,
+            618,
+            441
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "846354a8baf38c0354929f92f1e811afcb6cf6c1ee985bfa1f72f7636c101b7d",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_02": {
+          "ready": true,
+          "pose_id": "v32air_shark_02",
+          "sheet": "v32air_shark",
+          "rect": [
+            626,
+            4,
+            267,
+            326
+          ],
+          "pivot": [
+            125.823,
+            322.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              52.864,
+              -270.124
+            ],
+            "anatomy_head_radius": [
+              16.24,
+              37.7
+            ],
+            "anatomy_chest": [
+              12.892,
+              -181.419
+            ],
+            "anatomy_chest_radius": [
+              48.14,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -114.467
+            ],
+            "anatomy_hips_radius": [
+              48.14,
+              55.1
+            ],
+            "capture_chest": [
+              12.892,
+              -181.419
+            ],
+            "rear_foot": [
+              -50.823,
+              -88.0
+            ],
+            "third_foot": [
+              -6.823,
+              0.0
+            ],
+            "front_foot": [
+              48.177,
+              -45.0
+            ],
+            "jaw": [
+              52.864,
+              -270.124
+            ],
+            "tail": [
+              -122.823,
+              -159.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            633,
+            118,
+            900,
+            444
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "c10296ff813e50614266661e88246b69ec3e0dcc9d5ab69b2a1f195fc8c74cd0",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_03": {
+          "ready": true,
+          "pose_id": "v32air_shark_03",
+          "sheet": "v32air_shark",
+          "rect": [
+            937,
+            4,
+            281,
+            229
+          ],
+          "pivot": [
+            95.693,
+            225.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              130.123,
+              -155.078
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              30.16
+            ],
+            "anatomy_chest": [
+              50.307,
+              -108.291
+            ],
+            "anatomy_chest_radius": [
+              49.88,
+              38.28
+            ],
+            "anatomy_hips": [
+              0.0,
+              -87.237
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              38.28
+            ],
+            "capture_chest": [
+              50.307,
+              -108.291
+            ],
+            "rear_foot": [
+              -50.693,
+              -28.0
+            ],
+            "third_foot": [
+              56.307,
+              -1.0
+            ],
+            "front_foot": [
+              145.307,
+              -9.0
+            ],
+            "jaw": [
+              130.123,
+              -155.078
+            ],
+            "tail": [
+              -92.693,
+              -110.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            909,
+            213,
+            1190,
+            442
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "2c2c74a696a05031eed86a7cf2a73e105950d8abe786a6273ca2a9ebdf8484f1",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_04": {
+          "ready": true,
+          "pose_id": "v32air_shark_04",
+          "sheet": "v32air_shark",
+          "rect": [
+            4,
+            349,
+            252,
+            323
+          ],
+          "pivot": [
+            116.606,
+            319.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              90.529,
+              -103.689
+            ],
+            "anatomy_head_radius": [
+              36.54,
+              43.5
+            ],
+            "anatomy_chest": [
+              12.055,
+              -157.404
+            ],
+            "anatomy_chest_radius": [
+              44.66,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -206.641
+            ],
+            "anatomy_hips_radius": [
+              45.24,
+              38.28
+            ],
+            "capture_chest": [
+              12.055,
+              -157.404
+            ],
+            "rear_foot": [
+              -67.606,
+              0.0
+            ],
+            "third_foot": [
+              -4.606,
+              -4.0
+            ],
+            "front_foot": [
+              43.394,
+              -31.0
+            ],
+            "jaw": [
+              90.529,
+              -103.689
+            ],
+            "tail": [
+              -113.606,
+              -157.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            38,
+            526,
+            290,
+            849
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "8f0ec207fb885681bc2208344cf0985c7c90e266ee10e36128440bf5d7d68e1c",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_05": {
+          "ready": true,
+          "pose_id": "v32air_shark_05",
+          "sheet": "v32air_shark",
+          "rect": [
+            315,
+            349,
+            280,
+            323
+          ],
+          "pivot": [
+            125.041,
+            319.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              106.31,
+              -91.475
+            ],
+            "anatomy_head_radius": [
+              39.44,
+              38.86
+            ],
+            "anatomy_chest": [
+              17.441,
+              -141.195
+            ],
+            "anatomy_chest_radius": [
+              50.46,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -219.16
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              49.88
+            ],
+            "capture_chest": [
+              17.441,
+              -141.195
+            ],
+            "rear_foot": [
+              -68.041,
+              -58.0
+            ],
+            "third_foot": [
+              -0.041,
+              -1.0
+            ],
+            "front_foot": [
+              62.959,
+              -41.0
+            ],
+            "jaw": [
+              106.31,
+              -91.475
+            ],
+            "tail": [
+              -122.041,
+              -157.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            322,
+            507,
+            602,
+            830
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "1e0f5787ba0526bad508bcaaeb0f010accc8fdd807caf4cd45b67729113f2b4b",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_06": {
+          "ready": true,
+          "pose_id": "v32air_shark_06",
+          "sheet": "v32air_shark",
+          "rect": [
+            626,
+            349,
+            276,
+            288
+          ],
+          "pivot": [
+            84.0,
+            284.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              143.943,
+              -62.07
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              37.12
+            ],
+            "anatomy_chest": [
+              64.751,
+              -103.348
+            ],
+            "anatomy_chest_radius": [
+              49.3,
+              48.14
+            ],
+            "anatomy_hips": [
+              0.0,
+              -140.0
+            ],
+            "anatomy_hips_radius": [
+              49.88,
+              48.72
+            ],
+            "capture_chest": [
+              64.751,
+              -103.348
+            ],
+            "rear_foot": [
+              -22.0,
+              -66.0
+            ],
+            "third_foot": [
+              53.0,
+              0.0
+            ],
+            "front_foot": [
+              109.0,
+              -4.0
+            ],
+            "jaw": [
+              143.943,
+              -62.07
+            ],
+            "tail": [
+              -81.0,
+              -140.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            624,
+            540,
+            900,
+            828
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "cd084e95fb07694930cbadacfc8c20dcf890325593a0c6f1d9584457cc2e9184",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_07": {
+          "ready": true,
+          "pose_id": "v32air_shark_07",
+          "sheet": "v32air_shark",
+          "rect": [
+            937,
+            349,
+            280,
+            292
+          ],
+          "pivot": [
+            105.457,
+            288.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              121.598,
+              -51.31
+            ],
+            "anatomy_head_radius": [
+              26.1,
+              38.86
+            ],
+            "anatomy_chest": [
+              50.979,
+              -96.237
+            ],
+            "anatomy_chest_radius": [
+              50.46,
+              49.3
+            ],
+            "anatomy_hips": [
+              0.0,
+              -176.178
+            ],
+            "anatomy_hips_radius": [
+              49.88,
+              49.3
+            ],
+            "capture_chest": [
+              50.979,
+              -96.237
+            ],
+            "rear_foot": [
+              -11.457,
+              -56.0
+            ],
+            "third_foot": [
+              44.543,
+              -22.0
+            ],
+            "front_foot": [
+              107.543,
+              0.0
+            ],
+            "jaw": [
+              121.598,
+              -51.31
+            ],
+            "tail": [
+              -102.457,
+              -142.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            912,
+            534,
+            1192,
+            826
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "12a7a91eb1226b9ef30eb6e43cbb35c456c34b90dbe8c36997283fe48a4dc455",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_08": {
+          "ready": true,
+          "pose_id": "v32air_shark_08",
+          "sheet": "v32air_shark",
+          "rect": [
+            4,
+            694,
+            282,
+            309
+          ],
+          "pivot": [
+            102.804,
+            305.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              124.93,
+              -70.15
+            ],
+            "anatomy_head_radius": [
+              41.18,
+              37.7
+            ],
+            "anatomy_chest": [
+              49.85,
+              -127.777
+            ],
+            "anatomy_chest_radius": [
+              51.04,
+              52.2
+            ],
+            "anatomy_hips": [
+              0.0,
+              -161.115
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              52.2
+            ],
+            "capture_chest": [
+              49.85,
+              -127.777
+            ],
+            "rear_foot": [
+              0.196,
+              -41.0
+            ],
+            "third_foot": [
+              63.196,
+              -1.0
+            ],
+            "front_foot": [
+              115.196,
+              0.0
+            ],
+            "jaw": [
+              124.93,
+              -70.15
+            ],
+            "tail": [
+              -99.804,
+              -150.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            17,
+            896,
+            299,
+            1205
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "6d506fc3c229dcd1182cd85d58a9932bed44185f5cd63cd4d8bca10711d3941a",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_09": {
+          "ready": true,
+          "pose_id": "v32air_shark_09",
+          "sheet": "v32air_shark",
+          "rect": [
+            315,
+            694,
+            303,
+            279
+          ],
+          "pivot": [
+            105.99,
+            275.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              125.711,
+              -94.546
+            ],
+            "anatomy_head_radius": [
+              44.08,
+              37.7
+            ],
+            "anatomy_chest": [
+              54.069,
+              -106.908
+            ],
+            "anatomy_chest_radius": [
+              54.52,
+              46.98
+            ],
+            "anatomy_hips": [
+              0.0,
+              -90.547
+            ],
+            "anatomy_hips_radius": [
+              54.52,
+              46.98
+            ],
+            "capture_chest": [
+              54.069,
+              -106.908
+            ],
+            "rear_foot": [
+              4.01,
+              -23.0
+            ],
+            "third_foot": [
+              66.01,
+              -9.0
+            ],
+            "front_foot": [
+              125.01,
+              0.0
+            ],
+            "jaw": [
+              125.711,
+              -94.546
+            ],
+            "tail": [
+              -102.99,
+              -135.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            310,
+            932,
+            613,
+            1211
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "16be1257b4268693042d986366803add4dca30652c9f4f7bc6f0d0458fe80036",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_10": {
+          "ready": true,
+          "pose_id": "v32air_shark_10",
+          "sheet": "v32air_shark",
+          "rect": [
+            626,
+            694,
+            273,
+            203
+          ],
+          "pivot": [
+            102.394,
+            199.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              114.214,
+              -77.83
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              26.68
+            ],
+            "anatomy_chest": [
+              44.786,
+              -71.906
+            ],
+            "anatomy_chest_radius": [
+              48.72,
+              33.64
+            ],
+            "anatomy_hips": [
+              0.0,
+              -59.92
+            ],
+            "anatomy_hips_radius": [
+              48.72,
+              33.64
+            ],
+            "capture_chest": [
+              44.786,
+              -71.906
+            ],
+            "rear_foot": [
+              -44.394,
+              -1.0
+            ],
+            "third_foot": [
+              20.606,
+              -5.0
+            ],
+            "front_foot": [
+              98.606,
+              -23.0
+            ],
+            "jaw": [
+              114.214,
+              -77.83
+            ],
+            "tail": [
+              -99.394,
+              -97.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            624,
+            1011,
+            897,
+            1214
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "3fe47903b78b1d71c329656b760165ab7d02ea518c9c72606ca0ebf5c07ca453",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        },
+        "v32air_shark_11": {
+          "ready": true,
+          "pose_id": "v32air_shark_11",
+          "sheet": "v32air_shark",
+          "rect": [
+            937,
+            694,
+            290,
+            217
+          ],
+          "pivot": [
+            108.005,
+            213.0
+          ],
+          "body_reference_height": 282.2053,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              130.395,
+              -106.214
+            ],
+            "anatomy_head_radius": [
+              39.44,
+              26.68
+            ],
+            "anatomy_chest": [
+              44.111,
+              -84.003
+            ],
+            "anatomy_chest_radius": [
+              51.62,
+              35.96
+            ],
+            "anatomy_hips": [
+              0.0,
+              -62.004
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              35.96
+            ],
+            "capture_chest": [
+              44.111,
+              -84.003
+            ],
+            "rear_foot": [
+              -30.005,
+              -26.0
+            ],
+            "third_foot": [
+              34.995,
+              0.0
+            ],
+            "front_foot": [
+              104.995,
+              -8.0
+            ],
+            "jaw": [
+              130.395,
+              -106.214
+            ],
+            "tail": [
+              -105.005,
+              -104.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "air_reaction_continuity_v032": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "inspected_visible_landmark_seeds_refined_in_alpha/material_region",
+          "source_changes": false,
+          "source_rect": [
+            899,
+            1023,
+            1189,
+            1240
+          ],
+          "source_sheet": "shark-air-sheet.png",
+          "original_rgba_sha256": "3625d4f518654be37a3f7ff46c5f9e05f42376fddc06ac424b12abf7c8acd63d",
+          "generated_new_cel": true,
+          "reserved_contact_holder": false
+        }
+      },
+      "air_sequences_v032": {
+        "lift": [
+          "v32air_shark_00",
+          "v32air_shark_01",
+          "v32air_shark_02",
+          "v29rx_shark_13"
+        ],
+        "flip": [
+          "v32air_shark_03",
+          "v32air_shark_04",
+          "v32air_shark_05",
+          "v29rx_shark_14"
+        ],
+        "falling": [
+          "v32air_shark_06",
+          "v32air_shark_07",
+          "v32air_shark_08",
+          "v29rx_shark_16"
+        ],
+        "rebound": [
+          "v32air_shark_09",
+          "v32air_shark_10",
+          "v32air_shark_11",
+          "v29rx_shark_17"
+        ]
+      },
+      "registered_cels": 12,
+      "source_sha256": "acded99c0973b8d25918b0540e8bd6112ab6f9515e6a5e808536e76cba46919d",
+      "source_grid_columns": 4
+    }
+  },
+  "generation_prompts": "res://assets/fighters/v032/air-reactions/generation-prompts.json"
+}

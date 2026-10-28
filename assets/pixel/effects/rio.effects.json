@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "id": "rio",
+  "texture": "res://assets/pixel/effects/rio_skills.png",
+  "canvas": [
+    1659,
+    948
+  ],
+  "columns": 3,
+  "rows": 2,
+  "effects": {
+    "skill1": {
+      "source_rect": [
+        90,
+        158,
+        442,
+        258
+      ],
+      "nominal_cell": [
+        0,
+        0,
+        553,
+        474
+      ],
+      "world_size": [
+        320,
+        150
+      ],
+      "anchor": [
+        0.04,
+        0.55
+      ],
+      "direction": "horizontal",
+      "alpha_margin": [
+        93,
+        161,
+        24,
+        61
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    },
+    "skill2": {
+      "source_rect": [
+        690,
+        93,
+        329,
+        348
+      ],
+      "nominal_cell": [
+        553,
+        0,
+        553,
+        474
+      ],
+      "world_size": [
+        210,
+        330
+      ],
+      "anchor": [
+        0.25,
+        1
+      ],
+      "direction": "rising",
+      "alpha_margin": [
+        140,
+        96,
+        90,
+        36
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    },
+    "skill3": {
+      "source_rect": [
+        1213,
+        193,
+        401,
+        239
+      ],
+      "nominal_cell": [
+        1106,
+        0,
+        553,
+        474
+      ],
+      "world_size": [
+        380,
+        170
+      ],
+      "anchor": [
+        0.08,
+        1
+      ],
+      "direction": "ground",
+      "alpha_margin": [
+        110,
+        196,
+        48,
+        45
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    },
+    "super": {
+      "source_rect": [
+        93,
+        563,
+        439,
+        303
+      ],
+      "nominal_cell": [
+        0,
+        474,
+        553,
+        474
+      ],
+      "world_size": [
+        900,
+        500
+      ],
+      "anchor": [
+        0.1,
+        0.85
+      ],
+      "direction": "arena",
+      "alpha_margin": [
+        96,
+        92,
+        24,
+        85
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    },
+    "super_down": {
+      "source_rect": [
+        642,
+        592,
+        436,
+        265
+      ],
+      "nominal_cell": [
+        553,
+        474,
+        553,
+        474
+      ],
+      "world_size": [
+        1000,
+        330
+      ],
+      "anchor": [
+        0.03,
+        1
+      ],
+      "direction": "ground_arena",
+      "alpha_margin": [
+        92,
+        121,
+        31,
+        94
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    },
+    "super_up": {
+      "source_rect": [
+        1239,
+        513,
+        331,
+        360
+      ],
+      "nominal_cell": [
+        1106,
+        474,
+        553,
+        474
+      ],
+      "world_size": [
+        440,
+        620
+      ],
+      "anchor": [
+        0.5,
+        1
+      ],
+      "direction": "sky_fan",
+      "alpha_margin": [
+        136,
+        42,
+        92,
+        78
+      ],
+      "effect_kind": "ai_painted_shape_plus_release_timeline_composite"
+    }
+  },
+  "transparent_fraction": 0.7138927674899475,
+  "progress_contract": "release0..1; no startup/character/hit spark"
+}

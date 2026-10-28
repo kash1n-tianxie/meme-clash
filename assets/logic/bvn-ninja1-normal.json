@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "copyright": "Copyright (C) 2021-2026 5DPLAY Game Studio; Godot metadata adaptation (C) 2026",
+  "spdx": "GPL-3.0-or-later",
+  "source_repo": "https://github.com/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc",
+  "source_commit": "4d8174bb51009ca62a477bd7dd62f50a7f3ab049",
+  "source_character": "ninja1 (public zako NPC, not the playable Ichigo character despite reused library symbol names)",
+  "source_paths": {
+    "main_mc.xml": "SRC_XFL/fighter/zako/ninja1/LIBRARY/main_mc.xml",
+    "actor.xml": "SRC_XFL/fighter/zako/ninja1/LIBRARY/一护全动作.xml",
+    "collider.xml": "SRC_XFL/fighter/zako/ninja1/LIBRARY/计算&#124隐形/0面.xml"
+  },
+  "source_rate": 30,
+  "stage_unit": 1.6,
+  "frame_indexing": "XFL zero-based. Flash currentFrame is index+1. Relative frame = XFL index - action label index. Execute scripts on entering a frame, not once per duration.",
+  "normal_ids": [
+    "normal1",
+    "normal2",
+    "normal3"
+  ],
+  "normals": {
+    "normal1": {
+      "id": "normal1",
+      "source_label": "砍1",
+      "source_start_index": 149,
+      "source_label_span_frames": 23,
+      "idle_frame": 20,
+      "active_intervals": [
+        [
+          2,
+          4
+        ]
+      ],
+      "startup_frames": 2,
+      "active_frames": 2,
+      "recovery_frames": 16,
+      "total_frames_until_idle": 20,
+      "hit_id": "k1",
+      "hit_vo_authored": {
+        "hit_id": "k1",
+        "fields_as3": {
+          "power": "30",
+          "hitType": "HitType.DA",
+          "hitx": "0",
+          "hity": "0",
+          "hurtTime": "0",
+          "hurtType": "FighterHurtType.HURT",
+          "isBreakDef": "false",
+          "isWeak": "true"
+        },
+        "source_line": 40,
+        "literal_values": {
+          "power": 30,
+          "hitType": 2,
+          "hitx": 0,
+          "hity": 0,
+          "hurtTime": 0,
+          "hurtType": 0,
+          "isBreakDef": false,
+          "isWeak": true
+        },
+        "runtime_undeclared_fields": [
+          "isWeak"
+        ]
+      },
+      "hit_vo_effective": {
+        "power": 30,
+        "powerAdd": 0,
+        "powerRate": 1,
+        "hitType": 2,
+        "isBreakDef": false,
+        "hitx": 0,
+        "hity": 0,
+        "hurtTime": 0,
+        "hurtType": 0,
+        "slowDown": 0,
+        "checkDirect": true,
+        "focusTarget": false,
+        "targetApplyG": true
+      },
+      "body_rect_source": [
+        -11.25,
+        -31.9,
+        20.690886688232457,
+        55.79564666748057
+      ],
+      "hit_rect_source": [
+        -1.85,
+        -13.0,
+        33.76294631958012,
+        21.812873840332053
+      ],
+      "hit_matrix_source": {
+        "a": 0.511947631835938,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.538589477539063,
+        "tx": -1.85,
+        "ty": -13.0
+      },
+      "events": [
+        {
+          "relative_frame": 1,
+          "source_frame_index": 150,
+          "source_line": 169,
+          "layer_index": 3,
+          "layer": "移动",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "movePercent",
+              "arguments_as3": "1,0",
+              "arguments": [
+                1.0,
+                0.0
+              ]
+            },
+            {
+              "controller": "mc_ctrler",
+              "method": "dampingPercent",
+              "arguments_as3": "0.2,0",
+              "arguments": [
+                0.2,
+                0.0
+              ]
+            }
+          ],
+          "script_as3": "//执行移动\nparent.$mc_ctrler.movePercent(1,0); //参数为X,Y\nparent.$mc_ctrler.dampingPercent(0.2,0); //移动阻尼，参数为X,Y\n"
+        },
+        {
+          "relative_frame": 6,
+          "source_frame_index": 155,
+          "source_line": 90,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "setAttack",
+              "arguments_as3": "\"砍2\"",
+              "arguments": [
+                "砍2"
+              ]
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.setAttack(\"砍2\");\n//在结束时加上：parent.$mc_ctrler.endAct();"
+        },
+        {
+          "relative_frame": 11,
+          "source_frame_index": 160,
+          "source_line": 91,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "endAct",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.endAct();"
+        },
+        {
+          "relative_frame": 20,
+          "source_frame_index": 169,
+          "source_line": 74,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "idle",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.idle();"
+        }
+      ]
+    },
+    "normal2": {
+      "id": "normal2",
+      "source_label": "砍2",
+      "source_start_index": 172,
+      "source_label_span_frames": 31,
+      "idle_frame": 27,
+      "active_intervals": [
+        [
+          4,
+          6
+        ]
+      ],
+      "startup_frames": 4,
+      "active_frames": 2,
+      "recovery_frames": 21,
+      "total_frames_until_idle": 27,
+      "hit_id": "k2",
+      "hit_vo_authored": {
+        "hit_id": "k2",
+        "fields_as3": {
+          "power": "30",
+          "hitType": "HitType.DA",
+          "hitx": "0",
+          "hity": "0",
+          "hurtTime": "0",
+          "hurtType": "FighterHurtType.HURT",
+          "isBreakDef": "false",
+          "isWeak": "true"
+        },
+        "source_line": 50,
+        "literal_values": {
+          "power": 30,
+          "hitType": 2,
+          "hitx": 0,
+          "hity": 0,
+          "hurtTime": 0,
+          "hurtType": 0,
+          "isBreakDef": false,
+          "isWeak": true
+        },
+        "runtime_undeclared_fields": [
+          "isWeak"
+        ]
+      },
+      "hit_vo_effective": {
+        "power": 30,
+        "powerAdd": 0,
+        "powerRate": 1,
+        "hitType": 2,
+        "isBreakDef": false,
+        "hitx": 0,
+        "hity": 0,
+        "hurtTime": 0,
+        "hurtType": 0,
+        "slowDown": 0,
+        "checkDirect": true,
+        "focusTarget": false,
+        "targetApplyG": true
+      },
+      "body_rect_source": [
+        -11.25,
+        -31.9,
+        20.690886688232457,
+        55.79564666748057
+      ],
+      "hit_rect_source": [
+        -7.35,
+        -12.7,
+        33.76294631958012,
+        21.812873840332053
+      ],
+      "hit_matrix_source": {
+        "a": 0.511947631835938,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.538589477539063,
+        "tx": -7.35,
+        "ty": -12.7
+      },
+      "events": [
+        {
+          "relative_frame": 3,
+          "source_frame_index": 175,
+          "source_line": 169,
+          "layer_index": 3,
+          "layer": "移动",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "movePercent",
+              "arguments_as3": "0.5,0",
+              "arguments": [
+                0.5,
+                0.0
+              ]
+            },
+            {
+              "controller": "mc_ctrler",
+              "method": "dampingPercent",
+              "arguments_as3": "0.1,0",
+              "arguments": [
+                0.1,
+                0.0
+              ]
+            }
+          ],
+          "script_as3": "//执行移动\nparent.$mc_ctrler.movePercent(0.5,0); //参数为X,Y\nparent.$mc_ctrler.dampingPercent(0.1,0); //移动阻尼，参数为X,Y\n"
+        },
+        {
+          "relative_frame": 9,
+          "source_frame_index": 181,
+          "source_line": 112,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "setAttack",
+              "arguments_as3": "\"砍3\"",
+              "arguments": [
+                "砍3"
+              ]
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.setAttack(\"砍3\");\n//在结束时加上：parent.$mc_ctrler.endAct();"
+        },
+        {
+          "relative_frame": 15,
+          "source_frame_index": 187,
+          "source_line": 91,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "endAct",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.endAct();"
+        },
+        {
+          "relative_frame": 27,
+          "source_frame_index": 199,
+          "source_line": 74,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "idle",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.idle();"
+        }
+      ]
+    },
+    "normal3": {
+      "id": "normal3",
+      "source_label": "砍3",
+      "source_start_index": 203,
+      "source_label_span_frames": 32,
+      "idle_frame": 25,
+      "active_intervals": [
+        [
+          4,
+          6
+        ]
+      ],
+      "startup_frames": 4,
+      "active_frames": 2,
+      "recovery_frames": 19,
+      "total_frames_until_idle": 25,
+      "hit_id": "k3",
+      "hit_vo_authored": {
+        "hit_id": "k3",
+        "fields_as3": {
+          "power": "50",
+          "hitType": "HitType.KAN_HEAVY",
+          "hitx": "3",
+          "hity": "0",
+          "hurtTime": "0",
+          "hurtType": "FighterHurtType.HURT_FLY",
+          "isBreakDef": "false",
+          "isWeak": "true"
+        },
+        "source_line": 60,
+        "literal_values": {
+          "power": 50,
+          "hitType": 6,
+          "hitx": 3,
+          "hity": 0,
+          "hurtTime": 0,
+          "hurtType": 1,
+          "isBreakDef": false,
+          "isWeak": true
+        },
+        "runtime_undeclared_fields": [
+          "isWeak"
+        ]
+      },
+      "hit_vo_effective": {
+        "power": 50,
+        "powerAdd": 0,
+        "powerRate": 1,
+        "hitType": 6,
+        "isBreakDef": false,
+        "hitx": 3,
+        "hity": 0,
+        "hurtTime": 0,
+        "hurtType": 1,
+        "slowDown": 0,
+        "checkDirect": true,
+        "focusTarget": false,
+        "targetApplyG": true
+      },
+      "body_rect_source": [
+        -11.25,
+        -31.9,
+        20.690886688232457,
+        55.79564666748057
+      ],
+      "hit_rect_source": [
+        -5.6,
+        -12.3,
+        44.72777786254887,
+        21.812873840332053
+      ],
+      "hit_matrix_source": {
+        "a": 0.678207397460938,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.538589477539063,
+        "tx": -5.6,
+        "ty": -12.3
+      },
+      "events": [
+        {
+          "relative_frame": 0,
+          "source_frame_index": 203,
+          "source_line": 169,
+          "layer_index": 3,
+          "layer": "移动",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "movePercent",
+              "arguments_as3": "1,0",
+              "arguments": [
+                1.0,
+                0.0
+              ]
+            },
+            {
+              "controller": "mc_ctrler",
+              "method": "dampingPercent",
+              "arguments_as3": "0.1,0",
+              "arguments": [
+                0.1,
+                0.0
+              ]
+            }
+          ],
+          "script_as3": "//执行移动\nparent.$mc_ctrler.movePercent(1,0); //参数为X,Y\nparent.$mc_ctrler.dampingPercent(0.1,0); //移动阻尼，参数为X,Y\n"
+        },
+        {
+          "relative_frame": 11,
+          "source_frame_index": 214,
+          "source_line": 91,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "endAct",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.endAct();"
+        },
+        {
+          "relative_frame": 25,
+          "source_frame_index": 228,
+          "source_line": 74,
+          "layer_index": 2,
+          "layer": "控制",
+          "calls": [
+            {
+              "controller": "mc_ctrler",
+              "method": "idle",
+              "arguments_as3": "",
+              "arguments": []
+            }
+          ],
+          "script_as3": "parent.$mc_ctrler.idle();"
+        }
+      ]
+    }
+  },
+  "geometry_adapter": {
+    "method": "uniform_body_height",
+    "source_rect": [
+      -11.25,
+      -31.9,
+      20.690886688232457,
+      55.79564666748057
+    ],
+    "source_anchor": [
+      -0.9045566558837717,
+      23.89564666748057
+    ],
+    "scale": "target_body_height / source_body_rect.height",
+    "note": "Subtract the original body centre-x/bottom-y to map to our foot origin. Uniformly scale both axes by target body height / source body height. Do not additionally multiply by stage_unit=1.6 when target height is already in Godot world px. This is an authored meme body registration adapter, not the upstream source hitbox coordinates."
+  },
+  "limits": [
+    "No public main-playable fighter DOMDocument/FLA/ZIP at this pinned submodule tree.",
+    "ninja1 has a real three-hit chain; no active SJ/WJ/I/SI/WI/air skill labels. Its 招1_UN_USE is explicitly unused.",
+    "The broad label duration is not startup+active+recovery: scripts such as idle jump away before the next label.",
+    "setAttack opens an input permission slot; endAct clears action permissions and sets FREEZE. Neither event is the same as a hitbox lifetime.",
+    "isWeak is preserved as raw authored data but is not a declared HitVO field in pinned runtime; actual weak-hit evaluation is isWeakHit().",
+    "No ActionScript executed, and no art/bitmap/DAT/FLA/SWF downloaded.",
+    "This NPC chain is a sequence of input-permission windows, not a guaranteed playable-character true combo. Its authored hurtTime0 and later setAttack windows can leave a recovery gap; do not invent stun to hide it."
+  ]
+}

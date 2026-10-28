@@ -1,0 +1,101 @@
+{
+  "size": [
+    1774,
+    887
+  ],
+  "layout": [
+    4,
+    1
+  ],
+  "fully_transparent_pixels": 1296319,
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        104,
+        259,
+        366,
+        669
+      ],
+      "edges48": [
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 0
+        },
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 1
+        }
+      ],
+      "sha256": "1efdef05f31787a3c97b883f2ed4d10ee7f76fd05e8b6e51a7cf982d58d63e3e"
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        113,
+        274,
+        386,
+        671
+      ],
+      "edges48": [
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 1
+        },
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 0
+        }
+      ],
+      "sha256": "17c5eac3aa4d767afca46caa5febfd2011f84b2fbe2f599ddb7190022b756352"
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        94,
+        253,
+        340,
+        673
+      ],
+      "edges48": [
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 1
+        },
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 0
+        }
+      ],
+      "sha256": "81cb80714d87a94468c56ff4a100a57ae6b494b751150b73be8f12d0687efa46"
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        68,
+        300,
+        339,
+        671
+      ],
+      "edges48": [
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 1
+        },
+        {
+          "alpha_above192": 0,
+          "alpha_above38": 0,
+          "max_alpha": 0
+        }
+      ],
+      "sha256": "d978848b92b2977004dc4158db825f75bbba1230d104f4e7ba1da280e535ff01"
+    }
+  ]
+}

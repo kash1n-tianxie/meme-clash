@@ -1,0 +1,6570 @@
+{
+  "version": "0.29",
+  "generation": "builtin_imagegen",
+  "method": "fullbody_rgba_contact_peak_rebound_and_real_air_silhouettes",
+  "registered_cels": 93,
+  "runtime_new_cels": 90,
+  "reserved_cat_holder_cels": 3,
+  "source_rules_changed": false,
+  "fighters": {
+    "rio": {
+      "sheets": {
+        "v29rx_rio": {
+          "path": "res://assets/fighters/v029/reactions/rio-reactions-atlas.png",
+          "size": [
+            1917,
+            784
+          ],
+          "generated": true,
+          "reaction_stages_v029": true
+        }
+      },
+      "frames": {
+        "v29rx_rio_00": {
+          "ready": true,
+          "pose_id": "v29rx_rio_00",
+          "sheet": "v29rx_rio",
+          "rect": [
+            991,
+            4,
+            299,
+            263
+          ],
+          "pivot": [
+            225.0,
+            249.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -77.655,
+              -190.186
+            ],
+            "anatomy_head_radius": [
+              35.96,
+              44.08
+            ],
+            "anatomy_chest": [
+              -62.175,
+              -106.489
+            ],
+            "anatomy_chest_radius": [
+              66.12,
+              62.06
+            ],
+            "anatomy_hips": [
+              -75.068,
+              -61.189
+            ],
+            "anatomy_hips_radius": [
+              72.5,
+              46.4
+            ],
+            "capture_chest": [
+              -62.175,
+              -106.489
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            40,
+            4,
+            339,
+            267
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_01": {
+          "ready": true,
+          "pose_id": "v29rx_rio_01",
+          "sheet": "v29rx_rio",
+          "rect": [
+            305,
+            4,
+            337,
+            266
+          ],
+          "pivot": [
+            126.5,
+            251.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              4.53,
+              -190.491
+            ],
+            "anatomy_head_radius": [
+              64.38,
+              45.82
+            ],
+            "anatomy_chest": [
+              48.194,
+              -107.914
+            ],
+            "anatomy_chest_radius": [
+              81.78,
+              62.64
+            ],
+            "anatomy_hips": [
+              37.651,
+              -63.087
+            ],
+            "anatomy_hips_radius": [
+              82.94,
+              44.08
+            ],
+            "capture_chest": [
+              48.194,
+              -107.914
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            347,
+            4,
+            684,
+            270
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_02": {
+          "ready": true,
+          "pose_id": "v29rx_rio_02",
+          "sheet": "v29rx_rio",
+          "rect": [
+            4,
+            4,
+            293,
+            267
+          ],
+          "pivot": [
+            86.5,
+            253.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              43.453,
+              -181.693
+            ],
+            "anatomy_head_radius": [
+              32.48,
+              44.08
+            ],
+            "anatomy_chest": [
+              57.245,
+              -106.816
+            ],
+            "anatomy_chest_radius": [
+              73.08,
+              63.22
+            ],
+            "anatomy_hips": [
+              54.51,
+              -63.665
+            ],
+            "anatomy_hips_radius": [
+              72.5,
+              46.98
+            ],
+            "capture_chest": [
+              57.245,
+              -106.816
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            697,
+            4,
+            990,
+            271
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_03": {
+          "ready": true,
+          "pose_id": "v29rx_rio_03",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1585,
+            4,
+            239,
+            257
+          ],
+          "pivot": [
+            83.0,
+            243.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              40.435,
+              -173.018
+            ],
+            "anatomy_head_radius": [
+              31.9,
+              41.18
+            ],
+            "anatomy_chest": [
+              34.414,
+              -105.473
+            ],
+            "anatomy_chest_radius": [
+              60.9,
+              60.32
+            ],
+            "anatomy_hips": [
+              33.995,
+              -59.895
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              45.82
+            ],
+            "capture_chest": [
+              34.414,
+              -105.473
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            73,
+            260,
+            312,
+            517
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_04": {
+          "ready": true,
+          "pose_id": "v29rx_rio_04",
+          "sheet": "v29rx_rio",
+          "rect": [
+            353,
+            544,
+            271,
+            224
+          ],
+          "pivot": [
+            81.0,
+            211.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              37.17,
+              -145.334
+            ],
+            "anatomy_head_radius": [
+              41.76,
+              26.1
+            ],
+            "anatomy_chest": [
+              49.078,
+              -90.773
+            ],
+            "anatomy_chest_radius": [
+              69.02,
+              52.78
+            ],
+            "anatomy_hips": [
+              51.387,
+              -53.008
+            ],
+            "anatomy_hips_radius": [
+              67.28,
+              38.86
+            ],
+            "capture_chest": [
+              49.078,
+              -90.773
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            384,
+            293,
+            655,
+            517
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_05": {
+          "ready": true,
+          "pose_id": "v29rx_rio_05",
+          "sheet": "v29rx_rio",
+          "rect": [
+            341,
+            279,
+            267,
+            253
+          ],
+          "pivot": [
+            67.5,
+            241.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              65.035,
+              -171.86
+            ],
+            "anatomy_head_radius": [
+              37.7,
+              41.18
+            ],
+            "anatomy_chest": [
+              60.537,
+              -104.79
+            ],
+            "anatomy_chest_radius": [
+              67.28,
+              59.16
+            ],
+            "anatomy_hips": [
+              60.181,
+              -62.304
+            ],
+            "anatomy_hips_radius": [
+              66.12,
+              44.66
+            ],
+            "capture_chest": [
+              60.537,
+              -104.79
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            718,
+            263,
+            985,
+            516
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_06": {
+          "ready": true,
+          "pose_id": "v29rx_rio_06",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1298,
+            4,
+            279,
+            258
+          ],
+          "pivot": [
+            96.0,
+            244.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              37.923,
+              -185.962
+            ],
+            "anatomy_head_radius": [
+              41.76,
+              43.5
+            ],
+            "anatomy_chest": [
+              47.023,
+              -104.182
+            ],
+            "anatomy_chest_radius": [
+              70.76,
+              60.9
+            ],
+            "anatomy_hips": [
+              39.915,
+              -59.748
+            ],
+            "anatomy_hips_radius": [
+              69.02,
+              45.82
+            ],
+            "capture_chest": [
+              47.023,
+              -104.182
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            54,
+            520,
+            333,
+            778
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_07": {
+          "ready": true,
+          "pose_id": "v29rx_rio_07",
+          "sheet": "v29rx_rio",
+          "rect": [
+            4,
+            279,
+            329,
+            257
+          ],
+          "pivot": [
+            194.0,
+            243.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -64.565,
+              -185.101
+            ],
+            "anatomy_head_radius": [
+              64.38,
+              45.82
+            ],
+            "anatomy_chest": [
+              -17.282,
+              -105.195
+            ],
+            "anatomy_chest_radius": [
+              85.26,
+              60.32
+            ],
+            "anatomy_hips": [
+              -28.237,
+              -59.675
+            ],
+            "anatomy_hips_radius": [
+              81.2,
+              45.24
+            ],
+            "capture_chest": [
+              -17.282,
+              -105.195
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            353,
+            521,
+            682,
+            778
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_08": {
+          "ready": true,
+          "pose_id": "v29rx_rio_08",
+          "sheet": "v29rx_rio",
+          "rect": [
+            616,
+            279,
+            278,
+            250
+          ],
+          "pivot": [
+            64.0,
+            237.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              64.325,
+              -167.107
+            ],
+            "anatomy_head_radius": [
+              35.96,
+              40.6
+            ],
+            "anatomy_chest": [
+              66.034,
+              -101.295
+            ],
+            "anatomy_chest_radius": [
+              68.44,
+              58.58
+            ],
+            "anatomy_hips": [
+              69.529,
+              -59.99
+            ],
+            "anatomy_hips_radius": [
+              69.02,
+              44.66
+            ],
+            "capture_chest": [
+              66.034,
+              -101.295
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            723,
+            527,
+            1001,
+            777
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_09": {
+          "ready": true,
+          "pose_id": "v29rx_rio_09",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1199,
+            279,
+            285,
+            243
+          ],
+          "pivot": [
+            67.5,
+            225.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              60.026,
+              -154.521
+            ],
+            "anatomy_head_radius": [
+              35.96,
+              35.96
+            ],
+            "anatomy_chest": [
+              64.516,
+              -92.01
+            ],
+            "anatomy_chest_radius": [
+              69.6,
+              57.42
+            ],
+            "anatomy_hips": [
+              68.362,
+              -54.332
+            ],
+            "anatomy_hips_radius": [
+              70.76,
+              43.5
+            ],
+            "capture_chest": [
+              64.516,
+              -92.01
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            53,
+            781,
+            338,
+            1024
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_10": {
+          "ready": true,
+          "pose_id": "v29rx_rio_10",
+          "sheet": "v29rx_rio",
+          "rect": [
+            972,
+            544,
+            288,
+            209
+          ],
+          "pivot": [
+            71.5,
+            195.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              37.081,
+              -136.681
+            ],
+            "anatomy_head_radius": [
+              38.86,
+              24.36
+            ],
+            "anatomy_chest": [
+              65.699,
+              -82.754
+            ],
+            "anatomy_chest_radius": [
+              72.5,
+              49.3
+            ],
+            "anatomy_hips": [
+              67.38,
+              -46.611
+            ],
+            "anatomy_hips_radius": [
+              71.34,
+              37.12
+            ],
+            "capture_chest": [
+              65.699,
+              -82.754
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            390,
+            811,
+            678,
+            1020
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_11": {
+          "ready": true,
+          "pose_id": "v29rx_rio_11",
+          "sheet": "v29rx_rio",
+          "rect": [
+            902,
+            279,
+            289,
+            246
+          ],
+          "pivot": [
+            73.0,
+            231.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              53.353,
+              -161.669
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              38.28
+            ],
+            "anatomy_chest": [
+              64.718,
+              -97.184
+            ],
+            "anatomy_chest_radius": [
+              73.66,
+              58.0
+            ],
+            "anatomy_hips": [
+              64.686,
+              -56.939
+            ],
+            "anatomy_hips_radius": [
+              71.34,
+              43.5
+            ],
+            "capture_chest": [
+              64.718,
+              -97.184
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            715,
+            773,
+            1004,
+            1019
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_12": {
+          "ready": true,
+          "pose_id": "v29rx_rio_12",
+          "sheet": "v29rx_rio",
+          "rect": [
+            632,
+            544,
+            332,
+            218
+          ],
+          "pivot": [
+            174.461,
+            214.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -45.1,
+              -152.254
+            ],
+            "anatomy_head_radius": [
+              64.96,
+              38.86
+            ],
+            "anatomy_chest": [
+              -29.671,
+              -124.718
+            ],
+            "anatomy_chest_radius": [
+              86.42,
+              51.04
+            ],
+            "anatomy_hips": [
+              0.0,
+              -86.359
+            ],
+            "anatomy_hips_radius": [
+              73.66,
+              38.28
+            ],
+            "capture_chest": [
+              -29.671,
+              -124.718
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            16,
+            1026,
+            348,
+            1244
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_13": {
+          "ready": true,
+          "pose_id": "v29rx_rio_13",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1268,
+            544,
+            314,
+            203
+          ],
+          "pivot": [
+            179.121,
+            199.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -44.967,
+              -168.067
+            ],
+            "anatomy_head_radius": [
+              63.8,
+              32.48
+            ],
+            "anatomy_chest": [
+              -27.913,
+              -147.431
+            ],
+            "anatomy_chest_radius": [
+              81.78,
+              47.56
+            ],
+            "anatomy_hips": [
+              0.0,
+              -102.285
+            ],
+            "anatomy_hips_radius": [
+              66.12,
+              35.96
+            ],
+            "capture_chest": [
+              -27.913,
+              -147.431
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            363,
+            1037,
+            677,
+            1240
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_14": {
+          "ready": true,
+          "pose_id": "v29rx_rio_14",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1590,
+            544,
+            323,
+            199
+          ],
+          "pivot": [
+            156.184,
+            195.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -27.463,
+              -64.85
+            ],
+            "anatomy_head_radius": [
+              62.06,
+              38.28
+            ],
+            "anatomy_chest": [
+              -1.714,
+              -104.974
+            ],
+            "anatomy_chest_radius": [
+              78.3,
+              46.4
+            ],
+            "anatomy_hips": [
+              0.0,
+              -135.133
+            ],
+            "anatomy_hips_radius": [
+              63.22,
+              33.06
+            ],
+            "capture_chest": [
+              -1.714,
+              -104.974
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            691,
+            1029,
+            1014,
+            1228
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_15": {
+          "ready": true,
+          "pose_id": "v29rx_rio_15",
+          "sheet": "v29rx_rio",
+          "rect": [
+            1492,
+            279,
+            333,
+            237
+          ],
+          "pivot": [
+            152.315,
+            233.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -47.581,
+              -154.744
+            ],
+            "anatomy_head_radius": [
+              48.72,
+              42.34
+            ],
+            "anatomy_chest": [
+              -31.975,
+              -120.328
+            ],
+            "anatomy_chest_radius": [
+              86.42,
+              55.68
+            ],
+            "anatomy_hips": [
+              0.0,
+              -79.349
+            ],
+            "anatomy_hips_radius": [
+              82.36,
+              42.34
+            ],
+            "capture_chest": [
+              -31.975,
+              -120.328
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            15,
+            1252,
+            348,
+            1489
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_16": {
+          "ready": true,
+          "pose_id": "v29rx_rio_16",
+          "sheet": "v29rx_rio",
+          "rect": [
+            4,
+            544,
+            341,
+            236
+          ],
+          "pivot": [
+            203.373,
+            232.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -70.616,
+              -154.52
+            ],
+            "anatomy_head_radius": [
+              56.26,
+              40.6
+            ],
+            "anatomy_chest": [
+              -47.903,
+              -114.247
+            ],
+            "anatomy_chest_radius": [
+              88.16,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -84.772
+            ],
+            "anatomy_hips_radius": [
+              75.4,
+              41.76
+            ],
+            "capture_chest": [
+              -47.903,
+              -114.247
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            349,
+            1274,
+            690,
+            1510
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_rio_17": {
+          "ready": true,
+          "pose_id": "v29rx_rio_17",
+          "sheet": "v29rx_rio",
+          "rect": [
+            650,
+            4,
+            333,
+            266
+          ],
+          "pivot": [
+            203.841,
+            262.0
+          ],
+          "body_reference_height": 246.6265,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -62.902,
+              -185.439
+            ],
+            "anatomy_head_radius": [
+              58.0,
+              45.24
+            ],
+            "anatomy_chest": [
+              -64.289,
+              -148.013
+            ],
+            "anatomy_chest_radius": [
+              86.42,
+              62.64
+            ],
+            "anatomy_hips": [
+              0.0,
+              -98.066
+            ],
+            "anatomy_hips_radius": [
+              82.94,
+              44.66
+            ],
+            "capture_chest": [
+              -64.289,
+              -148.013
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            679,
+            1250,
+            1012,
+            1516
+          ],
+          "source_sheet": "rio-sheet.png",
+          "reserved_contact_holder": false
+        }
+      },
+      "ground": {
+        "side": {
+          "contact": "v29rx_rio_00",
+          "peak": "v29rx_rio_01",
+          "rebound": "v29rx_rio_02",
+          "stable": "v28rr05"
+        },
+        "belly": {
+          "contact": "v29rx_rio_03",
+          "peak": "v29rx_rio_04",
+          "rebound": "v29rx_rio_05",
+          "stable": "v28rr05"
+        },
+        "lift": {
+          "contact": "v29rx_rio_06",
+          "peak": "v29rx_rio_07",
+          "rebound": "v29rx_rio_08",
+          "stable": "v28rr05"
+        },
+        "crush": {
+          "contact": "v29rx_rio_09",
+          "peak": "v29rx_rio_10",
+          "rebound": "v29rx_rio_11",
+          "stable": "v28rr05"
+        }
+      },
+      "air": {
+        "side": "v29rx_rio_12",
+        "lift": "v29rx_rio_13",
+        "flip": "v29rx_rio_14",
+        "captured": "v29rx_rio_15",
+        "falling": "v29rx_rio_16",
+        "rebound": "v29rx_rio_17"
+      },
+      "holder": {},
+      "source_sha256": "5983504be75726e482efe84b15909a02bae268e214c8bf9ec34a7f5e99111f42",
+      "registered_cels": 18
+    },
+    "cat": {
+      "sheets": {
+        "v29rx_cat": {
+          "path": "res://assets/fighters/v029/reactions/cat-reactions-atlas.png",
+          "size": [
+            1933,
+            1113
+          ],
+          "generated": true,
+          "reaction_stages_v029": true
+        }
+      },
+      "frames": {
+        "v29rx_cat_00": {
+          "ready": true,
+          "pose_id": "v29rx_cat_00",
+          "sheet": "v29rx_cat",
+          "rect": [
+            211,
+            688,
+            214,
+            216
+          ],
+          "pivot": [
+            77.0,
+            209.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              44.596,
+              -146.855
+            ],
+            "anatomy_head_radius": [
+              48.72,
+              45.82
+            ],
+            "anatomy_chest": [
+              34.531,
+              -96.104
+            ],
+            "anatomy_chest_radius": [
+              53.94,
+              50.46
+            ],
+            "anatomy_hips": [
+              29.654,
+              -53.557
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              38.28
+            ],
+            "capture_chest": [
+              34.531,
+              -96.104
+            ],
+            "mouth": [
+              44.596,
+              -146.855
+            ],
+            "paw_tip": [
+              92.4,
+              -90.49999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            109,
+            7,
+            323,
+            223
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_01": {
+          "ready": true,
+          "pose_id": "v29rx_cat_01",
+          "sheet": "v29rx_cat",
+          "rect": [
+            4,
+            688,
+            199,
+            220
+          ],
+          "pivot": [
+            74.0,
+            212.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              41.722,
+              -150.4
+            ],
+            "anatomy_head_radius": [
+              44.66,
+              46.4
+            ],
+            "anatomy_chest": [
+              27.943,
+              -96.252
+            ],
+            "anatomy_chest_radius": [
+              48.14,
+              51.62
+            ],
+            "anatomy_hips": [
+              25.148,
+              -54.408
+            ],
+            "anatomy_hips_radius": [
+              48.72,
+              39.44
+            ],
+            "capture_chest": [
+              27.943,
+              -96.252
+            ],
+            "mouth": [
+              41.722,
+              -150.4
+            ],
+            "paw_tip": [
+              83.4,
+              -91.3
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            414,
+            7,
+            613,
+            227
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_02": {
+          "ready": true,
+          "pose_id": "v29rx_cat_02",
+          "sheet": "v29rx_cat",
+          "rect": [
+            433,
+            688,
+            197,
+            215
+          ],
+          "pivot": [
+            64.0,
+            208.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              53.599,
+              -148.41
+            ],
+            "anatomy_head_radius": [
+              48.14,
+              45.82
+            ],
+            "anatomy_chest": [
+              36.938,
+              -93.992
+            ],
+            "anatomy_chest_radius": [
+              46.98,
+              50.46
+            ],
+            "anatomy_hips": [
+              33.056,
+              -54.582
+            ],
+            "anatomy_hips_radius": [
+              48.14,
+              37.7
+            ],
+            "capture_chest": [
+              36.938,
+              -93.992
+            ],
+            "mouth": [
+              53.599,
+              -148.41
+            ],
+            "paw_tip": [
+              91.80000000000001,
+              -90.05
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            728,
+            10,
+            925,
+            225
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_03": {
+          "ready": true,
+          "pose_id": "v29rx_cat_03",
+          "sheet": "v29rx_cat",
+          "rect": [
+            638,
+            688,
+            189,
+            215
+          ],
+          "pivot": [
+            62.0,
+            210.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              50.98,
+              -150.363
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              45.82
+            ],
+            "anatomy_chest": [
+              32.887,
+              -96.229
+            ],
+            "anatomy_chest_radius": [
+              46.98,
+              50.46
+            ],
+            "anatomy_hips": [
+              30.22,
+              -57.341
+            ],
+            "anatomy_hips_radius": [
+              45.82,
+              37.7
+            ],
+            "capture_chest": [
+              32.887,
+              -96.229
+            ],
+            "mouth": [
+              50.98,
+              -150.363
+            ],
+            "paw_tip": [
+              87.4,
+              -92.05
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            92,
+            233,
+            281,
+            448
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_04": {
+          "ready": true,
+          "pose_id": "v29rx_cat_04",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1130,
+            916,
+            213,
+            183
+          ],
+          "pivot": [
+            82.0,
+            175.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              45.172,
+              -124.185
+            ],
+            "anatomy_head_radius": [
+              52.2,
+              38.28
+            ],
+            "anatomy_chest": [
+              24.5,
+              -78.258
+            ],
+            "anatomy_chest_radius": [
+              55.1,
+              42.34
+            ],
+            "anatomy_hips": [
+              22.367,
+              -44.635
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              31.9
+            ],
+            "capture_chest": [
+              24.5,
+              -78.258
+            ],
+            "mouth": [
+              45.172,
+              -124.185
+            ],
+            "paw_tip": [
+              86.60000000000002,
+              -74.64999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            397,
+            265,
+            610,
+            448
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_05": {
+          "ready": true,
+          "pose_id": "v29rx_cat_05",
+          "sheet": "v29rx_cat",
+          "rect": [
+            835,
+            688,
+            190,
+            213
+          ],
+          "pivot": [
+            58.0,
+            206.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              56.937,
+              -146.585
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              45.24
+            ],
+            "anatomy_chest": [
+              38.169,
+              -92.665
+            ],
+            "anatomy_chest_radius": [
+              48.14,
+              49.88
+            ],
+            "anatomy_hips": [
+              34.959,
+              -54.664
+            ],
+            "anatomy_hips_radius": [
+              46.4,
+              37.7
+            ],
+            "capture_chest": [
+              38.169,
+              -92.665
+            ],
+            "mouth": [
+              56.937,
+              -146.585
+            ],
+            "paw_tip": [
+              92.20000000000002,
+              -89.14999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            723,
+            235,
+            913,
+            448
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_06": {
+          "ready": true,
+          "pose_id": "v29rx_cat_06",
+          "sheet": "v29rx_cat",
+          "rect": [
+            543,
+            4,
+            547,
+            669
+          ],
+          "pivot": [
+            222.0,
+            657.0
+          ],
+          "body_reference_height": 577.1766,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              103.662,
+              -475.12
+            ],
+            "anatomy_head_radius": [
+              135.14,
+              145.0
+            ],
+            "anatomy_chest": [
+              63.681,
+              -302.915
+            ],
+            "anatomy_chest_radius": [
+              131.08,
+              160.66
+            ],
+            "anatomy_hips": [
+              44.713,
+              -180.551
+            ],
+            "anatomy_hips_radius": [
+              137.46,
+              122.38
+            ],
+            "capture_chest": [
+              63.681,
+              -302.915
+            ],
+            "mouth": [
+              103.662,
+              -475.12
+            ],
+            "paw_tip": [
+              213.8,
+              -289.34999999999997
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            70,
+            26,
+            617,
+            695
+          ],
+          "source_sheet": "cat-grounded-lift-correction.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_07": {
+          "ready": true,
+          "pose_id": "v29rx_cat_07",
+          "sheet": "v29rx_cat",
+          "rect": [
+            4,
+            4,
+            531,
+            676
+          ],
+          "pivot": [
+            229.0,
+            665.0
+          ],
+          "body_reference_height": 577.1766,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              77.207,
+              -470.658
+            ],
+            "anatomy_head_radius": [
+              132.82,
+              146.74
+            ],
+            "anatomy_chest": [
+              49.865,
+              -309.45
+            ],
+            "anatomy_chest_radius": [
+              128.76,
+              162.4
+            ],
+            "anatomy_hips": [
+              32.361,
+              -181.631
+            ],
+            "anatomy_hips_radius": [
+              133.4,
+              123.54
+            ],
+            "capture_chest": [
+              49.865,
+              -309.45
+            ],
+            "mouth": [
+              77.207,
+              -470.658
+            ],
+            "paw_tip": [
+              194.0,
+              -293.49999999999994
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            826,
+            18,
+            1357,
+            694
+          ],
+          "source_sheet": "cat-grounded-lift-correction.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_08": {
+          "ready": true,
+          "pose_id": "v29rx_cat_08",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1098,
+            4,
+            551,
+            645
+          ],
+          "pivot": [
+            225.0,
+            634.0
+          ],
+          "body_reference_height": 577.1766,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              101.484,
+              -457.596
+            ],
+            "anatomy_head_radius": [
+              136.88,
+              139.78
+            ],
+            "anatomy_chest": [
+              59.464,
+              -293.302
+            ],
+            "anatomy_chest_radius": [
+              132.24,
+              154.86
+            ],
+            "anatomy_hips": [
+              43.116,
+              -175.179
+            ],
+            "anatomy_hips_radius": [
+              138.04,
+              118.32
+            ],
+            "capture_chest": [
+              59.464,
+              -293.302
+            ],
+            "mouth": [
+              101.484,
+              -457.596
+            ],
+            "paw_tip": [
+              214.0,
+              -279.54999999999995
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            1526,
+            49,
+            2077,
+            694
+          ],
+          "source_sheet": "cat-grounded-lift-correction.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_09": {
+          "ready": true,
+          "pose_id": "v29rx_cat_09",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1351,
+            916,
+            245,
+            164
+          ],
+          "pivot": [
+            116.0,
+            156.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              31.29,
+              -109.886
+            ],
+            "anatomy_head_radius": [
+              60.32,
+              34.22
+            ],
+            "anatomy_chest": [
+              6.955,
+              -69.242
+            ],
+            "anatomy_chest_radius": [
+              62.06,
+              37.7
+            ],
+            "anatomy_hips": [
+              4.133,
+              -39.252
+            ],
+            "anatomy_hips_radius": [
+              60.32,
+              29.0
+            ],
+            "capture_chest": [
+              6.955,
+              -69.242
+            ],
+            "mouth": [
+              31.29,
+              -109.886
+            ],
+            "paw_tip": [
+              78.20000000000002,
+              -66.1
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            63,
+            687,
+            308,
+            851
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_10": {
+          "ready": true,
+          "pose_id": "v29rx_cat_10",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1604,
+            916,
+            230,
+            148
+          ],
+          "pivot": [
+            99.0,
+            141.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              38.415,
+              -99.651
+            ],
+            "anatomy_head_radius": [
+              56.26,
+              30.74
+            ],
+            "anatomy_chest": [
+              16.0,
+              -62.742
+            ],
+            "anatomy_chest_radius": [
+              59.16,
+              34.22
+            ],
+            "anatomy_hips": [
+              13.756,
+              -35.805
+            ],
+            "anatomy_hips_radius": [
+              56.84,
+              25.52
+            ],
+            "capture_chest": [
+              16.0,
+              -62.742
+            ],
+            "mouth": [
+              38.415,
+              -99.651
+            ],
+            "paw_tip": [
+              83.20000000000002,
+              -59.89999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            398,
+            702,
+            628,
+            850
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_11": {
+          "ready": true,
+          "pose_id": "v29rx_cat_11",
+          "sheet": "v29rx_cat",
+          "rect": [
+            481,
+            916,
+            213,
+            191
+          ],
+          "pivot": [
+            59.0,
+            184.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              69.019,
+              -130.762
+            ],
+            "anatomy_head_radius": [
+              52.2,
+              40.6
+            ],
+            "anatomy_chest": [
+              48.205,
+              -82.683
+            ],
+            "anatomy_chest_radius": [
+              55.1,
+              44.08
+            ],
+            "anatomy_hips": [
+              45.344,
+              -48.05
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              33.64
+            ],
+            "capture_chest": [
+              48.205,
+              -82.683
+            ],
+            "mouth": [
+              69.019,
+              -130.762
+            ],
+            "paw_tip": [
+              109.60000000000002,
+              -79.24999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            739,
+            667,
+            952,
+            858
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_12": {
+          "ready": true,
+          "pose_id": "v29rx_cat_12",
+          "sheet": "v29rx_cat",
+          "rect": [
+            702,
+            916,
+            231,
+            191
+          ],
+          "pivot": [
+            121.658,
+            187.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              31.653,
+              -131.614
+            ],
+            "anatomy_head_radius": [
+              51.62,
+              40.02
+            ],
+            "anatomy_chest": [
+              12.583,
+              -88.23
+            ],
+            "anatomy_chest_radius": [
+              58.0,
+              44.66
+            ],
+            "anatomy_hips": [
+              0.0,
+              -53.519
+            ],
+            "anatomy_hips_radius": [
+              56.84,
+              34.22
+            ],
+            "capture_chest": [
+              12.583,
+              -88.23
+            ],
+            "mouth": [
+              31.653,
+              -131.614
+            ],
+            "paw_tip": [
+              61.34228033952742,
+              -82.24999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            63,
+            863,
+            294,
+            1054
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_13": {
+          "ready": true,
+          "pose_id": "v29rx_cat_13",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1510,
+            688,
+            185,
+            195
+          ],
+          "pivot": [
+            97.538,
+            191.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              7.436,
+              -150.124
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              41.18
+            ],
+            "anatomy_chest": [
+              6.057,
+              -103.05
+            ],
+            "anatomy_chest_radius": [
+              46.98,
+              45.24
+            ],
+            "anatomy_hips": [
+              0.0,
+              -55.168
+            ],
+            "anatomy_hips_radius": [
+              43.5,
+              34.22
+            ],
+            "capture_chest": [
+              6.057,
+              -103.05
+            ],
+            "mouth": [
+              7.436,
+              -150.124
+            ],
+            "paw_tip": [
+              48.661805555555574,
+              -84.05
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            418,
+            860,
+            603,
+            1055
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_14": {
+          "ready": true,
+          "pose_id": "v29rx_cat_14",
+          "sheet": "v29rx_cat",
+          "rect": [
+            261,
+            916,
+            212,
+            192
+          ],
+          "pivot": [
+            106.201,
+            188.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              42.657,
+              -44.414
+            ],
+            "anatomy_head_radius": [
+              52.2,
+              40.6
+            ],
+            "anatomy_chest": [
+              10.097,
+              -84.567
+            ],
+            "anatomy_chest_radius": [
+              54.52,
+              44.66
+            ],
+            "anatomy_hips": [
+              0.0,
+              -132.896
+            ],
+            "anatomy_hips_radius": [
+              51.04,
+              32.48
+            ],
+            "capture_chest": [
+              10.097,
+              -84.567
+            ],
+            "mouth": [
+              42.657,
+              -44.414
+            ],
+            "paw_tip": [
+              61.599201369081584,
+              -82.69999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            745,
+            877,
+            957,
+            1069
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_15": {
+          "ready": true,
+          "pose_id": "v29rx_cat_15",
+          "sheet": "v29rx_cat",
+          "rect": [
+            941,
+            916,
+            181,
+            186
+          ],
+          "pivot": [
+            99.233,
+            182.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              5.111,
+              -135.836
+            ],
+            "anatomy_head_radius": [
+              43.5,
+              38.86
+            ],
+            "anatomy_chest": [
+              -6.934,
+              -96.185
+            ],
+            "anatomy_chest_radius": [
+              45.82,
+              42.92
+            ],
+            "anatomy_hips": [
+              0.0,
+              -54.856
+            ],
+            "anatomy_hips_radius": [
+              44.08,
+              32.48
+            ],
+            "capture_chest": [
+              -6.934,
+              -96.185
+            ],
+            "mouth": [
+              5.111,
+              -135.836
+            ],
+            "paw_tip": [
+              43.76688703650474,
+              -79.99999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            100,
+            1070,
+            281,
+            1256
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_16": {
+          "ready": true,
+          "pose_id": "v29rx_cat_16",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1298,
+            688,
+            204,
+            201
+          ],
+          "pivot": [
+            80.311,
+            197.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              68.472,
+              -103.062
+            ],
+            "anatomy_head_radius": [
+              49.88,
+              40.6
+            ],
+            "anatomy_chest": [
+              21.689,
+              -82.83
+            ],
+            "anatomy_chest_radius": [
+              52.2,
+              46.98
+            ],
+            "anatomy_hips": [
+              0.0,
+              -69.133
+            ],
+            "anatomy_hips_radius": [
+              39.44,
+              34.8
+            ],
+            "capture_chest": [
+              21.689,
+              -82.83
+            ],
+            "mouth": [
+              68.472,
+              -103.062
+            ],
+            "paw_tip": [
+              81.08903878583475,
+              -86.74999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            408,
+            1063,
+            612,
+            1264
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_17": {
+          "ready": true,
+          "pose_id": "v29rx_cat_17",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1703,
+            688,
+            226,
+            193
+          ],
+          "pivot": [
+            106.586,
+            189.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -0.486,
+              -142.108
+            ],
+            "anatomy_head_radius": [
+              49.3,
+              40.02
+            ],
+            "anatomy_chest": [
+              3.838,
+              -97.941
+            ],
+            "anatomy_chest_radius": [
+              58.0,
+              45.24
+            ],
+            "anatomy_hips": [
+              0.0,
+              -55.765
+            ],
+            "anatomy_hips_radius": [
+              55.1,
+              34.22
+            ],
+            "capture_chest": [
+              3.838,
+              -97.941
+            ],
+            "mouth": [
+              -0.486,
+              -142.108
+            ],
+            "paw_tip": [
+              72.41405152224824,
+              -83.14999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            727,
+            1060,
+            953,
+            1253
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_cat_18": {
+          "ready": true,
+          "pose_id": "v29rx_cat_18",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1657,
+            4,
+            263,
+            245
+          ],
+          "pivot": [
+            126.119,
+            241.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              30.229,
+              -172.256
+            ],
+            "anatomy_head_radius": [
+              64.96,
+              51.62
+            ],
+            "anatomy_chest": [
+              7.707,
+              -110.749
+            ],
+            "anatomy_chest_radius": [
+              66.7,
+              57.42
+            ],
+            "anatomy_hips": [
+              0.0,
+              -66.789
+            ],
+            "anatomy_hips_radius": [
+              63.8,
+              44.08
+            ],
+            "capture_chest": [
+              7.707,
+              -110.749
+            ],
+            "mouth": [
+              30.229,
+              -172.256
+            ],
+            "paw_tip": [
+              82.48070669168233,
+              -106.54999999999998
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            75,
+            1273,
+            338,
+            1518
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": true
+        },
+        "v29rx_cat_19": {
+          "ready": true,
+          "pose_id": "v29rx_cat_19",
+          "sheet": "v29rx_cat",
+          "rect": [
+            1033,
+            688,
+            257,
+            203
+          ],
+          "pivot": [
+            123.516,
+            199.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              27.902,
+              -142.442
+            ],
+            "anatomy_head_radius": [
+              60.9,
+              42.92
+            ],
+            "anatomy_chest": [
+              7.416,
+              -90.996
+            ],
+            "anatomy_chest_radius": [
+              65.54,
+              46.98
+            ],
+            "anatomy_hips": [
+              0.0,
+              -54.417
+            ],
+            "anatomy_hips_radius": [
+              60.32,
+              35.96
+            ],
+            "capture_chest": [
+              7.416,
+              -90.996
+            ],
+            "mouth": [
+              27.902,
+              -142.442
+            ],
+            "paw_tip": [
+              80.28356717278494,
+              -87.64999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            386,
+            1285,
+            643,
+            1488
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": true
+        },
+        "v29rx_cat_20": {
+          "ready": true,
+          "pose_id": "v29rx_cat_20",
+          "sheet": "v29rx_cat",
+          "rect": [
+            4,
+            916,
+            249,
+            193
+          ],
+          "pivot": [
+            120.584,
+            189.0
+          ],
+          "body_reference_height": 185.4902,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              26.146,
+              -135.149
+            ],
+            "anatomy_head_radius": [
+              59.16,
+              40.6
+            ],
+            "anatomy_chest": [
+              3.938,
+              -86.87
+            ],
+            "anatomy_chest_radius": [
+              64.38,
+              45.24
+            ],
+            "anatomy_hips": [
+              0.0,
+              -52.019
+            ],
+            "anatomy_hips_radius": [
+              61.48,
+              34.22
+            ],
+            "capture_chest": [
+              3.938,
+              -86.87
+            ],
+            "mouth": [
+              26.146,
+              -135.149
+            ],
+            "paw_tip": [
+              76.816236314811,
+              -83.14999999999999
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            725,
+            1297,
+            974,
+            1490
+          ],
+          "source_sheet": "cat-sheet.png",
+          "reserved_contact_holder": true
+        }
+      },
+      "ground": {
+        "side": {
+          "contact": "v29rx_cat_00",
+          "peak": "v29rx_cat_01",
+          "rebound": "v29rx_cat_02",
+          "stable": "v28cr05"
+        },
+        "belly": {
+          "contact": "v29rx_cat_03",
+          "peak": "v29rx_cat_04",
+          "rebound": "v29rx_cat_05",
+          "stable": "v28cr05"
+        },
+        "lift": {
+          "contact": "v29rx_cat_06",
+          "peak": "v29rx_cat_07",
+          "rebound": "v29rx_cat_08",
+          "stable": "v28cr05"
+        },
+        "crush": {
+          "contact": "v29rx_cat_09",
+          "peak": "v29rx_cat_10",
+          "rebound": "v29rx_cat_11",
+          "stable": "v28cr05"
+        }
+      },
+      "air": {
+        "side": "v29rx_cat_12",
+        "lift": "v29rx_cat_13",
+        "flip": "v29rx_cat_14",
+        "captured": "v29rx_cat_15",
+        "falling": "v29rx_cat_16",
+        "rebound": "v29rx_cat_17"
+      },
+      "holder": {
+        "raise": "v29rx_cat_18",
+        "hold": "v29rx_cat_19",
+        "press": "v29rx_cat_20"
+      },
+      "source_sha256": "1c475c4f379b2f07e8486270a4d6021d657674b8dc4e1f556d47e417b54f2dc5",
+      "registered_cels": 21
+    },
+    "worker": {
+      "sheets": {
+        "v29rx_worker": {
+          "path": "res://assets/fighters/v029/reactions/worker-reactions-atlas.png",
+          "size": [
+            1840,
+            718
+          ],
+          "generated": true,
+          "reaction_stages_v029": true
+        }
+      },
+      "frames": {
+        "v29rx_worker_00": {
+          "ready": true,
+          "pose_id": "v29rx_worker_00",
+          "sheet": "v29rx_worker",
+          "rect": [
+            4,
+            266,
+            215,
+            238
+          ],
+          "pivot": [
+            110.0,
+            234.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              19.047,
+              -159.255
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              32.48
+            ],
+            "anatomy_chest": [
+              -1.125,
+              -109.913
+            ],
+            "anatomy_chest_radius": [
+              55.1,
+              55.68
+            ],
+            "anatomy_hips": [
+              0.116,
+              -64.483
+            ],
+            "anatomy_hips_radius": [
+              52.78,
+              42.92
+            ],
+            "capture_chest": [
+              -1.125,
+              -109.913
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            77,
+            7,
+            292,
+            245
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_01": {
+          "ready": true,
+          "pose_id": "v29rx_worker_01",
+          "sheet": "v29rx_worker",
+          "rect": [
+            440,
+            266,
+            219,
+            235
+          ],
+          "pivot": [
+            112.0,
+            231.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -3.385,
+              -167.765
+            ],
+            "anatomy_head_radius": [
+              33.64,
+              37.7
+            ],
+            "anatomy_chest": [
+              -1.195,
+              -109.129
+            ],
+            "anatomy_chest_radius": [
+              56.26,
+              55.1
+            ],
+            "anatomy_hips": [
+              -0.723,
+              -63.223
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              41.76
+            ],
+            "capture_chest": [
+              -1.195,
+              -109.129
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            412,
+            10,
+            631,
+            245
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_02": {
+          "ready": true,
+          "pose_id": "v29rx_worker_02",
+          "sheet": "v29rx_worker",
+          "rect": [
+            227,
+            266,
+            205,
+            236
+          ],
+          "pivot": [
+            106.0,
+            232.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              22.124,
+              -154.747
+            ],
+            "anatomy_head_radius": [
+              42.92,
+              27.26
+            ],
+            "anatomy_chest": [
+              -3.015,
+              -107.152
+            ],
+            "anatomy_chest_radius": [
+              52.78,
+              55.68
+            ],
+            "anatomy_hips": [
+              -4.557,
+              -64.081
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              42.34
+            ],
+            "capture_chest": [
+              -3.015,
+              -107.152
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            727,
+            10,
+            932,
+            246
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_03": {
+          "ready": true,
+          "pose_id": "v29rx_worker_03",
+          "sheet": "v29rx_worker",
+          "rect": [
+            505,
+            4,
+            200,
+            250
+          ],
+          "pivot": [
+            105.0,
+            246.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              17.195,
+              -156.84
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              19.72
+            ],
+            "anatomy_chest": [
+              -4.291,
+              -113.292
+            ],
+            "anatomy_chest_radius": [
+              51.04,
+              58.58
+            ],
+            "anatomy_hips": [
+              -6.417,
+              -68.111
+            ],
+            "anatomy_hips_radius": [
+              48.72,
+              44.66
+            ],
+            "capture_chest": [
+              -4.291,
+              -113.292
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            64,
+            255,
+            264,
+            505
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_04": {
+          "ready": true,
+          "pose_id": "v29rx_worker_04",
+          "sheet": "v29rx_worker",
+          "rect": [
+            667,
+            266,
+            214,
+            234
+          ],
+          "pivot": [
+            100.0,
+            230.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              21.053,
+              -135.404
+            ],
+            "anatomy_head_radius": [
+              11.6,
+              8.0
+            ],
+            "anatomy_chest": [
+              7.0,
+              -106.131
+            ],
+            "anatomy_chest_radius": [
+              54.52,
+              55.1
+            ],
+            "anatomy_hips": [
+              4.061,
+              -64.407
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              41.76
+            ],
+            "capture_chest": [
+              7.0,
+              -106.131
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            418,
+            271,
+            632,
+            505
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_05": {
+          "ready": true,
+          "pose_id": "v29rx_worker_05",
+          "sheet": "v29rx_worker",
+          "rect": [
+            713,
+            4,
+            201,
+            250
+          ],
+          "pivot": [
+            107.0,
+            246.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              21.315,
+              -163.734
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              28.42
+            ],
+            "anatomy_chest": [
+              -5.225,
+              -113.753
+            ],
+            "anatomy_chest_radius": [
+              51.62,
+              58.58
+            ],
+            "anatomy_hips": [
+              -7.504,
+              -67.969
+            ],
+            "anatomy_hips_radius": [
+              49.3,
+              44.66
+            ],
+            "capture_chest": [
+              -5.225,
+              -113.753
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            734,
+            255,
+            935,
+            505
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_06": {
+          "ready": true,
+          "pose_id": "v29rx_worker_06",
+          "sheet": "v29rx_worker",
+          "rect": [
+            4,
+            4,
+            205,
+            254
+          ],
+          "pivot": [
+            100.0,
+            250.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              10.309,
+              -183.654
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              42.34
+            ],
+            "anatomy_chest": [
+              3.576,
+              -118.82
+            ],
+            "anatomy_chest_radius": [
+              52.78,
+              59.74
+            ],
+            "anatomy_hips": [
+              2.566,
+              -67.52
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              45.82
+            ],
+            "capture_chest": [
+              3.576,
+              -118.82
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            86,
+            513,
+            291,
+            767
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_07": {
+          "ready": true,
+          "pose_id": "v29rx_worker_07",
+          "sheet": "v29rx_worker",
+          "rect": [
+            922,
+            4,
+            224,
+            250
+          ],
+          "pivot": [
+            128.0,
+            246.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -18.537,
+              -187.92
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              41.76
+            ],
+            "anatomy_chest": [
+              -14.759,
+              -117.27
+            ],
+            "anatomy_chest_radius": [
+              58.0,
+              58.58
+            ],
+            "anatomy_hips": [
+              -16.402,
+              -65.699
+            ],
+            "anatomy_hips_radius": [
+              55.1,
+              44.66
+            ],
+            "capture_chest": [
+              -14.759,
+              -117.27
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            405,
+            515,
+            629,
+            765
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_08": {
+          "ready": true,
+          "pose_id": "v29rx_worker_08",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1154,
+            4,
+            219,
+            250
+          ],
+          "pivot": [
+            106.0,
+            246.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              26.665,
+              -175.342
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              40.6
+            ],
+            "anatomy_chest": [
+              4.845,
+              -116.423
+            ],
+            "anatomy_chest_radius": [
+              56.26,
+              58.58
+            ],
+            "anatomy_hips": [
+              4.155,
+              -67.307
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              44.66
+            ],
+            "capture_chest": [
+              4.845,
+              -116.423
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            744,
+            517,
+            963,
+            767
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_09": {
+          "ready": true,
+          "pose_id": "v29rx_worker_09",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1165,
+            266,
+            211,
+            229
+          ],
+          "pivot": [
+            115.0,
+            225.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              9.056,
+              -139.842
+            ],
+            "anatomy_head_radius": [
+              40.6,
+              11.6
+            ],
+            "anatomy_chest": [
+              -9.306,
+              -103.642
+            ],
+            "anatomy_chest_radius": [
+              53.94,
+              53.94
+            ],
+            "anatomy_hips": [
+              -10.267,
+              -62.364
+            ],
+            "anatomy_hips_radius": [
+              51.62,
+              41.18
+            ],
+            "capture_chest": [
+              -9.306,
+              -103.642
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            66,
+            779,
+            277,
+            1008
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_10": {
+          "ready": true,
+          "pose_id": "v29rx_worker_10",
+          "sheet": "v29rx_worker",
+          "rect": [
+            4,
+            512,
+            202,
+            202
+          ],
+          "pivot": [
+            74.0,
+            198.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              42.68,
+              -151.88
+            ],
+            "anatomy_head_radius": [
+              43.12,
+              37.24
+            ],
+            "anatomy_chest": [
+              27.0,
+              -91.175
+            ],
+            "anatomy_chest_radius": [
+              52.2,
+              47.56
+            ],
+            "anatomy_hips": [
+              25.035,
+              -53.89
+            ],
+            "anatomy_hips_radius": [
+              49.88,
+              35.96
+            ],
+            "capture_chest": [
+              27.0,
+              -91.175
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            428,
+            802,
+            630,
+            1004
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_11": {
+          "ready": true,
+          "pose_id": "v29rx_worker_11",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1609,
+            4,
+            221,
+            241
+          ],
+          "pivot": [
+            108.0,
+            237.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              28.562,
+              -150.843
+            ],
+            "anatomy_head_radius": [
+              43.5,
+              19.14
+            ],
+            "anatomy_chest": [
+              2.566,
+              -109.576
+            ],
+            "anatomy_chest_radius": [
+              56.26,
+              56.26
+            ],
+            "anatomy_hips": [
+              1.689,
+              -65.694
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              42.92
+            ],
+            "capture_chest": [
+              2.566,
+              -109.576
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            723,
+            773,
+            944,
+            1014
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_12": {
+          "ready": true,
+          "pose_id": "v29rx_worker_12",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1582,
+            266,
+            254,
+            217
+          ],
+          "pivot": [
+            162.768,
+            213.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -49.74,
+              -140.177
+            ],
+            "anatomy_head_radius": [
+              40.02,
+              34.22
+            ],
+            "anatomy_chest": [
+              -36.601,
+              -108.443
+            ],
+            "anatomy_chest_radius": [
+              66.12,
+              51.04
+            ],
+            "anatomy_hips": [
+              0.0,
+              -81.404
+            ],
+            "anatomy_hips_radius": [
+              62.64,
+              38.86
+            ],
+            "capture_chest": [
+              -36.601,
+              -108.443
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            52,
+            1021,
+            306,
+            1238
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_13": {
+          "ready": true,
+          "pose_id": "v29rx_worker_13",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1381,
+            4,
+            220,
+            243
+          ],
+          "pivot": [
+            147.542,
+            239.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -45.442,
+              -177.951
+            ],
+            "anatomy_head_radius": [
+              42.92,
+              38.28
+            ],
+            "anatomy_chest": [
+              -31.643,
+              -128.675
+            ],
+            "anatomy_chest_radius": [
+              56.26,
+              57.42
+            ],
+            "anatomy_hips": [
+              0.0,
+              -94.231
+            ],
+            "anatomy_hips_radius": [
+              53.94,
+              35.96
+            ],
+            "capture_chest": [
+              -31.643,
+              -128.675
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            407,
+            1013,
+            627,
+            1256
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_14": {
+          "ready": true,
+          "pose_id": "v29rx_worker_14",
+          "sheet": "v29rx_worker",
+          "rect": [
+            214,
+            512,
+            238,
+            189
+          ],
+          "pivot": [
+            179.342,
+            185.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -78.234,
+              -104.815
+            ],
+            "anatomy_head_radius": [
+              38.86,
+              36.54
+            ],
+            "anatomy_chest": [
+              -27.856,
+              -61.214
+            ],
+            "anatomy_chest_radius": [
+              60.9,
+              44.08
+            ],
+            "anatomy_hips": [
+              0.0,
+              -85.005
+            ],
+            "anatomy_hips_radius": [
+              58.58,
+              33.64
+            ],
+            "capture_chest": [
+              -27.856,
+              -61.214
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            745,
+            1030,
+            983,
+            1219
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_15": {
+          "ready": true,
+          "pose_id": "v29rx_worker_15",
+          "sheet": "v29rx_worker",
+          "rect": [
+            1384,
+            266,
+            190,
+            225
+          ],
+          "pivot": [
+            122.624,
+            221.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -11.7,
+              -150.96
+            ],
+            "anatomy_head_radius": [
+              38.28,
+              24.36
+            ],
+            "anatomy_chest": [
+              -22.104,
+              -112.849
+            ],
+            "anatomy_chest_radius": [
+              48.14,
+              52.78
+            ],
+            "anatomy_hips": [
+              0.0,
+              -64.655
+            ],
+            "anatomy_hips_radius": [
+              46.4,
+              40.02
+            ],
+            "capture_chest": [
+              -22.104,
+              -112.849
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            90,
+            1257,
+            280,
+            1482
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_16": {
+          "ready": true,
+          "pose_id": "v29rx_worker_16",
+          "sheet": "v29rx_worker",
+          "rect": [
+            889,
+            266,
+            268,
+            232
+          ],
+          "pivot": [
+            133.726,
+            228.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              42.815,
+              -123.156
+            ],
+            "anatomy_head_radius": [
+              46.98,
+              23.78
+            ],
+            "anatomy_chest": [
+              14.446,
+              -96.571
+            ],
+            "anatomy_chest_radius": [
+              69.02,
+              54.52
+            ],
+            "anatomy_hips": [
+              0.0,
+              -53.796
+            ],
+            "anatomy_hips_radius": [
+              58.0,
+              41.18
+            ],
+            "capture_chest": [
+              14.446,
+              -96.571
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            376,
+            1268,
+            644,
+            1500
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_worker_17": {
+          "ready": true,
+          "pose_id": "v29rx_worker_17",
+          "sheet": "v29rx_worker",
+          "rect": [
+            217,
+            4,
+            280,
+            253
+          ],
+          "pivot": [
+            176.622,
+            249.0
+          ],
+          "body_reference_height": 227.646,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -14.95,
+              -172.304
+            ],
+            "anatomy_head_radius": [
+              49.88,
+              30.74
+            ],
+            "anatomy_chest": [
+              -22.827,
+              -122.746
+            ],
+            "anatomy_chest_radius": [
+              72.5,
+              59.74
+            ],
+            "anatomy_hips": [
+              0.0,
+              -71.525
+            ],
+            "anatomy_hips_radius": [
+              68.44,
+              45.24
+            ],
+            "capture_chest": [
+              -22.827,
+              -122.746
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            707,
+            1254,
+            987,
+            1507
+          ],
+          "source_sheet": "worker-sheet.png",
+          "reserved_contact_holder": false
+        }
+      },
+      "ground": {
+        "side": {
+          "contact": "v29rx_worker_00",
+          "peak": "v29rx_worker_01",
+          "rebound": "v29rx_worker_02",
+          "stable": "v28wr05"
+        },
+        "belly": {
+          "contact": "v29rx_worker_03",
+          "peak": "v29rx_worker_04",
+          "rebound": "v29rx_worker_05",
+          "stable": "v28wr05"
+        },
+        "lift": {
+          "contact": "v29rx_worker_06",
+          "peak": "v29rx_worker_07",
+          "rebound": "v29rx_worker_08",
+          "stable": "v28wr05"
+        },
+        "crush": {
+          "contact": "v29rx_worker_09",
+          "peak": "v29rx_worker_10",
+          "rebound": "v29rx_worker_11",
+          "stable": "v28wr05"
+        }
+      },
+      "air": {
+        "side": "v29rx_worker_12",
+        "lift": "v29rx_worker_13",
+        "flip": "v29rx_worker_14",
+        "captured": "v29rx_worker_15",
+        "falling": "v29rx_worker_16",
+        "rebound": "v29rx_worker_17"
+      },
+      "holder": {},
+      "source_sha256": "de58054e87ab47d61b6e2b01cba089da6c5d05f30d7dc73176a9ffad7c774b82",
+      "registered_cels": 18
+    },
+    "chicken": {
+      "sheets": {
+        "v29rx_chicken": {
+          "path": "res://assets/fighters/v029/reactions/chicken-reactions-atlas.png",
+          "size": [
+            1954,
+            711
+          ],
+          "generated": true,
+          "reaction_stages_v029": true
+        }
+      },
+      "frames": {
+        "v29rx_chicken_00": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_00",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1035,
+            4,
+            302,
+            238
+          ],
+          "pivot": [
+            141.0,
+            230.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              12.189,
+              -153.923
+            ],
+            "anatomy_head_radius": [
+              71.34,
+              43.5
+            ],
+            "anatomy_chest": [
+              10.0,
+              -104.03
+            ],
+            "anatomy_chest_radius": [
+              78.88,
+              55.68
+            ],
+            "anatomy_hips": [
+              9.06,
+              -62.96
+            ],
+            "anatomy_hips_radius": [
+              74.82,
+              42.92
+            ],
+            "capture_chest": [
+              10.0,
+              -104.03
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            20,
+            2,
+            322,
+            240
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_01": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_01",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            268,
+            4,
+            276,
+            242
+          ],
+          "pivot": [
+            105.0,
+            234.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              43.509,
+              -158.232
+            ],
+            "anatomy_head_radius": [
+              68.44,
+              45.24
+            ],
+            "anatomy_chest": [
+              33.0,
+              -106.363
+            ],
+            "anatomy_chest_radius": [
+              71.92,
+              57.42
+            ],
+            "anatomy_hips": [
+              29.603,
+              -62.623
+            ],
+            "anatomy_hips_radius": [
+              68.44,
+              43.5
+            ],
+            "capture_chest": [
+              33.0,
+              -106.363
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            378,
+            0,
+            654,
+            242
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_02": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_02",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            280,
+            255,
+            212,
+            234
+          ],
+          "pivot": [
+            52.0,
+            227.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              79.663,
+              -144.06
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              34.8
+            ],
+            "anatomy_chest": [
+              54.0,
+              -103.163
+            ],
+            "anatomy_chest_radius": [
+              54.52,
+              55.1
+            ],
+            "anatomy_hips": [
+              51.971,
+              -61.307
+            ],
+            "anatomy_hips_radius": [
+              52.2,
+              40.6
+            ],
+            "capture_chest": [
+              54.0,
+              -103.163
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            754,
+            7,
+            966,
+            241
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_03": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_03",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            552,
+            4,
+            226,
+            240
+          ],
+          "pivot": [
+            59.0,
+            232.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              64.798,
+              -157.868
+            ],
+            "anatomy_head_radius": [
+              52.78,
+              46.98
+            ],
+            "anatomy_chest": [
+              54.0,
+              -104.987
+            ],
+            "anatomy_chest_radius": [
+              58.0,
+              56.84
+            ],
+            "anatomy_hips": [
+              51.749,
+              -61.665
+            ],
+            "anatomy_hips_radius": [
+              55.68,
+              40.02
+            ],
+            "capture_chest": [
+              54.0,
+              -104.987
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            62,
+            243,
+            288,
+            483
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_04": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_04",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            500,
+            255,
+            223,
+            231
+          ],
+          "pivot": [
+            49.0,
+            223.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              92.779,
+              -140.427
+            ],
+            "anatomy_head_radius": [
+              49.3,
+              32.48
+            ],
+            "anatomy_chest": [
+              62.5,
+              -100.685
+            ],
+            "anatomy_chest_radius": [
+              57.42,
+              53.94
+            ],
+            "anatomy_hips": [
+              60.346,
+              -59.027
+            ],
+            "anatomy_hips_radius": [
+              55.1,
+              40.02
+            ],
+            "capture_chest": [
+              62.5,
+              -100.685
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            405,
+            252,
+            628,
+            483
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_05": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_05",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1345,
+            4,
+            207,
+            236
+          ],
+          "pivot": [
+            45.0,
+            229.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              83.525,
+              -145.56
+            ],
+            "anatomy_head_radius": [
+              45.24,
+              35.38
+            ],
+            "anatomy_chest": [
+              58.5,
+              -104.088
+            ],
+            "anatomy_chest_radius": [
+              52.78,
+              55.68
+            ],
+            "anatomy_hips": [
+              56.535,
+              -62.187
+            ],
+            "anatomy_hips_radius": [
+              50.46,
+              41.18
+            ],
+            "capture_chest": [
+              58.5,
+              -104.088
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            753,
+            246,
+            960,
+            482
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_06": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_06",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            786,
+            4,
+            241,
+            240
+          ],
+          "pivot": [
+            78.0,
+            233.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              60.413,
+              -164.135
+            ],
+            "anatomy_head_radius": [
+              58.58,
+              51.04
+            ],
+            "anatomy_chest": [
+              42.5,
+              -105.987
+            ],
+            "anatomy_chest_radius": [
+              62.06,
+              56.84
+            ],
+            "anatomy_hips": [
+              39.994,
+              -62.37
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              41.76
+            ],
+            "capture_chest": [
+              42.5,
+              -105.987
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            52,
+            492,
+            293,
+            732
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_07": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_07",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            4,
+            4,
+            256,
+            243
+          ],
+          "pivot": [
+            78.0,
+            236.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              64.565,
+              -165.898
+            ],
+            "anatomy_head_radius": [
+              63.22,
+              49.3
+            ],
+            "anatomy_chest": [
+              50.0,
+              -107.384
+            ],
+            "anatomy_chest_radius": [
+              66.12,
+              57.42
+            ],
+            "anatomy_hips": [
+              47.305,
+              -64.489
+            ],
+            "anatomy_hips_radius": [
+              63.22,
+              42.34
+            ],
+            "capture_chest": [
+              50.0,
+              -107.384
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            401,
+            488,
+            657,
+            731
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_08": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_08",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1560,
+            4,
+            238,
+            236
+          ],
+          "pivot": [
+            69.0,
+            229.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              67.223,
+              -159.487
+            ],
+            "anatomy_head_radius": [
+              57.42,
+              49.88
+            ],
+            "anatomy_chest": [
+              50.0,
+              -104.12
+            ],
+            "anatomy_chest_radius": [
+              61.48,
+              55.68
+            ],
+            "anatomy_hips": [
+              47.649,
+              -60.744
+            ],
+            "anatomy_hips_radius": [
+              58.58,
+              41.76
+            ],
+            "capture_chest": [
+              50.0,
+              -104.12
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            742,
+            497,
+            980,
+            733
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_09": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_09",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1431,
+            255,
+            237,
+            210
+          ],
+          "pivot": [
+            47.0,
+            203.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              62.018,
+              -129.639
+            ],
+            "anatomy_head_radius": [
+              53.36,
+              21.46
+            ],
+            "anatomy_chest": [
+              71.5,
+              -91.941
+            ],
+            "anatomy_chest_radius": [
+              60.9,
+              48.72
+            ],
+            "anatomy_hips": [
+              69.076,
+              -53.804
+            ],
+            "anatomy_hips_radius": [
+              58.58,
+              35.38
+            ],
+            "capture_chest": [
+              71.5,
+              -91.941
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            51,
+            748,
+            288,
+            958
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_10": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_10",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            552,
+            499,
+            231,
+            188
+          ],
+          "pivot": [
+            78.0,
+            181.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              13.649,
+              -114.227
+            ],
+            "anatomy_head_radius": [
+              8.0,
+              8.7
+            ],
+            "anatomy_chest": [
+              37.5,
+              -81.535
+            ],
+            "anatomy_chest_radius": [
+              59.74,
+              43.5
+            ],
+            "anatomy_hips": [
+              35.227,
+              -46.964
+            ],
+            "anatomy_hips_radius": [
+              56.84,
+              33.64
+            ],
+            "capture_chest": [
+              37.5,
+              -81.535
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            400,
+            768,
+            631,
+            956
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_11": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_11",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            4,
+            499,
+            239,
+            208
+          ],
+          "pivot": [
+            48.0,
+            200.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              88.831,
+              -126.844
+            ],
+            "anatomy_head_radius": [
+              55.68,
+              27.26
+            ],
+            "anatomy_chest": [
+              71.5,
+              -89.963
+            ],
+            "anatomy_chest_radius": [
+              62.06,
+              48.72
+            ],
+            "anatomy_hips": [
+              69.609,
+              -52.698
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              36.54
+            ],
+            "capture_chest": [
+              71.5,
+              -89.963
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            747,
+            748,
+            986,
+            956
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_12": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_12",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            251,
+            499,
+            293,
+            207
+          ],
+          "pivot": [
+            155.109,
+            203.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -16.124,
+              -135.155
+            ],
+            "anatomy_head_radius": [
+              63.8,
+              38.28
+            ],
+            "anatomy_chest": [
+              -11.513,
+              -95.489
+            ],
+            "anatomy_chest_radius": [
+              75.98,
+              48.14
+            ],
+            "anatomy_hips": [
+              0.0,
+              -69.377
+            ],
+            "anatomy_hips_radius": [
+              73.08,
+              36.54
+            ],
+            "capture_chest": [
+              -11.513,
+              -95.489
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            23,
+            970,
+            316,
+            1177
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_13": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_13",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            731,
+            255,
+            240,
+            219
+          ],
+          "pivot": [
+            122.327,
+            215.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -1.906,
+              -152.363
+            ],
+            "anatomy_head_radius": [
+              59.16,
+              43.5
+            ],
+            "anatomy_chest": [
+              2.386,
+              -103.368
+            ],
+            "anatomy_chest_radius": [
+              62.06,
+              51.62
+            ],
+            "anatomy_hips": [
+              0.0,
+              -67.217
+            ],
+            "anatomy_hips_radius": [
+              59.16,
+              38.86
+            ],
+            "capture_chest": [
+              2.386,
+              -103.368
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            398,
+            975,
+            638,
+            1194
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_14": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_14",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1676,
+            255,
+            274,
+            209
+          ],
+          "pivot": [
+            169.193,
+            205.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -68.262,
+              -147.04
+            ],
+            "anatomy_head_radius": [
+              51.04,
+              35.38
+            ],
+            "anatomy_chest": [
+              -26.892,
+              -98.476
+            ],
+            "anatomy_chest_radius": [
+              70.76,
+              49.3
+            ],
+            "anatomy_hips": [
+              0.0,
+              -86.27
+            ],
+            "anatomy_hips_radius": [
+              67.86,
+              37.12
+            ],
+            "capture_chest": [
+              -26.892,
+              -98.476
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            721,
+            986,
+            995,
+            1195
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_15": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_15",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            1222,
+            255,
+            201,
+            212
+          ],
+          "pivot": [
+            100.5,
+            208.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              0.194,
+              -119.413
+            ],
+            "anatomy_head_radius": [
+              48.72,
+              26.68
+            ],
+            "anatomy_chest": [
+              1.975,
+              -99.957
+            ],
+            "anatomy_chest_radius": [
+              51.62,
+              49.88
+            ],
+            "anatomy_hips": [
+              0.0,
+              -69.021
+            ],
+            "anatomy_hips_radius": [
+              49.3,
+              37.12
+            ],
+            "capture_chest": [
+              1.975,
+              -99.957
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            55,
+            1228,
+            256,
+            1440
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_16": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_16",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            979,
+            255,
+            235,
+            214
+          ],
+          "pivot": [
+            85.457,
+            210.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              66.393,
+              -115.48
+            ],
+            "anatomy_head_radius": [
+              50.38,
+              39.52
+            ],
+            "anatomy_chest": [
+              29.716,
+              -84.243
+            ],
+            "anatomy_chest_radius": [
+              60.32,
+              49.88
+            ],
+            "anatomy_hips": [
+              0.0,
+              -69.678
+            ],
+            "anatomy_hips_radius": [
+              57.42,
+              37.7
+            ],
+            "capture_chest": [
+              29.716,
+              -84.243
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            387,
+            1231,
+            622,
+            1445
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_chicken_17": {
+          "ready": true,
+          "pose_id": "v29rx_chicken_17",
+          "sheet": "v29rx_chicken",
+          "rect": [
+            4,
+            255,
+            268,
+            236
+          ],
+          "pivot": [
+            139.201,
+            232.0
+          ],
+          "body_reference_height": 235.2124,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -3.61,
+              -162.63
+            ],
+            "anatomy_head_radius": [
+              55.1,
+              40.6
+            ],
+            "anatomy_chest": [
+              -2.572,
+              -118.601
+            ],
+            "anatomy_chest_radius": [
+              69.02,
+              55.1
+            ],
+            "anatomy_hips": [
+              0.0,
+              -79.5
+            ],
+            "anatomy_hips_radius": [
+              66.12,
+              42.34
+            ],
+            "capture_chest": [
+              -2.572,
+              -118.601
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            724,
+            1226,
+            992,
+            1462
+          ],
+          "source_sheet": "chicken-sheet.png",
+          "reserved_contact_holder": false
+        }
+      },
+      "ground": {
+        "side": {
+          "contact": "v29rx_chicken_00",
+          "peak": "v29rx_chicken_01",
+          "rebound": "v29rx_chicken_02",
+          "stable": "v28cr05"
+        },
+        "belly": {
+          "contact": "v29rx_chicken_03",
+          "peak": "v29rx_chicken_04",
+          "rebound": "v29rx_chicken_05",
+          "stable": "v28cr05"
+        },
+        "lift": {
+          "contact": "v29rx_chicken_06",
+          "peak": "v29rx_chicken_07",
+          "rebound": "v29rx_chicken_08",
+          "stable": "v28cr05"
+        },
+        "crush": {
+          "contact": "v29rx_chicken_09",
+          "peak": "v29rx_chicken_10",
+          "rebound": "v29rx_chicken_11",
+          "stable": "v28cr05"
+        }
+      },
+      "air": {
+        "side": "v29rx_chicken_12",
+        "lift": "v29rx_chicken_13",
+        "flip": "v29rx_chicken_14",
+        "captured": "v29rx_chicken_15",
+        "falling": "v29rx_chicken_16",
+        "rebound": "v29rx_chicken_17"
+      },
+      "holder": {},
+      "source_sha256": "98e04658fd87b53bce0fd6184c0014d5a51a0c15004907b8168f086c63f6d7f6",
+      "registered_cels": 18
+    },
+    "shark": {
+      "sheets": {
+        "v29rx_shark": {
+          "path": "res://assets/fighters/v029/reactions/shark-reactions-atlas.png",
+          "size": [
+            2048,
+            758
+          ],
+          "generated": true,
+          "reaction_stages_v029": true
+        }
+      },
+      "frames": {
+        "v29rx_shark_00": {
+          "ready": true,
+          "pose_id": "v29rx_shark_00",
+          "sheet": "v29rx_shark",
+          "rect": [
+            4,
+            307,
+            318,
+            226
+          ],
+          "pivot": [
+            151.0,
+            222.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              90.544,
+              -156.627
+            ],
+            "anatomy_head_radius": [
+              70.76,
+              47.56
+            ],
+            "anatomy_chest": [
+              22.633,
+              -105.772
+            ],
+            "anatomy_chest_radius": [
+              82.94,
+              52.78
+            ],
+            "anatomy_hips": [
+              0.626,
+              -62.593
+            ],
+            "anatomy_hips_radius": [
+              78.88,
+              40.02
+            ],
+            "capture_chest": [
+              22.633,
+              -105.772
+            ],
+            "rear_foot": [
+              -71.0,
+              -1.0
+            ],
+            "third_foot": [
+              10.0,
+              0.0
+            ],
+            "front_foot": [
+              91.0,
+              -7.0
+            ],
+            "jaw": [
+              90.544,
+              -156.627
+            ],
+            "tail": [
+              -148.0,
+              -109.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            9,
+            6,
+            327,
+            232
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_01": {
+          "ready": true,
+          "pose_id": "v29rx_shark_01",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1740,
+            4,
+            304,
+            234
+          ],
+          "pivot": [
+            143.0,
+            230.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              90.52,
+              -160.442
+            ],
+            "anatomy_head_radius": [
+              67.86,
+              49.3
+            ],
+            "anatomy_chest": [
+              27.424,
+              -107.047
+            ],
+            "anatomy_chest_radius": [
+              78.88,
+              55.1
+            ],
+            "anatomy_hips": [
+              5.791,
+              -64.477
+            ],
+            "anatomy_hips_radius": [
+              75.4,
+              41.76
+            ],
+            "capture_chest": [
+              27.424,
+              -107.047
+            ],
+            "rear_foot": [
+              -72.0,
+              -3.0
+            ],
+            "third_foot": [
+              7.0,
+              -2.0
+            ],
+            "front_foot": [
+              88.0,
+              -1.0
+            ],
+            "jaw": [
+              90.52,
+              -160.442
+            ],
+            "tail": [
+              -140.0,
+              -113.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            352,
+            3,
+            656,
+            237
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_02": {
+          "ready": true,
+          "pose_id": "v29rx_shark_02",
+          "sheet": "v29rx_shark",
+          "rect": [
+            4,
+            541,
+            334,
+            213
+          ],
+          "pivot": [
+            146.0,
+            209.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              109.558,
+              -136.663
+            ],
+            "anatomy_head_radius": [
+              78.88,
+              38.86
+            ],
+            "anatomy_chest": [
+              36.962,
+              -99.287
+            ],
+            "anatomy_chest_radius": [
+              87.0,
+              49.88
+            ],
+            "anatomy_hips": [
+              17.733,
+              -59.266
+            ],
+            "anatomy_hips_radius": [
+              82.94,
+              38.28
+            ],
+            "capture_chest": [
+              36.962,
+              -99.287
+            ],
+            "rear_foot": [
+              -74.0,
+              -1.0
+            ],
+            "third_foot": [
+              11.0,
+              0.0
+            ],
+            "front_foot": [
+              91.0,
+              -12.0
+            ],
+            "jaw": [
+              109.558,
+              -136.663
+            ],
+            "tail": [
+              -143.0,
+              -102.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            682,
+            19,
+            1016,
+            232
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_03": {
+          "ready": true,
+          "pose_id": "v29rx_shark_03",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1314,
+            307,
+            327,
+            218
+          ],
+          "pivot": [
+            158.5,
+            214.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              78.725,
+              -135.624
+            ],
+            "anatomy_head_radius": [
+              63.22,
+              38.28
+            ],
+            "anatomy_chest": [
+              21.024,
+              -100.789
+            ],
+            "anatomy_chest_radius": [
+              85.26,
+              51.04
+            ],
+            "anatomy_hips": [
+              3.643,
+              -60.581
+            ],
+            "anatomy_hips_radius": [
+              81.2,
+              38.86
+            ],
+            "capture_chest": [
+              21.024,
+              -100.789
+            ],
+            "rear_foot": [
+              -85.5,
+              -3.0
+            ],
+            "third_foot": [
+              1.5,
+              0.0
+            ],
+            "front_foot": [
+              76.5,
+              -6.0
+            ],
+            "jaw": [
+              78.725,
+              -135.624
+            ],
+            "tail": [
+              -155.5,
+              -105.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            8,
+            255,
+            335,
+            473
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_04": {
+          "ready": true,
+          "pose_id": "v29rx_shark_04",
+          "sheet": "v29rx_shark",
+          "rect": [
+            346,
+            541,
+            304,
+            199
+          ],
+          "pivot": [
+            145.0,
+            195.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              71.172,
+              -124.4
+            ],
+            "anatomy_head_radius": [
+              55.1,
+              37.7
+            ],
+            "anatomy_chest": [
+              21.899,
+              -91.693
+            ],
+            "anatomy_chest_radius": [
+              78.88,
+              46.4
+            ],
+            "anatomy_hips": [
+              3.842,
+              -53.298
+            ],
+            "anatomy_hips_radius": [
+              75.4,
+              34.8
+            ],
+            "capture_chest": [
+              21.899,
+              -91.693
+            ],
+            "rear_foot": [
+              -62.0,
+              -2.0
+            ],
+            "third_foot": [
+              3.0,
+              0.0
+            ],
+            "front_foot": [
+              84.0,
+              -9.0
+            ],
+            "jaw": [
+              71.172,
+              -124.4
+            ],
+            "tail": [
+              -142.0,
+              -95.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            348,
+            270,
+            652,
+            469
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_05": {
+          "ready": true,
+          "pose_id": "v29rx_shark_05",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1649,
+            307,
+            328,
+            218
+          ],
+          "pivot": [
+            151.0,
+            214.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              102.421,
+              -143.621
+            ],
+            "anatomy_head_radius": [
+              77.72,
+              42.34
+            ],
+            "anatomy_chest": [
+              28.533,
+              -101.831
+            ],
+            "anatomy_chest_radius": [
+              85.26,
+              51.04
+            ],
+            "anatomy_hips": [
+              9.991,
+              -60.554
+            ],
+            "anatomy_hips_radius": [
+              81.78,
+              38.86
+            ],
+            "capture_chest": [
+              28.533,
+              -101.831
+            ],
+            "rear_foot": [
+              -80.0,
+              -4.0
+            ],
+            "third_foot": [
+              6.0,
+              0.0
+            ],
+            "front_foot": [
+              87.0,
+              -13.0
+            ],
+            "jaw": [
+              102.421,
+              -143.621
+            ],
+            "tail": [
+              -148.0,
+              -105.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            686,
+            259,
+            1014,
+            477
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_06": {
+          "ready": true,
+          "pose_id": "v29rx_shark_06",
+          "sheet": "v29rx_shark",
+          "rect": [
+            319,
+            4,
+            309,
+            275
+          ],
+          "pivot": [
+            156.0,
+            271.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              71.208,
+              -189.91
+            ],
+            "anatomy_head_radius": [
+              53.94,
+              58.58
+            ],
+            "anatomy_chest": [
+              17.136,
+              -127.996
+            ],
+            "anatomy_chest_radius": [
+              76.56,
+              64.96
+            ],
+            "anatomy_hips": [
+              -5.914,
+              -76.291
+            ],
+            "anatomy_hips_radius": [
+              76.56,
+              49.3
+            ],
+            "capture_chest": [
+              17.136,
+              -127.996
+            ],
+            "rear_foot": [
+              -87.0,
+              -3.0
+            ],
+            "third_foot": [
+              17.0,
+              -2.0
+            ],
+            "front_foot": [
+              81.0,
+              -1.0
+            ],
+            "jaw": [
+              71.208,
+              -189.91
+            ],
+            "tail": [
+              -153.0,
+              -133.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            9,
+            496,
+            318,
+            771
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_07": {
+          "ready": true,
+          "pose_id": "v29rx_shark_07",
+          "sheet": "v29rx_shark",
+          "rect": [
+            4,
+            4,
+            307,
+            295
+          ],
+          "pivot": [
+            137.0,
+            291.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              85.15,
+              -201.979
+            ],
+            "anatomy_head_radius": [
+              46.4,
+              63.22
+            ],
+            "anatomy_chest": [
+              35.76,
+              -137.771
+            ],
+            "anatomy_chest_radius": [
+              75.4,
+              69.6
+            ],
+            "anatomy_hips": [
+              14.505,
+              -80.891
+            ],
+            "anatomy_hips_radius": [
+              75.98,
+              52.78
+            ],
+            "capture_chest": [
+              35.76,
+              -137.771
+            ],
+            "rear_foot": [
+              -75.0,
+              -5.0
+            ],
+            "third_foot": [
+              30.0,
+              -2.0
+            ],
+            "front_foot": [
+              99.0,
+              0.0
+            ],
+            "jaw": [
+              85.15,
+              -201.979
+            ],
+            "tail": [
+              -134.0,
+              -143.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            353,
+            476,
+            660,
+            771
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_08": {
+          "ready": true,
+          "pose_id": "v29rx_shark_08",
+          "sheet": "v29rx_shark",
+          "rect": [
+            666,
+            307,
+            314,
+            224
+          ],
+          "pivot": [
+            144.0,
+            220.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              92.608,
+              -142.435
+            ],
+            "anatomy_head_radius": [
+              71.34,
+              41.18
+            ],
+            "anatomy_chest": [
+              27.936,
+              -104.444
+            ],
+            "anatomy_chest_radius": [
+              81.78,
+              52.78
+            ],
+            "anatomy_hips": [
+              7.976,
+              -63.045
+            ],
+            "anatomy_hips_radius": [
+              77.72,
+              39.44
+            ],
+            "capture_chest": [
+              27.936,
+              -104.444
+            ],
+            "rear_foot": [
+              -79.0,
+              -2.0
+            ],
+            "third_foot": [
+              7.0,
+              0.0
+            ],
+            "front_foot": [
+              90.0,
+              -12.0
+            ],
+            "jaw": [
+              92.608,
+              -142.435
+            ],
+            "tail": [
+              -141.0,
+              -108.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            693,
+            532,
+            1007,
+            756
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_09": {
+          "ready": true,
+          "pose_id": "v29rx_shark_09",
+          "sheet": "v29rx_shark",
+          "rect": [
+            943,
+            541,
+            307,
+            191
+          ],
+          "pivot": [
+            154.0,
+            187.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              73.264,
+              -120.418
+            ],
+            "anatomy_head_radius": [
+              64.38,
+              34.22
+            ],
+            "anatomy_chest": [
+              14.543,
+              -87.815
+            ],
+            "anatomy_chest_radius": [
+              79.46,
+              44.66
+            ],
+            "anatomy_hips": [
+              -6.03,
+              -52.138
+            ],
+            "anatomy_hips_radius": [
+              75.98,
+              33.64
+            ],
+            "capture_chest": [
+              14.543,
+              -87.815
+            ],
+            "rear_foot": [
+              -76.0,
+              -2.0
+            ],
+            "third_foot": [
+              0.0,
+              0.0
+            ],
+            "front_foot": [
+              77.0,
+              -10.0
+            ],
+            "jaw": [
+              73.264,
+              -120.418
+            ],
+            "tail": [
+              -151.0,
+              -91.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            14,
+            797,
+            321,
+            988
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_10": {
+          "ready": true,
+          "pose_id": "v29rx_shark_10",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1258,
+            541,
+            331,
+            149
+          ],
+          "pivot": [
+            157.0,
+            145.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              77.711,
+              -89.526
+            ],
+            "anatomy_head_radius": [
+              58.0,
+              24.94
+            ],
+            "anatomy_chest": [
+              24.728,
+              -67.619
+            ],
+            "anatomy_chest_radius": [
+              85.84,
+              34.22
+            ],
+            "anatomy_hips": [
+              5.32,
+              -39.034
+            ],
+            "anatomy_hips_radius": [
+              82.36,
+              25.52
+            ],
+            "capture_chest": [
+              24.728,
+              -67.619
+            ],
+            "rear_foot": [
+              -66.0,
+              0.0
+            ],
+            "third_foot": [
+              -5.0,
+              0.0
+            ],
+            "front_foot": [
+              74.0,
+              -4.0
+            ],
+            "jaw": [
+              77.711,
+              -89.526
+            ],
+            "tail": [
+              -154.0,
+              -70.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            346,
+            831,
+            677,
+            980
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_11": {
+          "ready": true,
+          "pose_id": "v29rx_shark_11",
+          "sheet": "v29rx_shark",
+          "rect": [
+            988,
+            307,
+            318,
+            220
+          ],
+          "pivot": [
+            163.0,
+            216.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              75.988,
+              -139.408
+            ],
+            "anatomy_head_radius": [
+              71.92,
+              41.18
+            ],
+            "anatomy_chest": [
+              11.389,
+              -102.076
+            ],
+            "anatomy_chest_radius": [
+              82.94,
+              51.62
+            ],
+            "anatomy_hips": [
+              -8.211,
+              -60.978
+            ],
+            "anatomy_hips_radius": [
+              78.88,
+              39.44
+            ],
+            "capture_chest": [
+              11.389,
+              -102.076
+            ],
+            "rear_foot": [
+              -82.0,
+              -6.0
+            ],
+            "third_foot": [
+              -3.0,
+              0.0
+            ],
+            "front_foot": [
+              69.0,
+              -12.0
+            ],
+            "jaw": [
+              75.988,
+              -139.408
+            ],
+            "tail": [
+              -160.0,
+              -106.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "alpha_ground_sole_strip",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            697,
+            774,
+            1015,
+            994
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_12": {
+          "ready": true,
+          "pose_id": "v29rx_shark_12",
+          "sheet": "v29rx_shark",
+          "rect": [
+            933,
+            4,
+            305,
+            248
+          ],
+          "pivot": [
+            143.361,
+            244.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              57.268,
+              -186.099
+            ],
+            "anatomy_head_radius": [
+              68.44,
+              52.78
+            ],
+            "anatomy_chest": [
+              1.917,
+              -126.791
+            ],
+            "anatomy_chest_radius": [
+              78.88,
+              58.58
+            ],
+            "anatomy_hips": [
+              0.0,
+              -81.589
+            ],
+            "anatomy_hips_radius": [
+              75.98,
+              44.08
+            ],
+            "capture_chest": [
+              1.917,
+              -126.791
+            ],
+            "rear_foot": [
+              -77.361,
+              0.0
+            ],
+            "third_foot": [
+              -22.361,
+              -6.0
+            ],
+            "front_foot": [
+              22.139,
+              -8.0
+            ],
+            "jaw": [
+              57.268,
+              -186.099
+            ],
+            "tail": [
+              -140.36134561268867,
+              -120.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            17,
+            995,
+            322,
+            1243
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_13": {
+          "ready": true,
+          "pose_id": "v29rx_shark_13",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1246,
+            4,
+            245,
+            246
+          ],
+          "pivot": [
+            120.148,
+            242.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              49.552,
+              -185.888
+            ],
+            "anatomy_head_radius": [
+              60.9,
+              49.88
+            ],
+            "anatomy_chest": [
+              2.742,
+              -123.51
+            ],
+            "anatomy_chest_radius": [
+              61.48,
+              58.0
+            ],
+            "anatomy_hips": [
+              0.0,
+              -75.832
+            ],
+            "anatomy_hips_radius": [
+              60.32,
+              44.08
+            ],
+            "capture_chest": [
+              2.742,
+              -123.51
+            ],
+            "rear_foot": [
+              -58.148,
+              0.0
+            ],
+            "third_foot": [
+              -13.148,
+              -8.0
+            ],
+            "front_foot": [
+              40.852,
+              -31.0
+            ],
+            "jaw": [
+              49.552,
+              -185.888
+            ],
+            "tail": [
+              -117.14794952681387,
+              -119.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            389,
+            990,
+            634,
+            1236
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_14": {
+          "ready": true,
+          "pose_id": "v29rx_shark_14",
+          "sheet": "v29rx_shark",
+          "rect": [
+            658,
+            541,
+            277,
+            198
+          ],
+          "pivot": [
+            149.166,
+            194.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              77.048,
+              -74.414
+            ],
+            "anatomy_head_radius": [
+              57.42,
+              41.76
+            ],
+            "anatomy_chest": [
+              0.21,
+              -93.067
+            ],
+            "anatomy_chest_radius": [
+              71.34,
+              46.4
+            ],
+            "anatomy_hips": [
+              0.0,
+              -57.29
+            ],
+            "anatomy_hips_radius": [
+              68.44,
+              35.38
+            ],
+            "capture_chest": [
+              0.21,
+              -93.067
+            ],
+            "rear_foot": [
+              -37.166,
+              -16.0
+            ],
+            "third_foot": [
+              35.834,
+              -3.0
+            ],
+            "front_foot": [
+              80.834,
+              -8.0
+            ],
+            "jaw": [
+              77.048,
+              -74.414
+            ],
+            "tail": [
+              -146.166392092257,
+              -95.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            714,
+            1016,
+            991,
+            1214
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_15": {
+          "ready": true,
+          "pose_id": "v29rx_shark_15",
+          "sheet": "v29rx_shark",
+          "rect": [
+            1499,
+            4,
+            233,
+            246
+          ],
+          "pivot": [
+            125.555,
+            242.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              -13.129,
+              -184.181
+            ],
+            "anatomy_head_radius": [
+              54.52,
+              49.3
+            ],
+            "anatomy_chest": [
+              -20.402,
+              -123.829
+            ],
+            "anatomy_chest_radius": [
+              60.32,
+              58.0
+            ],
+            "anatomy_hips": [
+              0.0,
+              -80.6
+            ],
+            "anatomy_hips_radius": [
+              57.42,
+              43.5
+            ],
+            "capture_chest": [
+              -20.402,
+              -123.829
+            ],
+            "rear_foot": [
+              -49.555,
+              -8.0
+            ],
+            "third_foot": [
+              2.445,
+              0.0
+            ],
+            "front_foot": [
+              44.445,
+              -1.0
+            ],
+            "jaw": [
+              -13.129,
+              -184.181
+            ],
+            "tail": [
+              -122.55500166168162,
+              -119.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            34,
+            1250,
+            267,
+            1496
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_16": {
+          "ready": true,
+          "pose_id": "v29rx_shark_16",
+          "sheet": "v29rx_shark",
+          "rect": [
+            636,
+            4,
+            289,
+            268
+          ],
+          "pivot": [
+            98.825,
+            264.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              107.189,
+              -94.278
+            ],
+            "anatomy_head_radius": [
+              70.18,
+              56.84
+            ],
+            "anatomy_chest": [
+              53.911,
+              -139.904
+            ],
+            "anatomy_chest_radius": [
+              75.4,
+              63.22
+            ],
+            "anatomy_hips": [
+              0.0,
+              -136.066
+            ],
+            "anatomy_hips_radius": [
+              66.7,
+              48.14
+            ],
+            "capture_chest": [
+              53.911,
+              -139.904
+            ],
+            "rear_foot": [
+              21.175,
+              -23.0
+            ],
+            "third_foot": [
+              64.175,
+              0.0
+            ],
+            "front_foot": [
+              154.175,
+              -24.0
+            ],
+            "jaw": [
+              107.189,
+              -94.278
+            ],
+            "tail": [
+              -95.82526671870934,
+              -130.0
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            347,
+            1239,
+            636,
+            1507
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        },
+        "v29rx_shark_17": {
+          "ready": true,
+          "pose_id": "v29rx_shark_17",
+          "sheet": "v29rx_shark",
+          "rect": [
+            330,
+            307,
+            328,
+            225
+          ],
+          "pivot": [
+            145.002,
+            221.0
+          ],
+          "body_reference_height": 206.4917,
+          "anchors": {
+            "feet": [
+              0.0,
+              0.0
+            ],
+            "anatomy_head": [
+              98.822,
+              -161.06
+            ],
+            "anatomy_head_radius": [
+              79.46,
+              40.02
+            ],
+            "anatomy_chest": [
+              24.487,
+              -111.821
+            ],
+            "anatomy_chest_radius": [
+              85.26,
+              52.78
+            ],
+            "anatomy_hips": [
+              0.0,
+              -73.772
+            ],
+            "anatomy_hips_radius": [
+              78.88,
+              40.02
+            ],
+            "capture_chest": [
+              24.487,
+              -111.821
+            ],
+            "rear_foot": [
+              -71.002,
+              -11.0
+            ],
+            "third_foot": [
+              26.998,
+              -4.0
+            ],
+            "front_foot": [
+              99.498,
+              -2.0
+            ],
+            "jaw": [
+              98.822,
+              -161.06
+            ],
+            "tail": [
+              -142.0021273362711,
+              -108.5
+            ]
+          },
+          "reaction_stages_v029": true,
+          "registered_method": "airborne_virtual_source_origin_under_hips",
+          "anatomy_method": "visible_pose_landmarks_and_alpha_material_region_measurement",
+          "source_changes": false,
+          "source_rect": [
+            681,
+            1258,
+            1009,
+            1483
+          ],
+          "source_sheet": "shark-sheet.png",
+          "reserved_contact_holder": false
+        }
+      },
+      "ground": {
+        "side": {
+          "contact": "v29rx_shark_00",
+          "peak": "v29rx_shark_01",
+          "rebound": "v29rx_shark_02",
+          "stable": "v28sr05"
+        },
+        "belly": {
+          "contact": "v29rx_shark_03",
+          "peak": "v29rx_shark_04",
+          "rebound": "v29rx_shark_05",
+          "stable": "v28sr05"
+        },
+        "lift": {
+          "contact": "v29rx_shark_06",
+          "peak": "v29rx_shark_07",
+          "rebound": "v29rx_shark_08",
+          "stable": "v28sr05"
+        },
+        "crush": {
+          "contact": "v29rx_shark_09",
+          "peak": "v29rx_shark_10",
+          "rebound": "v29rx_shark_11",
+          "stable": "v28sr05"
+        }
+      },
+      "air": {
+        "side": "v29rx_shark_12",
+        "lift": "v29rx_shark_13",
+        "flip": "v29rx_shark_14",
+        "captured": "v29rx_shark_15",
+        "falling": "v29rx_shark_16",
+        "rebound": "v29rx_shark_17"
+      },
+      "holder": {},
+      "source_sha256": "1aabdefff37b42a23a4e0f71797afa31730c3452b5b8f5a51a4c858ba8674345",
+      "registered_cels": 18
+    }
+  },
+  "prompts": "res://assets/fighters/v029/reactions/generation-prompts.json"
+}

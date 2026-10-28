@@ -1,0 +1,76 @@
+{
+  "rio": {
+    "native_height": 60,
+    "world_height": 240,
+    "clips": 29,
+    "keyframes": 336,
+    "changed_visual_clips": [
+      "idle",
+      "walk",
+      "attack1",
+      "attack2",
+      "attack3",
+      "sweep",
+      "launcher",
+      "air_light",
+      "air_skill",
+      "air_slam",
+      "dash",
+      "throw",
+      "skill1",
+      "skill2",
+      "skill3",
+      "super",
+      "super_down",
+      "super_up",
+      "getup",
+      "guard",
+      "burst",
+      "escape",
+      "invite",
+      "confirm"
+    ],
+    "parts": 16,
+    "variants": 8
+  },
+  "cat": {
+    "native_height": 57,
+    "world_height": 228,
+    "clips": 29,
+    "keyframes": 336,
+    "changed_visual_clips": [
+      "idle"
+    ],
+    "parts": 16,
+    "variants": 8
+  },
+  "worker": {
+    "native_height": 61,
+    "world_height": 244,
+    "clips": 29,
+    "keyframes": 336,
+    "changed_visual_clips": [
+      "idle"
+    ],
+    "parts": 16,
+    "variants": 8
+  },
+  "chicken": {
+    "native_height": 61,
+    "world_height": 244,
+    "clips": 29,
+    "keyframes": 336,
+    "changed_visual_clips": [],
+    "parts": 16,
+    "variants": 8
+  },
+  "shark": {
+    "native_height": 46,
+    "world_height": 184,
+    "clips": 29,
+    "keyframes": 336,
+    "changed_visual_clips": [],
+    "parts": 16,
+    "variants": 8
+  }
+}

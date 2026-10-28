@@ -1,0 +1,132 @@
+{
+  "rio": {
+    "canvas": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "body_rect": [
+      10,
+      13,
+      1514,
+      981
+    ],
+    "face_rect": [
+      173,
+      7,
+      245,
+      248
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "high_alpha_edge_pixels": 0
+  },
+  "cat": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "body_rect": [
+      34,
+      34,
+      974,
+      1458
+    ],
+    "face_rect": [
+      400,
+      55,
+      466,
+      435
+    ],
+    "corner_alpha": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "high_alpha_edge_pixels": 0
+  },
+  "shark": {
+    "canvas": [
+      1536,
+      1024
+    ],
+    "mode": "RGBA",
+    "body_rect": [
+      22,
+      22,
+      1494,
+      974
+    ],
+    "face_rect": [
+      803,
+      81,
+      713,
+      571
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "high_alpha_edge_pixels": 0
+  },
+  "worker": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "body_rect": [
+      32,
+      61,
+      912,
+      1436
+    ],
+    "face_rect": [
+      21,
+      31,
+      762,
+      751
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "high_alpha_edge_pixels": 0
+  },
+  "chicken": {
+    "canvas": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "body_rect": [
+      49,
+      292,
+      949,
+      980
+    ],
+    "face_rect": [
+      182,
+      280,
+      540,
+      500
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "high_alpha_edge_pixels": 0
+  }
+}

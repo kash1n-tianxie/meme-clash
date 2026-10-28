@@ -1,0 +1,182 @@
+实际移植的公开源码 / 実コード移植記録 — 2026-10-08
+
+【阅读范围 / 当前 v0.14】
+第1–17条及其后的“集成改动日期：试玩v0.12 / 当前已移植”总段，是截至v0.12的历史接线记录，保留原证据和当时的描述。“当前active NPC”“梗素材geometry”“自制技能时间轴”等现在时均指当时版本，不代表v0.14仍以它们作为正式战斗规则。
+第18条起的formal playable integration是v0.13接入、v0.14继承的当前规则：五个正式profile、真实源HitVO/矩形/许可/时间轴，以及DanGai地图参数。旧NPC与原创alpha几何不再替代正式源判定。当前性能与本轮验证须另读当前试玩验证.json，不从历史条目推断无卡顿或Flash完全等价。
+
+上游：5DPLAY Game Studio / BleachVsNaruto
+https://github.com/5DPLAY-Game-Studio/BleachVsNaruto
+固定commit：891f5776dbdf3cbf40919e27aa8d6e77a5f66c97
+Copyright (C) 2021-2026 5DPLAY Game Studio. 各原文件的作者与年份保留原样。
+许可：GPL-3.0-or-later。完整条款 LICENSE-BVN.txt；Godot引擎的MIT条款见LICENSES.txt。
+
+本轮将AS3算法翻译为GDScript派生代码并接入实际游戏，不再是上一版仅阅读借鉴结构的独立实现。原AS3快照和SHA256记录在source_reference/bvn。没有复制上游SWF、人物、美术、音乐或原作地图资源。
+所有下列源路径位于CORE_KernelLogic/src/net/play5d/game/bvn/。
+
+1. game/bvn_input.gd
+   input/GameInputer.as:35,119-126,257-286：100ms输入保持与实际按住状态。
+   fighter/ctrler/FighterKeyCtrl.as:60-201：J/K/U/I、方向、空中、投掷与幽步谓词。
+   fighter/ctrler/mc/FighterMcFloorHandler.as:100-157 和 FighterMcAirHandler.as:164-215：地空招式优先顺序。
+   fighter/ctrler/FighterActionLogic.as 与 FighterAction.as：源动作可用条件。Godot资源的具体cancel/frame窗口仍是适配层，不声称完整SWF帧旗标移植。
+
+2. game/bvn_air_rules.gd、game/bvn_motion.gd
+   FighterMcAirHandler.as:66-139,288-418；FighterMain.as:68,77-78,535-538：二跳、预备延迟、空中动作次数。
+   interfaces/BaseGameSprite.as:247-255,357-390,524-555；GameConfig.as:35-39,152-153：独立惯性/线性减衰/重力，60Hz逻辑与30Hz动画比例。
+   AS3每tick速度转Godot px/s，舞台尺寸换算为1.6。不是套Godot固定重力近似。
+
+3. game/bvn_hit_rules.gd，fighter.gd、battle.gd中的连接
+   ctrler/game_ctrls/GameMainLogicCtrl.as:383-440：接触先行、双方同时命中。
+   FighterMain.as:258-300,541-576,703-725：体力100、气300、使用/恢复、命中受击加气。
+   FighterMcHurtCtrl.as:308-320,449-650,762-878：命中间隔、削血、防御方向、破防、钢体、浮空/反弹/倒地/恢复。
+   fighter/models/HitVO.as：原始伤害值与受击参数。
+   fighter/Bullet.as：飞行物命中给气power*0.1。
+   GameConfig.as:54-147：真实常量。取消旧原型4hit强退、伤害缩放、一次性O脱出。
+
+4. game/bvn_push_rules.gd
+   GameMainLogicCtrl.as:186-309：双方矩形接触、同向移动、heavy权重、墙边、crossGhost。
+
+5. game/bvn_map.gd
+   MapMain、MapLayer、FloorVO、GameCamera、GameStage、GameLogic、GameConfig。
+   完整文件/行号、平坦地图适配边界见third_party/5DPLAY-BVN/MAP_PORT.txt。
+   泳池的floor/bounds/spawns由本项目给定；只移植计算与碰撞结构，不声称复制原作关卡。
+   当前战斗统一投影为源800×600，4:3；Godot逻辑1280×960，像素320×240，自动zoom上限采用源2.5。
+
+6. game/bvn_select_flow.gd
+   SelectFlowAction、VsCpuSelectFlow、VsPeopleSelectFlow、SelecterItemUI、SelectFighterStage、SelectFighterListCtrl、SelectFighterCursorCtrl。
+   移植状态表、确认动画结束callback、P1/P2所有权、双方确认门槛与grid导航。
+   明确跳过未实现援助/地图选择；原路径、行号与Godot补充见BVN_SELECT_PORT.md。
+
+7. 演出职责阅读参考（没有将对应SWF时间轴直接复制）
+   fighter/ctrler/FighterEffectCtrl.as、views/effects/EffectView.as：残影开关，效果寿命，技能发出与命中分离。
+   ui/fight/FightUI.as、FightBar.as：生命、气、连击、计时各自显示。
+   stage/MenuStage.as、ui/menu/MenuBtn.as：错位排布与焦点。
+   自制高清2D分层插画rig、像素rig、技能形状、音效、UI排版由Godot适配实现。新主页五人60活动层使用8张独立透明分件，动作非整个图片挪动。
+
+8. game/bvn_ai.gd + battle.gd 生产CPU接线
+   FighterAICtrl、FighterAILogic、FighterAILogicBase：六档概率、30Hz、技与弹丸防守、持续防守、距离/资源/帧许可、连段优先级。
+   对应AS3原文件已附source_reference/bvn，commit.json存SHA256。
+   Godot角色状态、动作标签、技能实际范围/HitVO traits属于资源适配；决策概率/order本身为源移植。
+   最高档源specialSkill调用hurtBreak，源downJump接到合法hurtFlyResume受身，不绕过资源或状态门槛。
+
+9. game/bvn_action_timeline.gd + assets/logic/bvn-ninja1-normal.json
+   官方FlashSrc submodule commit4d8174bb51009ca62a477bd7dd62f50a7f3ab049。
+   当前真正active的ninja1 main_mc→mc三段：power30/30/50，2/2/2 active帧，frame6/9 setAttack，frame11/15 endAct，frame20/27/25 idle。
+   原NPC geometry按body高度统一缩放保存作审计，实际命中使用第11项梗素材geometry；source movement事件仍仅进入帧执行一次。
+   原XML、提取器与11个公开NPC覆盖审计附source_reference/bvn-flash-logic；没有复制动画位图。
+   此处固定的FlashSrc树内完整角色工程均为NPC，ninja1库名“一护全动作”不代表可操作主角一护。另一个官方3.4仓库的发现见第17项。
+   hurtTime0导致当前三段输入不是确定三连；其他梗技能尚未接入新发现的完整主角时间轴，明确保留资源适配身份。
+   额外WJ/SJ技能允许窗口是项目资源扩展，使用源clear/set结构而非捏造官方SWF事件。
+   WJ的hity-5来源active ninja_earth1 zh1，source floor额外-6按条件只加一次。WJ其他美术/伤害/帧为梗资源。
+
+10. game/bvn_hurt_break.gd + fighter.gd/battle.gd
+   FighterMcHurtCtrl.as:662–711，FighterMain.as:159–197,238–243,258–280,621–635，FighterMcCtrler.as:166–217。
+   普通renderHurt才有O脱出。E50 gate/Qi100/raw210/非bisha/非breakDef，useEnergy100真实过载规则。
+   选择源comicType!=1的energyExplode，未伪装实现忍者替身。
+   ownerless50damage/有符号hitx15/源area(-100,-200,200,210)*1.6快照；hitframe<8才取爆发并替代当前普攻。
+   地面idle清速度，空中fall保留慣性；源justHurtResume下一帧开放命中；supersteel60动画帧。
+   双方先快照再受击，施放者按源FighterMain.hit正常增加Qi8.5，ownerless不重复翻转击退方向。
+
+11. game/meme_hit_geometry.gd + fighter.gd/battle.gd
+   FighterMC.as:496–535取当前攻击显示对象getBounds；FighterCtrler.as:501–543关联原HitVO，577–603镜像/平移。
+   原始NPC矩形留作audit；原创梗角色以同一pixel rig关节/真实alpha武器肢体轮廓生成当前几何。
+   alpha窄相是Godot梗素材适配，并非原AS3矩形算法的完全等价。只剔除可见部件外空区，不给技能特效额外AOE。
+   双方先快照，轮廓筛选后各执行一次原HitVO；空snapshot不再回退用广矩形打人。已抓住投技保留后续release事件。
+   AI用缓存的本地动作包络预测范围，实际damage仍检查当前帧。normal原active帧与伤害不改。
+   Rio WJ原资源登记active视觉phase .32–.51，将实际由低到高剑轨放到命中窗口；不改startup/active/damage。
+
+12. 技能资源与正式状态的连接修复
+   FighterMcCtrler.as:563–571 endAct同时clearAction并设置FREEZE40；此前Godot仅对normal报告FREEZE。
+   梗技现沿已有startup+active+2/30资源endAct事件报告FREEZE；仍锁到recovery结尾，不开放提前自由出招。
+   该梗资源事件时间并非公开主角SWF帧表；FREEZE状态含义和AI判断为正式源码。
+   FighterMain.as:535–539 jump使用GameConfig.JUMP_DAMPING=.5；BaseGameSprite.as:369–382/524–544负vy期间用减衰抑制上升。
+   CatU/鞋鲨SU的自制hop资源事件补同一Y减衰.5，解决直接赋负vy后一直上升；未改源gravity/motion公式。
+   FighterMain.as:703–725 renderEnergy读取正式actionState；资源快照改为同一数值状态，防御硬直=.8、攻击=1.1、FREEZE收招=2/30Hz恢复（资源CD/过载仍按原流程）。
+   FighterMC.as:570/608/635分别报告倒地23/反弹24；地空Dash对应FloorHandler.as:304/AirHandler.as:281的DASH_ING15；KO为DEAD30。
+   FighterActionLogic.as:190–217与FighterMcGhostHandler.as:79–98的幽步gate读取正式状态；大招活动期禁止、endAct后的FREEZE可按源资源条件使用S+L/W+L。
+   FloorHandler.as:323/338及AirHandler.as:396按动作路由报告SKILL11（SJ、WJ、空中技能、投技），不再拿HitVO.normal/throw误报ATTACK10。
+   GhostHandler.as:50–98没有重新赋actionState；幽步保存进入前正式状态给AI和资源使用。50是原变身WAN_KAI，当前没有对应变身命令，未用50冒充幽步。
+
+13. Godot素材加载优化（本项目，不伪称原AS3算法）
+   game/pixel_fighter.gd按原Texture实例缓存一次RGBA图集解码，原像素裁片仍由同一source_parts生成；没有修改源PNG。
+   battle.setup在倒计时前预建本场双方的parts/variants裁片与技能贴图，并预取本地几何包络；活动期不首次解码/创建这些素材。
+   每方24固定裁片；预热不调用动作、技能帧、伤害、随机AI或推进时钟。离线clear_runtime_cache同时释放解码图缓存。
+   初次技能和动作素材加载峰值移入进场阶段；帧时间样本与剩余长帧如实记录，未宣称所有渲染波动消失。
+   UI隐藏时跳过主页/选人高清姿态计算、shader更新和排重绘；轻量时钟、反应过期与音频继续，重新显示后恢复。没有改选人状态表或按键许可。
+
+14. 実戦練習与技能可读性（Godot适配层，v0.11）
+   新训练选项复用原cpu分支的同一个_cpu_input、bvn_ai.gd、动作允许与资源逻辑；没有独立训练AI、概率修改或奖励伤害。
+   普通输入/空中路线训练仍满资源、固定靶；実戦練習初始E100/Qi0，不自动灌满资源、不按2秒伤害自动治疗，只有KO/R重开。
+   无时限与KO后再开的练习流程、日语提示、同页难度选择是本作UI适配，不伪称导入原Flash训练全部功能。
+   AI大面积释放轮廓全部置人物后层，实际bullet/contact spark保留前层；只改绘制层级，不改释放大小/时钟/伤害。
+   Rio WJ修正4个现有关节姿态，刀刃先过胸腰后上拔；原注册窗口.32–.51、源动作时机与伤害不变。可见alpha命中几何随真实姿态更新，没有补不可见判定。
+   操作指南将O/LB的renderHurtBreak条件与S+L/W+L的GhostHandler条件分开；I/WI/空I消耗100，SI消耗300。
+   原版GameStageLoadCtrl在战斗开始前完成资源加载。本作Battle.setup补16项实际战斗WAV缓存预热，以现sound_cache供play_sfx使用；无播放、无新增声道、无随机数消耗、无资源/时间推进。此处是Godot加载适配，不把采样长帧单方面归因于音频。
+
+15. game/bvn_defense_rules.gd + fighter.gd 防御接线（v0.12）
+   FighterMcHurtCtrl.as:118–124、158–163、360–446；FighterMcCtrler.as:717、797。
+   防御时clearActions，只允许源skill1/zhao2/bishaSUPER/jumpDown；左右只转身，不能以普通J/K/L绕过防御。
+   justDefense按60Hz计数，持续防御/DEFENSE_RESUME及delay按30Hz计数。防御硬直不消费动画delay。
+   松防经过源恢复帧才回idle；100ms实际输入保持按原机制可能过期。CPU与玩家共用同一源许可，不改AI概率。
+   Godot的状态/关节画面/速度单位转换是适配，未复制原防御SWF图像。
+
+16. 15普通动作、30技能放出和实时局势（v0.12 Godot美术/UI适配）
+   五人J1/J2/J3分别重写现有150关节键；源NPC伤害30/30/50、命中帧和许可事件保持原样。
+   skill_effect_motion.gd在原AI原画UV内逐段展出、连续流动、分离消散；不制造人物重影、不增加技能AOE、不取随机数。
+   实际blade_wave使用旧稳定轮廓；放出主形仍在人物后层，hitstop/cutin沿原release年龄暂停。
+   小人skill3/super_down仅调骨盆与前臂，完整源图alpha全进度检查鞄/裤腿/身体接地；未裁掉穿地像素或改体型。
+   実戦練習UI读取真实体力、硬直、防御恢复、enemy.endAct和存活弹体，不保证惩罚命中。舞台左操作仍纯文字透明底。
+   全25配对×两源难度×三个seed的U对战是观测，仍存在只U获胜配对；不据此声称全配对平衡或hard一定更强。
+
+17. 新发现的正式可操作角色源码（尚未集成到v0.12）
+   官方仓库：https://github.com/5DPLAY-Game-Studio/OpenBleachVsNaruto
+   固定commit：4d7bc9913ec6b609ba521ff86b6066bff134a736，README标为3.4调试工程，GPL-3.0-or-later。
+   swf_source/f_fighter/aizen/DOMDocument.xml有initFighter、defineAction与initMc(mc)；实际mc指向LIBRARY/元件/mc_023.xml，其帧表、脚本和攻击面覆盖普攻、方向技能、地空/超必杀。
+   正式k1/k2/k3的hurtTime为300/400/600ms，区别于本版仍使用的NPC0。本轮只读取得逻辑XML，没有将数字直接替换或宣称已移植；新演员依赖和3.4→当前内核行为差异需一起核验。
+   下一步以完整主角数据为优先，已有NPC招1映射保留作备用。详细读取证据见验证记录/正式角色源码发现.txt。
+
+【以下总段仍为截至v0.12的历史状态；当前正式规则见第18条】
+集成改动日期：2026-10-08，试玩v0.12。派生游戏代码按GPL-3.0-or-later保存。
+原AS3无法直接作为Godot脚本运行，本轮为实际语言移植与资源接线。完整Flash引擎、主角全部SWF时间轴、变身/援助、原作全关卡、联机仍未移植。
+当前已移植正式框架、AI、有限公开NPC普攻；剩余梗技、美术、投掷动画/拆投、回合流为本项目资源适配。
+新高清分层插画的生成工具、指令与透明底检查见assets/art/hd_rigs/README.md及generation-prompts.json、four-memes-prompts-v1.json。帧率实测见当前试玩验证.json，不是所有设备保证。
+
+18. v0.13 formal playable source integration
+Official OpenBleachVsNaruto@4d7bc9913ec6b609ba521ff86b6066bff134a736 (3.4 archived engineering project), GPL-3.0-or-later. Full actor logic for Aizen/Kenpachi/Lee/Naruto/Grimmjow is now connected; previous v0.12 was discovery only. XML/AS3 is decoded into explicit whitelist IR, never evaluated as arbitrary code. Conditional target/current-hit expressions are resolved; unknown operations are observable and never accepted as true. action slots, actual body and active regions, HitVO and endAct/idle preserve source data. All five bindings are project choices, not claims about original meme designs.
+Godot adaptations: game/bvn_playable_timeline.gd, bvn_playable_events.gd, bvn_playable_world.gd, bvn_playable_object.gd, fighter.gd and battle.gd. Independent attacker/bullet logic adapted from archived FighterAttacker/Bullet/ctrler and EffectCtrler. Common 3.7 Godot modules remain and are explicitly a version bridge; original Flash equivalence is not claimed.
+Raw actor proof: source_reference/open-bvn-playable. Engine dependencies: source_reference/open-bvn-playable-engine/source-files.json. Source DanGai flat map: source_reference/open-bvn-playable-map, assets/logic/bvn-playable-map.json. MapMain normalization and 1.6 world scale retained; pool artwork is original adaptation. No original playable images/audio/SWF/FLA imported.
+Formal gameplay rectangles are authoritative in v0.13; alpha geometry from v0.12 is visual/legacy evidence, not a replacement for source range. F4 displays the actual formal rectangles. New art source_visuals maps real source frames to joints, including source labels spanning multiple attacks. UI costs and available directions follow profile labels; no unsupported universal air-super or launch route. No new custom damage reduction, forced combo limit, U-spam penalty or AI winning assertion added.
+Source transformations (WanKai/alternate roster body), assister/network/full Flash runtime are not implemented. Runtime diagnostics expose unsupported transformation calls; selected gameplay commands do not route to them. BGM, SFX, hitstop and HD portrait presentation remain project adaptations, not licensed music ripped from these repos.
+
+19. v0.14 source-field and presentation corrections
+Open3.4 FighterMcCtrler.as:1512–1531 uses HitVO.isReal to bypass defense via doHurt. Aizen DOMDocument.xml:459 cbs.isReal=true is the sole true flag in all five current profiles. Fighter exact HitVO merge now carries is_real; common hit resolver excludes that flag from guard only. Steel/reflect/catch, source damage/cost/frame rules are unchanged. Actual source SI and held P2 Down guard are verified in both facings; initial Qi300 and mirrored initial spacing are explicit test prerequisites.
+The v0.14 50-round natural-intro U-only replay is saved separately from v0.13, with key combat hashes;7/43 is finite single-policy evidence, not PvP balance. HD idle/footwork, selector whole-blade fit and HUD layout caching are project presentation adaptations.
+
+20. v0.15 source-based training observers (Godot presentation adaptation)
+game/bvn_training_routes.gd derives the current three/four/five/four/four full J routes from pinned formal command_labels/active HitVO. Teaching does not alter command gates or hit transactions. Rio SI, Cat I and Worker WI verify genuine justHitToPlay branches; FighterCtrler.as216-232 excludes defense by default; FighterMcCtrler.as543-553 keeps the void/noIdle behavior. Aizen mc_023.xml583 moveToTarget(30,0,true) crosses to the target back; initial guard-negative fixture faces that actual contact side, without changing live direction rules. Chicken setHitTarget proximity branch may enter through guard; teaching still requires the branch's real kj1 hit. Shark J2 setZhao1 permits whiff cancellation in source; lesson requires actual J hits, not an invented mandatory source hit-cancel rule.
+Battle only connects observers/course reset messages;69 existing functions remain byte-identical to v0.14 including physics, CPU, source contacts and impact transactions. Five matched physical-key trajectories are equal. Existing basic training's damage-reset x coordinates now use actual map markers under training only. New course starting/R/KO Qi300 is an explicit practice fixture, never an active refill.
+Homepage positions/sizes, guide cards and native progress presentation are project UI changes. Original pixels, rigs, facing/depth and audio clock retained. No source images/audio/SWF imported. v0.15 Native photographs and v0.14 delivered baseline120s performance are labeled separately.
+
+21. v0.16 independent HitVO owner and true hurt-resume protection
+Pinned Open3.4 Bullet.as201-205/221 and FighterAttacker.as437-446 assign cloned HitVO.owner to the independent entity, not its caster. Godot World.make_hit now samples that entity's current position/direct on each hit; source damage/hitx/time/area and caster credit/teaching origin are retained. No reflection/team-transfer entry was invented for the current five profiles. Actual U/independent-attacker tests compare identical corrected physical-key fixtures against the prior production copy.
+FighterMcCtrler.as130-153 idle keeps _justHurtResume and disallows hits when entering from FighterActionState.isHurting; renderAnimate833-835 releases it at the next animation prelude. The pinned3.4 FighterActionState.as92-94 explicitly names21/22/23/24; the exact Git blob ef525944793eaacdd9b9a1fc4bf6f403798c1669 is preserved in source_reference/open-bvn-playable-engine/source-files.json. Common3.7 has the same idle/prelude rule. Godot source_just_hurt_resume bridges this missing marker at the start of the real30Hz advance, before newly created idle markers. No custom invulnerability duration, resource cost, U penalty, CPU probability or damage change is introduced. Ordinary code branches preserve the entering source state before changing their Godot display state; prior FREEZE40/guard20/weak contacts are not treated as source hurting.
+The previous recovery test required immediate allowBeHit at source23->idle; that expectation is superseded by the exact source marker. Idle action permissions still restore immediately; vulnerability restores only on the next actual source animation tick. Old failing expectations/logs are archived rather than used to make runtime comply with them. New ten-round U-only evidence remains a finite mirrored policy observation, not PvP balance.
+
+22. v0.16 art/HUD/audio adapters
+Only five air_hurt/down/getup skeletal clips changed; original PNGs/source_visuals/body sizes/other clips retained. Source recovery progress is a presentation sample of true frame/idle metadata. Rio final getup uses the same actual floor-clamped blade angle as idle; the original blade's sub-native-pixel lower alpha fringe is explicitly retained and documented, not clipped away. Pool scenery is drawn at original1312:736 ratio on the same DanGai floor/world/camera; authored floor UV is unchanged and has no collision authority.
+Source frame effect.playSoundHit1/2 and dash cues own whoosh playback; acceptance fallback applies only when the accepted source definition lacks its cue. Independent actual contact material audio is not deduplicated. Original WAV bytes and arrangement provenance are retained. Godot's own audio RNG, +7dB super channel, source-duration bounded BGM duck and a game-only limiter are presentation adapters. Captured headless Godot bus PCM and Native gameplay recordings are labeled separately; neither is subjective listening proof.
+HUD labels measure their actual text bounds and yield to the transparent control text only at overlapping heights. Optional direction/detail lines dynamically yield to projected actors; basic key rows remain visible. Resource layout and live availability read existing source values, without changing the arena projection or action permissions.
+
+The v0.16 resource rails are fixed at world y931..958, x18..412 and868..1262 (native bottom17px); no moving actor-dependent layout or source camera changes. Actual Qi, supported super profile/air moves, key rebinding and hurt-break availability are read-only. 気OK describes Qi quantity, not the current action permission; original guide retains detailed costs.
+
+23. v0.19 battle art and source contact freeze
+HUD component hierarchy/matrices are studied from pinned Open3.4 embed/fight mc_044/ui_fight, mc_040/hpbar, mc_026/qi. Battle retains4:3 and canonical logical map; the character/effect raster is now800x600 instead of320x240. Original HD portrait bitmaps are retained. Only five standing hurt clips plus Rio/Cat J poses and Rio rear-hand joint attachment change; In this presentation-only stage, source frame registrations, HitVO active regions, body bounds and gameplay definitions remained identical; the separate default-form extraction correction below intentionally changes source config/HitVO data. No original SWF or bitmap effects are imported.
+Source contact timing is a separate rule correction: EffectModel114–325/374–424, EffectManager41–63, EffectCtrler291–361/395–402/471–485 and renderFreeze212–224 determine50/400/500ms at60FPS and prelude countdown/resume. GameCtrler484–499 renders effects before global actor/object/time logic. Exact missing source files and fixed Git blobs are archived under source_reference/open-bvn-contact-effects/source-files.json (Open3.4 commit4d7bc9913ec6b609ba521ff86b6066bff134a736, GPL-3.0-or-later). Existing engine source snapshots retain EffectCtrler/FighterMcCtrler/HitType. Legacy fallback is separate. This correction intentionally changes the former project hitstop timing. Pure-art16case matched trajectories are captured before this source correction and are not claimed to remain identical after it.
+Independent contact shapes and original-painted particles adapt exact hitType/facing/outcome/floor. Decorative age advances during freeze without duplicating characters. The source_effect_motion module retains its bytes; damage/config bytes change in the separately recorded default-form extraction correction below. Actual runtime source-freeze and native gameplay evidence are stored in验证记录/v019.
+
+24. v0.19 pinned default-form initialization correction
+FighterVO.startFrame=1 for all five bindings in pinned fighter.xml; FighterMain.as253–258 selects gotoAndStop(startFrame+1), equivalent to zero-based DOM root index1. Former build_profiles.py wrongly concatenated initialization scripts from all transformation roots, while actor registration selected the first root. This mixed later-form config/HitVO with Lee/Naruto base actors. Builder now selects that exact default root for config, raw/effective HitVO and init IR, preserving the full raw document archive and actor/children/areas/AI registrations. Cat and chicken damage/movement/jump/body-height configs change to their pinned base values; other three selected configs/VO stay equal. New validate_default_forms.py independently verifies140 selected HitVO entries and full init/config against pinned raw XML/AS3 and Git blobs (2068 checks); the90-case formal normal keyboard oracle uses independent raw-source expectations. Source selection proof, all-field diff, initial failures and byte-identical rebuild are stored in 验证记录/v019/default-form. Historical Ninja1 shared-chain tests are retained with original assertions as historical audits, excluded from current five-profile verification. No original character artwork, SWF animation or sound is copied.
+
+25. v0.19 ground-arena display anchor
+Aizen SI cbs2/cbs source collider spans worldy200.458..1564.449 while the actual stage floor is913.6. Stretching the original ground_arena painted release over that full collider buried its lower UV silhouette below the stage. Battle display now maps that painted height330 onto583.6..913.6, preserving horizontal extent, raw context.area, source sample, HitVO/clock/damage, and the original PNGs. The pure display descriptor uses stage_floor_y even when the owner moves off-ground; non-ground and independent-object contexts preserve their original transform. Other86 existing Battle method bodies remain identical. Real-key SI finale179/181/183 diagnostics and native final before/after trajectory evidence are under验证记录/v019. This is presentation alignment, not a new source collider or ground-bound collision rule.
+
+Transparent SubViewport composition now uses CanvasItemMaterial.BLEND_MODE_PREMULT_ALPHA on world_display, matching Godot transparent viewport blending guidance (https://docs.godotengine.org/en/stable/tutorials/shaders/using_viewport_as_texture.html). Native A/B showed the full paper wave already existed in the isolated world-skill texture but was strongly attenuated by the previous composite. Ground-arena density floor is0.70, other arena fields retain0.34; actual bodies/HUD keep foreground ordering. Script.has_method(draw_skill_effect) was measured true and the existing static gate was preserved. Only display setup/three presentation methods change;85 other existing Battle methods and source simulation retain bytes.

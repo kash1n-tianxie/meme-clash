@@ -1,0 +1,425 @@
+{
+  "version": 1,
+  "art_version": "0.8.0",
+  "representation": "hand_drawn_2d_original_memes",
+  "coordinate_space": "source_image_pixels",
+  "amplitude_space": "logical_display_pixels",
+  "note": "Local deformation of one illustrated master; these are not newly drawn eight-frame animations. Feet, sword blade, and lower standing silhouettes remain fixed. Each zone mask must fade smoothly to zero before its radius boundary.",
+  "characters": {
+    "rio": {
+      "canvas": [
+        1536,
+        1024
+      ],
+      "foot_source": [
+        485,
+        1008
+      ],
+      "feet_fixed_source_y_min": 780,
+      "deform_zones": [
+        {
+          "center_source": [
+            300,
+            173
+          ],
+          "radius_source": [
+            122,
+            103
+          ],
+          "kind": "head",
+          "amplitude_px": 0.7,
+          "phase": 0
+        },
+        {
+          "center_source": [
+            120,
+            310
+          ],
+          "radius_source": [
+            109,
+            276
+          ],
+          "kind": "hair",
+          "amplitude_px": 1.2,
+          "phase": 0.3
+        },
+        {
+          "center_source": [
+            589,
+            230
+          ],
+          "radius_source": [
+            211,
+            138
+          ],
+          "kind": "hair",
+          "amplitude_px": 1.2,
+          "phase": 1.1
+        },
+        {
+          "center_source": [
+            372,
+            340
+          ],
+          "radius_source": [
+            136,
+            125
+          ],
+          "kind": "torso",
+          "amplitude_px": 0.6,
+          "phase": 0.5
+        },
+        {
+          "center_source": [
+            422,
+            376
+          ],
+          "radius_source": [
+            91,
+            102
+          ],
+          "kind": "arm",
+          "amplitude_px": 0.5,
+          "phase": 0.6
+        }
+      ],
+      "fixed_zones": [
+        {
+          "kind": "weapon",
+          "rect_source": [
+            588,
+            387,
+            934,
+            624
+          ]
+        }
+      ]
+    },
+    "cat": {
+      "canvas": [
+        1024,
+        1536
+      ],
+      "foot_source": [
+        552,
+        1510
+      ],
+      "feet_fixed_source_y_min": 1230,
+      "deform_zones": [
+        {
+          "center_source": [
+            653,
+            334
+          ],
+          "radius_source": [
+            212,
+            172
+          ],
+          "kind": "head",
+          "amplitude_px": 0.9,
+          "phase": 0
+        },
+        {
+          "center_source": [
+            301,
+            218
+          ],
+          "radius_source": [
+            92,
+            159
+          ],
+          "kind": "arm",
+          "amplitude_px": 1.2,
+          "phase": 0.1
+        },
+        {
+          "center_source": [
+            911,
+            401
+          ],
+          "radius_source": [
+            84,
+            116
+          ],
+          "kind": "arm",
+          "amplitude_px": 1.2,
+          "phase": 0.7
+        },
+        {
+          "center_source": [
+            567,
+            739
+          ],
+          "radius_source": [
+            213,
+            211
+          ],
+          "kind": "torso",
+          "amplitude_px": 0.65,
+          "phase": 0.3
+        },
+        {
+          "center_source": [
+            161,
+            949
+          ],
+          "radius_source": [
+            117,
+            211
+          ],
+          "kind": "hair",
+          "amplitude_px": 0.8,
+          "phase": 1.1
+        }
+      ]
+    },
+    "shark": {
+      "canvas": [
+        1536,
+        1024
+      ],
+      "foot_source": [
+        863,
+        1006
+      ],
+      "feet_fixed_source_y_min": 727,
+      "deform_zones": [
+        {
+          "center_source": [
+            1230,
+            359
+          ],
+          "radius_source": [
+            260,
+            195
+          ],
+          "kind": "head",
+          "amplitude_px": 0.65,
+          "phase": 0
+        },
+        {
+          "center_source": [
+            730,
+            448
+          ],
+          "radius_source": [
+            270,
+            151
+          ],
+          "kind": "torso",
+          "amplitude_px": 0.6,
+          "phase": 0.3
+        },
+        {
+          "center_source": [
+            181,
+            460
+          ],
+          "radius_source": [
+            151,
+            213
+          ],
+          "kind": "hair",
+          "amplitude_px": 1,
+          "phase": 0.8
+        },
+        {
+          "center_source": [
+            820,
+            192
+          ],
+          "radius_source": [
+            97,
+            148
+          ],
+          "kind": "arm",
+          "amplitude_px": 0.6,
+          "phase": 1.1
+        }
+      ]
+    },
+    "worker": {
+      "canvas": [
+        1024,
+        1536
+      ],
+      "foot_source": [
+        725,
+        1513
+      ],
+      "feet_fixed_source_y_min": 1333,
+      "deform_zones": [
+        {
+          "center_source": [
+            424,
+            485
+          ],
+          "radius_source": [
+            336,
+            218
+          ],
+          "kind": "head",
+          "amplitude_px": 0.65,
+          "phase": 0
+        },
+        {
+          "center_source": [
+            730,
+            790
+          ],
+          "radius_source": [
+            149,
+            230
+          ],
+          "kind": "torso",
+          "amplitude_px": 0.6,
+          "phase": 0.2
+        },
+        {
+          "center_source": [
+            644,
+            1031
+          ],
+          "radius_source": [
+            97,
+            117
+          ],
+          "kind": "arm",
+          "amplitude_px": 0.6,
+          "phase": 0.3
+        }
+      ],
+      "fixed_zones": [
+        {
+          "kind": "bag",
+          "rect_source": [
+            422,
+            1098,
+            386,
+            272
+          ]
+        }
+      ]
+    },
+    "chicken": {
+      "canvas": [
+        1024,
+        1536
+      ],
+      "foot_source": [
+        629,
+        1347
+      ],
+      "feet_fixed_source_y_min": 1110,
+      "deform_zones": [
+        {
+          "center_source": [
+            470,
+            560
+          ],
+          "radius_source": [
+            235,
+            165
+          ],
+          "kind": "head",
+          "amplitude_px": 0.85,
+          "phase": 0
+        },
+        {
+          "center_source": [
+            470,
+            386
+          ],
+          "radius_source": [
+            237,
+            104
+          ],
+          "kind": "hair",
+          "amplitude_px": 0.9,
+          "phase": 0.6
+        },
+        {
+          "center_source": [
+            461,
+            824
+          ],
+          "radius_source": [
+            270,
+            176
+          ],
+          "kind": "torso",
+          "amplitude_px": 0.6,
+          "phase": 0.2
+        },
+        {
+          "center_source": [
+            138,
+            703
+          ],
+          "radius_source": [
+            95,
+            79
+          ],
+          "kind": "arm",
+          "amplitude_px": 1.1,
+          "phase": 0.7
+        },
+        {
+          "center_source": [
+            857,
+            749
+          ],
+          "radius_source": [
+            90,
+            99
+          ],
+          "kind": "arm",
+          "amplitude_px": 0.7,
+          "phase": 0.9
+        }
+      ],
+      "fixed_zones": [
+        {
+          "kind": "ball",
+          "rect_source": [
+            699,
+            345,
+            313,
+            313
+          ]
+        }
+      ]
+    }
+  },
+  "background": {
+    "source": "assets/art/visual_v18/pool_home.png",
+    "canvas": [
+      1672,
+      941
+    ],
+    "menu_quiet_rect_source": [
+      0,
+      0,
+      669,
+      941
+    ],
+    "stage_safe_rect_source": [
+      510,
+      526,
+      1120,
+      387
+    ],
+    "logical_canvas": [
+      1280,
+      720
+    ],
+    "foot_line_logical": 650,
+    "water_rect_source": [
+      175,
+      335,
+      1497,
+      165
+    ],
+    "speaker_rects_source": []
+  }
+}

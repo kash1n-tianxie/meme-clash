@@ -1,0 +1,128 @@
+Copyright (C) 2021-2026 5DPLAY Game Studio
+Godot metadata/module adaptation (C) 2026
+SPDX-License-Identifier: GPL-3.0-or-later
+The accompanying LICENSE applies to the derived source logic and metadata.
+
+Public XFL repository:
+https://github.com/5DPLAY-Game-Studio/BleachVsNaruto_FlashSrc
+Pinned by BleachVsNaruto/.gitmodules and gitlink:
+4d8174bb51009ca62a477bd7dd62f50a7f3ab049
+Core AS3 repository revision:
+891f5776dbdf3cbf40919e27aa8d6e77a5f66c97
+
+Original selected files (exact downloaded UTF-8 XML, no art):
+SRC_XFL/fighter/zako/ninja1/LIBRARY/main_mc.xml
+SRC_XFL/fighter/zako/ninja1/LIBRARY/一护全动作.xml
+SRC_XFL/fighter/zako/ninja1/LIBRARY/计算&#124隐形/0面.xml
+Bundled original logic XML/extractor/coverage:
+source_reference/bvn-flash-logic/ (commit.json records source revision/checksums)
+Workspace extraction working copies:
+source_reference/bvn-flash-logic/
+Derived data: assets/logic/bvn-ninja1-normal.json
+Pure reader: game/bvn_action_timeline.gd
+Independent source-value tests: tests/bvn_action_timeline.gd (36/36)
+
+This is the actual main_mc -> mc active ninja1 NPC timeline. The reused library
+name 一护全动作 does NOT make ninja1 the playable Ichigo character.
+main_mc.xml defineAction k1/k2/k3 supplies power30/30/50, hitType2/2/6,
+hurtType0/0/1, hitx0/0/3, hity0/0/0, hurtTime0 and isBreakDef=false.
+HitVO declared defaults are applied explicitly and preserved with authored raw
+fields. The raw isWeak=true field is not a declared runtime HitVO property;
+it is retained for provenance but is not invented as an effective gameplay flag.
+Runtime weak-hit evaluation remains HitVO.isWeakHit(), not this authored field.
+
+XFL zero-based action frames (Flash currentFrame=XFL index+1), 30Hz:
+  normal1 label index149, hit k1atm151..152 = relative2..3,
+    setAttack("砍2") index155 = relative6,
+    endAct index160 = relative11, idle index169 = relative20.
+  normal2 label index172, hit k2atm176..177 = relative4..5,
+    setAttack("砍3") index181 = relative9,
+    endAct index187 = relative15, idle index199 = relative27.
+  normal3 label index203, hit k3atm207..208 = relative4..5,
+    endAct index214 = relative11, idle index228 = relative25.
+Cancel windows are half-open [6,11) and [9,15). No authored hit-confirm
+condition guards these setAttack calls. Do not grant J for the whole recovery.
+The label spans23/31/32 are NOT the actual durations: idle jumps away earlier.
+Actionable durations are20/27/25 source ticks, with2/2/2 active ticks.
+
+Source movement entry events are also preserved:
+  normal1 rel1 movePercent(1,0), dampingPercent(.2,0)
+  normal2 rel3 movePercent(.5,0), dampingPercent(.1,0)
+  normal3 rel0 movePercent(1,0), dampingPercent(.1,0)
+The caller applies these once on entering frames. The module does not integrate
+velocity, automatically buffer input, require contact or redraw character art.
+
+Upstream AS3 mechanism:
+FighterMcCtrler.as:352-359 setAttack sets a permitted attack label if present.
+FighterMcCtrler.as:563-572 endAct clears action slots and enters FREEZE.
+FighterMcCtrler.as:166-217 idle clears states and restores all permitted actions.
+FighterAction.as:99-140 clearAction clears attack/skill/defense/etc slots.
+FighterHitModel.as:61-74 maps k1atm to defineAction("k1").
+FighterMC.as:460-487 reads bdmn bounds;491-535 reads hit instances per frame
+with getBounds(_fighterDisplay). There is no single permanently enabled hitbox.
+
+Exact extracted geometry:
+Helper 0面 is an unstroked transparent rectangle65.95x40.5 sourcepx (twips/20).
+Body matrix a=.313735961914063,d=1.37767028808594,tx=-11.25,ty=-31.9.
+Body rect [-11.25,-31.9,20.690886688232457,55.79564666748057].
+Attack source rectangles/matrices are stored verbatim in the derived JSON.
+The Godot meme adapter subtracts body centre-x/bottom-y and uses ONE uniform
+scale target_body_height /55.79564666748057. Both axes use that scale, then
+facing mirrors around the foot origin. Target height is already world px;
+do not multiply by stageunit1.6 again. The raw source coordinates remain intact.
+This body-height registration is explicitly the meme-art adapter, not an
+additional original BVN rule. It keeps original geometric proportions, while
+individual meme visual extremities must still be aligned in their pose keys.
+
+Public scope checked via pinned recursive Git tree (22,115 entries; not truncated):
+11 complete public fighter documents, all zako NPCs. There are no non-zako
+fighter paths, packaged formal-character ZIP/7Z/RAR/SWF or character FLA files.
+The only5 FLA blobs are fonts. No art/bitmap/DAT/sound/FLA/SWF was downloaded.
+Public source NPCs include real limited attacks (ninja1 three-hit chain;
+ninja_earth/fire/sand/thunder two-hit plus specific 招1; bear/dog/bird/pig 招1).
+They do not supply a complete30-action main-playable fighter ruleset.
+A dormant 一护万解全动作.xml has35 legacy labels and Key.isDown/_root/ql AS2
+scripts, but is not referenced by current main_mc, uses no current AS3 controller
+and contains0 defineAction records. Do not silently treat it as current AS3
+main-character metadata or guess its missing HitVO definitions.
+
+Five memes may share these explicitly labelled PUBLIC-NPC-NORMAL baseline
+rules while keeping original identities and authored pose assets. SJ/WJ/U/SU/WU/
+I/SI/WI and air skills remain authored resource adapters until complete public
+source timelines for them can be independently resolved. They should use the
+same clear/set permission model, but must not be called sourced character data.
+
+Important combo scope: this NPC defines a THREE-ATTACK INPUT CHAIN, not a
+guaranteed playable-main-character true combo. With authored hurtTime0 and
+current source hurt-resume logic, a defender may recover before the next
+permitted attack becomes active. Do not silently increase hurtTime or advertise
+this NPC baseline as the full playable BVN character combat template. All10
+other actual public NPC entrypoints were also inspected: none supplies a
+three-part playable timeline or a nonzero authored hurtTime. dog1 HitType.KAN
+gets a constructor floor of100ms, but has only a single attack. See
+source_reference/bvn-flash-logic/public-npc-coverage.json for the complete scan.
+
+VISUAL ADAPTER BOUNDARY (not original rule data)
+The current meme layered-pose renderer has authored normalized visual progress,
+not the source character's original animation frames. Generic .45/.62 phase
+boundaries are therefore not evidence of source animation/contact equivalence.
+Applied piecewise mapping in Fighter._normal_pose_progress below aligns the two source active ticks with
+existing contact pose keys, without changing the permission or damage clocks:
+  normal1 source relative frames 0,1,2,3,4,6,11,20
+    visual progress             0,.286,.429,.571,.714,.80,.90,1
+  normal2 source relative frames 0,2,4,5,6,9,15,27
+    visual progress             0,.222,.444,.556,.667,.80,.90,1
+  normal3 source relative frames 0,3,4,5,6,11,25
+    visual progress             0,.273,.455,.545,.636,.85,1
+Interpolate only the visual pose between these knots. Gameplay samples raw source
+frames; setAttack windows remain [6,11)/[9,15), and endAct/idle remain unchanged.
+This visual adapter is applied by Fighter._normal_pose_progress; it does not alter source gameplay frames.
+
+Timing alignment alone does not resolve every authored meme extremity. The Rio
+giant sword can reach about400 worldpx while the scaled NPC normal1 rectangle
+ends about141px in front of the foot. The longer weapon therefore needs an
+explicitly labelled hit-geometry/pose adapter if its entire painted blade is to
+damage. The source raw rectangle must remain available for audit. Cat/chicken
+paw, shark shoe and worker bag tips also need pose-relative visual verification;
+clamping a spark to the logical overlap does not prove the painted weapon fits.
+No original character art or additional main-character timeline is implied.

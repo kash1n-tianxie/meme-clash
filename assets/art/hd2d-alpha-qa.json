@@ -1,0 +1,222 @@
+{
+  "version": 1,
+  "art_version": "0.8.0",
+  "method": "read-only PNG alpha inspection; generated image bytes copied unchanged",
+  "native_source_images": 6,
+  "characters": [
+    {
+      "id": "rio",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "strong_bbox": [
+        9,
+        11,
+        1519,
+        1008
+      ],
+      "strong_canvas_edges_clear": true,
+      "rectangles": {
+        "source_rect": {
+          "rect": [
+            196,
+            52,
+            250,
+            234
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        },
+        "full_body_rect": {
+          "rect": [
+            6,
+            8,
+            1516,
+            1003
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        }
+      },
+      "deform_zones": 5
+    },
+    {
+      "id": "cat",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "strong_bbox": [
+        25,
+        13,
+        1007,
+        1510
+      ],
+      "strong_canvas_edges_clear": true,
+      "rectangles": {
+        "source_rect": {
+          "rect": [
+            415,
+            50,
+            470,
+            450
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        },
+        "full_body_rect": {
+          "rect": [
+            22,
+            10,
+            988,
+            1503
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        }
+      },
+      "deform_zones": 5
+    },
+    {
+      "id": "shark",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "strong_bbox": [
+        22,
+        13,
+        1517,
+        1006
+      ],
+      "strong_canvas_edges_clear": true,
+      "rectangles": {
+        "source_rect": {
+          "rect": [
+            798,
+            87,
+            721,
+            586
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        },
+        "full_body_rect": {
+          "rect": [
+            19,
+            10,
+            1501,
+            999
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        }
+      },
+      "deform_zones": 4
+    },
+    {
+      "id": "worker",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "strong_bbox": [
+        38,
+        28,
+        945,
+        1513
+      ],
+      "strong_canvas_edges_clear": true,
+      "rectangles": {
+        "source_rect": {
+          "rect": [
+            42,
+            34,
+            764,
+            724
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        },
+        "full_body_rect": {
+          "rect": [
+            35,
+            25,
+            913,
+            1491
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        }
+      },
+      "deform_zones": 3
+    },
+    {
+      "id": "chicken",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_range": [
+        0,
+        254
+      ],
+      "strong_bbox": [
+        25,
+        196,
+        1012,
+        1347
+      ],
+      "strong_canvas_edges_clear": true,
+      "rectangles": {
+        "source_rect": {
+          "rect": [
+            190,
+            238,
+            539,
+            491
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        },
+        "full_body_rect": {
+          "rect": [
+            22,
+            193,
+            993,
+            1157
+          ],
+          "inside_canvas": true,
+          "has_subject": true
+        }
+      },
+      "deform_zones": 5
+    }
+  ],
+  "visual_checks": {
+    "rio": "adult face, twin tails, opaque blue bikini and ankle navy wrap skirt, two grips and full giant blade",
+    "cat": "one natural gray-white tabby, happy open mouth and two raised forepaws, feline hind legs",
+    "shark": "natural shark silhouette, exactly three distinct legs and three blue-white sneakers",
+    "worker": "original round bowlcut closed eyes, short bowed body blue shirt brown bag",
+    "chicken": "yellow round chick, black center-part, gray bibs, full ball and two bird feet",
+    "home_pool_2d": "1672x941 opaque 2D illustrated seaside swimming pool, no people/UI/text, quiet left40%, clear right standing tile"
+  },
+  "claim": "local master deformation only, no new independent full-body animation frames"
+}

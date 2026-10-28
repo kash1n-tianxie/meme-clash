@@ -1,0 +1,98 @@
+{
+  "canvas": [
+    1774,
+    887
+  ],
+  "cell": [
+    443.5,
+    887
+  ],
+  "units": "source pixels; normalize foot_line by887 and center_x by443.5",
+  "basis": "One constant per entire clip. Never rescale an individual frame. Equivalent heights for jump/ko/special2 are visual estimates for runtime review.",
+  "clips": {
+    "idle": {
+      "body_height": 448,
+      "foot_line": 731,
+      "center_x": 270,
+      "scale_factor": 1,
+      "note": "Measured grounded idle height."
+    },
+    "walk": {
+      "body_height": 352,
+      "foot_line": 686,
+      "center_x": 244,
+      "scale_factor": 1.2727272727272727,
+      "note": "Measured walking height; extended leg gait preserved."
+    },
+    "jump": {
+      "body_height": 350,
+      "foot_line": 747,
+      "center_x": 242,
+      "scale_factor": 1.28,
+      "note": "Equivalent standing height inferred from body joints, not airborne bbox."
+    },
+    "light": {
+      "body_height": 200,
+      "foot_line": 620,
+      "center_x": 232,
+      "scale_factor": 2.24,
+      "note": "Head-to-boots about190; straight-equivalent base200."
+    },
+    "heavy": {
+      "body_height": 296,
+      "foot_line": 733,
+      "center_x": 234,
+      "scale_factor": 1.5135135135135136,
+      "note": "Measured recovery body height; overhead weapon excluded."
+    },
+    "hurt": {
+      "body_height": 246,
+      "foot_line": 618,
+      "center_x": 281,
+      "scale_factor": 1.8211382113821137,
+      "note": "Measured head-to-ground recoil height."
+    },
+    "block": {
+      "body_height": 252,
+      "foot_line": 654,
+      "center_x": 205,
+      "scale_factor": 1.7777777777777777,
+      "note": "Measured standing recovery height; vertical blade excluded."
+    },
+    "ko": {
+      "body_height": 340,
+      "foot_line": 693,
+      "center_x": 218,
+      "scale_factor": 1.3176470588235294,
+      "note": "Equivalent standing height inferred; lying poses must not be stretched."
+    },
+    "special1": {
+      "body_height": 205,
+      "foot_line": 623,
+      "center_x": 215,
+      "scale_factor": 2.1853658536585368,
+      "note": "Measured recovery body height plus stance estimate."
+    },
+    "special2": {
+      "body_height": 235,
+      "foot_line": 660,
+      "center_x": 220,
+      "scale_factor": 1.9063829787234043,
+      "note": "Equivalent standing height inferred from anti-air joint poses."
+    },
+    "special3": {
+      "body_height": 242,
+      "foot_line": 713,
+      "center_x": 230,
+      "scale_factor": 1.8512396694214877,
+      "note": "Measured standing recovery height."
+    },
+    "super": {
+      "body_height": 242,
+      "foot_line": 745,
+      "center_x": 239,
+      "scale_factor": 1.8512396694214877,
+      "note": "Measured standing recovery height; airborne strike preserved."
+    }
+  }
+}

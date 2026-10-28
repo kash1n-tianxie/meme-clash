@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "curve_checks": 35,
+  "curve_failures": [],
+  "skill_curves": {
+    "chicken": {
+      "skill1": {
+        "label": "速球パス",
+        "hash": "05979189a9cac6cfb00c7a4b920b6259dff742e9877374ed79e5507614dd8c3d",
+        "frames": 16
+      },
+      "skill2": {
+        "label": "クロスバウンド",
+        "hash": "49bb7177bfd1ffeb42de1e67180a7863c6cf061a1bb00bad002130fe223ed3a9",
+        "frames": 16
+      },
+      "skill3": {
+        "label": "肩入れダンク",
+        "hash": "056e7e74991f6875a097365a3c1c6aa3290cdf6f1319649b42eb8bb1422fcabd",
+        "frames": 16
+      },
+      "super": {
+        "label": "銀河フルコート",
+        "hash": "a982a1b8af5b26494ba253227a1ba12da1017936326ba4ee65be7d1385e0022e",
+        "frames": 16
+      },
+      "super_down": {
+        "label": "床割りドリブル",
+        "hash": "2fcf00593391f466737219e40add3b8c36123d7403deb13fce7ac937343bd396",
+        "frames": 16
+      },
+      "super_up": {
+        "label": "天井ぶち抜き",
+        "hash": "c5b11b55253860100ef4b5618976533bb397fb5dfd2bd7e58cb6d42148f18a5b",
+        "frames": 16
+      }
+    },
+    "shark": {
+      "skill1": {
+        "label": "三速ジェット",
+        "hash": "565826b4c9259e667d44470dce76f669b236359dcc02bab68fc127f4ea1c5989",
+        "frames": 16
+      },
+      "skill2": {
+        "label": "渦巻き反転",
+        "hash": "91d51c616418b9338e0ee2a8daf87d628417dbaf65b75fc28dd2dd974e84e5e2",
+        "frames": 16
+      },
+      "skill3": {
+        "label": "ドスン水圧",
+        "hash": "8a8a740d39017c3f2c596a7b7f077446c61376e53f4b2e4cbcbaebef3572e0e3",
+        "frames": 16
+      },
+      "super": {
+        "label": "トラララ大海嘯",
+        "hash": "f7e8b68e8f77506390511e922f441676d6b9417a7e531f7c79d5d55565e5508d",
+        "frames": 16
+      },
+      "super_down": {
+        "label": "海底メガ圧縮",
+        "hash": "6648ac5aa17dbd9dd07e7072084bbbb780d034f86653a353c4fe84ea526c394f",
+        "frames": 16
+      },
+      "super_up": {
+        "label": "天海スプラッシュ",
+        "hash": "479ddb1ba568d65ff9193014f9aa3e208f383d87cc47ef8a4eba6f5604df3ee9",
+        "frames": 16
+      }
+    },
+    "worker": {
+      "skill1": {
+        "label": "お帰りください",
+        "hash": "2036364c47986316b3a70a869ac38913e322ac72d928872040de5b32b0a79b7d",
+        "frames": 16
+      },
+      "skill2": {
+        "label": "定時巻き戻し",
+        "hash": "343664ad4ecadd69e22eac1c3c7abb21b1eafd562764b79df253bcab62234189",
+        "frames": 16
+      },
+      "skill3": {
+        "label": "書類雪崩",
+        "hash": "470f54a584dfaa7422e1bbf66d3d99a1d3d7d53b46e5214f71f9e6de9412ccc4",
+        "frames": 16
+      },
+      "super": {
+        "label": "残業ゼロ宣言",
+        "hash": "b7c96998762af29582234aa9d9740b5c8d8c3d904bfc2ce9764b092d5e483f45",
+        "frames": 16
+      },
+      "super_down": {
+        "label": "未処理全返却",
+        "hash": "8289990036de656ed47626d7e5462f7dc55dbbadd8895f75004474744ea9024d",
+        "frames": 16
+      },
+      "super_up": {
+        "label": "退社ゲート",
+        "hash": "d0bdf7e1caaf8d0997e15e5600a0c3a39d6192b7d208c3be4416252c37f3bddd",
+        "frames": 16
+      }
+    },
+    "rio": {
+      "skill1": {
+        "label": "横一閃",
+        "hash": "fcabe66fc5404a15f4e7f2c44bd3fec7328c70c86a237a422589aeaf4004bf68",
+        "frames": 16
+      },
+      "skill2": {
+        "label": "蒼返し",
+        "hash": "2087844e764fc88b9598123931c2506b0b99947eea834c737bfc70ff3a16d1c0",
+        "frames": 16
+      },
+      "skill3": {
+        "label": "重刃落し",
+        "hash": "7d8d6510c0842e918931b9376f7a10d038a32ca247a5d88a7a6f7c2ff7583503",
+        "frames": 16
+      },
+      "super": {
+        "label": "蒼月断界",
+        "hash": "f155d8546d98342c814640f7990fc28e18af40ae8e919601f6add5cb8a522306",
+        "frames": 16
+      },
+      "super_down": {
+        "label": "海底断層",
+        "hash": "f842bfd2c960d2d19aa7f09e4425050797ed48a4db8dbedcace534e21c8a934f",
+        "frames": 16
+      },
+      "super_up": {
+        "label": "蒼天開門",
+        "hash": "f0b90304376cc8a997cb4af4ece143e7961f62e85017fc8e64c6f66030a7f57a",
+        "frames": 16
+      }
+    },
+    "cat": {
+      "skill1": {
+        "label": "ハッピー波",
+        "hash": "b455d1a05399e26306e78c700d5e49659dab831504936668eb1e2d01f1cb5833",
+        "frames": 16
+      },
+      "skill2": {
+        "label": "Huh返し",
+        "hash": "3e810da000ec0804761b31b5b56fd3f1697df93a13dfb3b8c080e420d2e22711",
+        "frames": 16
+      },
+      "skill3": {
+        "label": "涙の放流",
+        "hash": "4dda9da98d9500cdfd9c3f043d0b5597a2e3343af17dfa041f6b04ca2f6f523c",
+        "frames": 16
+      },
+      "super": {
+        "label": "全員踊れ",
+        "hash": "ebb88a228a22b22a66c09ecf81a9093c26027caa7322bc7d96ac5b6e7c3bc704",
+        "frames": 16
+      },
+      "super_down": {
+        "label": "泣き海タイフーン",
+        "hash": "d4e636fd64c78c11b37bc87be291393231c3c4d5d07b216256b0273615c6702f",
+        "frames": 16
+      },
+      "super_up": {
+        "label": "天までハッピー",
+        "hash": "b9cddab2573fdb7e49559f67c6c31b9cd1d04eee30714153baf924d40d33b9c6",
+        "frames": 16
+      }
+    }
+  },
+  "effect_asset_count": 5,
+  "painted_effect_shape_count": 30,
+  "notes": "AI-painted six shapes per actor combined with runtime release timeline. Not a claim of16 AI drawn fullbody frames."
+}

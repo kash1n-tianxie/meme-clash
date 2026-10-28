@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "canvas": [
+    1254,
+    1254
+  ],
+  "columns": 4,
+  "rows": 4,
+  "reference_body_height_px": 277,
+  "row_calibration": [
+    {
+      "row": 0,
+      "body_height_unit": 277,
+      "foot_line": 306,
+      "center_x": 142.75,
+      "body_scale": 1.0
+    },
+    {
+      "row": 1,
+      "body_height_unit": 277,
+      "foot_line": 616,
+      "center_x": 160.5,
+      "body_scale": 1.0
+    },
+    {
+      "row": 2,
+      "body_height_unit": 277,
+      "foot_line": 898,
+      "center_x": 164.0,
+      "body_scale": 1.0
+    },
+    {
+      "row": 3,
+      "body_height_unit": 277,
+      "foot_line": 1214,
+      "center_x": 156.5,
+      "body_scale": 1.0
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "row": 0,
+      "col": 0,
+      "actual_rect": [
+        17,
+        27,
+        261,
+        283
+      ],
+      "anchor_px": [
+        142.75,
+        306
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 1,
+      "row": 0,
+      "col": 1,
+      "actual_rect": [
+        318,
+        24,
+        268,
+        285
+      ],
+      "anchor_px": [
+        456.25,
+        306
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 2,
+      "row": 0,
+      "col": 2,
+      "actual_rect": [
+        596,
+        31,
+        395,
+        278
+      ],
+      "anchor_px": [
+        769.75,
+        306
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Nearby independent props/effects are grouped with the action that owns them. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          596,
+          31,
+          395,
+          134
+        ],
+        [
+          596,
+          165,
+          265,
+          144
+        ],
+        [
+          889,
+          165,
+          37,
+          92
+        ],
+        [
+          861,
+          171,
+          28,
+          86
+        ],
+        [
+          926,
+          165,
+          65,
+          61
+        ],
+        [
+          926,
+          226,
+          60,
+          31
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "row": 0,
+      "col": 3,
+      "actual_rect": [
+        983,
+        30,
+        240,
+        279
+      ],
+      "anchor_px": [
+        1083.25,
+        306
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale. Source rectangle bounds overlap nearby pose bounds; disjoint source_parts exclude all foreign foreground without changing source PNG.",
+      "source_parts": [
+        [
+          988,
+          30,
+          235,
+          279
+        ],
+        [
+          983,
+          201,
+          5,
+          108
+        ]
+      ]
+    },
+    {
+      "frame": 4,
+      "row": 1,
+      "col": 0,
+      "actual_rect": [
+        36,
+        328,
+        249,
+        287
+      ],
+      "anchor_px": [
+        160.5,
+        616
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 5,
+      "row": 1,
+      "col": 1,
+      "actual_rect": [
+        342,
+        326,
+        247,
+        292
+      ],
+      "anchor_px": [
+        474.0,
+        616
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 6,
+      "row": 1,
+      "col": 2,
+      "actual_rect": [
+        660,
+        325,
+        256,
+        294
+      ],
+      "anchor_px": [
+        787.5,
+        616
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 7,
+      "row": 1,
+      "col": 3,
+      "actual_rect": [
+        985,
+        333,
+        237,
+        287
+      ],
+      "anchor_px": [
+        1101.0,
+        616
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 8,
+      "row": 2,
+      "col": 0,
+      "actual_rect": [
+        44,
+        622,
+        243,
+        277
+      ],
+      "anchor_px": [
+        164.0,
+        898
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 9,
+      "row": 2,
+      "col": 1,
+      "actual_rect": [
+        336,
+        625,
+        282,
+        261
+      ],
+      "anchor_px": [
+        477.5,
+        898
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 10,
+      "row": 2,
+      "col": 2,
+      "actual_rect": [
+        634,
+        647,
+        316,
+        243
+      ],
+      "anchor_px": [
+        791.0,
+        898
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 11,
+      "row": 2,
+      "col": 3,
+      "actual_rect": [
+        985,
+        628,
+        236,
+        274
+      ],
+      "anchor_px": [
+        1104.5,
+        898
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 12,
+      "row": 3,
+      "col": 0,
+      "actual_rect": [
+        34,
+        943,
+        254,
+        269
+      ],
+      "anchor_px": [
+        156.5,
+        1214
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 13,
+      "row": 3,
+      "col": 1,
+      "actual_rect": [
+        337,
+        891,
+        216,
+        312
+      ],
+      "anchor_px": [
+        470.0,
+        1214
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 14,
+      "row": 3,
+      "col": 2,
+      "actual_rect": [
+        640,
+        889,
+        282,
+        326
+      ],
+      "anchor_px": [
+        783.5,
+        1214
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    },
+    {
+      "frame": 15,
+      "row": 3,
+      "col": 3,
+      "actual_rect": [
+        977,
+        929,
+        245,
+        289
+      ],
+      "anchor_px": [
+        1097.0,
+        1214
+      ],
+      "notes": "Full pose connected component with 3 px transparent outer padding. Fixed row source-pixel scale."
+    }
+  ]
+}

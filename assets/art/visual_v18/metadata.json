@@ -1,0 +1,3107 @@
+{
+  "version": 1,
+  "art_version": "visual_v18",
+  "representation": "approved_concept_hd_2d_masters",
+  "joint_convention": "All coordinates are original source pixels. left/right denote IMAGE left/right before facing mirror. Skeleton landmarks and semantic masks are manually fitted estimates, not extracted animation frames; body alpha is measured separately. Hidden hip/knee locations under skirt/briefcase are estimates.",
+  "region_convention": "Semantic polygons/capsules are weight-fitting guides. They do not replace PNG alpha or crop the character. Always sample the original full-resolution texture once; feet and sword contact markers are constraints.",
+  "portraits": {
+    "shark": {
+      "source_rect": [
+        975,
+        199,
+        521,
+        438
+      ],
+      "foot_source": [
+        1308,
+        992
+      ],
+      "feet_fixed_source_y_min": 842,
+      "body_top_source": [
+        811,
+        46
+      ],
+      "body_height_source_px": 946,
+      "identity": "Original blue-gray shark body, full natural tail, exactly three distinct legs and three blue-white athletic shoes. Warm/cyan hand-painted 2D; no humanoid monster conversion.",
+      "joints": {
+        "head": [
+          1246,
+          410
+        ],
+        "neck": [
+          1032,
+          461
+        ],
+        "torso": [
+          797,
+          469
+        ],
+        "pelvis": [
+          813,
+          624
+        ],
+        "tail_root": [
+          439,
+          474
+        ],
+        "tail_mid": [
+          261,
+          440
+        ],
+        "tail_tip_upper": [
+          58,
+          155
+        ],
+        "tail_tip_lower": [
+          110,
+          653
+        ],
+        "dorsal_root": [
+          785,
+          199
+        ],
+        "dorsal_tip": [
+          731,
+          57
+        ],
+        "fin_root": [
+          838,
+          490
+        ],
+        "fin_tip": [
+          553,
+          681
+        ],
+        "leg_back_hip": [
+          559,
+          583
+        ],
+        "leg_back_knee": [
+          480,
+          637
+        ],
+        "leg_back_ankle": [
+          424,
+          705
+        ],
+        "foot_back": [
+          438,
+          869
+        ],
+        "leg_middle_hip": [
+          767,
+          621
+        ],
+        "leg_middle_knee": [
+          819,
+          687
+        ],
+        "leg_middle_ankle": [
+          823,
+          752
+        ],
+        "foot_middle": [
+          866,
+          895
+        ],
+        "leg_front_hip": [
+          1160,
+          596
+        ],
+        "leg_front_knee": [
+          1215,
+          693
+        ],
+        "leg_front_ankle": [
+          1267,
+          785
+        ],
+        "foot_front": [
+          1308,
+          987
+        ]
+      },
+      "semantic_regions": [
+        {
+          "name": "head",
+          "polygon": [
+            [
+              958,
+              208
+            ],
+            [
+              1331,
+              227
+            ],
+            [
+              1490,
+              311
+            ],
+            [
+              1467,
+              417
+            ],
+            [
+              1357,
+              564
+            ],
+            [
+              1158,
+              638
+            ],
+            [
+              1001,
+              575
+            ]
+          ]
+        },
+        {
+          "name": "body",
+          "polygon": [
+            [
+              431,
+              391
+            ],
+            [
+              679,
+              277
+            ],
+            [
+              1004,
+              210
+            ],
+            [
+              1159,
+              590
+            ],
+            [
+              1013,
+              647
+            ],
+            [
+              750,
+              647
+            ],
+            [
+              514,
+              537
+            ]
+          ]
+        },
+        {
+          "name": "tail",
+          "polygon": [
+            [
+              47,
+              146
+            ],
+            [
+              248,
+              263
+            ],
+            [
+              431,
+              398
+            ],
+            [
+              449,
+              503
+            ],
+            [
+              257,
+              482
+            ],
+            [
+              111,
+              662
+            ],
+            [
+              91,
+              582
+            ],
+            [
+              164,
+              436
+            ]
+          ]
+        },
+        {
+          "name": "dorsal_fin",
+          "polygon": [
+            [
+              705,
+              47
+            ],
+            [
+              767,
+              55
+            ],
+            [
+              895,
+              173
+            ],
+            [
+              868,
+              234
+            ],
+            [
+              664,
+              319
+            ]
+          ]
+        },
+        {
+          "name": "front_fin",
+          "polygon": [
+            [
+              797,
+              425
+            ],
+            [
+              846,
+              455
+            ],
+            [
+              860,
+              536
+            ],
+            [
+              738,
+              630
+            ],
+            [
+              547,
+              697
+            ],
+            [
+              550,
+              648
+            ],
+            [
+              658,
+              537
+            ]
+          ]
+        },
+        {
+          "name": "shoe_back",
+          "polygon": [
+            [
+              313,
+              654
+            ],
+            [
+              444,
+              640
+            ],
+            [
+              471,
+              707
+            ],
+            [
+              514,
+              780
+            ],
+            [
+              529,
+              859
+            ],
+            [
+              473,
+              884
+            ],
+            [
+              365,
+              834
+            ],
+            [
+              322,
+              721
+            ]
+          ]
+        },
+        {
+          "name": "shoe_middle",
+          "polygon": [
+            [
+              741,
+              711
+            ],
+            [
+              852,
+              701
+            ],
+            [
+              888,
+              759
+            ],
+            [
+              955,
+              809
+            ],
+            [
+              993,
+              871
+            ],
+            [
+              973,
+              900
+            ],
+            [
+              756,
+              896
+            ],
+            [
+              709,
+              866
+            ]
+          ]
+        },
+        {
+          "name": "shoe_front",
+          "polygon": [
+            [
+              1144,
+              743
+            ],
+            [
+              1266,
+              727
+            ],
+            [
+              1320,
+              809
+            ],
+            [
+              1396,
+              841
+            ],
+            [
+              1448,
+              919
+            ],
+            [
+              1447,
+              970
+            ],
+            [
+              1354,
+              990
+            ],
+            [
+              1178,
+              949
+            ],
+            [
+              1113,
+              909
+            ]
+          ]
+        }
+      ],
+      "fixed_contacts": [
+        {
+          "name": "support_front_shoe",
+          "point": [
+            1308,
+            987
+          ],
+          "radius": [
+            82,
+            12
+          ]
+        }
+      ],
+      "source": "assets/art/visual_v18/shark.png",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "full_body_rect": [
+        46,
+        43,
+        1446,
+        952
+      ],
+      "source_parts": [],
+      "source_kind": "built_in_ai_hand_painted_single_master",
+      "status": "final_asset_ready_for_integration",
+      "alpha_bbox": [
+        0,
+        17,
+        1518,
+        985
+      ],
+      "subject_alpha_bbox": [
+        49,
+        46,
+        1440,
+        946
+      ],
+      "alpha_bbox_threshold": 38,
+      "sha256": "8fdb9382f0a1e0e05e9dee4d6d107184330e5515f97bcffdf8078403f9be31f8",
+      "alpha_qa": {
+        "mode": "RGBA",
+        "canvas": [
+          1536,
+          1024
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "bbox_by_threshold": {
+          "0": {
+            "rect_xywh": [
+              0,
+              17,
+              1518,
+              985
+            ],
+            "pixel_count": 664253
+          },
+          "1": {
+            "rect_xywh": [
+              48,
+              43,
+              1443,
+              951
+            ],
+            "pixel_count": 647019
+          },
+          "8": {
+            "rect_xywh": [
+              49,
+              45,
+              1440,
+              947
+            ],
+            "pixel_count": 635271
+          },
+          "38": {
+            "rect_xywh": [
+              49,
+              46,
+              1440,
+              946
+            ],
+            "pixel_count": 632698
+          },
+          "128": {
+            "rect_xywh": [
+              50,
+              46,
+              1439,
+              945
+            ],
+            "pixel_count": 629307
+          },
+          "192": {
+            "rect_xywh": [
+              50,
+              46,
+              1438,
+              945
+            ],
+            "pixel_count": 627007
+          }
+        },
+        "four_corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strong_alpha_on_canvas_edges": false,
+        "background_cloud_samples": [
+          {
+            "xy": [
+              100,
+              100
+            ],
+            "source_rgba": [
+              36,
+              46,
+              61,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              250,
+              800
+            ],
+            "source_rgba": [
+              27,
+              33,
+              46,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              750,
+              940
+            ],
+            "source_rgba": [
+              26,
+              42,
+              70,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              1300,
+              100
+            ],
+            "source_rgba": [
+              31,
+              38,
+              46,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              400,
+              400
+            ],
+            "source_rgba": [
+              83,
+              138,
+              197,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          }
+        ],
+        "cloud_sample_alpha_zero": true,
+        "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+      }
+    },
+    "cat": {
+      "source_rect": [
+        413,
+        164,
+        484,
+        429
+      ],
+      "foot_source": [
+        608,
+        1473
+      ],
+      "feet_fixed_source_y_min": 1374,
+      "body_top_source": [
+        586,
+        176
+      ],
+      "body_height_source_px": 1297,
+      "identity": "One natural gray-white happy tabby meme cat, white chest and paws, two raised front paws with pads, feline limbs and a curved tail. No human body/chibi morph.",
+      "joints": {
+        "head": [
+          651,
+          404
+        ],
+        "neck": [
+          590,
+          554
+        ],
+        "torso": [
+          615,
+          820
+        ],
+        "pelvis": [
+          638,
+          1082
+        ],
+        "shoulder_left": [
+          430,
+          593
+        ],
+        "elbow_left": [
+          381,
+          424
+        ],
+        "wrist_left": [
+          410,
+          257
+        ],
+        "paw_left": [
+          411,
+          181
+        ],
+        "shoulder_right": [
+          784,
+          664
+        ],
+        "elbow_right": [
+          880,
+          614
+        ],
+        "wrist_right": [
+          911,
+          526
+        ],
+        "paw_right": [
+          924,
+          465
+        ],
+        "hip_left": [
+          539,
+          1120
+        ],
+        "knee_left": [
+          410,
+          1276
+        ],
+        "ankle_left": [
+          352,
+          1408
+        ],
+        "foot_left": [
+          350,
+          1464
+        ],
+        "hip_right": [
+          752,
+          1117
+        ],
+        "knee_right": [
+          852,
+          1280
+        ],
+        "ankle_right": [
+          869,
+          1405
+        ],
+        "foot_right": [
+          868,
+          1455
+        ],
+        "tail_root": [
+          455,
+          1061
+        ],
+        "tail_mid": [
+          184,
+          916
+        ],
+        "tail_tip": [
+          113,
+          664
+        ]
+      },
+      "semantic_regions": [
+        {
+          "name": "head",
+          "polygon": [
+            [
+              460,
+              305
+            ],
+            [
+              521,
+              197
+            ],
+            [
+              602,
+              173
+            ],
+            [
+              640,
+              283
+            ],
+            [
+              758,
+              307
+            ],
+            [
+              883,
+              321
+            ],
+            [
+              854,
+              433
+            ],
+            [
+              805,
+              570
+            ],
+            [
+              652,
+              605
+            ],
+            [
+              467,
+              554
+            ],
+            [
+              425,
+              432
+            ]
+          ]
+        },
+        {
+          "name": "torso",
+          "polygon": [
+            [
+              444,
+              544
+            ],
+            [
+              600,
+              562
+            ],
+            [
+              794,
+              600
+            ],
+            [
+              825,
+              782
+            ],
+            [
+              803,
+              987
+            ],
+            [
+              762,
+              1128
+            ],
+            [
+              530,
+              1149
+            ],
+            [
+              368,
+              1003
+            ],
+            [
+              365,
+              730
+            ]
+          ]
+        },
+        {
+          "name": "arm_left",
+          "capsule": [
+            [
+              430,
+              593
+            ],
+            [
+              381,
+              424
+            ],
+            [
+              410,
+              257
+            ],
+            [
+              411,
+              181
+            ]
+          ],
+          "radius_px": 82
+        },
+        {
+          "name": "arm_right",
+          "capsule": [
+            [
+              784,
+              664
+            ],
+            [
+              880,
+              614
+            ],
+            [
+              911,
+              526
+            ],
+            [
+              924,
+              465
+            ]
+          ],
+          "radius_px": 77
+        },
+        {
+          "name": "leg_left",
+          "capsule": [
+            [
+              539,
+              1120
+            ],
+            [
+              410,
+              1276
+            ],
+            [
+              352,
+              1408
+            ],
+            [
+              350,
+              1464
+            ]
+          ],
+          "radius_px": 92
+        },
+        {
+          "name": "leg_right",
+          "capsule": [
+            [
+              752,
+              1117
+            ],
+            [
+              852,
+              1280
+            ],
+            [
+              869,
+              1405
+            ],
+            [
+              868,
+              1455
+            ]
+          ],
+          "radius_px": 88
+        },
+        {
+          "name": "tail",
+          "polygon": [
+            [
+              417,
+              995
+            ],
+            [
+              279,
+              1021
+            ],
+            [
+              228,
+              873
+            ],
+            [
+              241,
+              721
+            ],
+            [
+              174,
+              643
+            ],
+            [
+              74,
+              625
+            ],
+            [
+              36,
+              711
+            ],
+            [
+              132,
+              806
+            ],
+            [
+              116,
+              930
+            ],
+            [
+              219,
+              1043
+            ],
+            [
+              350,
+              1120
+            ],
+            [
+              455,
+              1092
+            ]
+          ]
+        }
+      ],
+      "fixed_contacts": [
+        {
+          "name": "hind_paw_left",
+          "point": [
+            350,
+            1464
+          ],
+          "radius": [
+            57,
+            12
+          ]
+        },
+        {
+          "name": "hind_paw_right",
+          "point": [
+            868,
+            1455
+          ],
+          "radius": [
+            57,
+            12
+          ]
+        }
+      ],
+      "source": "assets/art/visual_v18/cat.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "full_body_rect": [
+        35,
+        92,
+        969,
+        1384
+      ],
+      "source_parts": [],
+      "source_kind": "built_in_ai_hand_painted_single_master",
+      "status": "final_asset_ready_for_integration",
+      "alpha_bbox": [
+        0,
+        21,
+        1008,
+        1515
+      ],
+      "subject_alpha_bbox": [
+        38,
+        95,
+        963,
+        1378
+      ],
+      "alpha_bbox_threshold": 38,
+      "sha256": "f35a72368e74baee218c60f258a71e51e76b1c57f06df2654802e3dacdf63c3c",
+      "alpha_qa": {
+        "mode": "RGBA",
+        "canvas": [
+          1024,
+          1536
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "bbox_by_threshold": {
+          "0": {
+            "rect_xywh": [
+              0,
+              21,
+              1008,
+              1515
+            ],
+            "pixel_count": 689237
+          },
+          "1": {
+            "rect_xywh": [
+              35,
+              93,
+              969,
+              1382
+            ],
+            "pixel_count": 671778
+          },
+          "8": {
+            "rect_xywh": [
+              35,
+              94,
+              966,
+              1379
+            ],
+            "pixel_count": 657806
+          },
+          "38": {
+            "rect_xywh": [
+              38,
+              95,
+              963,
+              1378
+            ],
+            "pixel_count": 650611
+          },
+          "128": {
+            "rect_xywh": [
+              41,
+              96,
+              958,
+              1376
+            ],
+            "pixel_count": 642357
+          },
+          "192": {
+            "rect_xywh": [
+              43,
+              97,
+              956,
+              1375
+            ],
+            "pixel_count": 637346
+          }
+        },
+        "four_corner_alpha": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "strong_alpha_on_canvas_edges": false,
+        "background_cloud_samples": [
+          {
+            "xy": [
+              300,
+              50
+            ],
+            "source_rgba": [
+              60,
+              54,
+              47,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              100,
+              500
+            ],
+            "source_rgba": [
+              34,
+              29,
+              23,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              50,
+              1200
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              800,
+              1500
+            ],
+            "source_rgba": [
+              82,
+              68,
+              62,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              1000,
+              50
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          }
+        ],
+        "cloud_sample_alpha_zero": true,
+        "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+      }
+    },
+    "worker": {
+      "source_rect": [
+        181,
+        122,
+        602,
+        558
+      ],
+      "foot_source": [
+        592,
+        1479
+      ],
+      "feet_fixed_source_y_min": 1388,
+      "body_top_source": [
+        503,
+        132
+      ],
+      "body_height_source_px": 1347,
+      "identity": "Original round bowl-cut Japanese internet illustration officeworker: simple closed eyes, blush, short body, polite bow, blue shirt and one brown briefcase. No handsome realistic/anime-man redesign.",
+      "joints": {
+        "head": [
+          487,
+          423
+        ],
+        "neck": [
+          541,
+          656
+        ],
+        "torso": [
+          615,
+          780
+        ],
+        "pelvis": [
+          639,
+          1034
+        ],
+        "shoulder_left": [
+          468,
+          693
+        ],
+        "elbow_left": [
+          469,
+          858
+        ],
+        "wrist_left": [
+          533,
+          985
+        ],
+        "hand_left": [
+          531,
+          1012
+        ],
+        "shoulder_right": [
+          696,
+          616
+        ],
+        "elbow_right": [
+          699,
+          838
+        ],
+        "wrist_right": [
+          607,
+          990
+        ],
+        "hand_right": [
+          607,
+          1013
+        ],
+        "hip_left": [
+          549,
+          1214
+        ],
+        "knee_left": [
+          536,
+          1356
+        ],
+        "ankle_left": [
+          492,
+          1428
+        ],
+        "foot_left": [
+          512,
+          1473
+        ],
+        "hip_right": [
+          723,
+          1179
+        ],
+        "knee_right": [
+          701,
+          1354
+        ],
+        "ankle_right": [
+          687,
+          1435
+        ],
+        "foot_right": [
+          682,
+          1476
+        ],
+        "briefcase_grip": [
+          567,
+          1032
+        ],
+        "briefcase_center": [
+          552,
+          1188
+        ]
+      },
+      "semantic_regions": [
+        {
+          "name": "head",
+          "polygon": [
+            [
+              206,
+              281
+            ],
+            [
+              326,
+              161
+            ],
+            [
+              521,
+              131
+            ],
+            [
+              692,
+              159
+            ],
+            [
+              746,
+              268
+            ],
+            [
+              769,
+              420
+            ],
+            [
+              688,
+              546
+            ],
+            [
+              578,
+              649
+            ],
+            [
+              414,
+              671
+            ],
+            [
+              294,
+              639
+            ],
+            [
+              200,
+              496
+            ],
+            [
+              189,
+              357
+            ]
+          ]
+        },
+        {
+          "name": "torso",
+          "polygon": [
+            [
+              415,
+              658
+            ],
+            [
+              556,
+              635
+            ],
+            [
+              694,
+              583
+            ],
+            [
+              786,
+              657
+            ],
+            [
+              827,
+              849
+            ],
+            [
+              791,
+              924
+            ],
+            [
+              643,
+              956
+            ],
+            [
+              491,
+              943
+            ],
+            [
+              440,
+              852
+            ]
+          ]
+        },
+        {
+          "name": "arm_left",
+          "capsule": [
+            [
+              468,
+              693
+            ],
+            [
+              469,
+              858
+            ],
+            [
+              533,
+              985
+            ],
+            [
+              531,
+              1012
+            ]
+          ],
+          "radius_px": 62
+        },
+        {
+          "name": "arm_right",
+          "capsule": [
+            [
+              696,
+              616
+            ],
+            [
+              699,
+              838
+            ],
+            [
+              607,
+              990
+            ],
+            [
+              607,
+              1013
+            ]
+          ],
+          "radius_px": 63
+        },
+        {
+          "name": "leg_left",
+          "capsule": [
+            [
+              549,
+              1214
+            ],
+            [
+              536,
+              1356
+            ],
+            [
+              492,
+              1428
+            ],
+            [
+              512,
+              1473
+            ]
+          ],
+          "radius_px": 67
+        },
+        {
+          "name": "leg_right",
+          "capsule": [
+            [
+              723,
+              1179
+            ],
+            [
+              701,
+              1354
+            ],
+            [
+              687,
+              1435
+            ],
+            [
+              682,
+              1476
+            ]
+          ],
+          "radius_px": 64
+        },
+        {
+          "name": "briefcase",
+          "polygon": [
+            [
+              376,
+              1061
+            ],
+            [
+              471,
+              1037
+            ],
+            [
+              474,
+              1012
+            ],
+            [
+              637,
+              1019
+            ],
+            [
+              653,
+              1067
+            ],
+            [
+              731,
+              1088
+            ],
+            [
+              719,
+              1256
+            ],
+            [
+              668,
+              1304
+            ],
+            [
+              372,
+              1277
+            ]
+          ]
+        }
+      ],
+      "fixed_contacts": [
+        {
+          "name": "shoe_left",
+          "point": [
+            512,
+            1473
+          ],
+          "radius": [
+            73,
+            12
+          ]
+        },
+        {
+          "name": "shoe_right",
+          "point": [
+            682,
+            1476
+          ],
+          "radius": [
+            58,
+            12
+          ]
+        }
+      ],
+      "source": "assets/art/visual_v18/worker.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "full_body_rect": [
+        186,
+        126,
+        645,
+        1356
+      ],
+      "source_parts": [],
+      "source_kind": "built_in_ai_hand_painted_single_master",
+      "status": "final_asset_ready_for_integration",
+      "alpha_bbox": [
+        0,
+        9,
+        1006,
+        1485
+      ],
+      "subject_alpha_bbox": [
+        189,
+        129,
+        639,
+        1350
+      ],
+      "alpha_bbox_threshold": 38,
+      "sha256": "28400bc367b3db33982eba9e4733367707a30dd2b898730226495d40712ce69f",
+      "alpha_qa": {
+        "mode": "RGBA",
+        "canvas": [
+          1024,
+          1536
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "bbox_by_threshold": {
+          "0": {
+            "rect_xywh": [
+              0,
+              9,
+              1006,
+              1485
+            ],
+            "pixel_count": 565370
+          },
+          "1": {
+            "rect_xywh": [
+              186,
+              127,
+              644,
+              1357
+            ],
+            "pixel_count": 555521
+          },
+          "8": {
+            "rect_xywh": [
+              189,
+              128,
+              639,
+              1351
+            ],
+            "pixel_count": 548422
+          },
+          "38": {
+            "rect_xywh": [
+              189,
+              129,
+              639,
+              1350
+            ],
+            "pixel_count": 546352
+          },
+          "128": {
+            "rect_xywh": [
+              190,
+              129,
+              637,
+              1349
+            ],
+            "pixel_count": 543462
+          },
+          "192": {
+            "rect_xywh": [
+              191,
+              130,
+              636,
+              1348
+            ],
+            "pixel_count": 541618
+          }
+        },
+        "four_corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strong_alpha_on_canvas_edges": false,
+        "background_cloud_samples": [
+          {
+            "xy": [
+              100,
+              450
+            ],
+            "source_rgba": [
+              47,
+              32,
+              22,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              900,
+              750
+            ],
+            "source_rgba": [
+              31,
+              69,
+              84,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              400,
+              1320
+            ],
+            "source_rgba": [
+              94,
+              59,
+              45,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              100,
+              1100
+            ],
+            "source_rgba": [
+              1,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              900,
+              1100
+            ],
+            "source_rgba": [
+              10,
+              35,
+              52,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          }
+        ],
+        "cloud_sample_alpha_zero": true,
+        "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+      }
+    },
+    "chicken": {
+      "source_rect": [
+        348,
+        330,
+        506,
+        464
+      ],
+      "foot_source": [
+        572,
+        1324
+      ],
+      "feet_fixed_source_y_min": 1242,
+      "body_top_source": [
+        630,
+        358
+      ],
+      "body_height_source_px": 966,
+      "identity": "Original yellow plush/feathery middle-part meme chick, gray bib overalls, dark straps, orange beak and bird feet, one basketball. Painterly plush strokes, no muscular human bird.",
+      "joints": {
+        "head": [
+          599,
+          607
+        ],
+        "neck": [
+          591,
+          797
+        ],
+        "torso": [
+          563,
+          929
+        ],
+        "pelvis": [
+          567,
+          1161
+        ],
+        "shoulder_left": [
+          325,
+          789
+        ],
+        "elbow_left": [
+          225,
+          775
+        ],
+        "wrist_left": [
+          153,
+          703
+        ],
+        "hand_left": [
+          168,
+          711
+        ],
+        "shoulder_right": [
+          757,
+          814
+        ],
+        "elbow_right": [
+          865,
+          816
+        ],
+        "wrist_right": [
+          934,
+          735
+        ],
+        "hand_right": [
+          955,
+          688
+        ],
+        "hip_left": [
+          345,
+          1139
+        ],
+        "knee_left": [
+          342,
+          1235
+        ],
+        "ankle_left": [
+          329,
+          1270
+        ],
+        "foot_left": [
+          325,
+          1321
+        ],
+        "hip_right": [
+          704,
+          1167
+        ],
+        "knee_right": [
+          763,
+          1243
+        ],
+        "ankle_right": [
+          798,
+          1278
+        ],
+        "foot_right": [
+          819,
+          1311
+        ],
+        "ball_center": [
+          207,
+          565
+        ],
+        "ball_grip": [
+          169,
+          706
+        ],
+        "hair_center_part": [
+          627,
+          429
+        ]
+      },
+      "semantic_regions": [
+        {
+          "name": "head",
+          "polygon": [
+            [
+              379,
+              468
+            ],
+            [
+              421,
+              411
+            ],
+            [
+              572,
+              358
+            ],
+            [
+              641,
+              351
+            ],
+            [
+              748,
+              420
+            ],
+            [
+              833,
+              550
+            ],
+            [
+              817,
+              741
+            ],
+            [
+              698,
+              825
+            ],
+            [
+              493,
+              813
+            ],
+            [
+              343,
+              704
+            ],
+            [
+              330,
+              583
+            ]
+          ]
+        },
+        {
+          "name": "hair",
+          "polygon": [
+            [
+              351,
+              522
+            ],
+            [
+              403,
+              420
+            ],
+            [
+              513,
+              368
+            ],
+            [
+              610,
+              354
+            ],
+            [
+              637,
+              343
+            ],
+            [
+              697,
+              374
+            ],
+            [
+              804,
+              419
+            ],
+            [
+              856,
+              539
+            ],
+            [
+              830,
+              698
+            ],
+            [
+              748,
+              601
+            ],
+            [
+              691,
+              518
+            ],
+            [
+              623,
+              446
+            ],
+            [
+              526,
+              468
+            ],
+            [
+              434,
+              559
+            ]
+          ]
+        },
+        {
+          "name": "torso",
+          "polygon": [
+            [
+              299,
+              727
+            ],
+            [
+              440,
+              761
+            ],
+            [
+              696,
+              775
+            ],
+            [
+              785,
+              793
+            ],
+            [
+              826,
+              975
+            ],
+            [
+              811,
+              1138
+            ],
+            [
+              706,
+              1212
+            ],
+            [
+              325,
+              1191
+            ],
+            [
+              248,
+              1015
+            ]
+          ]
+        },
+        {
+          "name": "wing_left",
+          "capsule": [
+            [
+              325,
+              789
+            ],
+            [
+              225,
+              775
+            ],
+            [
+              153,
+              703
+            ],
+            [
+              168,
+              711
+            ]
+          ],
+          "radius_px": 79
+        },
+        {
+          "name": "wing_right",
+          "capsule": [
+            [
+              757,
+              814
+            ],
+            [
+              865,
+              816
+            ],
+            [
+              934,
+              735
+            ],
+            [
+              955,
+              688
+            ]
+          ],
+          "radius_px": 70
+        },
+        {
+          "name": "leg_left",
+          "capsule": [
+            [
+              345,
+              1139
+            ],
+            [
+              342,
+              1235
+            ],
+            [
+              329,
+              1270
+            ],
+            [
+              325,
+              1321
+            ]
+          ],
+          "radius_px": 50
+        },
+        {
+          "name": "leg_right",
+          "capsule": [
+            [
+              704,
+              1167
+            ],
+            [
+              763,
+              1243
+            ],
+            [
+              798,
+              1278
+            ],
+            [
+              819,
+              1311
+            ]
+          ],
+          "radius_px": 51
+        },
+        {
+          "name": "basketball",
+          "ellipse": {
+            "center": [
+              207,
+              565
+            ],
+            "radius": [
+              147,
+              144
+            ]
+          }
+        }
+      ],
+      "fixed_contacts": [
+        {
+          "name": "bird_foot_left",
+          "point": [
+            325,
+            1321
+          ],
+          "radius": [
+            70,
+            9
+          ]
+        },
+        {
+          "name": "bird_foot_right",
+          "point": [
+            819,
+            1311
+          ],
+          "radius": [
+            76,
+            9
+          ]
+        }
+      ],
+      "source": "assets/art/visual_v18/chicken.png",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "full_body_rect": [
+        59,
+        340,
+        921,
+        987
+      ],
+      "source_parts": [],
+      "source_kind": "built_in_ai_hand_painted_single_master",
+      "status": "final_asset_ready_for_integration",
+      "alpha_bbox": [
+        0,
+        35,
+        1010,
+        1461
+      ],
+      "subject_alpha_bbox": [
+        62,
+        343,
+        915,
+        981
+      ],
+      "alpha_bbox_threshold": 38,
+      "sha256": "a8f04bfdb5f2629a84db4f5b1209a91ea6ff7b1899df16b2c9381d09efdb0f08",
+      "alpha_qa": {
+        "mode": "RGBA",
+        "canvas": [
+          1024,
+          1536
+        ],
+        "alpha_extrema": [
+          0,
+          254
+        ],
+        "bbox_by_threshold": {
+          "0": {
+            "rect_xywh": [
+              0,
+              35,
+              1010,
+              1461
+            ],
+            "pixel_count": 579507
+          },
+          "1": {
+            "rect_xywh": [
+              59,
+              340,
+              919,
+              987
+            ],
+            "pixel_count": 565188
+          },
+          "8": {
+            "rect_xywh": [
+              61,
+              342,
+              916,
+              983
+            ],
+            "pixel_count": 553012
+          },
+          "38": {
+            "rect_xywh": [
+              62,
+              343,
+              915,
+              981
+            ],
+            "pixel_count": 549678
+          },
+          "128": {
+            "rect_xywh": [
+              62,
+              343,
+              914,
+              981
+            ],
+            "pixel_count": 545924
+          },
+          "192": {
+            "rect_xywh": [
+              62,
+              344,
+              914,
+              980
+            ],
+            "pixel_count": 543272
+          }
+        },
+        "four_corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strong_alpha_on_canvas_edges": false,
+        "background_cloud_samples": [
+          {
+            "xy": [
+              50,
+              950
+            ],
+            "source_rgba": [
+              27,
+              21,
+              7,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              700,
+              1400
+            ],
+            "source_rgba": [
+              29,
+              12,
+              3,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              650,
+              200
+            ],
+            "source_rgba": [
+              3,
+              2,
+              2,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              50,
+              500
+            ],
+            "source_rgba": [
+              181,
+              118,
+              71,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              900,
+              500
+            ],
+            "source_rgba": [
+              27,
+              37,
+              42,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          }
+        ],
+        "cloud_sample_alpha_zero": true,
+        "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+      }
+    },
+    "rio": {
+      "source_rect": [
+        443,
+        74,
+        188,
+        166
+      ],
+      "foot_source": [
+        615,
+        1234
+      ],
+      "feet_fixed_source_y_min": 1138,
+      "body_top_source": [
+        539,
+        77
+      ],
+      "body_height_source_px": 1157,
+      "identity": "Original Rio, explicitly 22-year-old petite adult, mature 5.5–6 head proportions, blue twin ponytails, opaque navy/cyan bikini top, ankle-length flowing swim wrap skirt, sandals, both hands on heavy oversized sword. No child/chibi/jacket/trousers change.",
+      "age": 22,
+      "joints": {
+        "head": [
+          545,
+          165
+        ],
+        "neck": [
+          558,
+          235
+        ],
+        "torso": [
+          584,
+          366
+        ],
+        "waist": [
+          540,
+          472
+        ],
+        "pelvis": [
+          536,
+          566
+        ],
+        "shoulder_left": [
+          475,
+          270
+        ],
+        "elbow_left": [
+          574,
+          424
+        ],
+        "wrist_left": [
+          679,
+          543
+        ],
+        "hand_left": [
+          705,
+          568
+        ],
+        "shoulder_right": [
+          631,
+          282
+        ],
+        "elbow_right": [
+          701,
+          443
+        ],
+        "wrist_right": [
+          745,
+          553
+        ],
+        "hand_right": [
+          743,
+          589
+        ],
+        "hip_left": [
+          461,
+          566
+        ],
+        "knee_left": [
+          410,
+          910
+        ],
+        "ankle_left": [
+          349,
+          1118
+        ],
+        "foot_left": [
+          343,
+          1219
+        ],
+        "hip_right": [
+          610,
+          565
+        ],
+        "knee_right": [
+          810,
+          949
+        ],
+        "ankle_right": [
+          866,
+          1120
+        ],
+        "foot_right": [
+          881,
+          1206
+        ],
+        "hair_left_root": [
+          439,
+          100
+        ],
+        "hair_left_mid": [
+          313,
+          293
+        ],
+        "hair_left_tip": [
+          272,
+          534
+        ],
+        "hair_right_root": [
+          601,
+          52
+        ],
+        "hair_right_mid": [
+          807,
+          244
+        ],
+        "hair_right_tip": [
+          853,
+          464
+        ],
+        "skirt_hip": [
+          535,
+          516
+        ],
+        "skirt_left_hem": [
+          304,
+          963
+        ],
+        "skirt_center_hem": [
+          598,
+          1123
+        ],
+        "skirt_right_hem": [
+          847,
+          1013
+        ],
+        "sword_grip": [
+          746,
+          603
+        ],
+        "sword_guard": [
+          782,
+          651
+        ],
+        "sword_tip": [
+          1185,
+          1230
+        ]
+      },
+      "semantic_regions": [
+        {
+          "name": "head",
+          "polygon": [
+            [
+              450,
+              89
+            ],
+            [
+              525,
+              72
+            ],
+            [
+              589,
+              78
+            ],
+            [
+              630,
+              127
+            ],
+            [
+              611,
+              217
+            ],
+            [
+              560,
+              241
+            ],
+            [
+              492,
+              210
+            ],
+            [
+              461,
+              169
+            ]
+          ]
+        },
+        {
+          "name": "hair_left",
+          "polygon": [
+            [
+              426,
+              77
+            ],
+            [
+              448,
+              101
+            ],
+            [
+              437,
+              189
+            ],
+            [
+              391,
+              262
+            ],
+            [
+              468,
+              372
+            ],
+            [
+              451,
+              486
+            ],
+            [
+              374,
+              570
+            ],
+            [
+              242,
+              565
+            ],
+            [
+              154,
+              467
+            ],
+            [
+              147,
+              371
+            ],
+            [
+              191,
+              257
+            ],
+            [
+              295,
+              116
+            ],
+            [
+              369,
+              66
+            ]
+          ]
+        },
+        {
+          "name": "hair_right",
+          "polygon": [
+            [
+              583,
+              47
+            ],
+            [
+              622,
+              19
+            ],
+            [
+              678,
+              55
+            ],
+            [
+              739,
+              119
+            ],
+            [
+              806,
+              154
+            ],
+            [
+              886,
+              244
+            ],
+            [
+              947,
+              365
+            ],
+            [
+              941,
+              459
+            ],
+            [
+              863,
+              483
+            ],
+            [
+              758,
+              456
+            ],
+            [
+              686,
+              364
+            ],
+            [
+              642,
+              251
+            ],
+            [
+              609,
+              154
+            ]
+          ]
+        },
+        {
+          "name": "torso",
+          "polygon": [
+            [
+              509,
+              222
+            ],
+            [
+              600,
+              248
+            ],
+            [
+              658,
+              291
+            ],
+            [
+              711,
+              374
+            ],
+            [
+              661,
+              464
+            ],
+            [
+              595,
+              507
+            ],
+            [
+              512,
+              476
+            ],
+            [
+              465,
+              414
+            ],
+            [
+              448,
+              307
+            ]
+          ]
+        },
+        {
+          "name": "arm_left",
+          "capsule": [
+            [
+              475,
+              270
+            ],
+            [
+              574,
+              424
+            ],
+            [
+              679,
+              543
+            ],
+            [
+              705,
+              568
+            ]
+          ],
+          "radius_px": 44
+        },
+        {
+          "name": "arm_right",
+          "capsule": [
+            [
+              631,
+              282
+            ],
+            [
+              701,
+              443
+            ],
+            [
+              745,
+              553
+            ],
+            [
+              743,
+              589
+            ]
+          ],
+          "radius_px": 35
+        },
+        {
+          "name": "skirt",
+          "polygon": [
+            [
+              414,
+              474
+            ],
+            [
+              537,
+              471
+            ],
+            [
+              610,
+              502
+            ],
+            [
+              729,
+              631
+            ],
+            [
+              818,
+              877
+            ],
+            [
+              894,
+              1011
+            ],
+            [
+              864,
+              1117
+            ],
+            [
+              703,
+              1147
+            ],
+            [
+              487,
+              1108
+            ],
+            [
+              336,
+              1024
+            ],
+            [
+              248,
+              957
+            ],
+            [
+              299,
+              828
+            ],
+            [
+              365,
+              671
+            ],
+            [
+              315,
+              579
+            ]
+          ]
+        },
+        {
+          "name": "leg_left",
+          "capsule": [
+            [
+              461,
+              566
+            ],
+            [
+              410,
+              910
+            ],
+            [
+              349,
+              1118
+            ],
+            [
+              343,
+              1219
+            ]
+          ],
+          "radius_px": 39
+        },
+        {
+          "name": "leg_right",
+          "capsule": [
+            [
+              610,
+              565
+            ],
+            [
+              810,
+              949
+            ],
+            [
+              866,
+              1120
+            ],
+            [
+              881,
+              1206
+            ]
+          ],
+          "radius_px": 34
+        },
+        {
+          "name": "sword",
+          "polygon": [
+            [
+              717,
+              552
+            ],
+            [
+              766,
+              571
+            ],
+            [
+              805,
+              623
+            ],
+            [
+              851,
+              610
+            ],
+            [
+              905,
+              702
+            ],
+            [
+              1112,
+              1057
+            ],
+            [
+              1190,
+              1234
+            ],
+            [
+              1035,
+              1188
+            ],
+            [
+              900,
+              1052
+            ],
+            [
+              715,
+              739
+            ],
+            [
+              717,
+              678
+            ],
+            [
+              755,
+              639
+            ]
+          ]
+        }
+      ],
+      "fixed_contacts": [
+        {
+          "name": "left_sandal",
+          "point": [
+            343,
+            1219
+          ],
+          "radius": [
+            50,
+            9
+          ]
+        },
+        {
+          "name": "right_sandal",
+          "point": [
+            881,
+            1206
+          ],
+          "radius": [
+            56,
+            9
+          ]
+        },
+        {
+          "name": "heavy_sword_tip",
+          "point": [
+            1185,
+            1230
+          ],
+          "radius": [
+            7,
+            7
+          ]
+        }
+      ],
+      "notes": "Hip/knee landmarks beneath opaque skirt are inferred for weighting. Sword silhouette and both hands are painted in the master; do not draw a second sword or detach hands. Full asset extent includes blade and twin hair, so fit whole union before any contain scaling.",
+      "source": "assets/art/visual_v18/rio.png",
+      "canvas": [
+        1254,
+        1254
+      ],
+      "full_body_rect": [
+        143,
+        16,
+        1050,
+        1221
+      ],
+      "source_parts": [],
+      "source_kind": "built_in_ai_hand_painted_single_master",
+      "status": "final_asset_ready_for_integration",
+      "alpha_bbox": [
+        0,
+        15,
+        1220,
+        1223
+      ],
+      "subject_alpha_bbox": [
+        146,
+        19,
+        1044,
+        1215
+      ],
+      "alpha_bbox_threshold": 38,
+      "sha256": "29c1faf0784646a98c2fb8269b02a9c8c2f28fe84f613493f4f58d8a9dcb4b8a",
+      "alpha_qa": {
+        "mode": "RGBA",
+        "canvas": [
+          1254,
+          1254
+        ],
+        "alpha_extrema": [
+          0,
+          255
+        ],
+        "bbox_by_threshold": {
+          "0": {
+            "rect_xywh": [
+              0,
+              15,
+              1220,
+              1223
+            ],
+            "pixel_count": 720231
+          },
+          "1": {
+            "rect_xywh": [
+              143,
+              16,
+              1050,
+              1220
+            ],
+            "pixel_count": 699700
+          },
+          "8": {
+            "rect_xywh": [
+              145,
+              18,
+              1045,
+              1216
+            ],
+            "pixel_count": 669814
+          },
+          "38": {
+            "rect_xywh": [
+              146,
+              19,
+              1044,
+              1215
+            ],
+            "pixel_count": 660487
+          },
+          "128": {
+            "rect_xywh": [
+              146,
+              20,
+              1044,
+              1213
+            ],
+            "pixel_count": 650827
+          },
+          "192": {
+            "rect_xywh": [
+              147,
+              20,
+              1042,
+              1213
+            ],
+            "pixel_count": 643925
+          }
+        },
+        "four_corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "strong_alpha_on_canvas_edges": false,
+        "background_cloud_samples": [
+          {
+            "xy": [
+              100,
+              100
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              1100,
+              200
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              30,
+              1200
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              1000,
+              400
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          },
+          {
+            "xy": [
+              1220,
+              1000
+            ],
+            "source_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "warm_cream_composite_rgb": [
+              255,
+              248,
+              232
+            ],
+            "matches_background_exactly": true
+          }
+        ],
+        "cloud_sample_alpha_zero": true,
+        "scope": "Read-only original RGBA measurements and exact alpha-composite numeric samples; no thresholding, cropping, mask, despeckling or other source PNG pixel edits."
+      }
+    }
+  },
+  "notes": "PNG files are copied unchanged from built-in imagegen. Alpha QA is based on actual RGBA. Full-body contain rect is measured strong alpha (>38/255) plus three pixels; full canvas texture retains natural soft alpha edges. No image thresholding or pixel editing was performed. Root performs native warm-stage compositing verification; these are single illustrations, not new animation frame sequences."
+}

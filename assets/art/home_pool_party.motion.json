@@ -1,0 +1,805 @@
+{
+  "version": 1,
+  "asset": "res://assets/art/home_pool_party.png",
+  "canvas_source": [
+    1672,
+    941
+  ],
+  "canvas_logical": [
+    1280,
+    720
+  ],
+  "coordinates": "Source pixels, canvas pixels and UV annotations; bounds are approximate hand-annotated",
+  "menu_fixed_source_rect": [
+    0,
+    0,
+    635,
+    941
+  ],
+  "menu_fixed_canvas_rect": [
+    0,
+    0,
+    486,
+    720
+  ],
+  "characters": {
+    "rio": {
+      "feet_fixed_source_y_min": 700,
+      "feet_fixed_uv_y": 0.74389,
+      "deform_zones": [
+        {
+          "center": {
+            "source_px": [
+              970,
+              331
+            ],
+            "canvas_1280x720": [
+              742.6,
+              253.3
+            ],
+            "uv": [
+              0.58014,
+              0.35175
+            ]
+          },
+          "radius_source_px": [
+            50,
+            89
+          ],
+          "radius_canvas_px": [
+            38.3,
+            68.1
+          ],
+          "kind": "loose blue ponytail; protect face",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              963,
+              447
+            ],
+            "canvas_1280x720": [
+              737.2,
+              342
+            ],
+            "uv": [
+              0.57596,
+              0.47503
+            ]
+          },
+          "radius_source_px": [
+            23,
+            49
+          ],
+          "radius_canvas_px": [
+            17.6,
+            37.5
+          ],
+          "kind": "free forearm; pivot is left elbow",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1171,
+              283
+            ],
+            "canvas_1280x720": [
+              896.5,
+              216.5
+            ],
+            "uv": [
+              0.70036,
+              0.30074
+            ]
+          },
+          "radius_source_px": [
+            25,
+            25
+          ],
+          "radius_canvas_px": [
+            19.1,
+            19.1
+          ],
+          "kind": "sword-hand micro reaction",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1065,
+              334
+            ],
+            "canvas_1280x720": [
+              815.3,
+              255.6
+            ],
+            "uv": [
+              0.63696,
+              0.35494
+            ]
+          },
+          "radius_source_px": [
+            51,
+            58
+          ],
+          "radius_canvas_px": [
+            39,
+            44.4
+          ],
+          "kind": "breathing torso; hip fixed",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        }
+      ],
+      "fixed_regions_source": [
+        [
+          940,
+          700,
+          287,
+          126
+        ]
+      ],
+      "mask_exclude_source": [
+        [
+          1040,
+          205,
+          70,
+          74
+        ]
+      ],
+      "note": "Upper-body only; no lowerbody/boot/contactshadow movement. Sword hand micro motion should not detach fromhilt."
+    },
+    "shark": {
+      "feet_fixed_source_y_min": 627,
+      "feet_fixed_uv_y": 0.66631,
+      "deform_zones": [
+        {
+          "center": {
+            "source_px": [
+              866,
+              524
+            ],
+            "canvas_1280x720": [
+              663,
+              400.9
+            ],
+            "uv": [
+              0.51794,
+              0.55685
+            ]
+          },
+          "radius_source_px": [
+            58,
+            44
+          ],
+          "radius_canvas_px": [
+            44.4,
+            33.7
+          ],
+          "kind": "head/mouth reaction",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              747,
+              584
+            ],
+            "canvas_1280x720": [
+              571.9,
+              446.8
+            ],
+            "uv": [
+              0.44677,
+              0.62062
+            ]
+          },
+          "radius_source_px": [
+            33,
+            24
+          ],
+          "radius_canvas_px": [
+            25.3,
+            18.4
+          ],
+          "kind": "pectoral fin",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              668,
+              552
+            ],
+            "canvas_1280x720": [
+              511.4,
+              422.4
+            ],
+            "uv": [
+              0.39952,
+              0.58661
+            ]
+          },
+          "radius_source_px": [
+            24,
+            48
+          ],
+          "radius_canvas_px": [
+            18.4,
+            36.7
+          ],
+          "kind": "tail swish",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        }
+      ],
+      "fixed_regions_source": [
+        [
+          645,
+          627,
+          288,
+          95
+        ]
+      ],
+      "note": "Keepthreelegs andshoesgrounded, usehead/fin/tail only."
+    },
+    "worker": {
+      "feet_fixed_source_y_min": 565,
+      "feet_fixed_uv_y": 0.60043,
+      "deform_zones": [
+        {
+          "center": {
+            "source_px": [
+              1281,
+              410
+            ],
+            "canvas_1280x720": [
+              980.7,
+              313.7
+            ],
+            "uv": [
+              0.76615,
+              0.43571
+            ]
+          },
+          "radius_source_px": [
+            62,
+            51
+          ],
+          "radius_canvas_px": [
+            47.5,
+            39
+          ],
+          "kind": "head expression",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1345,
+              424
+            ],
+            "canvas_1280x720": [
+              1029.7,
+              324.4
+            ],
+            "uv": [
+              0.80443,
+              0.45058
+            ]
+          },
+          "radius_source_px": [
+            20,
+            24
+          ],
+          "radius_canvas_px": [
+            15.3,
+            18.4
+          ],
+          "kind": "raised fist",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1211,
+              520
+            ],
+            "canvas_1280x720": [
+              927.1,
+              397.9
+            ],
+            "uv": [
+              0.72428,
+              0.5526
+            ]
+          },
+          "radius_source_px": [
+            27,
+            31
+          ],
+          "radius_canvas_px": [
+            20.7,
+            23.7
+          ],
+          "kind": "briefcase micro swing",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        }
+      ],
+      "fixed_regions_source": [
+        [
+          1175,
+          565,
+          112,
+          70
+        ]
+      ],
+      "mask_exclude_source": [
+        [
+          1261,
+          482,
+          95,
+          98
+        ]
+      ],
+      "note": "Avoidcatforegroundmask. Backgroundworker arm/head canreactwithoutmovingoccludedfeet."
+    },
+    "cat": {
+      "feet_fixed_source_y_min": 698,
+      "feet_fixed_uv_y": 0.74176,
+      "deform_zones": [
+        {
+          "center": {
+            "source_px": [
+              1315,
+              537
+            ],
+            "canvas_1280x720": [
+              1006.7,
+              410.9
+            ],
+            "uv": [
+              0.78648,
+              0.57067
+            ]
+          },
+          "radius_source_px": [
+            48,
+            49
+          ],
+          "radius_canvas_px": [
+            36.7,
+            37.5
+          ],
+          "kind": "happyface",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1273,
+              585
+            ],
+            "canvas_1280x720": [
+              974.5,
+              447.6
+            ],
+            "uv": [
+              0.76136,
+              0.62168
+            ]
+          },
+          "radius_source_px": [
+            20,
+            21
+          ],
+          "radius_canvas_px": [
+            15.3,
+            16.1
+          ],
+          "kind": "left paw",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1381,
+              558
+            ],
+            "canvas_1280x720": [
+              1057.2,
+              427
+            ],
+            "uv": [
+              0.82596,
+              0.59299
+            ]
+          },
+          "radius_source_px": [
+            19,
+            21
+          ],
+          "radius_canvas_px": [
+            14.5,
+            16.1
+          ],
+          "kind": "right paw",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1311,
+              648
+            ],
+            "canvas_1280x720": [
+              1003.6,
+              495.8
+            ],
+            "uv": [
+              0.78409,
+              0.68863
+            ]
+          },
+          "radius_source_px": [
+            35,
+            42
+          ],
+          "radius_canvas_px": [
+            26.8,
+            32.1
+          ],
+          "kind": "upper torso",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1194,
+              644
+            ],
+            "canvas_1280x720": [
+              914.1,
+              492.8
+            ],
+            "uv": [
+              0.71411,
+              0.68438
+            ]
+          },
+          "radius_source_px": [
+            26,
+            29
+          ],
+          "radius_canvas_px": [
+            19.9,
+            22.2
+          ],
+          "kind": "tail tip",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        }
+      ],
+      "fixed_regions_source": [
+        [
+          1205,
+          698,
+          213,
+          69
+        ]
+      ],
+      "mask_exclude_source": [
+        [
+          1210,
+          340,
+          157,
+          136
+        ],
+        [
+          1403,
+          450,
+          224,
+          265
+        ]
+      ],
+      "note": "Head masks mustexclude workerbehindandchickenright. Feetandcontactshadowfixed."
+    },
+    "chicken": {
+      "feet_fixed_source_y_min": 654,
+      "feet_fixed_uv_y": 0.69501,
+      "deform_zones": [
+        {
+          "center": {
+            "source_px": [
+              1500,
+              459
+            ],
+            "canvas_1280x720": [
+              1148.3,
+              351.2
+            ],
+            "uv": [
+              0.89713,
+              0.48778
+            ]
+          },
+          "radius_source_px": [
+            55,
+            29
+          ],
+          "radius_canvas_px": [
+            42.1,
+            22.2
+          ],
+          "kind": "black center-part hair",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1526,
+              510
+            ],
+            "canvas_1280x720": [
+              1168.2,
+              390.2
+            ],
+            "uv": [
+              0.91268,
+              0.54198
+            ]
+          },
+          "radius_source_px": [
+            48,
+            43
+          ],
+          "radius_canvas_px": [
+            36.7,
+            32.9
+          ],
+          "kind": "beakface",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1603,
+              458
+            ],
+            "canvas_1280x720": [
+              1227.2,
+              350.4
+            ],
+            "uv": [
+              0.95873,
+              0.48672
+            ]
+          },
+          "radius_source_px": [
+            20,
+            22
+          ],
+          "radius_canvas_px": [
+            15.3,
+            16.8
+          ],
+          "kind": "raised wing/fist",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1438,
+              577
+            ],
+            "canvas_1280x720": [
+              1100.9,
+              441.5
+            ],
+            "uv": [
+              0.86005,
+              0.61318
+            ]
+          },
+          "radius_source_px": [
+            27,
+            28
+          ],
+          "radius_canvas_px": [
+            20.7,
+            21.4
+          ],
+          "kind": "ball-sidewing",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        },
+        {
+          "center": {
+            "source_px": [
+              1520,
+              602
+            ],
+            "canvas_1280x720": [
+              1163.6,
+              460.6
+            ],
+            "uv": [
+              0.90909,
+              0.63974
+            ]
+          },
+          "radius_source_px": [
+            48,
+            46
+          ],
+          "radius_canvas_px": [
+            36.7,
+            35.2
+          ],
+          "kind": "upperbibbreathing",
+          "soft_edge_fraction": 0.2,
+          "max_displacement_canvas_px": 1.5
+        }
+      ],
+      "fixed_regions_source": [
+        [
+          1388,
+          654,
+          239,
+          67
+        ]
+      ],
+      "mask_exclude_source": [
+        [
+          1160,
+          482,
+          249,
+          285
+        ]
+      ],
+      "note": "Keepbasketball/deck aligned; motionless chickenfeet."
+    }
+  },
+  "pool": {
+    "source_polygon": [
+      [
+        535,
+        396
+      ],
+      [
+        793,
+        374
+      ],
+      [
+        1174,
+        389
+      ],
+      [
+        1409,
+        414
+      ],
+      [
+        1671,
+        477
+      ],
+      [
+        1671,
+        625
+      ],
+      [
+        1583,
+        612
+      ],
+      [
+        1379,
+        587
+      ],
+      [
+        1150,
+        586
+      ],
+      [
+        933,
+        577
+      ],
+      [
+        754,
+        575
+      ],
+      [
+        533,
+        557
+      ]
+    ],
+    "uv_polygon": [
+      [
+        0.31998,
+        0.42083
+      ],
+      [
+        0.47428,
+        0.39745
+      ],
+      [
+        0.70215,
+        0.41339
+      ],
+      [
+        0.8427,
+        0.43996
+      ],
+      [
+        0.9994,
+        0.50691
+      ],
+      [
+        0.9994,
+        0.66419
+      ],
+      [
+        0.94677,
+        0.65037
+      ],
+      [
+        0.82476,
+        0.6238
+      ],
+      [
+        0.6878,
+        0.62274
+      ],
+      [
+        0.55801,
+        0.61318
+      ],
+      [
+        0.45096,
+        0.61105
+      ],
+      [
+        0.31878,
+        0.59192
+      ]
+    ],
+    "note": "Water-only polygon; excludeeverycharacterbodyboundingbox, stone coping, ladderandprops fromwave masks. Amplitude <=1 logicalpixel; neverapplysamewaterwave tocharacters."
+  },
+  "speakers": [
+    {
+      "source_rect": [
+        1463,
+        250,
+        69,
+        70
+      ],
+      "note": "Approximateleft speaker. Use cone-scale or emissivecircleinside; don'tdeformDJtable."
+    },
+    {
+      "source_rect": [
+        1569,
+        237,
+        65,
+        80
+      ],
+      "note": "Approximaterightspeaker; actualconecenterbestcheckedinruntimepreview."
+    }
+  ],
+  "ground_fixed_source_y_min": 820,
+  "animation_guidance": "Small local upperbody articulation only. Mask outlines need actualshaderpreview; this opaque singlepaintedcanvas doesnotcontainseparatealphalayers, so large movementrequiresnewlayeredart ratherthan stretchingbackground."
+}

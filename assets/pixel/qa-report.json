@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "artwork_count": 10,
+  "characters": {
+    "chicken": {
+      "native_height": 61,
+      "world_height": 244,
+      "source_kind": "new_ai_pixel_parts_plus_skeletal_keyframes",
+      "sources": [
+        {
+          "file": "chicken_parts.png",
+          "canvas": [
+            1374,
+            1145
+          ],
+          "transparent_fraction": 0.5170820541179612,
+          "regions": 16,
+          "precise_component_regions": 0
+        },
+        {
+          "file": "chicken_variants.png",
+          "canvas": [
+            1774,
+            887
+          ],
+          "transparent_fraction": 0.5185785154219346,
+          "regions": 8,
+          "precise_component_regions": 2
+        }
+      ],
+      "clip_count": 29,
+      "skeletal_keyframe_count": 324,
+      "clip_keyframes": {
+        "idle": 8,
+        "dance": 8,
+        "walk": 8,
+        "attack1": 8,
+        "attack2": 10,
+        "attack3": 12,
+        "sweep": 12,
+        "launcher": 12,
+        "jump": 10,
+        "air_light": 10,
+        "air_skill": 12,
+        "air_slam": 16,
+        "dash": 12,
+        "throw": 12,
+        "skill1": 12,
+        "skill2": 12,
+        "skill3": 16,
+        "super": 16,
+        "super_down": 16,
+        "super_up": 12,
+        "hurt": 8,
+        "air_hurt": 10,
+        "down": 10,
+        "getup": 12,
+        "guard": 8,
+        "burst": 12,
+        "escape": 8,
+        "invite": 12,
+        "confirm": 10
+      }
+    },
+    "shark": {
+      "native_height": 46,
+      "world_height": 184,
+      "source_kind": "new_ai_pixel_parts_plus_skeletal_keyframes",
+      "sources": [
+        {
+          "file": "shark_parts.png",
+          "canvas": [
+            1402,
+            1122
+          ],
+          "transparent_fraction": 0.5873713640559323,
+          "regions": 16,
+          "precise_component_regions": 1
+        },
+        {
+          "file": "shark_variants.png",
+          "canvas": [
+            1774,
+            887
+          ],
+          "transparent_fraction": 0.5905538982852654,
+          "regions": 8,
+          "precise_component_regions": 1
+        }
+      ],
+      "clip_count": 29,
+      "skeletal_keyframe_count": 324,
+      "clip_keyframes": {
+        "idle": 8,
+        "dance": 8,
+        "walk": 8,
+        "attack1": 8,
+        "attack2": 10,
+        "attack3": 12,
+        "sweep": 12,
+        "launcher": 12,
+        "jump": 10,
+        "air_light": 10,
+        "air_skill": 12,
+        "air_slam": 16,
+        "dash": 12,
+        "throw": 12,
+        "skill1": 12,
+        "skill2": 12,
+        "skill3": 16,
+        "super": 16,
+        "super_down": 16,
+        "super_up": 12,
+        "hurt": 8,
+        "air_hurt": 10,
+        "down": 10,
+        "getup": 12,
+        "guard": 8,
+        "burst": 12,
+        "escape": 8,
+        "invite": 12,
+        "confirm": 10
+      }
+    },
+    "worker": {
+      "native_height": 64,
+      "world_height": 256,
+      "source_kind": "new_ai_pixel_parts_plus_skeletal_keyframes",
+      "sources": [
+        {
+          "file": "worker_parts.png",
+          "canvas": [
+            1254,
+            1254
+          ],
+          "transparent_fraction": 0.6070011370313562,
+          "regions": 16,
+          "precise_component_regions": 0
+        },
+        {
+          "file": "worker_variants.png",
+          "canvas": [
+            1774,
+            887
+          ],
+          "transparent_fraction": 0.5025026405463358,
+          "regions": 8,
+          "precise_component_regions": 0
+        }
+      ],
+      "clip_count": 29,
+      "skeletal_keyframe_count": 324,
+      "clip_keyframes": {
+        "idle": 8,
+        "dance": 8,
+        "walk": 8,
+        "attack1": 8,
+        "attack2": 10,
+        "attack3": 12,
+        "sweep": 12,
+        "launcher": 12,
+        "jump": 10,
+        "air_light": 10,
+        "air_skill": 12,
+        "air_slam": 16,
+        "dash": 12,
+        "throw": 12,
+        "skill1": 12,
+        "skill2": 12,
+        "skill3": 16,
+        "super": 16,
+        "super_down": 16,
+        "super_up": 12,
+        "hurt": 8,
+        "air_hurt": 10,
+        "down": 10,
+        "getup": 12,
+        "guard": 8,
+        "burst": 12,
+        "escape": 8,
+        "invite": 12,
+        "confirm": 10
+      }
+    },
+    "rio": {
+      "native_height": 72,
+      "world_height": 288,
+      "source_kind": "new_ai_pixel_parts_plus_skeletal_keyframes",
+      "sources": [
+        {
+          "file": "rio_parts.png",
+          "canvas": [
+            1226,
+            1283
+          ],
+          "transparent_fraction": 0.5453006373978199,
+          "regions": 16,
+          "precise_component_regions": 4
+        },
+        {
+          "file": "rio_variants.png",
+          "canvas": [
+            1774,
+            887
+          ],
+          "transparent_fraction": 0.49518918513566246,
+          "regions": 8,
+          "precise_component_regions": 0
+        }
+      ],
+      "clip_count": 29,
+      "skeletal_keyframe_count": 324,
+      "clip_keyframes": {
+        "idle": 8,
+        "dance": 8,
+        "walk": 8,
+        "attack1": 8,
+        "attack2": 10,
+        "attack3": 12,
+        "sweep": 12,
+        "launcher": 12,
+        "jump": 10,
+        "air_light": 10,
+        "air_skill": 12,
+        "air_slam": 16,
+        "dash": 12,
+        "throw": 12,
+        "skill1": 12,
+        "skill2": 12,
+        "skill3": 16,
+        "super": 16,
+        "super_down": 16,
+        "super_up": 12,
+        "hurt": 8,
+        "air_hurt": 10,
+        "down": 10,
+        "getup": 12,
+        "guard": 8,
+        "burst": 12,
+        "escape": 8,
+        "invite": 12,
+        "confirm": 10
+      }
+    },
+    "cat": {
+      "native_height": 57,
+      "world_height": 228,
+      "source_kind": "new_ai_pixel_parts_plus_skeletal_keyframes",
+      "sources": [
+        {
+          "file": "cat_parts.png",
+          "canvas": [
+            1218,
+            1291
+          ],
+          "transparent_fraction": 0.5107101202082371,
+          "regions": 16,
+          "precise_component_regions": 0
+        },
+        {
+          "file": "cat_variants.png",
+          "canvas": [
+            1774,
+            887
+          ],
+          "transparent_fraction": 0.5099902258477393,
+          "regions": 8,
+          "precise_component_regions": 0
+        }
+      ],
+      "clip_count": 29,
+      "skeletal_keyframe_count": 324,
+      "clip_keyframes": {
+        "idle": 8,
+        "dance": 8,
+        "walk": 8,
+        "attack1": 8,
+        "attack2": 10,
+        "attack3": 12,
+        "sweep": 12,
+        "launcher": 12,
+        "jump": 10,
+        "air_light": 10,
+        "air_skill": 12,
+        "air_slam": 16,
+        "dash": 12,
+        "throw": 12,
+        "skill1": 12,
+        "skill2": 12,
+        "skill3": 16,
+        "super": 16,
+        "super_down": 16,
+        "super_up": 12,
+        "hurt": 8,
+        "air_hurt": 10,
+        "down": 10,
+        "getup": 12,
+        "guard": 8,
+        "burst": 12,
+        "escape": 8,
+        "invite": 12,
+        "confirm": 10
+      }
+    }
+  },
+  "checks": 435,
+  "failures": [],
+  "actual_render_screenshots": 39,
+  "actual_render_character_pose_views": 195,
+  "runtime_render": {
+    "cache": "exact source pixel ImageTexture assembled once for overlapping source regions; one polygon per part",
+    "original_png_modified": false,
+    "idle": "independent shoulders/wrists/head/hip/knee breath keys, Rio hair/sword delayed secondary offsets",
+    "stage_world": "320x180 at 4x or3x integer scale",
+    "performance_parent_sample": {
+      "mean_ms": 8.48,
+      "p95_ms": 13.59,
+      "p99_ms": 15.64,
+      "sample_seconds": 16,
+      "note": "Root measured fresh1280 CPUmatch on this host after runtime part cache. Not a universal device guarantee."
+    }
+  },
+  "loop_render_hashes": {
+    "idle": [
+      "f9eb599c525972b4e100a5cb88a38076fcbacd23b33867f24b8a8d5d696f185b",
+      "289211104372ee43959182c4a26fbc3b3f53059a7849b360760527a1aaa43317",
+      "619eef03b90381c08a2b35805a0d93b5f517a9c47e74f4a52279d6152f8ac108"
+    ],
+    "dance": [
+      "587ed99301c4c478d0a4d2d07a86416a6ccb72cb0527302bfdfc2207acd7c824",
+      "499f512b06e6781967a1b989e93ed6ce14aadb036f8f749498fca44fd7019b66",
+      "f1d8e515dc945831d849eecdc56fac5aed71411f55f0871d22bb0ba3d96a9686"
+    ]
+  }
+}

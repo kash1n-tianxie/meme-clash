@@ -1,0 +1,70 @@
+[
+  {
+    "id": "cat",
+    "path": "assets/art/hd_rigs/cat-parts-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 723566,
+    "opaque_pixels": 183,
+    "alpha_bbox": [
+      0,
+      17,
+      1253,
+      1254
+    ]
+  },
+  {
+    "id": "chicken",
+    "path": "assets/art/hd_rigs/chicken-parts-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 876082,
+    "opaque_pixels": 579,
+    "alpha_bbox": [
+      0,
+      9,
+      1241,
+      1254
+    ]
+  },
+  {
+    "id": "shark",
+    "path": "assets/art/hd_rigs/shark-parts-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 1016083,
+    "opaque_pixels": 1479,
+    "alpha_bbox": [
+      0,
+      0,
+      1240,
+      1254
+    ]
+  },
+  {
+    "id": "worker",
+    "path": "assets/art/hd_rigs/worker-parts-v1.png",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "transparent_pixels": 928534,
+    "opaque_pixels": 2048,
+    "alpha_bbox": [
+      0,
+      8,
+      1253,
+      1244
+    ]
+  }
+]

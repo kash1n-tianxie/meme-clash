@@ -1,0 +1,45 @@
+BVN map/camera GDScript adaptation
+Upstream: https://github.com/5DPLAY-Game-Studio/BleachVsNaruto
+Commit: 891f5776dbdf3cbf40919e27aa8d6e77a5f66c97
+Copyright (C) 2021-2024, 5DPLAY Game Studio.
+Original GameCamera author: kyo (2011).
+License: GNU General Public License v3 or later; full upstream LICENSE is adjacent.
+Port file: game/bvn_map.gd. This module is derived from upstream source, not just
+inspired by its appearance. Its author attribution and license must be retained.
+
+Source paths below are relative to CORE_KernelLogic/src/net/play5d/game/bvn/:
+map/MapMain.as:170-243 named map bounds, player floor, spawn and layer normalization.
+map/MapMain.as:252-267 map size, bottom distance, first matching platform.
+map/MapMain.as:270-295 foreground one-tenth parallax and optical updates.
+map/MapMain.as:298-314 named child floor geometry extraction.
+map/FloorVO.as:35-37 strict platform x endpoints and strict vertical speed band.
+map/MapLayer.as:133-177,315-337 two-tick foreground alpha 0.5 on sprite-area overlap.
+stage/GameCamera.as:162-179 target zoom, bounds and viewport dimensions.
+stage/GameCamera.as:229-270 sequential clamps and fixed-divisor position easing.
+stage/GameCamera.as:293-350 first/last focus midpoint, distance *0.8 autozoom clamp.
+stage/GameCamera.as:353-385 focus offsets, zoom easing and integer viewport size.
+stage/GameStage.as:105-113 tweened world-to-screen projection.
+stage/GameStage.as:210-225 bg outside camera, then map/fighters/front_fix/front.
+stage/GameStage.as:482-510 map camera setup and normalized floor offset.
+ctrler/GameLogic.as:296-342 global map bounds and moving-fighter camera bounds.
+GameConfig.as:44,51,55,95,139,152-154 screen size, 10px sides, divisor 2.5/(30/60).
+
+Adaptation boundary:
+Flash maps store line_left/right/bottom/player_bottom, p1/p2, floor children and
+map/bg/front/front_fix positions in named MovieClips. configure() accepts those
+values explicitly. A flattened existing Godot stage PNG contains no such metadata;
+the integrator must supply its real width, bottom/player line, spawns and platforms.
+No geometry is inferred from pixels and no new collision/floor rule is invented.
+For a single baked stage image only the map layer is present. Foreground optical
+alpha can only be used when props exist as independent drawable layers.
+The source bounds convention is preserved even for nonzero bounds origins:
+minimum = bounds.position * target_zoom; maximum = bounds.size - screen/zoom.
+Regular follow/zoom is ported; Flash bitmap caching/logos, cinematic entry setup,
+asset loaders, and original stage artwork are not copied by this module.
+The adapter handles manual focus without Flash DisplayObject references. The caller
+steps it once per upstream-equivalent logic tick; rendering shake stays external.
+
+Verification: tests/bvn_map_port_test.gd (original work/test_bvn_map.gd), Godot 4.7.1 headless, 50/50 assertions passed.
+Checks cover normalized spawn/floors/layers, strict platform edges, zoom limits,
+easing and integer dimensions, inverse projection, movement clamp flags, source
+bounds conventions, foreground order/parallax and two-tick optical transparency.

@@ -1,0 +1,176 @@
+extends RefCounted
+## Salaryman's office material. Input is an immutable actual source sample.
+## No timelines, bodies, projectiles, hitboxes or collision outcomes are created.
+const INK := Color("253d54")
+const RED := Color("ed4d62")
+const BLUE := Color("70b5d7")
+const PAPER := Color("f4f6ef")
+
+static func _v(value: Variant, fallback := Vector2.ZERO) -> Vector2:
+	if value is Vector2:return value
+	if value is Array and value.size()>=2:return Vector2(float(value[0]),float(value[1]))
+	return fallback
+
+static func _anchor(s: Dictionary, key: String) -> Vector2:
+	return _v(s.get("anchors",{}).get(key,s.get("position",Vector2.ZERO)))
+
+static func _line(canvas: CanvasItem, points: PackedVector2Array, color: Color, width: float, alpha: float) -> void:
+	canvas.draw_polyline(points,Color(color,clampf(alpha,0,1)),maxf(.75,width),true)
+
+static func _page(canvas: CanvasItem, p: Vector2, size: float, rotation: float, alpha: float, stamp := false) -> void:
+	var x := Vector2.RIGHT.rotated(rotation)
+	var y := x.orthogonal()
+	var w := size*.63
+	var h := size*.89
+	var points := PackedVector2Array([p-x*w-y*h,p+x*w-y*h,p+x*w+y*h,p-x*w+y*h])
+	canvas.draw_colored_polygon(points,Color(PAPER,alpha*.87))
+	_line(canvas,PackedVector2Array([points[0],points[1],points[2],points[3],points[0]]),INK,maxf(.8,size*.075),alpha*.92)
+	_line(canvas,PackedVector2Array([p-x*w*.60-y*h*.42,p+x*w*.40-y*h*.42]),BLUE,maxf(.7,size*.06),alpha*.8)
+	for n in range(2):
+		var q := p+y*h*(float(n)*.31-.09)
+		_line(canvas,PackedVector2Array([q-x*w*.60,q+x*w*.50]),INK,maxf(.7,size*.045),alpha*.44)
+	if stamp:_seal(canvas,p+y*h*.40,size*.21,alpha*.82,rotation)
+
+static func _seal(canvas: CanvasItem, p: Vector2, size: float, alpha: float, rotation := 0.0) -> void:
+	var x := Vector2.RIGHT.rotated(rotation)
+	var y := x.orthogonal()
+	var points := PackedVector2Array([p-x*size-y*size*.77,p+x*size-y*size*.77,p+x*size+y*size*.77,p-x*size+y*size*.77,p-x*size-y*size*.77])
+	_line(canvas,points,RED,maxf(.95,size*.13),alpha)
+	_line(canvas,PackedVector2Array([p-x*size*.44-y*size*.38,p-x*size*.44+y*size*.38,p+x*size*.38+y*size*.38]),RED,maxf(.8,size*.10),alpha)
+	_line(canvas,PackedVector2Array([p+x*size*.29-y*size*.38,p+x*size*.29+y*size*.26]),RED,maxf(.8,size*.10),alpha)
+
+static func _clock(canvas: CanvasItem, p: Vector2, radius: float, source_frame: float, alpha: float) -> void:
+	canvas.draw_arc(p,radius,0,TAU,40,Color(BLUE,alpha),maxf(.9,radius*.042),true)
+	for n in range(12):
+		var direction := Vector2.RIGHT.rotated(float(n)*TAU/12.0)
+		_line(canvas,PackedVector2Array([p+direction*radius*.86,p+direction*radius]),INK,maxf(.7,radius*.028),alpha*.65)
+	var hand := Vector2.UP.rotated(source_frame*.030)
+	_line(canvas,PackedVector2Array([p,p+hand*radius*.70]),RED,maxf(1.0,radius*.059),alpha)
+	_line(canvas,PackedVector2Array([p,p+Vector2.UP.rotated(-.7)*radius*.43]),INK,maxf(1.0,radius*.052),alpha*.9)
+
+static func actor_geometry(s: Dictionary) -> Dictionary:
+	var keys: Array=["hand","briefcase"]
+	var missing: Array=[]
+	for key: String in keys:
+		if not s.get("anchors",{}).has(key):missing.append(key)
+	return {"ready":s.get("ready",false) and missing.is_empty(),"motif":"office_paper_briefcase_clock","body_copies":0,"missing":missing,"source_clock_mutated":false,"generic_energy_orbs":0}
+
+static func draw_actor(canvas: CanvasItem, s: Dictionary, layer: String) -> Dictionary:
+	var geometry := actor_geometry(s)
+	if not geometry.ready:return geometry
+	var h := float(s.get("height",90.0))
+	var f := float(s.get("facing",1))
+	var t := float(s.get("frame",0))+float(s.get("source_clock",0))*30.0
+	var slot := str(s.get("slot",""))
+	var hand := _anchor(s,"hand")
+	var bag := _anchor(s,"briefcase")
+	var paper := _anchor(s,"paper_origin") if s.get("anchors",{}).has("paper_origin") else hand
+	var active: bool=s.get("release_state",{}).get("active",false)
+	if layer=="front":
+		if active and slot!="SI":
+			_line(canvas,PackedVector2Array([hand+Vector2(-f*h*.07,-h*.015),hand+Vector2(f*h*.065,-h*.015)]),BLUE,h*.009,.65)
+		return geometry
+	if layer!="back":return geometry
+	if slot=="SI":
+		var p := _v(s.get("position",Vector2.ZERO))
+		if t<50:
+			_clock(canvas,p+Vector2(-f*h*.66,-h*.82),h*.25,t,.28+clampf(t/50,0,1)*.32)
+		elif t<179 and active:
+			# Sparse office documents live around the real caster, leaving face clear.
+			_clock(canvas,p+Vector2(-f*h*.70,-h*.86),h*.33,t,.67)
+			for n in range(14):
+				var a := float(n)*2.399+t*.025*f
+				var q := p+Vector2(cos(a)*h*(.70+.15*float(n%3)),sin(a)*h*.60-h*.57)
+				_page(canvas,q,h*.074,sin(a)*.6,.83,n%3==0)
+				_line(canvas,PackedVector2Array([q+Vector2(-f*h*.08,h*.015),q]),BLUE,h*.008,.33)
+		elif t>=179 and t<183 and active:
+			_seal(canvas,bag+Vector2(f*h*.15,-h*.05),h*.22,.89,-.16*f)
+		return geometry
+	if not active:
+		if int(s.get("tier",1))>=2 and t<44:
+			_clock(canvas,bag+Vector2(-f*h*.18,-h*.17),h*.14,t,.43)
+		return geometry
+	var boxes: Array=s.get("boxes",[])
+	var box: Rect2=boxes[0] if not boxes.is_empty() else Rect2(paper-Vector2(h*.08,h*.10),Vector2(h*.16,h*.20))
+	if slot in ["SU","WI","AIR_I"]:
+		_seal(canvas,hand+Vector2(f*h*.08,-h*.035),h*.105,.65,-.13*f)
+	for n in range(3 if int(s.get("tier",1))==1 else 5):
+		var u := fposmod(float(n)/5.0+t*.023,1.0)
+		var q := paper+Vector2(f*minf(box.size.x,h*1.8)*u,sin(u*PI+t*.11)*h*.13)
+		_page(canvas,q,h*(.057+.010*float(n%2)),sin(t*.13+n)*.7,.85,n%2==0)
+	return geometry
+
+static func draw_object(canvas: CanvasItem, s: Dictionary, layer: String) -> Dictionary:
+	var result := {"ready":bool(s.get("ready",false)),"body_copies":0,"motif":"physical_document_stack","source_clock_mutated":false}
+	if not result.ready or layer!="back":return result
+	var box: Rect2=s.get("box",Rect2())
+	if not box.has_area():return result
+	var active: bool=bool(s.get("active_regions",false))
+	var t := float(s.get("frame",0))+float(s.get("source_clock",0))*30.0
+	var slot := str(s.get("slot",""))
+	var h := maxf(32,float(s.get("height",90)))
+	if slot=="WU":
+		result["material_visible"]=active and t>=3
+		if not result.material_visible:return result
+		var bottom := minf(box.end.y,float(s.get("floor",box.end.y)))
+		var extent := bottom-box.position.y
+		if extent<=0:return result
+		var size := clampf(box.size.x*.24,3.2,h*.11)
+		for n in range(clampi(int(extent/(h*.33)),9,28)):
+			var u := fposmod(float(n)/28.0+t*.014,1.0)
+			var p := Vector2(box.get_center().x+sin(float(n)*2.4+t*.12)*box.size.x*.18,lerpf(bottom-size,box.position.y+size,u))
+			_page(canvas,p,size,sin(float(n)+t*.12)*.55,.88,n%4==0)
+	else:
+		var center := box.get_center()
+		var size := clampf(box.size.x*.11,4,h*.15)
+		for n in range(9):
+			var u := fposmod(float(n)/9.0+t*.017,1.0)
+			var p := center+Vector2(sin(u*TAU)*minf(box.size.x*.37,h*.6),(u-.5)*minf(box.size.y,h*2.3))
+			_page(canvas,p,size,sin(float(n)+t*.14)*.45,.83,n%3==0)
+		if slot=="I" and active:
+			# The archived bsmc has early bs1 bands; only local 49..53 is bs.
+			var final_window: bool=t>=49 and t<53
+			_seal(canvas,center,minf(h*(.24 if final_window else .105),box.size.x*(.25 if final_window else .11)),.83 if final_window else .52,-.10)
+	return result
+
+static func draw_contact(canvas: CanvasItem, s: Dictionary, layer: String) -> Dictionary:
+	var result := {"ready":bool(s.get("ready",false)),"body_copies":0,"source_clock_mutated":false,"motif":"briefcase_paper_stamp"}
+	if not result.ready:return result
+	var outcome := str(s.get("outcome","hit"))
+	var p := _v(s.get("pos",Vector2.ZERO))
+	var h := float(s.get("height",90))
+	var a := clampf(float(s.get("alpha",0)),0,1)
+	var phase := float(s.get("phase",0))
+	var f := float(s.get("direction",1))
+	var final: bool=bool(s.get("finisher",false)) and outcome=="hit"
+	result["confirmed_finisher"]=final
+	if layer=="back":
+		if final:
+			_seal(canvas,p+Vector2(-f*h*.10,h*.12),h*(.20+phase*.13),a*.65,-.17*f)
+			if int(s.get("tier",1))==3:
+				var radius := h*(.34+phase*.20)
+				canvas.draw_arc(p,radius,-2.8,-.34,26,Color(BLUE,a*.75),h*.015,true)
+				canvas.draw_arc(p,radius,.40,2.65,26,Color(RED,a*.61),h*.015,true)
+				_line(canvas,PackedVector2Array([p,p+Vector2.UP.rotated(-.4+phase*.5)*radius*.72]),RED,h*.021,a*.72)
+		return result
+	if layer!="front":return result
+	if outcome in ["guard","blocked"]:
+		var rotation := 0.0 if f>=0 else PI
+		canvas.draw_arc(p,h*.15,rotation-1.25,rotation+1.25,18,Color(BLUE,a),h*.022,true)
+		for n in range(2):_page(canvas,p+Vector2(-f*h*.08,(float(n)-.5)*h*.12),h*.037,float(n)*.42,a*.8)
+		return result
+	if outcome in ["armor","steel","counter","bullet_clash"]:
+		_line(canvas,PackedVector2Array([p-Vector2(h*.10,h*.08),p+Vector2(h*.10,h*.08)]),INK,h*.019,a)
+		_line(canvas,PackedVector2Array([p+Vector2(-h*.08,h*.10),p+Vector2(h*.08,-h*.10)]),BLUE,h*.017,a)
+		return result
+	var axis := _v(s.get("attack_axis",Vector2(f,-.25)),Vector2(f,-.25)).normalized()
+	var side := axis.orthogonal()
+	var scale := h*(.14 if int(s.get("tier",1))==1 else (.25 if final else .19))
+	_seal(canvas,p,scale,a*(1-phase*.35),-.16*f)
+	for n in range(3 if int(s.get("tier",1))==1 else 6):
+		var dir := Vector2.RIGHT.rotated(float(n)*2.399+.2)
+		_page(canvas,p+dir*h*(.075+phase*.30),h*(.027 if n%2 else .035),float(n)+phase*1.4,a*.81,n%2==0)
+	if float(s.get("core_alpha",0))>0:
+		_line(canvas,PackedVector2Array([p-axis*h*.10,p+axis*h*.13]),PAPER,h*.035,float(s.core_alpha)*.92)
+		_line(canvas,PackedVector2Array([p-side*h*.07,p+side*h*.075]),PAPER,h*.020,float(s.core_alpha)*.85)
+	return result
